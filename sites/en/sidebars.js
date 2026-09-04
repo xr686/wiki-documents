@@ -1939,7 +1939,7 @@ const sidebars = {
       collapsible: true,
       link: {
         type: 'doc',
-        id: 'Sensor/reSpeaker_XVF3800_USB_4_Mic_Array/ReSpeaker',
+        id: 'Sensor/reSpeaker_XVF3800_USB_4_Mic_Array/respeaker_xvf3800_usb_4_mic_array',
       },
       items: [
         {
