@@ -1,6 +1,6 @@
 ---
-description: Este artigo mostrará como distinguir entre as revisões de hardware do ReSpeaker 2-Mics Pi HAT
-title: Como Distinguir as Revisões de Hardware do ReSpeaker 2-Mics Pi HAT
+description: Este artigo mostrará como distinguir entre as revisões de hardware do reSpeaker 2-Mics Pi HAT
+title: Como Distinguir as Revisões de Hardware do reSpeaker 2-Mics Pi HAT
 keywords:
   - ReSpeaker_2-Mics_Pi_HAT
 image: https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/v2/pcn_1.webp
@@ -15,7 +15,7 @@ url: https://wiki.seeedstudio.com/pt-br/how-to-distinguish-respeaker_2-mics_pi_h
 
 O layout da PCB das versões v1 e v2 permanece basicamente o mesmo, mas circuitos adicionais foram adicionados (marcados na figura).
 
-![ReSpeaker 2-Mics Pi HAT PCN](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/v2/pcn.webp)
+![reSpeaker 2-Mics Pi HAT PCN](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/v2/pcn.webp)
 
 ## Suporte Técnico & Discussão de Produto
 

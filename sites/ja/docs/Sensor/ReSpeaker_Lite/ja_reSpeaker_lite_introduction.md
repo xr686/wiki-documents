@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Lite のはじめに
+description: reSpeaker Lite のはじめに
 title: reSpeaker Lite のはじめに
 keywords:
   - ReSpeaker
@@ -80,7 +80,7 @@ XMOS XU316 AI サウンド & オーディオチップセットを搭載したこ
 
 ### 開封してすぐに使う
 
-ReSpeaker Lite はプラグアンドプレイのモジュラー音声インターフェースで、ドライバは不要です。PC に接続するだけで、'ReSpeaker Lite' という名前の音声デバイスが表示されます。
+reSpeaker Lite はプラグアンドプレイのモジュラー音声インターフェースで、ドライバは不要です。PC に接続するだけで、'reSpeaker Lite' という名前の音声デバイスが表示されます。
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/pc.png" alt="pir" width={500} height="auto" /></p>
 
@@ -89,7 +89,7 @@ ReSpeaker Lite はプラグアンドプレイのモジュラー音声インタ�
 #### [ファームウェアのダウンロード](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
 :::tip note
-ReSpeaker Lite ボードには 2 つのバージョンがあります：
+reSpeaker Lite ボードには 2 つのバージョンがあります：
 
 USB サウンドデバイスとして使用するには、USB バージョンのファームウェア（デフォルトファームウェア）を書き込んでください。
 
@@ -101,7 +101,7 @@ XIAO ESP32S3 と一緒に使用するには、I2S バージョンのファーム
 
 #### 配線
 
-USB ケーブルを使って ReSpeaker Lite ボードを PC に接続します。
+USB ケーブルを使って reSpeaker Lite ボードを PC に接続します。
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/usb-connect.png" alt="pir" width={500} height="auto" /></p>
 
@@ -137,7 +137,7 @@ This program is Free Software and has ABSOLUTELY NO WARRANTY
 Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
 ```
 
-- `dfu-util -l` を実行して、ReSpeaker Lite が検出されているか確認します：
+- `dfu-util -l` を実行して、reSpeaker Lite が検出されているか確認します：
 
 ```
 C:\Users\yiping>dfu-util -l
@@ -179,7 +179,7 @@ Cannot open DFU device 2886:0019 found on devnum 9 (LIBUSB_ERROR_NOT_SUPPORTED)
 
 <p style={{textAlign: 'center'}}><img src="https://github.com/respeaker/ReSpeaker_Lite/raw/master/doc/images/dfu/dfu-fac.png" alt="pir" width={500} height="auto" /></p>
 
-- インストールが完了したら（数分かかります）、電源を入れ直してから再度 `dfu-util -l` を実行します。これで ReSpeaker Lite が検出されるはずです。
+- インストールが完了したら（数分かかります）、電源を入れ直してから再度 `dfu-util -l` を実行します。これで reSpeaker Lite が検出されるはずです。
 
 </TabItem>
 
@@ -187,7 +187,7 @@ Cannot open DFU device 2886:0019 found on devnum 9 (LIBUSB_ERROR_NOT_SUPPORTED)
 
 - [brew](https://brew.sh/) を使って dfu-util をインストールします：`brew install dfu-util`
 
-- `dfu-util -l` を実行して、ReSpeaker Lite が検出されているか確認します：
+- `dfu-util -l` を実行して、reSpeaker Lite が検出されているか確認します：
 
 ```
 ➜  ~ dfu-util -l
@@ -209,7 +209,7 @@ Found DFU: [2886:0019] ver=0205, devnum=1, cfg=1, intf=3, path="1-1", alt=0, nam
 
 - apt を使って dfu-util をインストールします：`sudo apt install dfu-util`
 
-- `sudo dfu-util -l` を実行して、ReSpeaker Lite が検出されているか確認します：
+- `sudo dfu-util -l` を実行して、reSpeaker Lite が検出されているか確認します：
 
 ```
 pi@raspberrypi:~ $ sudo dfu-util -l
@@ -231,7 +231,7 @@ Found DFU: [2886:0019] ver=0205, devnum=5, cfg=1, intf=3, path="1-1.1", alt=0, n
 
 #### ファームウェアを書き込む
 
-- ReSpeaker ボードを PC に接続します。
+- reSpeaker ボードを PC に接続します。
 
 - 次のコマンド `dfu-util -R -e -a 1 -D /path/to/dfu_firmware.bin` を実行します：
   - Linux では `sudo dfu-util -R -e -a 1 -D /path/to/dfu_firmware.bin` を実行してください
@@ -279,7 +279,7 @@ dfu-util -l
 
 ## 比較
 
-||[ReSpeaker Lite](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)|[ReSpeaker Mic Array v2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html)|[reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
+||[reSpeaker Lite](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)|[reSpeaker Mic Array v2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html)|[reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
 |--|--|--|--|
 ||<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/xiao-res.png" alt="pir" width={150} height="auto" /></p>|<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/mic-array2.0.png" alt="pir" width={150} height="auto" /></p>|<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/mic-pi-hat.png" alt="pir" width={150} height="auto" /></p>|
 |<p style={{textAlign: 'center'}}>コアチップ</p>|<p style={{textAlign: 'center'}}>XMOS XU316</p>|<p style={{textAlign: 'center'}}>XMOS XVF-3000</p>|<p style={{textAlign: 'center'}}>-</p>|
@@ -306,7 +306,7 @@ dfu-util -l
 
  USB バージョンでない場合は、[this step](https://wiki.seeedstudio.com/ja/reSpeaker_usb_v3/#flash-firmware) に従ってファームウェアを書き込んでください。
 
-- **USB ファームウェアを書き込んだ後、Windows で ReSpeaker Lite USB サウンドデバイスを検出できませんか？**
+- **USB ファームウェアを書き込んだ後、Windows で reSpeaker Lite USB サウンドデバイスを検出できませんか？**
 
 - スタートメニューを開き、`Device manager` と入力します。`ReSpeaker Lite` デバイスを見つけて右クリックし、`Uninstall device` を選択します。`Delete the driver software for this device` を選択して `Uninstall` をクリックします。その後、デバイスを再起動すると、Windows が正しいサウンドカードドライバを再インストールします。
 
@@ -314,8 +314,8 @@ dfu-util -l
 
 ### リソース
 
-[ReSpeaker Lite XMOS Firmware](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
+[reSpeaker Lite XMOS Firmware](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
-[ReSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)
+[reSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)
 
-[ReSpeaker Lite 3D file](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)
+[reSpeaker Lite 3D file](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)

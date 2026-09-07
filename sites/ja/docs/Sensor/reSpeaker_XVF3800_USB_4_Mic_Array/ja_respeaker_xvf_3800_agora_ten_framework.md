@@ -124,11 +124,11 @@ Workflow:
 | ハードウェア | 説明 |
 |------|------|
 | **Seeed Studio XIAO ESP32-S3** | メインコントローラボード |
-| **ReSpeaker XVF3800** | オーディオ拡張ボード（マイクアレイ + スピーカーインターフェース） |
+| **reSpeaker XVF3800** | オーディオ拡張ボード（マイクアレイ + スピーカーインターフェース） |
 | **スピーカー** | AI 応答を再生するためのスピーカーを少なくとも 1 つ |
 | **USB-C データケーブル** | ファームウェアの書き込みとデバイスへの給電用 |
 
-<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/respeaker-xvf3800-4-mic-array-with-xiao-esp32s3.webp" alt="ReSpeaker XVF3800" width={500} height="auto" /></p>
+<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/respeaker-xvf3800-4-mic-array-with-xiao-esp32s3.webp" alt="reSpeaker XVF3800" width={500} height="auto" /></p>
 
 ### アカウントと API キー
 
@@ -190,7 +190,7 @@ Workflow:
 
 ### 更新手順
 
-PC に **ReSpeaker XMOS XVF3800 with XIAO ESP32S3** を接続し、ファームウェアアップデートツールを実行して、ファームウェアを選択します。
+PC に **reSpeaker XMOS XVF3800 with XIAO ESP32S3** を接続し、ファームウェアアップデートツールを実行して、ファームウェアを選択します。
 
 詳しい手順については、[このページ](https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/#update-firmware)を参照してください。
 
@@ -514,7 +514,7 @@ git apply $ADF_PATH/idf_patches/idf_v5.2_freertos.patch
 
 #### ESP-ADF ボードのピン設定を変更する（重要！）
 
-ReSpeaker XVF3800 のピン配置はデフォルトの Korvo-2 V3 と異なるため、フレームワークのボード設定を変更する必要があります:
+reSpeaker XVF3800 のピン配置はデフォルトの Korvo-2 V3 と異なるため、フレームワークのボード設定を変更する必要があります:
 
 **ファイルの場所:**
 - Windows: `C:\Espressif\frameworks\esp-adf\components\audio_board\esp32_s3_korvo2_v3\board_pins_config.c`
@@ -818,7 +818,7 @@ W (xxxx) AIC3104_NG: Found device at address 0x??
 | ESP-ADF プログラミングガイド | https://docs.espressif.com/projects/esp-adf/zh_CN/latest/ |
 | Agora RTC ドキュメント | https://docs.agora.io/en/rtc/overview/product-overview |
 | TEN Framework ドキュメント | https://doc.theten.ai |
-| ReSpeaker XVF3800 ファームウェアガイド | https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/ |
+| reSpeaker XVF3800 ファームウェアガイド | https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/ |
 
 ### API サービス
 

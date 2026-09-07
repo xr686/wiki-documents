@@ -71,7 +71,7 @@ Por favor ve a [Recipe](https://www.seeedstudio.com/recipe/1068-traffic-light-in
 
 ## Proyecto
 
-**ReSpeaker Smart Home** Usamos el ReSpeaker Core v2.0 y Wio Link para controlar una luz y ventilador vía IFTTT.
+**reSpeaker Smart Home** Usamos el reSpeaker Core v2.0 y Wio Link para controlar una luz y ventilador vía IFTTT.
 
 <iframe frameborder='0' height='327.5' scrolling='no' src='https://www.hackster.io/SeeedStudio/respeaker-smart-home-cfba70/embed' width='350'></iframe>
 

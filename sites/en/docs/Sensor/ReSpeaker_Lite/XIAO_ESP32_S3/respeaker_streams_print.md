@@ -1,5 +1,5 @@
 ---
-description: I2S to CSV Converter with ReSpeaker Lite
+description: I2S to CSV Converter with reSpeaker Lite
 title: CSV Converter
 keywords:
   - ESP32S3

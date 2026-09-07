@@ -1,5 +1,5 @@
 ---
-description: 使用 Raspberry Pi、XIAO ESP32、ReSpeaker Lite 和语音嵌入，实现语音控制的 Kiwi 驱动机器人，带来智能免手动机器人控制体验。
+description: 使用 Raspberry Pi、XIAO ESP32、reSpeaker Lite 和语音嵌入，实现语音控制的 Kiwi 驱动机器人，带来智能免手动机器人控制体验。
 title: 使用 reSpeaker 为你的 LeKiwi 机器人添加语音交互
 keywords:
   - reSpeaker flex
@@ -595,7 +595,7 @@ Available audio INPUT devices:
   [2] USB PnP Sound Device  (rate=16000Hz)
 ```
 
-记下你的 ReSpeaker 旁边方括号中的数字 —— 这就是你的 `MIC_INDEX`。
+记下你的 reSpeaker 旁边方括号中的数字 —— 这就是你的 `MIC_INDEX`。
 
 ### 步骤 6 — 查找你的 ESP32 串口
 

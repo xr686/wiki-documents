@@ -127,11 +127,11 @@ Reachy Mini 向けの GStreamer ベースのオーディオ実装。
 
 ### `reachy_mini.media.audio_utils.get_respeaker_card_number`
 
-ReSpeaker デバイスのカード番号を取得します。
+reSpeaker デバイスのカード番号を取得します。
 
 **戻り値:**
 
-`int` — ReSpeaker 用の ALSA カード番号。
+`int` — reSpeaker 用の ALSA カード番号。
 
 ---
 
@@ -165,13 +165,13 @@ asoundrc 設定をユーザーのホームディレクトリに書き込みま�
 
 ### `reachy_mini.media.audio_control_utils.ReSpeaker`
 
-ReSpeaker USB マイクアレイコントローラ。
+reSpeaker USB マイクアレイコントローラ。
 
 ### メソッド
 
 #### `set_channel`
 
-ReSpeaker のアクティブチャネルを設定します。
+reSpeaker のアクティブチャネルを設定します。
 
 **パラメータ:**
 
@@ -205,21 +205,21 @@ ReSpeaker のアクティブチャネルを設定します。
 
 ### `reachy_mini.media.audio_control_utils.find`
 
-接続されている ReSpeaker デバイスを検出します。
+接続されている reSpeaker デバイスを検出します。
 
 **戻り値:**
 
-`List[ReSpeaker]` — 検出された ReSpeaker デバイスのリスト。
+`List[ReSpeaker]` — 検出された reSpeaker デバイスのリスト。
 
 ---
 
 ### `reachy_mini.media.audio_control_utils.init_respeaker_usb`
 
-ReSpeaker USB マイクを初期化します。
+reSpeaker USB マイクを初期化します。
 
 **戻り値:**
 
-`ReSpeaker` — 初期化された ReSpeaker デバイス。
+`ReSpeaker` — 初期化された reSpeaker デバイス。
 
 ---
 

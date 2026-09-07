@@ -14,21 +14,21 @@ url: https://wiki.seeedstudio.com/cn/respeaker_2_mics_pi_hat_raspberry_v2/
 ---
 
 :::caution
-本 wiki 是为 ReSpeaker 2-Mics Pi HAT **v2** 编写的，要区分 v1 和 v2 设备，请参考 [如何区分 ReSpeaker 2-Mics Pi HAT 硬件版本](/cn/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions)。
+本 wiki 是为 reSpeaker 2-Mics Pi HAT **v2** 编写的，要区分 v1 和 v2 设备，请参考 [如何区分 reSpeaker 2-Mics Pi HAT 硬件版本](/cn/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions)。
 :::
 
 在最新的 Raspberry Pi OS 上，传统的驱动安装方法（适用于 v1 设备）不再可用，可能会导致以下已知问题：
 
 - 安装后桌面环境可能会损坏。
-- ReSpeaker 设备可能无法被 `aplay` / `arecord` 检测到。
+- reSpeaker 设备可能无法被 `aplay` / `arecord` 检测到。
 
-因此，我们针对这个问题重新发布了新的 wiki，如果您使用的是更现代的 Raspberry Pi OS 而不是之前的版本，请按照以下步骤让您的 ReSpeaker 正常工作。
+因此，我们针对这个问题重新发布了新的 wiki，如果您使用的是更现代的 Raspberry Pi OS 而不是之前的版本，请按照以下步骤让您的 reSpeaker 正常工作。
 
 ## 驱动安装和配置
 
-### 1. 将 ReSpeaker 2-Mics Pi HAT 连接到 Raspberry Pi
+### 1. 将 reSpeaker 2-Mics Pi HAT 连接到 Raspberry Pi
 
-将 ReSpeaker 2-Mics Pi HAT 安装到您的 Raspberry Pi 上，确保在堆叠 ReSpeaker 2-Mics Pi HAT 时引脚正确对齐。
+将 reSpeaker 2-Mics Pi HAT 安装到您的 Raspberry Pi 上，确保在堆叠 reSpeaker 2-Mics Pi HAT 时引脚正确对齐。
 
 Raspberry Pi 连接
 
@@ -90,7 +90,7 @@ dmesg | grep tlv320
 
 </details>
 
-- 步骤 1：获取 ReSpeaker 2-Mics Pi HAT（V2.0）的设备树源文件（DTS），编译并安装设备树覆盖。
+- 步骤 1：获取 reSpeaker 2-Mics Pi HAT（V2.0）的设备树源文件（DTS），编译并安装设备树覆盖。
 
 ```bash
 git clone https://github.com/Seeed-Studio/seeed-linux-dtoverlays.git  
@@ -139,7 +139,7 @@ card 2: seeed2micvoicec [seeed2micvoicec], device 0: 1f000a4000.i2s-tlv320aic3x-
   Subdevice #0: subdevice #0
 ```
 
-**其中 `card 2` 是 ReSpeaker 2-Mics Pi HAT 的索引，根据您的系统，这个数字可能会有所不同。要在此示例中访问 ReSpeaker，您可以使用 `arecord -D plughw:2,0` 或 `aplay -D plughw:2,0`。**
+**其中 `card 2` 是 reSpeaker 2-Mics Pi HAT 的索引，根据您的系统，这个数字可能会有所不同。要在此示例中访问 reSpeaker，您可以使用 `arecord -D plughw:2,0` 或 `aplay -D plughw:2,0`。**
 
 ### 3. 使用 alsamixer 配置声音设置并调整音量
 
@@ -267,7 +267,7 @@ python3 ~/button.py
 
 我们使用 [PyAudio python 库](https://people.csail.mit.edu/hubert/pyaudio/) 来用 Python 录制声音。
 
-首先，运行以下脚本来获取 ReSpeaker 的设备索引号：
+首先，运行以下脚本来获取 reSpeaker 的设备索引号：
 
 ```bash
 cd mic_hit
@@ -280,7 +280,7 @@ python3 recording_examples/get_device_index.py
 Input Device id  1  -  seeed2micvoicec: 1f000a4000.i2s-tlv320aic3x-hifi tlv320aic3x-hifi-0 (hw:2,0)
 ```
 
-要录制声音，请使用 `nano`、`vim` 或其他文本编辑器打开 ```recording_examples/record.py``` 文件，将 `RESPEAKER_INDEX = 2` 更改为您系统上 ReSpeaker 的索引号。然后运行 python 脚本 `record.py` 进行录制：
+要录制声音，请使用 `nano`、`vim` 或其他文本编辑器打开 ```recording_examples/record.py``` 文件，将 `RESPEAKER_INDEX = 2` 更改为您系统上 reSpeaker 的索引号。然后运行 python 脚本 `record.py` 进行录制：
 
 ```bash
 python3 recording_examples/record.py

@@ -71,7 +71,7 @@ url: https://wiki.seeedstudio.com/cn/Wio_Link_Starter_Kit/
 
 ## 项目
 
-**ReSpeaker 智能家居** 我们使用 ReSpeaker Core v2.0 和 Wio Link 通过 IFTTT 控制灯光和风扇。
+**reSpeaker 智能家居** 我们使用 reSpeaker Core v2.0 和 Wio Link 通过 IFTTT 控制灯光和风扇。
 
 <iframe frameborder='0' height='327.5' scrolling='no' src='https://www.hackster.io/SeeedStudio/respeaker-smart-home-cfba70/embed' width='350'></iframe>
 

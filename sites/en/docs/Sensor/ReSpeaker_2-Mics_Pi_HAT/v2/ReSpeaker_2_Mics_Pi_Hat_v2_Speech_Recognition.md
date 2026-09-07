@@ -1,5 +1,5 @@
 ---
-description: This wiki will demonstrate how you can use TensorFlow Lite for keyword spotting with ReSpeaker 2-Mics Pi HAT v2 and perform speech recognition.
+description: This wiki will demonstrate how you can use TensorFlow Lite for keyword spotting with reSpeaker 2-Mics Pi HAT v2 and perform speech recognition.
 title: Keyword Spotting with TensorFlow Lite on Raspberry Pi Mic HAT
 keywords:
   - ReSpeaker_2-Mics_Pi_HAT
@@ -17,11 +17,11 @@ url: https://wiki.seeedstudio.com/respeaker_2_mics_pi_hat_v2_speech_recognition/
 
 ## Introduction
 
-This project demonstrates how to use TensorFlow Lite for keyword spotting on the ReSpeaker 2-Mics Pi HAT v2. Keyword spotting allows for real-time detection of predefined words from audio input, enabling applications such as voice-controlled devices and interactive systems. We will guide you through the steps to train a TensorFlow Lite model, deploy it on the ReSpeaker HAT, and run speech recognition locally.
+This project demonstrates how to use TensorFlow Lite for keyword spotting on the reSpeaker 2-Mics Pi HAT v2. Keyword spotting allows for real-time detection of predefined words from audio input, enabling applications such as voice-controlled devices and interactive systems. We will guide you through the steps to train a TensorFlow Lite model, deploy it on the reSpeaker HAT, and run speech recognition locally.
 
 ### Hardware and Software Requirements
 
-- Hardware: Raspberry Pi with ReSpeaker 2-Mics Pi HAT v2
+- Hardware: Raspberry Pi with reSpeaker 2-Mics Pi HAT v2
 - Software: TensorFlow Lite, Google Colab, Python, and supporting libraries
 
 ### Applications

@@ -24,7 +24,7 @@ O que é o Samsung ARTIK™? O Samsung ARTIK™ é uma plataforma IoT pré-integ
 
 Como mencionado acima, o Eagleye530s é baseado no ARTIK 530s 1GB SoM, que é um Quad Core Cortex® A9 rodando a 1,2 GHz com memória Flash de 4 B, recursos de segurança baseados em hardware e sistema operacional Linux (Ubuntu). O Eagleye 530s também fornece um conector de 40 pinos GPIO e interface de acessórios para Micro SD, Ethernet 10/100/1000, Wi‑Fi 802.11 a/b/g/n, Bluetooth BLE 4.2 802.15.4 e ZigBee/Thread. Ele também oferece suporte a HDMI completo, interfaces de câmera MIPI, vídeo e mídia de áudio.
 
-Como o Eagleye 530s é compatível em pinos com muitos acessórios de hardware de “maker”, ele permite que desenvolvedores do Samsung ARTIK™ aproveitem facilmente o amplo mercado de acessórios “maker” e criem protótipos e construam com sensores prontos para uso (por exemplo, [GrovePi+](https://www.seeedstudio.com/GrovePi%2B-p-2241.html),[sensores Grove](https://www.seeedstudio.com/grove.html)), reconhecimento de voz (por exemplo, [ReSpeaker 2-mic array](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html) e [ReSpeaker 4-mic array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html)), relés, GPS, conectividade celular e muito mais, oferecendo muitas opções para desenvolvedores corporativos que criam provas de conceito (PoC) ricas em recursos ou produtos prontos para produção.
+Como o Eagleye 530s é compatível em pinos com muitos acessórios de hardware de “maker”, ele permite que desenvolvedores do Samsung ARTIK™ aproveitem facilmente o amplo mercado de acessórios “maker” e criem protótipos e construam com sensores prontos para uso (por exemplo, [GrovePi+](https://www.seeedstudio.com/GrovePi%2B-p-2241.html),[sensores Grove](https://www.seeedstudio.com/grove.html)), reconhecimento de voz (por exemplo, [reSpeaker 2-mic array](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html) e [reSpeaker 4-mic array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html)), relés, GPS, conectividade celular e muito mais, oferecendo muitas opções para desenvolvedores corporativos que criam provas de conceito (PoC) ricas em recursos ou produtos prontos para produção.
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/4IR768d8Ins" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -546,7 +546,7 @@ hello ..
 hello ..
 ```
 
-## Brincar com Microfones ReSpeaker
+## Brincar com Microfones reSpeaker
 
 **Brincar com 2 Mics Pi HAT**
 
@@ -698,7 +698,7 @@ waveFile.close()
 ```
 
 :::caution
-Para mais informações, como por exemplo brincar com o Google Assistant, consulte [ReSpeaker 2-Mics Pi HAT](https://wiki.seeedstudio.com/pt-br/ReSpeaker_2_Mics_Pi_HAT/).
+Para mais informações, como por exemplo brincar com o Google Assistant, consulte [reSpeaker 2-Mics Pi HAT](https://wiki.seeedstudio.com/pt-br/ReSpeaker_2_Mics_Pi_HAT/).
 :::
 
 **Brincar com 4 Mics Pi HAT**
@@ -858,7 +858,7 @@ waveFile.close()
 ```
 
 :::caution
-Para mais informações, como por exemplo brincar com Alexa/DuerOS, consulte [ReSpeaker 4-Mic Array for Raspberry Pi](https://wiki.seeedstudio.com/pt-br/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/).
+Para mais informações, como por exemplo brincar com Alexa/DuerOS, consulte [reSpeaker 4-Mic Array for Raspberry Pi](https://wiki.seeedstudio.com/pt-br/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/).
 :::
 
 **Brincar com Mic Array v2.0**
@@ -961,7 +961,7 @@ wf.close()
 ```
 
 :::caution
-Para mais informações, como por exemplo brincar com DOA/LEDs, consulte [ReSpeaker Mic Array v2.0](https://wiki.seeedstudio.com/pt-br/ReSpeaker_Mic_Array_v2.0/).
+Para mais informações, como por exemplo brincar com DOA/LEDs, consulte [reSpeaker Mic Array v2.0](https://wiki.seeedstudio.com/pt-br/ReSpeaker_Mic_Array_v2.0/).
 :::
 
 ## Brincar com GrovePi+

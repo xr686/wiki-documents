@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker 4-Mic Linear Array Kit
+description: reSpeaker 4-Mic Linear Array Kit
 title: reSpeaker 4-Mic Linear Array Kit
 keywords:
   - reSpeaker
@@ -16,15 +16,15 @@ url: https://wiki.seeedstudio.com/ja/ReSpeaker_4-Mic_Linear_Array_Kit_for_Raspbe
 
 ![enter image description here](https://files.seeedstudio.com/wiki/ReSpeaker_4-Mics_Linear_Array_Kit/img/main_wiki.jpg)
 
-Seeed の ReSpeaker 4-Mic Linear Array Kit は、Raspberry Pi 用に設計された拡張ボード（HAT）です。これは 4 つのマイクを備えたリニアマイクアレイキットで、AI や音声アプリケーション向けに設計されています。つまり、Amazon Alexa Voice Service や Google Assistant などを統合できる Raspberry Pi を使って、より強力で柔軟な音声プロダクトを構築できます。
+Seeed の reSpeaker 4-Mic Linear Array Kit は、Raspberry Pi 用に設計された拡張ボード（HAT）です。これは 4 つのマイクを備えたリニアマイクアレイキットで、AI や音声アプリケーション向けに設計されています。つまり、Amazon Alexa Voice Service や Google Assistant などを統合できる Raspberry Pi を使って、より強力で柔軟な音声プロダクトを構築できます。
 
-ReSpeaker 4-Mic Linear Array Kit for Raspberry Pi は 2 枚のボードで構成されており、1 枚は Voice Accessory HAT、もう 1 枚は 4 マイクのリニアアレイです。
+reSpeaker 4-Mic Linear Array Kit for Raspberry Pi は 2 枚のボードで構成されており、1 枚は Voice Accessory HAT、もう 1 枚は 4 マイクのリニアアレイです。
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/NxZx9nz67Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-ReSpeaker 4-Mic Linear Array Kit for Raspberry Pi は、Raspberry Pi OS で 8 チャンネル入力と 8 チャンネル出力をサポートします。最初の 6 つの入力チャンネルはマイク録音用です（最初の 4 つの入力チャンネルのみが有効なキャプチャデータです）。残り 2 つの入力チャンネルは再生のエコーチャンネルです。最初の 2 つの出力チャンネルはサウンド出力用で、残りの 6 つの出力チャンネルはダミーです。
+reSpeaker 4-Mic Linear Array Kit for Raspberry Pi は、Raspberry Pi OS で 8 チャンネル入力と 8 チャンネル出力をサポートします。最初の 6 つの入力チャンネルはマイク録音用です（最初の 4 つの入力チャンネルのみが有効なキャプチャデータです）。残り 2 つの入力チャンネルは再生のエコーチャンネルです。最初の 2 つの出力チャンネルはサウンド出力用で、残りの 6 つの出力チャンネルはダミーです。
 
 <p style={{textAlign: 'center'}}><a href="https://www.seeedstudio.com/ReSpeaker-4-Mic-Linear-Array-Kit-p-3066.html" target="_blank"><img src="https://files.seeedstudio.com/wiki/Seeed-WiKi/docs/images/300px-Get_One_Now_Banner-ragular.png" /></a></p>
 
@@ -82,11 +82,11 @@ ReSpeaker 4-Mic Linear Array Kit for Raspberry Pi は、Raspberry Pi OS で 8 �
 
 ## はじめに
 
-**ReSpeaker 4-Mic Array を Raspberry Pi に接続する**
+**reSpeaker 4-Mic Array を Raspberry Pi に接続する**
 
-**ステップ 1.**  *ReSpeaker Voice Accessory HAT* と *ReSpeaker 4-Mic linear Array* をリボンケーブルで接続します
+**ステップ 1.**  *reSpeaker Voice Accessory HAT* と *reSpeaker 4-Mic linear Array* をリボンケーブルで接続します
 
-**ステップ 2.**  *ReSpeaker Voice Accessory HAT* を 40 ピン GPIO を介して *Raspberry Pi* に挿し込みます
+**ステップ 2.**  *reSpeaker Voice Accessory HAT* を 40 ピン GPIO を介して *Raspberry Pi* に挿し込みます
 
 **ステップ 3.**  *earphone* を *3.5mm headset audio jack* に挿し込むか、*speaker* を *JST 2.0 speaker jack* に挿し込みます
 
@@ -278,7 +278,7 @@ python3 recording_examples/get_device_index.py
 Input Device id  2  -  seeed-8mic-voicecard: - (hw:1,0)
 ```
 
-音声を録音するには、```recording_examples/record.py``` ファイルを nano などのテキストエディタで開き、`RESPEAKER_INDEX = 2` をお使いのシステム上の ReSpeaker のインデックス番号に変更します。その後、Python スクリプト record.py を実行して録音します:
+音声を録音するには、```recording_examples/record.py``` ファイルを nano などのテキストエディタで開き、`RESPEAKER_INDEX = 2` をお使いのシステム上の reSpeaker のインデックス番号に変更します。その後、Python スクリプト record.py を実行して録音します:
 
 ```
 python3 recording_examples/record.py
@@ -303,7 +303,7 @@ aplay -D plughw:0,0 output_one_channel.wav #for Mono sound from one channel
 
 A1: このアレイには 2 つの AC108 があり、各 AC108 チップは 4 チャンネル出力を持っています。そのため合計 8 チャンネルとなり、そのうち 4 チャンネルがマイク用、2 チャンネルが再生用で、残り 2 チャンネルは使用されていません。
 
-**Q2: Raspberry が ReSpeaker 2-mics hat は検出できるのに、ReSpeaker 4-mics linear array を検出できない場合は？**
+**Q2: Raspberry が reSpeaker 2-mics hat は検出できるのに、reSpeaker 4-mics linear array を検出できない場合は？**
 
 A2: raspberry -> Preferences -> Raspberry Pi Configuration をクリックし、Interfaces タブを選択して、1-Wire が Disabled になっていることを確認してください。
 
@@ -319,7 +319,7 @@ A2: raspberry -> Preferences -> Raspberry Pi Configuration をクリックし、
 
 ## プロジェクト
 
-[Mojing Mojing - A Smart Mirror with ReSpeaker!](https://www.hackster.io/SeeedStudio/mojing-mojing-a-smart-mirror-with-respeaker-e1ae20)：ReSpeaker を介した音声インターフェース制御を備えたスマートミラーです。さらに Wio Link と接続して、他のオブジェクトも制御します！Raspberry Pi をベースにしています。
+[Mojing Mojing - A Smart Mirror with reSpeaker!](https://www.hackster.io/SeeedStudio/mojing-mojing-a-smart-mirror-with-respeaker-e1ae20)：reSpeaker を介した音声インターフェース制御を備えたスマートミラーです。さらに Wio Link と接続して、他のオブジェクトも制御します！Raspberry Pi をベースにしています。
 
 ## 技術サポートと製品ディスカッション
 

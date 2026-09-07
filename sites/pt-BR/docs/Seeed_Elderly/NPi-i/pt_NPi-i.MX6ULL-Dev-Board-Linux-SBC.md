@@ -555,16 +555,16 @@ Para mais informações sobre o 2-Channel CAN-BUS(FD) Shield você pode visitar 
 
 #### IIS
 
-Nesta seção, explicaremos o princípio de controle do programa IIS do Linux. Agora usaremos IIS e o ReSpeaker 2-Mics Pi HAT para mostrar como usá-lo.
+Nesta seção, explicaremos o princípio de controle do programa IIS do Linux. Agora usaremos IIS e o reSpeaker 2-Mics Pi HAT para mostrar como usá-lo.
 
 **Materiais Necessários**
 
 - NPi i.MX6ULL Dev Board - Linux SBC Versão NAND (ou Versão eMMC)
-- [ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
+- [reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
 
 **Software**
 
-- **Step 1.** De acordo com o [installation guide](https://wiki.seeedstudio.com/pt-br/ReSpeaker_2_Mics_Pi_HAT/#getting-started) insira o ReSpeaker 2-Mics Pi HAT na NPi i.MX6ULL Dev Board.
+- **Step 1.** De acordo com o [installation guide](https://wiki.seeedstudio.com/pt-br/ReSpeaker_2_Mics_Pi_HAT/#getting-started) insira o reSpeaker 2-Mics Pi HAT na NPi i.MX6ULL Dev Board.
 
 - **Step 2.** Instale alsa-utils usando `apt`
 
@@ -606,7 +606,7 @@ debian@npi:~/seeed-linux-dtverlays$ sudo cp extras/wm8960_asound.state /var/lib/
 debian@npi:~/seeed-linux-dtverlays$ sudo alsactl restore
 ```
 
-- **Step 6.** Agora você pode começar a brincar com o ReSpeaker 2-Mics Pi Hat! Para um teste simples de gravação e reprodução, execute o seguinte comando:
+- **Step 6.** Agora você pode começar a brincar com o reSpeaker 2-Mics Pi Hat! Para um teste simples de gravação e reprodução, execute o seguinte comando:
 
 1. Para gravar um áudio em `test.wav`:
 
@@ -620,7 +620,7 @@ arecord -f cd -r 48000 -Dhw:0 test.wav
 aplay -Dhw:0 -r 48000 test.wav
 ```
 
-Para mais informações sobre o ReSpeaker 2-Mics Pi HAT você pode visitar o [wiki](https://wiki.seeedstudio.com/pt-br/ReSpeaker_2_Mics_Pi_HAT/)
+Para mais informações sobre o reSpeaker 2-Mics Pi HAT você pode visitar o [wiki](https://wiki.seeedstudio.com/pt-br/ReSpeaker_2_Mics_Pi_HAT/)
 
 ## Recursos
 

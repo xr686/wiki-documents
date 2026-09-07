@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_lite_pi5/
 ---
 
 
-このプロジェクトでは、Raspberry Pi 5 を使用して音声入力、大規模モデルの応答、および音声出力機能を統合しています。ReSpeaker Lite を音声入出力デバイスとして使用し、ChatGPT および音声認識サービスとのシームレスな対話を可能にします。
+このプロジェクトでは、Raspberry Pi 5 を使用して音声入力、大規模モデルの応答、および音声出力機能を統合しています。reSpeaker Lite を音声入出力デバイスとして使用し、ChatGPT および音声認識サービスとのシームレスな対話を可能にします。
 
 
 
@@ -32,7 +32,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_lite_pi5/
 
 ## 必要なハードウェア
 
-* [ReSpeaker Lite USB 2-Mic Array](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)
+* [reSpeaker Lite USB 2-Mic Array](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)
 * [Raspberry Pi 5](https://www.seeedstudio.com/Raspberry-Pi-5-8GB-p-5810.html)
 
 ## はじめに
@@ -60,7 +60,7 @@ pip3 install speechrecognition
 pip3 install openai
 pip3 install playsound
 ```
-* Raspberry Pi 5 では、以下のコマンドを実行して ReSpeaker Lite を設定してください：
+* Raspberry Pi 5 では、以下のコマンドを実行して reSpeaker Lite を設定してください：
 
 ```shell
 pw-metadata -n settings 0 clock.force-rate 16000
@@ -69,7 +69,7 @@ pw-metadata -n settings 0 clock.force-rate 16000
 永続的な変更を行うには、`/etc/pipewire/pipewire.conf` の `default.clock.rate` 行をアンハッシュして編集してください（まず /usr/share/ からコピーしてください）。
 
 :::tip
-ReSpeaker Lite の音量を調整するコマンド：
+reSpeaker Lite の音量を調整するコマンド：
 
 ```shell
 alsamixer

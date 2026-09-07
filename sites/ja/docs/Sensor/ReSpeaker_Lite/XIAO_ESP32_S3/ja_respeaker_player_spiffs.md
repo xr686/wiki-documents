@@ -20,8 +20,8 @@ url: https://wiki.seeedstudio.com/ja/respeaker_player_spiffs/
 
 ### 必要なライブラリ
 
-* [ReSpeaker Lite ライブラリ](https://github.com/limengdu/reSpeaker_Lite-Arduino-Library.git)
-* [ReSpeaker Lite arduino libhelix](https://github.com/limengdu/reSpeaker_Lite-arduino-libhelix)
+* [reSpeaker Lite ライブラリ](https://github.com/limengdu/reSpeaker_Lite-Arduino-Library.git)
+* [reSpeaker Lite arduino libhelix](https://github.com/limengdu/reSpeaker_Lite-arduino-libhelix)
 
 ### 機能
 

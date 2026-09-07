@@ -27,9 +27,9 @@ keywords:
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## 算法调优 {#algorithm-tuning}
 
-### 如何查看 ReSpeaker Mic Array v2.0 上内置的 DSP 调音控制项？ {#dsp-tuning-controls}
+### 如何查看 reSpeaker Mic Array v2.0 上内置的 DSP 调音控制项？ {#dsp-tuning-controls}
 
-**适用范围：** 搭载 XVF3000 且使用匹配官方固件的 ReSpeaker Mic Array v2.0
+**适用范围：** 搭载 XVF3000 且使用匹配官方固件的 reSpeaker Mic Array v2.0
 
 **最后验证时间：** 2026-09-01
 
@@ -37,7 +37,7 @@ keywords:
 
 **前提条件：**
 
-- 确认硬件是 ReSpeaker Mic Array v2.0，而不是其他 ReSpeaker 版本
+- 确认硬件是 reSpeaker Mic Array v2.0，而不是其他 reSpeaker 版本
 - 按官方指南安装所需的 USB 控制依赖和主机驱动
 - 记录初始参数值，并使用可重复的音频测试
 
@@ -58,7 +58,7 @@ keywords:
 
 **参考资料：**
 
-- [ReSpeaker Mic Array v2.0 调音指南与参数表](https://wiki.seeedstudio.com/cn/ReSpeaker_Mic_Array_v2.0/)
+- [reSpeaker Mic Array v2.0 调音指南与参数表](https://wiki.seeedstudio.com/cn/ReSpeaker_Mic_Array_v2.0/)
 - [官方 XVF3000 USB 4-Mic Array 工具仓库](https://github.com/respeaker/usb_4_mic_array)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->

@@ -19,7 +19,7 @@ url: https://wiki.seeedstudio.com/es/Grove-Analog-Microphone/
 
 El Grove - Micrófono Analógico está basado en la tecnología **SiSonic MEMS** de alto rendimiento, ofreciendo un micrófono extremadamente silencioso, de bajo consumo, confiable y pequeño para la industria de hardware de código abierto, y tiene un rendimiento mejorado bajo condiciones severas.
 
-Grove - Micrófono Analógico es una opción ideal de sensores de sonido donde se requiere un excelente rendimiento de audio. Puede proporcionar hasta 20dB de ganancia y también cuenta con bajo consumo de corriente, máxima protección RF, lo que lo convierte en un micrófono perfecto para Arduino y Raspberry Pi. Nuestro producto destacado <a href="https://www.seeedstudio.com/ReSpeaker-Core-v2-0.html">ReSpeaker Core v2.0</a> también adopta tecnología MEMS y el mismo micrófono que usa Grove - Micrófono Analógico. Si vas a obtener un micrófono elegante, aquí está la opción.
+Grove - Micrófono Analógico es una opción ideal de sensores de sonido donde se requiere un excelente rendimiento de audio. Puede proporcionar hasta 20dB de ganancia y también cuenta con bajo consumo de corriente, máxima protección RF, lo que lo convierte en un micrófono perfecto para Arduino y Raspberry Pi. Nuestro producto destacado <a href="https://www.seeedstudio.com/ReSpeaker-Core-v2-0.html">reSpeaker Core v2.0</a> también adopta tecnología MEMS y el mismo micrófono que usa Grove - Micrófono Analógico. Si vas a obtener un micrófono elegante, aquí está la opción.
 
 <p style={{}}><a href="https://www.seeedstudio.com/Grove-Analog-Microphone-p-4593.html" target="_blank"><img src="https://files.seeedstudio.com/wiki/wiki_english/docs/images/get_one_now_small.png" width={200} height={38} border={0} /></a></p>
 

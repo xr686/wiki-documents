@@ -1,6 +1,6 @@
 ---
-description: Integración de ReSpeaker Lite con XIAO ESP32S3
-title: Kit de Asistente de Voz ReSpeaker Lite
+description: Integración de reSpeaker Lite con XIAO ESP32S3
+title: Kit de Asistente de Voz reSpeaker Lite
 keywords:
   - ESP32S3
   - XIAO
@@ -18,7 +18,7 @@ url: https://wiki.seeedstudio.com/es/xiao_respeaker/
 
 
 
-Impulsado por el chipset de sonido y audio con IA XMOS XU316, es un kit de desarrollo de asistente de voz de alto rendimiento y de código abierto. El kit integra la matriz de micrófonos dual ReSpeaker Lite y un potente procesador [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html), ofreciendo capacidades excepcionales de reconocimiento de voz, reducción de ruido y procesamiento de voz. Este kit proporciona integración de firmware con Home Assistant mediante ESPHome, lo que lo hace ideal para asistentes de voz inteligentes y aplicaciones de automatización del hogar.
+Impulsado por el chipset de sonido y audio con IA XMOS XU316, es un kit de desarrollo de asistente de voz de alto rendimiento y de código abierto. El kit integra la matriz de micrófonos dual reSpeaker Lite y un potente procesador [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html), ofreciendo capacidades excepcionales de reconocimiento de voz, reducción de ruido y procesamiento de voz. Este kit proporciona integración de firmware con Home Assistant mediante ESPHome, lo que lo hace ideal para asistentes de voz inteligentes y aplicaciones de automatización del hogar.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/xiao-res.png" alt="pir" width={600} height="auto" /></p>
 
@@ -88,7 +88,7 @@ Impulsado por el chipset de sonido y audio con IA XMOS XU316, es un kit de desar
 
 ### Grabar el firmware I2S
 
-Para usar ReSpeaker Lite con XIAO ESP32S3, asegúrate de que el firmware de ReSpeaker Lite sea la versión I2S.
+Para usar reSpeaker Lite con XIAO ESP32S3, asegúrate de que el firmware de reSpeaker Lite sea la versión I2S.
 
 Consulta [Firmware Flash](https://wiki.seeedstudio.com/es/reSpeaker_usb_v3/#update-firmware) para grabar el firmware I2S más reciente.
 
@@ -126,7 +126,7 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 
 - Reinicia Arduino IDE.
 
-#### Instalar la biblioteca ReSpeaker Lite
+#### Instalar la biblioteca reSpeaker Lite
 
 Proporcionamos una biblioteca para que los usuarios puedan comenzar rápidamente:
 
@@ -143,7 +143,7 @@ O descarga la biblioteca como archivo `zip` y añádela a las bibliotecas en Ard
 
 ### Preguntas frecuentes
 
-- **¿No se puede detectar el dispositivo de sonido USB ReSpeaker Lite en Windows después de grabar el firmware USB?**
+- **¿No se puede detectar el dispositivo de sonido USB reSpeaker Lite en Windows después de grabar el firmware USB?**
 
 - Abre el menú de inicio y escribe `Device manager`. Busca el dispositivo `ReSpeaker Lite`, haz clic derecho sobre él y selecciona `Uninstall device`. Selecciona `Delete the driver software for this device` y haz clic en `Uninstall`. Después de eso, reinicia el dispositivo y Windows volverá a instalar el controlador de tarjeta de sonido correcto.
 
@@ -151,6 +151,6 @@ O descarga la biblioteca como archivo `zip` y añádela a las bibliotecas en Ard
 
 ### Recursos
 
-[Firmware XMOS de ReSpeaker Lite](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
+[Firmware XMOS de reSpeaker Lite](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
-[Github de ReSpeaker Lite](https://github.com/respeaker/ReSpeaker_Lite/)
+[Github de reSpeaker Lite](https://github.com/respeaker/ReSpeaker_Lite/)

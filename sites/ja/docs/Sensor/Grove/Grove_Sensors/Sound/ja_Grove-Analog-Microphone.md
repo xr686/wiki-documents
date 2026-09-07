@@ -20,7 +20,7 @@ url: https://wiki.seeedstudio.com/ja/Grove-Analog-Microphone/
 
 Grove - アナログマイクは、高性能な **SiSonic MEMS** 技術を基盤としており、オープンソースハードウェア業界に向けて、極めて低ノイズ、低消費電流、信頼性が高く、コンパクトなマイクを提供します。また、厳しい条件下での性能が向上しています。
 
-Grove - アナログマイクは、優れた音声性能が求められる音センサーに最適な選択肢です。最大20dBのゲインを提供できるほか、低消費電流と最大RF保護機能を備えており、ArduinoやRaspberry Piに最適なマイクです。当社の注目製品である<a href="https://www.seeedstudio.com/ReSpeaker-Core-v2-0.html">ReSpeaker Core v2.0</a>もMEMS技術を採用しており、Grove - アナログマイクと同じマイクを使用しています。高品質なマイクをお探しなら、こちらが最適です。
+Grove - アナログマイクは、優れた音声性能が求められる音センサーに最適な選択肢です。最大20dBのゲインを提供できるほか、低消費電流と最大RF保護機能を備えており、ArduinoやRaspberry Piに最適なマイクです。当社の注目製品である<a href="https://www.seeedstudio.com/ReSpeaker-Core-v2-0.html">reSpeaker Core v2.0</a>もMEMS技術を採用しており、Grove - アナログマイクと同じマイクを使用しています。高品質なマイクをお探しなら、こちらが最適です。
 
 <p style={{}}><a href="https://www.seeedstudio.com/Grove-Analog-Microphone-p-4593.html" target="_blank"><img src="https://files.seeedstudio.com/wiki/wiki_english/docs/images/get_one_now_small.png" width={200} height={38} border={0} /></a></p>
 

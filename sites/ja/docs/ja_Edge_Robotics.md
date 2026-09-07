@@ -404,7 +404,7 @@ import '/src/css/robotics-page-style.css';
     <div className="resource-columns">
       <div><h4>📡 LiDAR</h4><a href="/ja/robosense_lidar/">RoboSense</a><a href="/ja/mid360/">Livox MID360</a><a href="/ja/a_loam/">A-LOAM アルゴリズム</a><a href="/ja/slamtec/">Slamtec シリーズ</a></div>
       <div><h4>📷 カメラ</h4><a href="/ja/orbbec_gemini2/">Orbbec Gemini 2</a><a href="/ja/orbbec_gemini_335lg/">Gemini 335Lg 深度カメラ</a><a href="/ja/orbbec_gemini336">Gemini 336 深度カメラ</a><a href="/ja/sensing_gmsl_cameras">SENSING GMSL2 カメラ</a><a href="/ja/ac1">RoboSense AC1</a><a href="/ja/orbbec_depth_camera_on_ros/">Orbbec と ROS</a><a href="/ja/orb_slam3_orbbec_gemini2/">ORB-SLAM3 と Gemini2</a><a href="/ja/csi_camera_on_ros/">Jetson 上の CSI カメラ</a><a href="/ja/pycuvslam_recomputer_robotics/">PyCuVSLAM</a></div>
-      <div><h4>🎤 音声</h4><a href="/ja/ReSpeaker_Core_v2.0/">ReSpeaker Core v2.0</a><a href="/ja/ReSpeaker_Mic_Array_v2.0/">ReSpeaker Mic Array v2.0</a><h4>🧭 IMU</h4><a href="/ja/hexfellow_y200/">HEXFELLOW Y200</a><a href="/ja/wheeltec_imu/">WHEELTEC IMU</a></div>
+      <div><h4>🎤 音声</h4><a href="/ja/ReSpeaker_Core_v2.0/">reSpeaker Core v2.0</a><a href="/ja/ReSpeaker_Mic_Array_v2.0/">reSpeaker Mic Array v2.0</a><h4>🧭 IMU</h4><a href="/ja/hexfellow_y200/">HEXFELLOW Y200</a><a href="/ja/wheeltec_imu/">WHEELTEC IMU</a></div>
     </div>
   </section>
 

@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker 4-Mic Linear Array Kit
+description: reSpeaker 4-Mic Linear Array Kit
 title: reSpeaker 4-Mic Linear Array Kit
 keywords:
   - reSpeaker
@@ -16,15 +16,15 @@ url: https://wiki.seeedstudio.com/ReSpeaker_4-Mic_Linear_Array_Kit_for_Raspberry
 
 ![enter image description here](https://files.seeedstudio.com/wiki/ReSpeaker_4-Mics_Linear_Array_Kit/img/main_wiki.jpg)
 
-Seeed’s ReSpeaker 4-Mic Linear Array Kit is an extension board, aka HAT designed for Raspberry Pi. It's a linear microphone array kit, comes with four microphones and designed for AI and voice applications. That means you can build a more powerful and flexible voice product with Raspberry Pi which can integrate Amazon Alexa Voice Service, Google Assistant, and so on.
+Seeed’s reSpeaker 4-Mic Linear Array Kit is an extension board, aka HAT designed for Raspberry Pi. It's a linear microphone array kit, comes with four microphones and designed for AI and voice applications. That means you can build a more powerful and flexible voice product with Raspberry Pi which can integrate Amazon Alexa Voice Service, Google Assistant, and so on.
 
-ReSpeaker 4-Mic Linear Array Kit for Raspberry Pi consists of two boards, one is voice accessory HAT, another is four microphones linear array.
+reSpeaker 4-Mic Linear Array Kit for Raspberry Pi consists of two boards, one is voice accessory HAT, another is four microphones linear array.
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/NxZx9nz67Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-ReSpeaker 4-Mic Linear Array Kit for Raspberry Pi support 8 input & 8 output channels in Raspberry Pi OS. The first 6 input channels for microphone recording (only first 4 input channels are valid capture data), rest of 2 input channel are echo channel of playback. The first 2 output channel are for sound output, the rest of 6 output channels are dummy.
+reSpeaker 4-Mic Linear Array Kit for Raspberry Pi support 8 input & 8 output channels in Raspberry Pi OS. The first 6 input channels for microphone recording (only first 4 input channels are valid capture data), rest of 2 input channel are echo channel of playback. The first 2 output channel are for sound output, the rest of 6 output channels are dummy.
 
 <p style={{textAlign: 'center'}}><a href="https://www.seeedstudio.com/ReSpeaker-4-Mic-Linear-Array-Kit-p-3066.html" target="_blank"><img src="https://files.seeedstudio.com/wiki/Seeed-WiKi/docs/images/300px-Get_One_Now_Banner-ragular.png" /></a></p>
 
@@ -82,11 +82,11 @@ After connecting, be sure to use a multimeter to determine if the conduction of 
 
 ## Getting Started
 
-**Connect ReSpeaker 4-Mic Array to Raspberry Pi**
+**Connect reSpeaker 4-Mic Array to Raspberry Pi**
 
-**Step 1.**  Connect the *ReSpeaker Voice Accessory HAT* with *ReSpeaker 4-Mic linear Array* via the Ribbon Cable
+**Step 1.**  Connect the *reSpeaker Voice Accessory HAT* with *reSpeaker 4-Mic linear Array* via the Ribbon Cable
 
-**Step 2.**  Plug the *ReSpeaker Voice Accessory HAT* into the *Raspberry Pi* via the 40 Pin GPIO
+**Step 2.**  Plug the *reSpeaker Voice Accessory HAT* into the *Raspberry Pi* via the 40 Pin GPIO
 
 **Step 3.**  Plug the *earphone* into the *3.5mm headset audio jack* or plug the *speaker* into the *JST 2.0 speaker jack*
 
@@ -278,7 +278,7 @@ You will see the device ID as below.
 Input Device id  2  -  seeed-8mic-voicecard: - (hw:1,0)
 ```
 
-To record the sound, open ```recording_examples/record.py``` file with nano or other text editor and change  `RESPEAKER_INDEX = 2` to index number of ReSpeaker on your system. Then run python script record.py to make a recording:
+To record the sound, open ```recording_examples/record.py``` file with nano or other text editor and change  `RESPEAKER_INDEX = 2` to index number of reSpeaker on your system. Then run python script record.py to make a recording:
 
 ```
 python3 recording_examples/record.py
@@ -303,7 +303,7 @@ aplay -D plughw:0,0 output_one_channel.wav #for Mono sound from one channel
 
 A1: There are 2 AC108 in this array, and each AC108 chip has 4 channel output. So it comes a total of 8 channels here, 4 of which are for the microphone, two channels for the playback and the the rest 2 channels are not used.
 
-**Q2: If Raspberry can detect ReSpeaker 2-mics hat, but can't detect ReSpeaker 4-mics linear array?**
+**Q2: If Raspberry can detect reSpeaker 2-mics hat, but can't detect reSpeaker 4-mics linear array?**
 
 A2: Please click raspberry -> Preferences -> Raspberry Pi Configuration, then select the Interfaces tab, make sure the 1-Wire is Disabled.
 
@@ -319,7 +319,7 @@ A2: Please click raspberry -> Preferences -> Raspberry Pi Configuration, then se
 
 ## Projects
 
-[Mojing Mojing - A Smart Mirror with ReSpeaker!](https://www.hackster.io/SeeedStudio/mojing-mojing-a-smart-mirror-with-respeaker-e1ae20): A smart mirror with voice interface control via ReSpeaker. We also connect with Wio Link to control other objects! Based on Raspberry Pi.
+[Mojing Mojing - A Smart Mirror with reSpeaker!](https://www.hackster.io/SeeedStudio/mojing-mojing-a-smart-mirror-with-respeaker-e1ae20): A smart mirror with voice interface control via reSpeaker. We also connect with Wio Link to control other objects! Based on Raspberry Pi.
 
 ## Tech Support & Product Discussion
 

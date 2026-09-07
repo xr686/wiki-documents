@@ -840,7 +840,7 @@ Puedes reproducir un sonido mientras grabas simultáneamente para probar el rend
 - Comprueba que el micrófono sea detectado: `arecord -l`
 - Comprueba que el altavoz sea detectado: `aplay -l`
 - Si la configuración de la placa de audio falla con `No Reachy Mini Audio USB device found!`,
-  ejecuta el código del SDK en la máquina que tiene conectada la placa de audio ReSpeaker.
+  ejecuta el código del SDK en la máquina que tiene conectada la placa de audio reSpeaker.
   Para Lite esta es tu computadora; para Wireless este es el propio robot.
 
 </details>

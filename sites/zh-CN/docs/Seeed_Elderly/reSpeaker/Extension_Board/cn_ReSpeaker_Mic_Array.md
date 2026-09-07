@@ -1,6 +1,6 @@
 ---
-description: ReSpeaker 麦克风阵列
-title: ReSpeaker 麦克风阵列
+description: reSpeaker 麦克风阵列
+title: reSpeaker 麦克风阵列
 keywords:
   - reSpeaker
 image: https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png
@@ -19,7 +19,7 @@ url: https://wiki.seeedstudio.com/cn/ReSpeaker_Mic_Array/
 
 ## 产品描述
 
-ReSpeaker 麦克风阵列可以直接堆叠（连接）到 ReSpeaker Core 的顶部，显著改善语音交互体验。它基于 XMOS 的 XVSM-2000 智能麦克风开发。该板集成了 7 个 PDM 麦克风，有助于将 ReSpeaker 的声学 DSP 性能提升到更高水平。
+reSpeaker 麦克风阵列可以直接堆叠（连接）到 reSpeaker Core 的顶部，显著改善语音交互体验。它基于 XMOS 的 XVSM-2000 智能麦克风开发。该板集成了 7 个 PDM 麦克风，有助于将 reSpeaker 的声学 DSP 性能提升到更高水平。
 
 ## 主要特性
 
@@ -69,14 +69,14 @@ ReSpeaker 麦克风阵列可以直接堆叠（连接）到 ReSpeaker Core 的顶
 - 重量：
   - 15.25g
 
-## ReSpeaker 麦克风阵列驱动程序
+## reSpeaker 麦克风阵列驱动程序
 
 - Windows 用户，点击[这里](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Driver)安装驱动程序
 - Linux 或 Mac 用户，无需安装驱动程序
 
-## 使用 ReSpeaker Core 提取语音
+## 使用 reSpeaker Core 提取语音
 
-当麦克风阵列堆叠在 ReSpeaker Core 上时，它会被自动检测（使用 `aplay -l` 检查）。我们建议您使用我们的 [respeaker_python_library](https://github.com/respeaker/respeaker_python_library) 来开发您的语音交互应用程序，这样您就不需要关心麦克风阵列是否连接。我们的库会检查这一点，并在连接时选择麦克风阵列。
+当麦克风阵列堆叠在 reSpeaker Core 上时，它会被自动检测（使用 `aplay -l` 检查）。我们建议您使用我们的 [respeaker_python_library](https://github.com/respeaker/respeaker_python_library) 来开发您的语音交互应用程序，这样您就不需要关心麦克风阵列是否连接。我们的库会检查这一点，并在连接时选择麦克风阵列。
 
 同样，在该库中，基于 **Pyaudio** 的 [*class Microphone*](https://github.com/respeaker/respeaker_python_library/blob/master/respeaker/microphone.py) 有一个名为 [*listen*](https://github.com/respeaker/respeaker_python_library/blob/master/respeaker/microphone.py#L207) 的方法来提取语音。使用方法请参见我们的[示例代码](https://github.com/respeaker/respeaker_python_library/blob/master/examples/SpeechRecognition_translator.py)。
 
@@ -144,9 +144,9 @@ wf.writeframes(b''.join(frames))
 wf.close()
 ```
 
-## ReSpeaker 麦克风阵列固件
+## reSpeaker 麦克风阵列固件
 
-您可以在[这里](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Firmware)下载用于 DFU 的 ReSpeaker 麦克风阵列固件。我们提供了两个版本：
+您可以在[这里](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Firmware)下载用于 DFU 的 reSpeaker 麦克风阵列固件。我们提供了两个版本：
 
 - *xvsm 版本*：初始版本，输出 2 通道数据并支持 dsp。
 - *raw 版本*：输出 8 通道麦克风原始数据，此固件不支持 xvsm dsp，因此不支持 DOA、AEC 等功能。
@@ -154,9 +154,9 @@ wf.close()
 请参阅[这里](https://github.com/respeaker/mic_array_dfu)了解**在 Linux 上更新固件**。
 请参阅[这里](https://github.com/jerryyip/respeaker_micarray_dfu_mac_linux)了解**在 Mac 上更新固件**。
 
-## 用于控制 ReSpeaker 麦克风阵列的 HID
+## 用于控制 reSpeaker 麦克风阵列的 HID
 
-用户可以通过 USB HID 控制 ReSpeaker 麦克风阵列。请参阅我们的[通信协议](https://github.com/Fuhua-Chen/ReSpeaker-Microphone-Array-HID-tool)。
+用户可以通过 USB HID 控制 reSpeaker 麦克风阵列。请参阅我们的[通信协议](https://github.com/Fuhua-Chen/ReSpeaker-Microphone-Array-HID-tool)。
 
 请注意，如果您使用的是最新的 *raw 版本*，您只能控制 LED。
 
@@ -277,14 +277,14 @@ if __name__ == '__main__':
 
 ## 资源
 
-- **[Eagle]**[ReSpeaker 麦克风阵列原理图](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0.sch.zip)
-- **[Eagle]**[ReSpeaker 麦克风阵列电路板](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0.brd.zip)
-- **[PDF]** [ReSpeaker 麦克风阵列原理图](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0%20Sch.pdf)
-- **[PDF]** [ReSpeaker 麦克风阵列 PCB](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0%20PCB.pdf)
+- **[Eagle]**[reSpeaker 麦克风阵列原理图](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0.sch.zip)
+- **[Eagle]**[reSpeaker 麦克风阵列电路板](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0.brd.zip)
+- **[PDF]** [reSpeaker 麦克风阵列原理图](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0%20Sch.pdf)
+- **[PDF]** [reSpeaker 麦克风阵列 PCB](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0%20PCB.pdf)
 
 ## 项目
 
-**在树莓派上使用 ReSpeaker 麦克风阵列构建 Google Assistant**：有了 ReSpeaker 麦克风阵列，现在我们可以在树莓派上构建 Google Assistant！
+**在树莓派上使用 reSpeaker 麦克风阵列构建 Google Assistant**：有了 reSpeaker 麦克风阵列，现在我们可以在树莓派上构建 Google Assistant！
 
 <iframe frameborder='0' height='327.5' scrolling='no' src='https://www.hackster.io/SeeedStudio/build-google-assistant-on-rpi-with-respeaker-mic-array-1030bb/embed' width='350'></iframe>
 

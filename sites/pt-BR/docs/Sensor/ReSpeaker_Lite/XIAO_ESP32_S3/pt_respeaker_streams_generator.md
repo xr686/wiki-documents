@@ -1,6 +1,6 @@
 ---
-description: Gerador de Onda Senoidal com ReSpeaker Lite
-title: Gerador de Onda Senoidal com ReSpeaker Lite
+description: Gerador de Onda Senoidal com reSpeaker Lite
+title: Gerador de Onda Senoidal com reSpeaker Lite
 keywords:
   - ESP32S3
   - XIAO

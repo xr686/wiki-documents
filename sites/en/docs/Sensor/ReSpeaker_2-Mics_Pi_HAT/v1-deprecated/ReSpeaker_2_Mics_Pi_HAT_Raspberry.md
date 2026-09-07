@@ -15,14 +15,14 @@ url: https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT_Raspberry/
 ---
 
 :::caution
-This wiki is wrote for ReSpeaker 2-Mics Pi HAT **v1**, to distinguish the v1 and v2 device, please refer to [How to Distinguish ReSpeaker 2-Mics Pi HAT Hardware Revisions](/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions).
+This wiki is wrote for reSpeaker 2-Mics Pi HAT **v1**, to distinguish the v1 and v2 device, please refer to [How to Distinguish reSpeaker 2-Mics Pi HAT Hardware Revisions](/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions).
 :::
 
 ### Driver installation and configuration
 
-**1. Connect ReSpeaker 2-Mics Pi HAT to Raspberry Pi**
+**1. Connect reSpeaker 2-Mics Pi HAT to Raspberry Pi**
 
-Mount ReSpeaker 2-Mics Pi HAT on your Raspberry Pi, make sure that the pins are properly aligned when stacking the ReSpeaker 2-Mics Pi HAT.
+Mount reSpeaker 2-Mics Pi HAT on your Raspberry Pi, make sure that the pins are properly aligned when stacking the reSpeaker 2-Mics Pi HAT.
 
 Raspberry Pi Connection
 
@@ -36,7 +36,7 @@ Raspberry Pi Zero Connection
 
 Make sure that you are running [the latest Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspbian/) on your Pi. *(updated at 2021.05.01)*
 
-- Step 1: Get Device Tree Source (DTS) for the ReSpeaker 2-Mics Pi HAT (V1.0), compile it and install the device tree overlay.
+- Step 1: Get Device Tree Source (DTS) for the reSpeaker 2-Mics Pi HAT (V1.0), compile it and install the device tree overlay.
 
 ```bash
 git clone https://github.com/Seeed-Studio/seeed-linux-dtoverlays.git  
@@ -200,7 +200,7 @@ You will see the device ID as below.
 Input Device id  2  -  seeed-2mic-voicecard: - (hw:1,0)
 ```
 
-To record the sound, open ```recording_examples/record.py``` file with nano or other text editor and change  `RESPEAKER_INDEX = 2` to index number of ReSpeaker on your system. Then run python script record.py to make a recording:
+To record the sound, open ```recording_examples/record.py``` file with nano or other text editor and change  `RESPEAKER_INDEX = 2` to index number of reSpeaker on your system. Then run python script record.py to make a recording:
 
 ```bash
 python3 recording_examples/record.py
@@ -227,13 +227,13 @@ python3 recording_examples/play.py path-to-wav-file
 
 Make sure to specify the right output device index in play.py - otherwise PyAudio will freeze!
 
-### Picovoice with ReSpeaker 2-Mic Pi HAT and Raspberry Pi
+### Picovoice with reSpeaker 2-Mic Pi HAT and Raspberry Pi
 
-**Step 1.** Follow the **above step-by-step tutorial of ReSpeaker 2-Mic Pi HAT with Raspberry Pi** before the following.
+**Step 1.** Follow the **above step-by-step tutorial of reSpeaker 2-Mic Pi HAT with Raspberry Pi** before the following.
 
-**Note:** Please make sure that the `APA102` LEDs are working properly on the ReSpeaker 2-Mic Pi HAT with Raspberry Pi.
+**Note:** Please make sure that the `APA102` LEDs are working properly on the reSpeaker 2-Mic Pi HAT with Raspberry Pi.
 
-**Step 2.** Type the following command on the terminal to **install the Picovoice demo for ReSpeaker 2-Mic Pi HAT**.
+**Step 2.** Type the following command on the terminal to **install the Picovoice demo for reSpeaker 2-Mic Pi HAT**.
 
 ```bash
 pip3 install pvrespeakerdemo
@@ -250,7 +250,7 @@ echo 'export PATH="$HOME/bin:$HOME/.local/bin:$PATH"' >> ~/.bashrc
 
 #### Demo Usage
 
-The demo utilizes the ReSpeaker 2-Mic Pi HAT on a Raspberry Pi with Picovoice technology to control the LEDs. **This demo is triggered by the wake word "`Picovoice`" and will be ready to take follow-on actions, such as turning LEDs on and off, and changing LED colors.**
+The demo utilizes the reSpeaker 2-Mic Pi HAT on a Raspberry Pi with Picovoice technology to control the LEDs. **This demo is triggered by the wake word "`Picovoice`" and will be ready to take follow-on actions, such as turning LEDs on and off, and changing LED colors.**
 
 After the installation is finished, type this command to run the demo on the terminal:
 
@@ -351,9 +351,9 @@ applications. It is
 - scalable. It can detect multiple always-listening voice commands with no added runtime footprint.
 - self-service. Developers can train custom wake word models using [Picovoice Console](https://picovoice.ai/console/).
 
-To demonstrate the Picovoice's capability we have also prepared a multi wake word examples using ReSpeaker 2-Mic Pi HAT with Raspberry Pi! Different wake word can set to execute certain tasks.
+To demonstrate the Picovoice's capability we have also prepared a multi wake word examples using reSpeaker 2-Mic Pi HAT with Raspberry Pi! Different wake word can set to execute certain tasks.
 
-*This package contains a command line demo for controlling ReSpeaker 2-Mic Pi HAT LEDs using Porcupine.*
+*This package contains a command line demo for controlling reSpeaker 2-Mic Pi HAT LEDs using Porcupine.*
 
 #### Multi Wake Word Getting Started
 
@@ -409,7 +409,7 @@ Below are the colors associated with supported wake words for this demo:
 
 Please see the complete source code of this example here: [https://github.com/Picovoice/porcupine/tree/master/demo/respeaker](https://github.com/Picovoice/porcupine/tree/master/demo/respeaker).
 
-## Keyword spotting with ReSpeaker 2-Mic Pi HAT and Mycroft Precise
+## Keyword spotting with reSpeaker 2-Mic Pi HAT and Mycroft Precise
 
 Mycroft Precise is a completely open-source keyword detection engine. While it has more limited functionality comparing to Picovoice, it also has more permissive license (Apache 2.0), which allows modification and redistribution, including closed-source and commercial, as long as license is preserved.
 
@@ -437,13 +437,13 @@ mycroft-precise --model hey-mycroft
 
 If you'd like to integrate Mycroft Precise into your own project, check Github repository README file for more information on the API.
 
-## Intelligent Assistant with ReSpeaker 2-Mic Pi HAT and Mycroft Core
+## Intelligent Assistant with reSpeaker 2-Mic Pi HAT and Mycroft Core
 
 Mycroft is a hackable open source voice assistant. It is similar in functionality to Amazon Alexa or Google Assistant, but has a more permissive license (Apache 2.0), which allows modification and redistribution, including closed-source and commercial, as long as license is preserved.
 
 **This section is currently under development, we'll add more details about using Mycroft Core with Respeaker**
 
-## Picovoice with ReSpeaker 2-Mic Pi HAT and Raspberry Pi Zero Getting Started
+## Picovoice with reSpeaker 2-Mic Pi HAT and Raspberry Pi Zero Getting Started
 
 **Step 1.** Install the drivers and configure the device as described in **Driver installation and configuration**.
 
@@ -454,7 +454,7 @@ git clone --recurse-submodules https://github.com/Picovoice/picovoice.git
 cd picovoice
 ```
 
-**Note:** Please make sure that the `APA102` LEDs are working properly on the ReSpeaker 2-Mic Pi HAT with Raspberry Pi Zero.
+**Note:** Please make sure that the `APA102` LEDs are working properly on the reSpeaker 2-Mic Pi HAT with Raspberry Pi Zero.
 
 **Step 2.** Install the `wiringpi` library by typing the following on the terminal.
 
@@ -462,7 +462,7 @@ cd picovoice
 sudo apt-get install wiringpi
 ```
 
-**Step 3.** From the root of the repository, type the following command on the terminal to **install the Picovoice demo for ReSpeaker 2-Mic Pi HAT**.
+**Step 3.** From the root of the repository, type the following command on the terminal to **install the Picovoice demo for reSpeaker 2-Mic Pi HAT**.
 
 ```sh
 gcc -std=c99 -O3 -o demo/respeaker-rpi0/picovoice_demo_mic \
@@ -472,7 +472,7 @@ gcc -std=c99 -O3 -o demo/respeaker-rpi0/picovoice_demo_mic \
 
 ### Demo Usage
 
-The demo utilizes the ReSpeaker 2-Mic Pi HAT on a Raspberry Pi Zero with Picovoice technology to control the LEDs. **This demo is triggered by the wake word "`Picovoice`" and will be ready to take follow-on actions, such as turning LEDs on and off, and changing LED colors.**
+The demo utilizes the reSpeaker 2-Mic Pi HAT on a Raspberry Pi Zero with Picovoice technology to control the LEDs. **This demo is triggered by the wake word "`Picovoice`" and will be ready to take follow-on actions, such as turning LEDs on and off, and changing LED colors.**
 
 After the installation is finished, type this command from the root of the repository, to run the demo on the terminal:
 
@@ -569,9 +569,9 @@ The lighting commands are defined by a Picovoice *Speech-to-Intent context*. You
 
 <p style={{textAlign: 'center'}}><iframe width={720} height={480} src="https://www.youtube.com/embed/Fi_IJEcNr3I" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></p>
 
-To demonstrate the Picovoice's capability we have also prepared a multi wake word examples using ReSpeaker 2-Mic Pi HAT with Raspberry Pi Zero! Different wake word can set to execute certain tasks.
+To demonstrate the Picovoice's capability we have also prepared a multi wake word examples using reSpeaker 2-Mic Pi HAT with Raspberry Pi Zero! Different wake word can set to execute certain tasks.
 
-*This package contains a command line demo for controlling ReSpeaker 2-Mic Pi HAT LEDs using Porcupine.*
+*This package contains a command line demo for controlling reSpeaker 2-Mic Pi HAT LEDs using Porcupine.*
 
 ### Porcupine
 
@@ -600,7 +600,7 @@ git clone --recurse-submodules https://github.com/Picovoice/porcupine.git
 cd picovoice
 ```
 
-**Step 2.** From the root of the repository, type the following command on the terminal to **install the Porcupine demo for ReSpeaker 2-Mic Pi HAT**.
+**Step 2.** From the root of the repository, type the following command on the terminal to **install the Porcupine demo for reSpeaker 2-Mic Pi HAT**.
 
 ```sh
 gcc -std=c99 -O3 -o demo/respeaker-rpi0/porcupine_demo_mic \

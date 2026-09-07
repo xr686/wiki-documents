@@ -26,9 +26,9 @@ keywords:
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## 文档与使用 {#documentation-and-usage}
 
-### 在哪里可以下载 ReSpeaker Flex 的 2D 和 3D 机械文件？ {#mechanical-cad-files}
+### 在哪里可以下载 reSpeaker Flex 的 2D 和 3D 机械文件？ {#mechanical-cad-files}
 
-**适用范围：** 将 ReSpeaker Flex XVF3800 核心板与 Linear-4 或 Circular-4 麦克风阵列进行机械集成
+**适用范围：** 将 reSpeaker Flex XVF3800 核心板与 Linear-4 或 Circular-4 麦克风阵列进行机械集成
 
 **最后验证时间：** 2026-09-01
 
@@ -56,11 +56,11 @@ keywords:
 
 **参考资料：**
 
-- [官方 ReSpeaker Flex 机械资源](https://wiki.seeedstudio.com/cn/respeaker_flex_introduction/#resources)
+- [官方 reSpeaker Flex 机械资源](https://wiki.seeedstudio.com/cn/respeaker_flex_introduction/#resources)
 
-### 如何验证 ReSpeaker Flex 与 XIAO ESP32S3 之间的全双工 I2S？ {#i2s-full-duplex-test}
+### 如何验证 reSpeaker Flex 与 XIAO ESP32S3 之间的全双工 I2S？ {#i2s-full-duplex-test}
 
-**适用范围：** 使用嵌入式 I2S 通路的 ReSpeaker Flex XVF3800 Linear-4 或 Circular-4 搭配 XIAO ESP32S3
+**适用范围：** 使用嵌入式 I2S 通路的 reSpeaker Flex XVF3800 Linear-4 或 Circular-4 搭配 XIAO ESP32S3
 
 **最后验证时间：** 2026-09-01
 
@@ -73,7 +73,7 @@ keywords:
 - 当前官方 Flex I2S 测试所需的依赖项
 
 1. 确认 Flex 上的 XMOS 正在为所连接麦克风几何结构运行官方 16 kHz I2S 镜像。
-2. 打开当前的 ReSpeaker Flex 搭配 XIAO ESP32S3 I2S 测试页面，并通过 XIAO 的 USB 端口上传其中的示例。
+2. 打开当前的 reSpeaker Flex 搭配 XIAO ESP32S3 I2S 测试页面，并通过 XIAO 的 USB 端口上传其中的示例。
 3. 以 115200 波特率打开串口监视器，让第一次和可选的第二次接收检查完成。
 4. 确认测试报告的有效采样数大于 16,000，并打印 `I2S RX PASS!`。
 5. 若要进行可听见的录音-存储-回放检查，在链路测试通过后运行单独的官方 16 kHz 录音与回放示例。
@@ -91,15 +91,15 @@ keywords:
 
 **参考资料：**
 
-- [官方 ReSpeaker Flex 全双工 I2S 测试](https://wiki.seeedstudio.com/cn/respeaker_flex_xiao_i2s/)
-- [ReSpeaker Flex 录音与回放示例](https://wiki.seeedstudio.com/cn/respeaker_flex_xiao_record_playback/)
-- [官方 ReSpeaker Flex 固件仓库](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares)
+- [官方 reSpeaker Flex 全双工 I2S 测试](https://wiki.seeedstudio.com/cn/respeaker_flex_xiao_i2s/)
+- [reSpeaker Flex 录音与回放示例](https://wiki.seeedstudio.com/cn/respeaker_flex_xiao_record_playback/)
+- [官方 reSpeaker Flex 固件仓库](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares)
 
 ## 连接与检测 {#connectivity-and-detection}
 
-### 为什么 ReSpeaker Flex 控制脚本会报告 `No device found`？ {#xvf-host-no-device-found}
+### 为什么 reSpeaker Flex 控制脚本会报告 `No device found`？ {#xvf-host-no-device-found}
 
-**适用范围：** ReSpeaker Flex XVF3800 Linear-4 和 Circular-4 通过 USB 控制连接到 Windows、Linux 或 macOS 主机
+**适用范围：** reSpeaker Flex XVF3800 Linear-4 和 Circular-4 通过 USB 控制连接到 Windows、Linux 或 macOS 主机
 
 **最后验证时间：** 2026-08-31
 
@@ -107,7 +107,7 @@ keywords:
 
 **前提条件：**
 
-- 官方 ReSpeaker Flex 仓库中的当前版本 `python_control/xvf_host.py`
+- 官方 reSpeaker Flex 仓库中的当前版本 `python_control/xvf_host.py`
 - Python 3.6 或更高版本、`pyusb`，以及平台的 `libusb` 支持；当前脚本在 Windows 上还需要 `libusb-package`
 - 一根已知良好的 USB 数据线，连接到靠近 RST 按钮的 XMOS USB-C 端口
 
@@ -120,7 +120,7 @@ keywords:
 
 **成功标准：**
 
-- 脚本打印带有 ReSpeaker VID/PID 的 `Connected device`
+- 脚本打印带有 reSpeaker VID/PID 的 `Connected device`
 - `VERSION` 命令返回 Flex 固件版本
 
 **注意：**
@@ -131,15 +131,15 @@ keywords:
 
 **参考资料：**
 
-- [ReSpeaker Flex 入门指南](https://wiki.seeedstudio.com/cn/respeaker_flex_introduction/)
-- [当前官方 ReSpeaker Flex Python 控制脚本](https://github.com/respeaker/reSpeaker_Flex/blob/main/python_control/xvf_host.py)
-- [当前官方 ReSpeaker Flex USB 固件目录](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares/usb)
+- [reSpeaker Flex 入门指南](https://wiki.seeedstudio.com/cn/respeaker_flex_introduction/)
+- [当前官方 reSpeaker Flex Python 控制脚本](https://github.com/respeaker/reSpeaker_Flex/blob/main/python_control/xvf_host.py)
+- [当前官方 reSpeaker Flex USB 固件目录](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares/usb)
 
 ## 硬件问题 {#hardware-issues}
 
-### ReSpeaker Flex 麦克风阵列所使用的 FPC 线缆规格是什么？ {#fpc-cable-spec}
+### reSpeaker Flex 麦克风阵列所使用的 FPC 线缆规格是什么？ {#fpc-cable-spec}
 
-**适用范围：** ReSpeaker Flex 核心板与 Linear-4 或 Circular-4 阵列之间的麦克风阵列连接
+**适用范围：** reSpeaker Flex 核心板与 Linear-4 或 Circular-4 阵列之间的麦克风阵列连接
 
 **最后验证时间：** 2026-09-01
 
@@ -167,8 +167,8 @@ keywords:
 
 **参考资料：**
 
-- [ReSpeaker Flex FPC 规格与安装](https://wiki.seeedstudio.com/cn/respeaker_flex_introduction/#24-fpc-cable)
-- [ReSpeaker Flex I2S 链路测试](https://wiki.seeedstudio.com/cn/respeaker_flex_xiao_i2s/)
+- [reSpeaker Flex FPC 规格与安装](https://wiki.seeedstudio.com/cn/respeaker_flex_introduction/#24-fpc-cable)
+- [reSpeaker Flex I2S 链路测试](https://wiki.seeedstudio.com/cn/respeaker_flex_xiao_i2s/)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->
 

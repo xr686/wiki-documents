@@ -1,6 +1,6 @@
 ---
-description: 本文将向您展示如何区分 ReSpeaker 2-Mics Pi HAT 硬件版本
-title: 如何区分 ReSpeaker 2-Mics Pi HAT 硬件版本
+description: 本文将向您展示如何区分 reSpeaker 2-Mics Pi HAT 硬件版本
+title: 如何区分 reSpeaker 2-Mics Pi HAT 硬件版本
 keywords:
   - ReSpeaker_2-Mics_Pi_HAT
 image: https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/v2/pcn_1.webp
@@ -15,7 +15,7 @@ url: https://wiki.seeedstudio.com/cn/how-to-distinguish-respeaker_2-mics_pi_hat-
 
 v1 和 v2 的 PCB 布局基本保持相同，但增加了额外的电路（在图中标出）。
 
-![ReSpeaker 2-Mics Pi HAT PCN](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/v2/pcn.webp)
+![reSpeaker 2-Mics Pi HAT PCN](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/v2/pcn.webp)
 
 ## 技术支持与产品讨论
 

@@ -19,7 +19,7 @@ url: https://wiki.seeedstudio.com/cn/Grove-Analog-Microphone/
 
 Grove - 模拟麦克风基于高性能 **SiSonic MEMS** 技术，为开源硬件行业提供了一款极低噪声、低功耗、可靠且小巧的麦克风，并且在恶劣条件下具有改进的性能。
 
-Grove - 模拟麦克风是需要出色音频性能的声音传感器的理想选择。它可以提供高达20dB的增益，还具有低功耗、最大射频保护的特点，这使其成为Arduino和Raspberry Pi的完美麦克风。我们的特色产品 <a href="https://www.seeedstudio.com/ReSpeaker-Core-v2-0.html">ReSpeaker Core v2.0</a> 也采用了MEMS技术和与Grove - 模拟麦克风相同的麦克风。如果您想要一个出色的麦克风，这就是您的选择。
+Grove - 模拟麦克风是需要出色音频性能的声音传感器的理想选择。它可以提供高达20dB的增益，还具有低功耗、最大射频保护的特点，这使其成为Arduino和Raspberry Pi的完美麦克风。我们的特色产品 <a href="https://www.seeedstudio.com/ReSpeaker-Core-v2-0.html">reSpeaker Core v2.0</a> 也采用了MEMS技术和与Grove - 模拟麦克风相同的麦克风。如果您想要一个出色的麦克风，这就是您的选择。
 
 <p style={{}}><a href="https://www.seeedstudio.com/Grove-Analog-Microphone-p-4593.html" target="_blank"><img src="https://files.seeedstudio.com/wiki/wiki_english/docs/images/get_one_now_small.png" width={200} height={38} border={0} /></a></p>
 

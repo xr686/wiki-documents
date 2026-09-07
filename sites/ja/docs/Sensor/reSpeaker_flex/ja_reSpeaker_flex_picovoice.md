@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Flex と XMOS XVF3800 を使用して、ロボットやスマートデバイス向けの円形およびリニア 4 マイクアレイを備えたキーワードスポッティングと NLU を実装する方法を学びます。
+description: reSpeaker Flex と XMOS XVF3800 を使用して、ロボットやスマートデバイス向けの円形およびリニア 4 マイクアレイを備えたキーワードスポッティングと NLU を実装する方法を学びます。
 title: reSpeaker Flex Pico-voice によるウェイクワード制御と NLU
 keywords:
   - reSpeaker
@@ -147,7 +147,7 @@ Rhino は **リアルタイムのオンデバイス処理**向けに最適化さ
 
 ### コンテキストを作成する 
 
-コンテキストは、特定ドメインにおける音声コマンド、インテント、およびスロットの集合を定義します。ここでは、音声コマンドで ReSpeaker Flex を制御するための **「Bumblebee」** コンテキストを作成します。Picovoice の Rhino Speech-to-Intent コンソールに移動し、**「Empty」** テンプレートを使用して **Bumblebee** という名前の新しいコンテキストを作成します。
+コンテキストは、特定ドメインにおける音声コマンド、インテント、およびスロットの集合を定義します。ここでは、音声コマンドで reSpeaker Flex を制御するための **「Bumblebee」** コンテキストを作成します。Picovoice の Rhino Speech-to-Intent コンソールに移動し、**「Empty」** テンプレートを使用して **Bumblebee** という名前の新しいコンテキストを作成します。
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/pico/pic4.png" alt="pir" width={600} height="auto" /></p>
 

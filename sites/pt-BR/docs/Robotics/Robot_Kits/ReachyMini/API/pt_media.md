@@ -127,11 +127,11 @@ Obtém estatísticas de áudio.
 
 ### `reachy_mini.media.audio_utils.get_respeaker_card_number`
 
-Obtém o número da placa para o dispositivo ReSpeaker.
+Obtém o número da placa para o dispositivo reSpeaker.
 
 **Retorna:**
 
-`int` — O número de placa ALSA para o ReSpeaker.
+`int` — O número de placa ALSA para o reSpeaker.
 
 ---
 
@@ -165,13 +165,13 @@ Grava a configuração asoundrc no diretório home do usuário.
 
 ### `reachy_mini.media.audio_control_utils.ReSpeaker`
 
-Controlador da matriz de microfones USB ReSpeaker.
+Controlador da matriz de microfones USB reSpeaker.
 
 ### Métodos
 
 #### `set_channel`
 
-Define o canal ativo para o ReSpeaker.
+Define o canal ativo para o reSpeaker.
 
 **Parâmetros:**
 
@@ -205,21 +205,21 @@ Define o volume do microfone.
 
 ### `reachy_mini.media.audio_control_utils.find`
 
-Encontra dispositivos ReSpeaker conectados.
+Encontra dispositivos reSpeaker conectados.
 
 **Retorna:**
 
-`List[ReSpeaker]` — Lista de dispositivos ReSpeaker encontrados.
+`List[ReSpeaker]` — Lista de dispositivos reSpeaker encontrados.
 
 ---
 
 ### `reachy_mini.media.audio_control_utils.init_respeaker_usb`
 
-Inicializa o microfone USB ReSpeaker.
+Inicializa o microfone USB reSpeaker.
 
 **Retorna:**
 
-`ReSpeaker` — Dispositivo ReSpeaker inicializado.
+`ReSpeaker` — Dispositivo reSpeaker inicializado.
 
 ---
 

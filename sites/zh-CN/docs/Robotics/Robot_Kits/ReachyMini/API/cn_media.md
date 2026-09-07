@@ -127,11 +127,11 @@ Reachy Mini 音频处理的基础类。
 
 ### `reachy_mini.media.audio_utils.get_respeaker_card_number`
 
-获取 ReSpeaker 设备的卡号。
+获取 reSpeaker 设备的卡号。
 
 **返回：**
 
-`int` — ReSpeaker 的 ALSA 卡号。
+`int` — reSpeaker 的 ALSA 卡号。
 
 ---
 
@@ -165,13 +165,13 @@ Reachy Mini 音频处理的基础类。
 
 ### `reachy_mini.media.audio_control_utils.ReSpeaker`
 
-ReSpeaker USB 麦克风阵列控制器。
+reSpeaker USB 麦克风阵列控制器。
 
 ### 方法
 
 #### `set_channel`
 
-设置 ReSpeaker 的活动通道。
+设置 reSpeaker 的活动通道。
 
 **参数：**
 
@@ -205,21 +205,21 @@ ReSpeaker USB 麦克风阵列控制器。
 
 ### `reachy_mini.media.audio_control_utils.find`
 
-查找已连接的 ReSpeaker 设备。
+查找已连接的 reSpeaker 设备。
 
 **返回：**
 
-`List[ReSpeaker]` — 找到的 ReSpeaker 设备列表。
+`List[ReSpeaker]` — 找到的 reSpeaker 设备列表。
 
 ---
 
 ### `reachy_mini.media.audio_control_utils.init_respeaker_usb`
 
-初始化 ReSpeaker USB 麦克风。
+初始化 reSpeaker USB 麦克风。
 
 **返回：**
 
-`ReSpeaker` — 已初始化的 ReSpeaker 设备。
+`ReSpeaker` — 已初始化的 reSpeaker 设备。
 
 ---
 

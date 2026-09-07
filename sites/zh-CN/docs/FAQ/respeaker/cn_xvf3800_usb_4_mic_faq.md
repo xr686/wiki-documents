@@ -28,7 +28,7 @@ keywords:
 
 ### 如何在不损坏的情况下打开 XVF3800 外壳？ {#open-casing-safely}
 
-**适用对象：** 随卡扣式外壳提供的 ReSpeaker XVF3800 USB 4-Mic Array
+**适用对象：** 随卡扣式外壳提供的 reSpeaker XVF3800 USB 4-Mic Array
 
 **最后验证时间：** 2026-09-01
 
@@ -60,7 +60,7 @@ keywords:
 
 ### 在哪里可以获取用于外壳设计的 XVF3800 机械文件？ {#mechanical-design-files}
 
-**适用对象：** ReSpeaker XVF3800 USB 4-Mic Array 及其已发布外壳的机械集成
+**适用对象：** reSpeaker XVF3800 USB 4-Mic Array 及其已发布外壳的机械集成
 
 **最后验证时间：** 2026-09-01
 
@@ -92,7 +92,7 @@ keywords:
 
 ### XVF3800 的 I2C 命令列表在哪里？如何验证 I2C 控制？ {#i2c-command-reference}
 
-**适用对象：** 通过 I2C 连接到 XIAO ESP32S3 或其他受支持嵌入式 I2C 主机的 ReSpeaker XVF3800
+**适用对象：** 通过 I2C 连接到 XIAO ESP32S3 或其他受支持嵌入式 I2C 主机的 reSpeaker XVF3800
 
 **最后验证时间：** 2026-09-01
 
@@ -129,7 +129,7 @@ keywords:
 
 ### 为什么我的 XVF3800 在 Raspberry Pi 5 或 Linux 上无法通过 USB 被检测到？ {#usb-not-detected-pi5-linux}
 
-**适用对象：** 连接到 Raspberry Pi 5 或其他 Linux 主机的 ReSpeaker XVF3800 USB 4-Mic Array
+**适用对象：** 连接到 Raspberry Pi 5 或其他 Linux 主机的 reSpeaker XVF3800 USB 4-Mic Array
 
 **最后验证时间：** 2026-08-31
 
@@ -166,7 +166,7 @@ keywords:
 
 ### 刷错固件后如何恢复 XVF3800？ {#recover-wrong-firmware}
 
-**适用对象：** 在固件或保存配置更改后不再正常启动或枚举的 ReSpeaker XVF3800 USB 4-Mic Array
+**适用对象：** 在固件或保存配置更改后不再正常启动或枚举的 reSpeaker XVF3800 USB 4-Mic Array
 
 **最后验证时间：** 2026-08-31
 
@@ -201,7 +201,7 @@ keywords:
 
 ### 为什么在 XVF3800 上执行 `LED_EFFECT 5` 会返回超出范围错误？ {#led-effect-5-out-of-range}
 
-**适用对象：** 使用 USB 固件和官方 Python 主机控制工具的 ReSpeaker XVF3800 USB 4-Mic Array
+**适用对象：** 使用 USB 固件和官方 Python 主机控制工具的 reSpeaker XVF3800 USB 4-Mic Array
 
 **最近验证时间：** 2026-08-31
 
@@ -235,7 +235,7 @@ keywords:
 
 ### 在更新 XVF3800 USB 固件前，我必须进入安全模式（Safe Mode）吗？ {#usb-dfu-without-safe-mode}
 
-**适用对象：** 在 Windows、macOS 或 Linux 上，从可响应的 USB 固件进行更新的 ReSpeaker XVF3800 USB 4-Mic Array
+**适用对象：** 在 Windows、macOS 或 Linux 上，从可响应的 USB 固件进行更新的 reSpeaker XVF3800 USB 4-Mic Array
 
 **最近验证时间：** 2026-09-01
 
@@ -273,7 +273,7 @@ keywords:
 
 ### 为什么在 XVF3800 六通道 USB 固件下有些输入是静音的？ {#six-channel-silent-inputs}
 
-**适用对象：** 在 Linux 上运行官方六通道 USB 固件配置文件的 ReSpeaker XVF3800 USB 4-Mic Array
+**适用对象：** 在 Linux 上运行官方六通道 USB 固件配置文件的 reSpeaker XVF3800 USB 4-Mic Array
 
 **最近验证时间：** 2026-09-01
 
@@ -310,7 +310,7 @@ keywords:
 
 ### 如何在 Linux 上提高 XVF3800 播放音量过低的问题？ {#linux-speaker-volume-low}
 
-**适用对象：** 在基于 ALSA 的 Linux 主机上作为播放设备使用的 ReSpeaker XVF3800 USB 4-Mic Array
+**适用对象：** 在基于 ALSA 的 Linux 主机上作为播放设备使用的 reSpeaker XVF3800 USB 4-Mic Array
 
 **最近验证时间：** 2026-09-01
 
@@ -345,7 +345,7 @@ keywords:
 
 ### XVF3800 是否带有内置扬声器？ {#external-speaker-required}
 
-**适用对象：** 带或不带 XIAO ESP32S3 的 ReSpeaker XVF3800 USB 4-Mic Array
+**适用对象：** 带或不带 XIAO ESP32S3 的 reSpeaker XVF3800 USB 4-Mic Array
 
 **最近验证时间：** 2026-09-01
 
@@ -372,13 +372,13 @@ keywords:
 
 **参考资料：**
 
-- [ReSpeaker XVF3800 入门指南](https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/)
+- [reSpeaker XVF3800 入门指南](https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/)
 
 ## 产品与商务 {#product-and-business}
 
 ### XVF3800 USB 4-Mic Array 是否支持通过 USB 进行 48 kHz 采样？ {#usb-48-khz-support}
 
-**适用对象：** 在 Windows、Linux 或 macOS 上用于 USB 采集的 ReSpeaker XVF3800 USB 4-Mic Array
+**适用对象：** 在 Windows、Linux 或 macOS 上用于 USB 采集的 reSpeaker XVF3800 USB 4-Mic Array
 
 **最近验证时间：** 2026-08-31
 
@@ -414,7 +414,7 @@ keywords:
 
 ### XVF3800 是否暴露唯一的设备序列号？ {#unique-device-serial}
 
-**适用范围：** 由受支持的 USB 主机枚举的 ReSpeaker XVF3800 USB 4-Mic Array
+**适用范围：** 由受支持的 USB 主机枚举的 reSpeaker XVF3800 USB 4-Mic Array
 
 **最后验证时间：** 2026-09-01
 

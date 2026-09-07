@@ -26,9 +26,9 @@ Esta página contiene respuestas verificadas para reSpeaker Flex. Cada respuesta
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## Documentación y uso {#documentation-and-usage}
 
-### ¿Dónde puedo descargar los archivos mecánicos 2D y 3D de ReSpeaker Flex? {#mechanical-cad-files}
+### ¿Dónde puedo descargar los archivos mecánicos 2D y 3D de reSpeaker Flex? {#mechanical-cad-files}
 
-**Se aplica a:** Integración mecánica de una placa base ReSpeaker Flex XVF3800 con una matriz de micrófonos Linear-4 o Circular-4
+**Se aplica a:** Integración mecánica de una placa base reSpeaker Flex XVF3800 con una matriz de micrófonos Linear-4 o Circular-4
 
 **Última verificación:** 2026-09-01
 
@@ -56,11 +56,11 @@ Utiliza la sección oficial de recursos de Flex. Publica archivos DXF y STEP par
 
 **Referencias:**
 
-- [Recursos mecánicos oficiales de ReSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_introduction/#resources)
+- [Recursos mecánicos oficiales de reSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_introduction/#resources)
 
-### ¿Cómo verifico I2S full-dúplex entre ReSpeaker Flex y XIAO ESP32S3? {#i2s-full-duplex-test}
+### ¿Cómo verifico I2S full-dúplex entre reSpeaker Flex y XIAO ESP32S3? {#i2s-full-duplex-test}
 
-**Se aplica a:** ReSpeaker Flex XVF3800 Linear-4 o Circular-4 con XIAO ESP32S3 usando la ruta I2S integrada
+**Se aplica a:** reSpeaker Flex XVF3800 Linear-4 o Circular-4 con XIAO ESP32S3 usando la ruta I2S integrada
 
 **Última verificación:** 2026-09-01
 
@@ -73,7 +73,7 @@ Ejecuta la prueba oficial de I2S de Flex con el firmware I2S de 16 kHz que coinc
 - Las dependencias requeridas por la prueba I2S oficial actual de Flex
 
 1. Confirma que el XMOS de Flex está ejecutando la imagen I2S oficial de 16 kHz para la geometría de micrófonos conectada.
-2. Abre la página actual de prueba I2S de ReSpeaker Flex con XIAO ESP32S3 y sube su sketch a través del puerto USB del XIAO.
+2. Abre la página actual de prueba I2S de reSpeaker Flex con XIAO ESP32S3 y sube su sketch a través del puerto USB del XIAO.
 3. Abre el Monitor Serie a 115200 baudios y deja que finalicen la primera y la segunda comprobación de recepción opcional.
 4. Confirma que la prueba informa de más de 16 000 muestras válidas e imprime `I2S RX PASS!`.
 5. Para una comprobación audible de grabar-almacenar-reproducir, ejecuta el ejemplo oficial separado de grabación y reproducción a 16 kHz después de que la prueba de enlace haya pasado.
@@ -91,15 +91,15 @@ Ejecuta la prueba oficial de I2S de Flex con el firmware I2S de 16 kHz que coinc
 
 **Referencias:**
 
-- [Prueba I2S full-dúplex oficial de ReSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_xiao_i2s/)
-- [Ejemplo de grabación y reproducción de ReSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_xiao_record_playback/)
-- [Repositorio oficial de firmware de ReSpeaker Flex](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares)
+- [Prueba I2S full-dúplex oficial de reSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_xiao_i2s/)
+- [Ejemplo de grabación y reproducción de reSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_xiao_record_playback/)
+- [Repositorio oficial de firmware de reSpeaker Flex](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares)
 
 ## Conectividad y detección {#connectivity-and-detection}
 
-### ¿Por qué el script de control de ReSpeaker Flex informa `No device found`? {#xvf-host-no-device-found}
+### ¿Por qué el script de control de reSpeaker Flex informa `No device found`? {#xvf-host-no-device-found}
 
-**Se aplica a:** ReSpeaker Flex XVF3800 Linear-4 y Circular-4 conectados a un host Windows, Linux o macOS para control USB
+**Se aplica a:** reSpeaker Flex XVF3800 Linear-4 y Circular-4 conectados a un host Windows, Linux o macOS para control USB
 
 **Última verificación:** 2026-08-31
 
@@ -107,7 +107,7 @@ El script Python oficial actual de Flex admite el control USB de Flex. `No devic
 
 **Requisitos previos:**
 
-- El archivo `python_control/xvf_host.py` actual del repositorio oficial de ReSpeaker Flex
+- El archivo `python_control/xvf_host.py` actual del repositorio oficial de reSpeaker Flex
 - Python 3.6 o posterior, `pyusb` y la compatibilidad con `libusb` de la plataforma; el script actual también requiere `libusb-package` en Windows
 - Un cable de datos USB en buen estado conectado al puerto USB-C de XMOS cerca del botón RST
 
@@ -120,7 +120,7 @@ El script Python oficial actual de Flex admite el control USB de Flex. `No devic
 
 **Criterios de éxito:**
 
-- El script imprime `Connected device` con un VID/PID de ReSpeaker
+- El script imprime `Connected device` con un VID/PID de reSpeaker
 - El comando `VERSION` devuelve la versión de firmware de Flex
 
 **Notas:**
@@ -131,15 +131,15 @@ El script Python oficial actual de Flex admite el control USB de Flex. `No devic
 
 **Referencias:**
 
-- [Introducción a ReSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_introduction/)
-- [Script de control Python oficial actual de ReSpeaker Flex](https://github.com/respeaker/reSpeaker_Flex/blob/main/python_control/xvf_host.py)
-- [Directorio oficial actual de firmware USB de ReSpeaker Flex](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares/usb)
+- [Introducción a reSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_introduction/)
+- [Script de control Python oficial actual de reSpeaker Flex](https://github.com/respeaker/reSpeaker_Flex/blob/main/python_control/xvf_host.py)
+- [Directorio oficial actual de firmware USB de reSpeaker Flex](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares/usb)
 
 ## Problemas de hardware {#hardware-issues}
 
-### ¿Qué cable FPC está documentado para la matriz de micrófonos de ReSpeaker Flex? {#fpc-cable-spec}
+### ¿Qué cable FPC está documentado para la matriz de micrófonos de reSpeaker Flex? {#fpc-cable-spec}
 
-**Se aplica a:** La conexión de la matriz de micrófonos entre la placa base de ReSpeaker Flex y la matriz Linear-4 o Circular-4
+**Se aplica a:** La conexión de la matriz de micrófonos entre la placa base de reSpeaker Flex y la matriz Linear-4 o Circular-4
 
 **Última verificación:** 2026-09-01
 
@@ -167,8 +167,8 @@ La guía oficial de Flex documenta una interfaz FPC con llave de 24 pines y paso
 
 **Referencias:**
 
-- [Especificación e instalación del FPC de ReSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_introduction/#24-fpc-cable)
-- [Prueba de enlace I2S de ReSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_xiao_i2s/)
+- [Especificación e instalación del FPC de reSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_introduction/#24-fpc-cable)
+- [Prueba de enlace I2S de reSpeaker Flex](https://wiki.seeedstudio.com/es/respeaker_flex_xiao_i2s/)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->
 

@@ -28,7 +28,7 @@ Esta página contém respostas verificadas para o reSpeaker XVF3800 USB 4-Mic Ar
 
 ### Como abro a carcaça do XVF3800 sem danificá-la? {#open-casing-safely}
 
-**Aplica-se a:** ReSpeaker XVF3800 USB 4-Mic Array fornecido com o gabinete de encaixe por clipe
+**Aplica-se a:** reSpeaker XVF3800 USB 4-Mic Array fornecido com o gabinete de encaixe por clipe
 
 **Última verificação:** 2026-09-01
 
@@ -60,7 +60,7 @@ Desligue e desconecte o dispositivo primeiro e, em seguida, levante suavemente a
 
 ### Onde posso obter arquivos mecânicos do XVF3800 para um projeto de gabinete? {#mechanical-design-files}
 
-**Aplica-se a:** Integração mecânica do ReSpeaker XVF3800 USB 4-Mic Array e de seu gabinete publicado
+**Aplica-se a:** Integração mecânica do reSpeaker XVF3800 USB 4-Mic Array e de seu gabinete publicado
 
 **Última verificação:** 2026-09-01
 
@@ -92,7 +92,7 @@ Use a seção Resources da Wiki oficial. Ela publica um desenho mecânico 2D, um
 
 ### Onde está a lista de comandos I2C do XVF3800 e como verifico o controle I2C? {#i2c-command-reference}
 
-**Aplica-se a:** ReSpeaker XVF3800 conectado a XIAO ESP32S3 ou outro host I2C embarcado compatível
+**Aplica-se a:** reSpeaker XVF3800 conectado a XIAO ESP32S3 ou outro host I2C embarcado compatível
 
 **Última verificação:** 2026-09-01
 
@@ -129,7 +129,7 @@ Use a referência oficial de comandos I2C do XVF3800. O host é o mestre I2C, o 
 
 ### Por que meu XVF3800 não é detectado via USB no Raspberry Pi 5 ou Linux? {#usb-not-detected-pi5-linux}
 
-**Aplica-se a:** ReSpeaker XVF3800 USB 4-Mic Array conectado a Raspberry Pi 5 ou outro host Linux
+**Aplica-se a:** reSpeaker XVF3800 USB 4-Mic Array conectado a Raspberry Pi 5 ou outro host Linux
 
 **Última verificação:** 2026-08-31
 
@@ -166,7 +166,7 @@ Primeiro verifique o cabo de dados, a porta USB-C XMOS e a enumeração do host.
 
 ### Como recupero um XVF3800 depois de gravar o firmware errado? {#recover-wrong-firmware}
 
-**Aplica-se a:** ReSpeaker XVF3800 USB 4-Mic Array que não inicializa mais ou não é mais enumerado normalmente após uma alteração de firmware ou de configuração salva
+**Aplica-se a:** reSpeaker XVF3800 USB 4-Mic Array que não inicializa mais ou não é mais enumerado normalmente após uma alteração de firmware ou de configuração salva
 
 **Última verificação:** 2026-08-31
 
@@ -201,7 +201,7 @@ Use o Safe Mode de fábrica e, em seguida, regrave a imagem oficial correta por 
 
 ### Por que `LED_EFFECT 5` retorna um erro de fora da faixa no XVF3800? {#led-effect-5-out-of-range}
 
-**Aplica-se a:** ReSpeaker XVF3800 USB 4-Mic Array usando firmware USB e a ferramenta oficial de controle do host em Python
+**Aplica-se a:** reSpeaker XVF3800 USB 4-Mic Array usando firmware USB e a ferramenta oficial de controle do host em Python
 
 **Última verificação:** 2026-08-31
 
@@ -235,7 +235,7 @@ O modo de anel (`LED_EFFECT = 5`) e `LED_RING_COLOR` exigem firmware USB v2.0.7 
 
 ### Preciso entrar em Modo de Segurança antes de atualizar o firmware USB do XVF3800? {#usb-dfu-without-safe-mode}
 
-**Aplica-se a:** ReSpeaker XVF3800 USB 4-Mic Array sendo atualizado a partir de um firmware USB responsivo em Windows, macOS ou Linux
+**Aplica-se a:** reSpeaker XVF3800 USB 4-Mic Array sendo atualizado a partir de um firmware USB responsivo em Windows, macOS ou Linux
 
 **Última verificação:** 2026-09-01
 
@@ -273,7 +273,7 @@ Não, não quando o firmware USB em execução expõe a interface normal DFU Upg
 
 ### Por que algumas entradas estão silenciosas com o firmware USB de seis canais do XVF3800? {#six-channel-silent-inputs}
 
-**Aplica-se a:** ReSpeaker XVF3800 USB 4-Mic Array executando um perfil oficial de firmware USB de seis canais em Linux
+**Aplica-se a:** reSpeaker XVF3800 USB 4-Mic Array executando um perfil oficial de firmware USB de seis canais em Linux
 
 **Última verificação:** 2026-09-01
 
@@ -310,7 +310,7 @@ No Linux, os seis controles de captura podem estar em mudo ou definidos como zer
 
 ### Como aumento o volume de reprodução baixo do XVF3800 no Linux? {#linux-speaker-volume-low}
 
-**Aplica-se a:** ReSpeaker XVF3800 USB 4-Mic Array usado como dispositivo de reprodução em um host Linux baseado em ALSA
+**Aplica-se a:** reSpeaker XVF3800 USB 4-Mic Array usado como dispositivo de reprodução em um host Linux baseado em ALSA
 
 **Última verificação:** 2026-09-01
 
@@ -345,7 +345,7 @@ Selecione a placa de som XVF3800 em `alsamixer`, aumente o controle `PCM-1` para
 
 ### O XVF3800 tem alto-falante embutido? {#external-speaker-required}
 
-**Aplica-se a:** ReSpeaker XVF3800 USB 4-Mic Array, com ou sem XIAO ESP32S3
+**Aplica-se a:** reSpeaker XVF3800 USB 4-Mic Array, com ou sem XIAO ESP32S3
 
 **Última verificação:** 2026-09-01
 
@@ -372,13 +372,13 @@ Não. O XVF3800 é um array de microfones e dispositivo de processamento de áud
 
 **Referências:**
 
-- [Primeiros passos com o ReSpeaker XVF3800](https://wiki.seeedstudio.com/pt-br/respeaker_xvf3800_introduction/)
+- [Primeiros passos com o reSpeaker XVF3800](https://wiki.seeedstudio.com/pt-br/respeaker_xvf3800_introduction/)
 
 ## Produto e negócios {#product-and-business}
 
-### O ReSpeaker XVF3800 USB 4-Mic Array oferece suporte a 48 kHz via USB? {#usb-48-khz-support}
+### O reSpeaker XVF3800 USB 4-Mic Array oferece suporte a 48 kHz via USB? {#usb-48-khz-support}
 
-**Aplica-se a:** ReSpeaker XVF3800 USB 4-Mic Array usado para captura USB em Windows, Linux ou macOS
+**Aplica-se a:** reSpeaker XVF3800 USB 4-Mic Array usado para captura USB em Windows, Linux ou macOS
 
 **Última verificação:** 2026-08-31
 
@@ -414,7 +414,7 @@ Sim. Use a imagem oficial dedicada `respeaker_xvf3800_usb_dfu_firmware_v2.1.0_48
 
 ### O XVF3800 expõe um número de série de dispositivo exclusivo? {#unique-device-serial}
 
-**Aplica-se a:** ReSpeaker XVF3800 USB 4-Mic Array enumerado por um host USB compatível
+**Aplica-se a:** reSpeaker XVF3800 USB 4-Mic Array enumerado por um host USB compatível
 
 **Última verificação:** 2026-09-01
 

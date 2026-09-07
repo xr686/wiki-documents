@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_enclosure/
 ---
 
 
-一份详细、易于遵循的外壳安装指南，帮助您安全地组装您的 [ReSpeaker Lite 语音套件](https://www.seeedstudio.com/ReSpeaker-Lite-Voice-Assistant-Kit-Full-Kit-of-2-Mic-Array-pre-soldered-XIAO-ESP32S3-Mono-Enclosed-Speaker-and-Enclosure.html) 设备。
+一份详细、易于遵循的外壳安装指南，帮助您安全地组装您的 [reSpeaker Lite 语音套件](https://www.seeedstudio.com/ReSpeaker-Lite-Voice-Assistant-Kit-Full-Kit-of-2-Mic-Array-pre-soldered-XIAO-ESP32S3-Mono-Enclosed-Speaker-and-Enclosure.html) 设备。
 
 观看视频并确保您的设备完美安装并准备就绪：
 

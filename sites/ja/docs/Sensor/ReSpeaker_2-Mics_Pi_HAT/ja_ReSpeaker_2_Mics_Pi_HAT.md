@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/ja/ReSpeaker_2_Mics_Pi_HAT/
 
 ![](https://files.seeedstudio.com/products/107100001/01.png)
 
-ReSpeaker 2-Mics Pi HAT は、AI と音声アプリケーション向けに設計された Raspberry Pi 用のデュアルマイク拡張ボードです。これにより、Amazon Alexa Voice Service、Google Assistant などを統合した、より強力で柔軟な音声製品を構築できます。
+reSpeaker 2-Mics Pi HAT は、AI と音声アプリケーション向けに設計された Raspberry Pi 用のデュアルマイク拡張ボードです。これにより、Amazon Alexa Voice Service、Google Assistant などを統合した、より強力で柔軟な音声製品を構築できます。
 
 このボードは、低消費電力ステレオコーデックである WM8960 をベースに開発されています。音声収集用にボードの両側に 2 つのマイクがあり、アプリケーション拡張用に 3 つの APA102 RGB LED、1 つのユーザーボタン、2 つのオンボード Grove インターフェースも提供しています。さらに、音声出力には 3.5mm オーディオジャックまたは JST 2.0 スピーカー出力の両方が利用可能です。
 
@@ -48,7 +48,7 @@ ReSpeaker 2-Mics Pi HAT は、AI と音声アプリケーション向けに設�
 * RGB LED：3 つの APA102 RGB LED、SPI インターフェースに接続
 * WM8960：低消費電力ステレオコーデック
 * Raspberry Pi 40 ピンヘッダー：Raspberry Pi Zero、Raspberry Pi 1 B+、Raspberry Pi 2 B、Raspberry Pi 3 B、Raspberry Pi 3 B+ をサポート
-* POWER：ReSpeaker 2-Mics Pi HAT への電源供給用 Micro USB ポート、スピーカー使用時は十分な電流を供給するためにボードに電源を供給してください
+* POWER：reSpeaker 2-Mics Pi HAT への電源供給用 Micro USB ポート、スピーカー使用時は十分な電流を供給するためにボードに電源を供給してください
 * I2C：Grove I2C ポート、I2C-1 に接続
 * GPIO12：Grove デジタルポート、GPIO12 および GPIO13 に接続
 * JST 2.0 SPEAKER OUT：JST 2.0 コネクタ付きスピーカー接続用
@@ -78,7 +78,7 @@ ReSpeaker 2-Mics Pi HAT は、AI と音声アプリケーション向けに設�
 
 [**Picovoice**](https://picovoice.ai/) **は、企業がプライベート音声 AI で迅速に革新し差別化することを可能にします**。音声認識と[**自然言語理解（NLU）技術**](https://searchenterpriseai.techtarget.com/definition/natural-language-understanding-NLU)を使用して、ブランドと製品を中心とした統一 AI 戦略を構築します。
 
-**Seeed は Picovoice と提携し、開発者向けに [ReSpeaker 2-Mic Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html) を使用したエッジでの音声認識ソリューションを提供しています。**
+**Seeed は Picovoice と提携し、開発者向けに [reSpeaker 2-Mic Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html) を使用したエッジでの音声認識ソリューションを提供しています。**
 
 Picovoice は、あなたの条件で音声製品を構築するためのエンドツーエンドプラットフォームです。Alexa や Google に似た音声体験の作成を可能にします。しかし、100% デバイス上で完全に動作します。Picovoice の利点は以下の通りです：
 
@@ -107,7 +107,7 @@ Mycroft Precise は Apache-2.0 ライセンスプロジェクトです。これ�
 * **[Eagle]** [Respeaker_2_Mics_Pi_HAT_PCB](https://files.seeedstudio.com/wiki/MIC_HATv1.0_for_raspberrypi/src/ReSpeaker%202-Mics%20Pi%20HAT_PCB.zip)
 * **[PDF]** [Respeaker_2_Mics_Pi_HAT_SCH](https://files.seeedstudio.com/wiki/MIC_HATv1.0_for_raspberrypi/src/ReSpeaker%202-Mics%20Pi%20HAT_SCH.pdf)
 * **[PDF]** [Respeaker_2_Mics_Pi_HAT_PCB](https://files.seeedstudio.com/wiki/MIC_HATv1.0_for_raspberrypi/src/ReSpeaker%202-Mics%20Pi%20HAT_PCB.pdf)
-* **[3D]** [ReSpeaker 2 Mics Pi HAT 3D](https://files.seeedstudio.com/wiki/MIC_HATv1.0_for_raspberrypi/src/ReSpeaker%202-Mics%20Pi%20HAT.zip)
+* **[3D]** [reSpeaker 2 Mics Pi HAT 3D](https://files.seeedstudio.com/wiki/MIC_HATv1.0_for_raspberrypi/src/ReSpeaker%202-Mics%20Pi%20HAT.zip)
 * **[Driver]** [Seeed-Voice Driver](https://github.com/respeaker/seeed-voicecard)
 * **[Algorithms]** [Algorithms includes DOA, VAD, NS](https://github.com/respeaker/mic_array)
 * **[Voice Engine]** [Voice Engine project, provides building blocks to create voice enabled objects](https://github.com/voice-engine/voice-engine)
@@ -118,7 +118,7 @@ Mycroft Precise は Apache-2.0 ライセンスプロジェクトです。これ�
 
 ## プロジェクト
 
-**RPI と ReSpeaker HAT を使用して独自の Amazon Echo を構築**：Raspberry Pi と ReSpeaker 2-Mics HAT を使用して独自の Amazon Echo を構築する方法。
+**RPI と reSpeaker HAT を使用して独自の Amazon Echo を構築**：Raspberry Pi と reSpeaker 2-Mics HAT を使用して独自の Amazon Echo を構築する方法。
 
 <iframe frameborder='0' height='327.5' scrolling='no' src='https://www.hackster.io/idreams/build-your-own-amazon-echo-using-a-rpi-and-respeaker-hat-7f44a0/embed' width='350'></iframe>
 

@@ -76,7 +76,7 @@ reCamera Pro uses the Rockchip RV1126B. To run a custom neural-network model on 
 
 <div style={{ textAlign: "justify" }}>
 
-This section provides the I2C control command list for the ReSpeaker XVF3800, along with I2C read/write examples and hardware signal-path diagrams for the two operating modes. For an application example of controlling the ReSpeaker XVF3800 via the I2C interface, please refer to the [Device Control](/respeaker_xvf3800_xiao_rgb) section.
+This section provides the I2C control command list for the reSpeaker XVF3800, along with I2C read/write examples and hardware signal-path diagrams for the two operating modes. For an application example of controlling the reSpeaker XVF3800 via the I2C interface, please refer to the [Device Control](/respeaker_xvf3800_xiao_rgb) section.
 
 </div>
 

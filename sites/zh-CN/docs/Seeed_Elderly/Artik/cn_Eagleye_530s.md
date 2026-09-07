@@ -24,7 +24,7 @@ Eagleye 530s 是一个高性能、经过测试、成本效益高且可用于生�
 
 如上所述，Eagleye 530s 基于 ARTIK 530s 1GB SoM，它是一个运行在 1.2 GHz 的四核 Cortex® A9，配备 4GB 闪存、硬件级安全功能以及 Linux 操作系统 (Ubuntu)。Eagleye 530s 还提供了 40 针 GPIO 和配件接口，包括 Micro SD、以太网 10/100/1000、Wi-Fi 802.11 a/b/g/n、蓝牙 BLE 4.2 802.15.4 和 ZigBee/Thread。它还支持完整的 HDMI、MIPI 摄像头接口、视频和音频媒体。
 
-由于 Eagleye 530s 与许多“创客”硬件配件针脚兼容，它使 Samsung ARTIK™ 开发人员能够轻松利用广泛的“创客”配件市场，并使用现成的传感器（例如 [GrovePi+](https://www.seeedstudio.com/GrovePi%2B-p-2241.html)、[Grove 传感器](https://www.seeedstudio.com/grove.html)）、语音识别（例如 [ReSpeaker 2-mic array](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html) 和 [ReSpeaker 4-mic array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html)）、继电器、GPS、蜂窝连接等进行原型设计和构建，为企业开发人员创建功能丰富的概念验证 (PoC) 或生产就绪产品提供了许多选择。
+由于 Eagleye 530s 与许多“创客”硬件配件针脚兼容，它使 Samsung ARTIK™ 开发人员能够轻松利用广泛的“创客”配件市场，并使用现成的传感器（例如 [GrovePi+](https://www.seeedstudio.com/GrovePi%2B-p-2241.html)、[Grove 传感器](https://www.seeedstudio.com/grove.html)）、语音识别（例如 [reSpeaker 2-mic array](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html) 和 [reSpeaker 4-mic array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html)）、继电器、GPS、蜂窝连接等进行原型设计和构建，为企业开发人员创建功能丰富的概念验证 (PoC) 或生产就绪产品提供了许多选择。
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/4IR768d8Ins" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -549,7 +549,7 @@ hello ..
 hello ..
 ```
 
-## 使用 ReSpeakers 麦克风
+## 使用 reSpeakers 麦克风
 
 **使用 2 Mics Pi HAT**
 
@@ -701,7 +701,7 @@ waveFile.close()
 ```
 
 :::caution
-有关更多信息，例如与 Google Assistant 的交互，请参考 [ReSpeaker 2-Mics Pi HAT](https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT/)。
+有关更多信息，例如与 Google Assistant 的交互，请参考 [reSpeaker 2-Mics Pi HAT](https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT/)。
 :::
 
 **使用 4 Mics Pi HAT**
@@ -861,7 +861,7 @@ waveFile.close()
 ```
 
 :::caution
-有关更多信息，例如与 Alexa/DuerOS 的交互，请参考 [ReSpeaker 4-Mic Array for Raspberry Pi](https://wiki.seeedstudio.com/cn/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/)。
+有关更多信息，例如与 Alexa/DuerOS 的交互，请参考 [reSpeaker 4-Mic Array for Raspberry Pi](https://wiki.seeedstudio.com/cn/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/)。
 :::
 
 **使用 Mic Array v2.0**
@@ -964,7 +964,7 @@ wf.close()
 ```
 
 :::caution
-有关更多信息，例如使用 DOA/LED，请参考 [ReSpeaker Mic Array v2.0](https://wiki.seeedstudio.com/cn/ReSpeaker_Mic_Array_v2.0/)。
+有关更多信息，例如使用 DOA/LED，请参考 [reSpeaker Mic Array v2.0](https://wiki.seeedstudio.com/cn/ReSpeaker_Mic_Array_v2.0/)。
 :::
 
 ## 使用 GrovePi+

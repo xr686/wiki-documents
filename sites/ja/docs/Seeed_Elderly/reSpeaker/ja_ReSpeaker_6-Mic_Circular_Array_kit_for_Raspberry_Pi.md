@@ -1,5 +1,5 @@
 ---
-description: Raspberry Pi 向け ReSpeaker 6-Mic Circular Array Kit
+description: Raspberry Pi 向け reSpeaker 6-Mic Circular Array Kit
 title: Raspberry Pi 向け reSpeaker 6-Mic Circular Array Kit
 keywords:
   - reSpeaker
@@ -16,11 +16,11 @@ url: https://wiki.seeedstudio.com/ja/ReSpeaker_6-Mic_Circular_Array_kit_for_Rasp
 
 ![enter image description here](https://files.seeedstudio.com/products/107990055/01.png)
 
-Seeed の ReSpeaker 6-Mic Circular Array Kit は Raspberry Pi 用に設計された拡張ボード、いわゆる HAT です。これは 6 個のマイクを備えた円形マイクアレイキットで、AI や音声アプリケーション向けに設計されています。つまり、Amazon Alexa Voice Service や Google Assistant などを統合できる Raspberry Pi を使って、より強力で柔軟な音声プロダクトを構築できます。
+Seeed の reSpeaker 6-Mic Circular Array Kit は Raspberry Pi 用に設計された拡張ボード、いわゆる HAT です。これは 6 個のマイクを備えた円形マイクアレイキットで、AI や音声アプリケーション向けに設計されています。つまり、Amazon Alexa Voice Service や Google Assistant などを統合できる Raspberry Pi を使って、より強力で柔軟な音声プロダクトを構築できます。
 
-Raspberry Pi 向け ReSpeaker 6-Mic Circular Array Kit は 2 枚のボードで構成されており、1 枚は Voice Accessory HAT、もう 1 枚は 6 マイクの円形アレイです。
+Raspberry Pi 向け reSpeaker 6-Mic Circular Array Kit は 2 枚のボードで構成されており、1 枚は Voice Accessory HAT、もう 1 枚は 6 マイクの円形アレイです。
 
-Raspberry Pi 向け ReSpeaker 6-Mic Circular Array Kit は Raspbian システムで 8 チャンネル入力と 8 チャンネル出力をサポートします。最初の 6 つの入力チャンネルはマイク録音用で、残り 2 つの入力チャンネルは再生のエコーチャンネルです。最初の 2 つの出力チャンネルは再生用で、残り 6 つの出力チャンネルはダミーです。
+Raspberry Pi 向け reSpeaker 6-Mic Circular Array Kit は Raspbian システムで 8 チャンネル入力と 8 チャンネル出力をサポートします。最初の 6 つの入力チャンネルはマイク録音用で、残り 2 つの入力チャンネルは再生のエコーチャンネルです。最初の 2 つの出力チャンネルは再生用で、残り 6 つの出力チャンネルはダミーです。
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/NxZx9nz67Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -88,7 +88,7 @@ Raspberry Pi 向け ReSpeaker 6-Mic Circular Array Kit は Raspbian システム
 
 **前提条件**
 
-ReSpeaker 6-Mic Circular Array    x1
+reSpeaker 6-Mic Circular Array    x1
 
 [Raspberry Pi 3B または 3B+](https://www.seeedstudio.com/Raspberry-Pi-3-Model-B%2B-p-3037.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0605)              x1
 
@@ -99,14 +99,14 @@ PC                                  x1
 イヤホンまたはスピーカー                 x1
 
 :::tip
-実際には ReSpeaker 6-Mic Circular Array は Raspberry Pi Zero、Raspberry Pi 1 B+、Raspberry Pi 2 B、Raspberry Pi 3 B、Raspberry Pi 3 model B+、Raspberry Pi 3 A+、Raspberry Pi 4 をサポートしており、この Wiki では Raspberry Pi 3 を使用しています。
+実際には reSpeaker 6-Mic Circular Array は Raspberry Pi Zero、Raspberry Pi 1 B+、Raspberry Pi 2 B、Raspberry Pi 3 B、Raspberry Pi 3 model B+、Raspberry Pi 3 A+、Raspberry Pi 4 をサポートしており、この Wiki では Raspberry Pi 3 を使用しています。
 :::
 
 **接続**
 
-**ステップ 1.**  *ReSpeaker Voice Accessory HAT* と *ReSpeaker 6-Mic circular Array* をリボンケーブルで接続します
+**ステップ 1.**  *reSpeaker Voice Accessory HAT* と *reSpeaker 6-Mic circular Array* をリボンケーブルで接続します
 
-**ステップ 2.**  *ReSpeaker Voice Accessory HAT* を 40 ピン GPIO を介して *Raspberry Pi* に挿し込みます
+**ステップ 2.**  *reSpeaker Voice Accessory HAT* を 40 ピン GPIO を介して *Raspberry Pi* に挿し込みます
 
 **ステップ 3.**  *earphone* を *3.5mm headset audio jack* に挿し込むか、*speaker* を *JST 2.0 speaker jack* に接続します
 
@@ -609,7 +609,7 @@ while True:
 
 A1: このアレイには 2 つの AC108 があり、各 AC108 チップは 4 チャンネル出力を持っています。そのため合計 8 チャンネルとなり、そのうち 6 チャンネルがマイク用で、残り 2 チャンネルが再生用チャンネルです。
 
-**Q2: Raspberry が ReSpeaker 2-mics hat を検出できるのに、ReSpeaker 6-mics Circular array を検出できない場合は？**
+**Q2: Raspberry が reSpeaker 2-mics hat を検出できるのに、reSpeaker 6-mics Circular array を検出できない場合は？**
 
 A2: raspberry -> Preferences -> Raspberry Pi Configuration をクリックし、Interfaces タブを選択して、1-Wire が Disabled になっていることを確認してください。
 
@@ -617,8 +617,8 @@ A2: raspberry -> Preferences -> Raspberry Pi Configuration をクリックし、
 
 - **[PDF]** [AC101 データシート](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/AC101_User_Manual_v1.1.pdf)
 - **[PDF]** [AC108 データシート](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/AC108_Datasheet_V1.2.pdf)
-- **[Dxf]** [ReSpeaker Circular Array for Voice Accessory HAT with 6 Microphones ケースファイル](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/ReSpeaker%20Circular%20Array%20for%20Voice%20Accessory%20HAT%20with%206%20Microphones.dxf)
-- **[Dxf]** [ReSpeaker Circular Array for Voice Accessory HAT with 6 Microphone 2D ファイル](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/2d.zip)
+- **[Dxf]** [reSpeaker Circular Array for Voice Accessory HAT with 6 Microphones ケースファイル](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/ReSpeaker%20Circular%20Array%20for%20Voice%20Accessory%20HAT%20with%206%20Microphones.dxf)
+- **[Dxf]** [reSpeaker Circular Array for Voice Accessory HAT with 6 Microphone 2D ファイル](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/2d.zip)
 - **[Driver]** [Seeed-Voice ドライバ](https://github.com/respeaker/seeed-voicecard)
 - **[Algorithms]** [DOA、VAD、NS を含むアルゴリズム](https://github.com/respeaker/mic_array)
 - **[Voice Engine]** [音声対応オブジェクトを作成するための構成要素を提供する Voice Engine プロジェクト](https://github.com/voice-engine/voice-engine)

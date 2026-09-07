@@ -16,7 +16,7 @@ updatedAt: '2026-04-17'
 url: https://wiki.seeedstudio.com/es/respeaker_flex_xiao_i2s/
 ---
 
-Este proyecto sirve como un boceto de prueba para verificar la funcionalidad de la interfaz I2S entre el **XIAO ESP32S3** y el **ReSpeaker Flex**. El objetivo es confirmar que la transmisión y recepción de datos a través del bus I2S funcionan correctamente. Para lograrlo, el boceto genera una señal de audio de onda cuadrada sintética y la escribe en la interfaz I2S. Luego lee los datos de audio de la matriz de micrófonos de ReSpeaker Flex y verifica la integridad de las muestras recibidas.
+Este proyecto sirve como un boceto de prueba para verificar la funcionalidad de la interfaz I2S entre el **XIAO ESP32S3** y el **reSpeaker Flex**. El objetivo es confirmar que la transmisión y recepción de datos a través del bus I2S funcionan correctamente. Para lograrlo, el boceto genera una señal de audio de onda cuadrada sintética y la escribe en la interfaz I2S. Luego lee los datos de audio de la matriz de micrófonos de reSpeaker Flex y verifica la integridad de las muestras recibidas.
 
 
 
@@ -51,7 +51,7 @@ Este proyecto sirve como un boceto de prueba para verificar la funcionalidad de 
 
 ## Cómo funciona
 
-Este boceto prueba la comunicación I2S full-dúplex entre el XIAO ESP32S3 y el ReSpeaker Flex. Genera una señal de onda cuadrada de 440 Hz y la escribe continuamente en la línea de transmisión I2S mientras lee simultáneamente las muestras de audio entrantes de la matriz de micrófonos. Los datos recibidos se analizan para contar las muestras válidas (distintas de cero) como una comprobación básica de integridad. En función del número de muestras válidas, el programa determina si la ruta de recepción I2S está funcionando correctamente.
+Este boceto prueba la comunicación I2S full-dúplex entre el XIAO ESP32S3 y el reSpeaker Flex. Genera una señal de onda cuadrada de 440 Hz y la escribe continuamente en la línea de transmisión I2S mientras lee simultáneamente las muestras de audio entrantes de la matriz de micrófonos. Los datos recibidos se analizan para contar las muestras válidas (distintas de cero) como una comprobación básica de integridad. En función del número de muestras válidas, el programa determina si la ruta de recepción I2S está funcionando correctamente.
 
 ```c
 #include "AudioTools.h"

@@ -18,13 +18,13 @@ url: https://wiki.seeedstudio.com/cn/Wio-Terminal-Audio-Overview/
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/peak.gif"/></div>
 
-本 wiki 介绍如何在 Wio Terminal 上使用 [**ReSpeaker 2-Mic Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) 来使用音频库。借助这个库，您可以使用 Wio Terminal 录制、播放和分析音频！此外，这个音频库可以应用到不同的领域，如语音识别等等！
+本 wiki 介绍如何在 Wio Terminal 上使用 [**reSpeaker 2-Mic Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) 来使用音频库。借助这个库，您可以使用 Wio Terminal 录制、播放和分析音频！此外，这个音频库可以应用到不同的领域，如语音识别等等！
 
 ## 所需硬件
 
 - [**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
 
-- [**ReSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
+- [**reSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
 
 - *Wio Terminal 40 引脚 Pi HAT 适配板（尚未发布）*
 

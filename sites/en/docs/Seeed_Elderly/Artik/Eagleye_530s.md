@@ -24,7 +24,7 @@ What is Samsung ARTIK™? Samsung ARTIK™ is a pre-integrated IoT platform cons
 
 As mentioned above, the Eagleye530s is based on the ARTIK 530s 1GB SoM, which is a Quad Core Cortex® A9 running @ 1.2 GHz with 4 B Flash memory, hardware-based security features, and Linux OS (Ubuntu). The Eagleye 530s also provides a 40 pin GPIO and accessory interface for Micro SD, Ethernet 10/100/1000, Wi-Fi 802.11 a/b/g/n, Bluetooth BLE 4.2 802.15.4, and ZigBee/Thread. It also supports full HDMI, MIPI camera interfaces, video, and audio media.
 
-Since the Eagleye 530s is pin-compatible with many "maker" hardware accessories, it allows Samsung ARTIK™ developers to easily tap into the extensive "maker" accessories marketplace and prototype and build with off-the-shelf sensors (eg. [GrovePi+](https://www.seeedstudio.com/GrovePi%2B-p-2241.html),[Grove sensors](https://www.seeedstudio.com/grove.html)), voice recognition (eg. [ReSpeaker 2-mic array](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html) and [ReSpeaker 4-mic array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html)), relays, GPS, cellular connectivity, and more, providing many options for enterprise developers creating feature-rich proof-of-concepts (PoC) or production-ready products.
+Since the Eagleye 530s is pin-compatible with many "maker" hardware accessories, it allows Samsung ARTIK™ developers to easily tap into the extensive "maker" accessories marketplace and prototype and build with off-the-shelf sensors (eg. [GrovePi+](https://www.seeedstudio.com/GrovePi%2B-p-2241.html),[Grove sensors](https://www.seeedstudio.com/grove.html)), voice recognition (eg. [reSpeaker 2-mic array](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html) and [reSpeaker 4-mic array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html)), relays, GPS, cellular connectivity, and more, providing many options for enterprise developers creating feature-rich proof-of-concepts (PoC) or production-ready products.
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/4IR768d8Ins" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -546,7 +546,7 @@ hello ..
 hello ..
 ```
 
-## Play with ReSpeakers Mics
+## Play with reSpeakers Mics
 
 **Play with 2 Mics Pi HAT**
 
@@ -698,7 +698,7 @@ waveFile.close()
 ```
 
 :::caution
-For more information, such as play with google assistant, please refer to [ReSpeaker 2-Mics Pi HAT](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/).
+For more information, such as play with google assistant, please refer to [reSpeaker 2-Mics Pi HAT](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/).
 :::
 
 **Play with 4 Mics Pi HAT**
@@ -858,7 +858,7 @@ waveFile.close()
 ```
 
 :::caution
-For more information, such as play with Alexa/DuerOS, please refer to [ReSpeaker 4-Mic Array for Raspberry Pi](https://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/).
+For more information, such as play with Alexa/DuerOS, please refer to [reSpeaker 4-Mic Array for Raspberry Pi](https://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/).
 :::
 
 **Play with Mic Array v2.0**
@@ -961,7 +961,7 @@ wf.close()
 ```
 
 :::caution
-For more information, such as play with DOA/LEDs, please refer to [ReSpeaker Mic Array v2.0](https://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/).
+For more information, such as play with DOA/LEDs, please refer to [reSpeaker Mic Array v2.0](https://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/).
 :::
 
 ## Play with GrovePi+

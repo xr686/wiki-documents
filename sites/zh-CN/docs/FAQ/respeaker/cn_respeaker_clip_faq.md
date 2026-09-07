@@ -27,13 +27,13 @@ keywords:
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## 文档与使用 {#documentation-and-usage}
 
-### 在哪里可以找到当前官方的 ReSpeaker Clip 文档？ {#official-documentation}
+### 在哪里可以找到当前官方的 reSpeaker Clip 文档？ {#official-documentation}
 
-**适用对象：** ReSpeaker Clip 用户和开发者
+**适用对象：** reSpeaker Clip 用户和开发者
 
 **最近验证时间：** 2026-09-01
 
-请从当前的 ReSpeaker Clip 入门指南页面开始。使用 Basic SDK 指南进行主机端控制和录音传输，只有在修改设备端固件时才使用 Firmware Development 指南。旧的 `/respeaker_clip_getting_started/` URL 已废弃，不应再加入书签。
+请从当前的 reSpeaker Clip 入门指南页面开始。使用 Basic SDK 指南进行主机端控制和录音传输，只有在修改设备端固件时才使用 Firmware Development 指南。旧的 `/respeaker_clip_getting_started/` URL 已废弃，不应再加入书签。
 
 **前提条件：**
 
@@ -54,13 +54,13 @@ keywords:
 
 **参考链接：**
 
-- [ReSpeaker Clip 入门指南](https://wiki.seeedstudio.com/cn/respeaker_clip/)
-- [ReSpeaker Clip Basic SDK 指南](https://wiki.seeedstudio.com/cn/respeaker_clip_basic_sdk_guide/)
-- [ReSpeaker Clip Firmware Development 指南](https://wiki.seeedstudio.com/cn/respeaker_clip_firmware_development_guide/)
+- [reSpeaker Clip 入门指南](https://wiki.seeedstudio.com/cn/respeaker_clip/)
+- [reSpeaker Clip Basic SDK 指南](https://wiki.seeedstudio.com/cn/respeaker_clip_basic_sdk_guide/)
+- [reSpeaker Clip Firmware Development 指南](https://wiki.seeedstudio.com/cn/respeaker_clip_firmware_development_guide/)
 
-### ReSpeaker Clip 能否用于原型开发实时对话转写？ {#live-conversation-transcription}
+### reSpeaker Clip 能否用于原型开发实时对话转写？ {#live-conversation-transcription}
 
-**适用对象：** 在单独的电脑或浏览器上显示实时语音转文字的 ReSpeaker Clip 原型
+**适用对象：** 在单独的电脑或浏览器上显示实时语音转文字的 reSpeaker Clip 原型
 
 **最近验证时间：** 2026-09-01
 
@@ -68,12 +68,12 @@ keywords:
 
 **前提条件：**
 
-- 具备 RTC 实时流支持的 ReSpeaker Clip 固件
+- 具备 RTC 实时流支持的 reSpeaker Clip 固件
 - Python 3.10 或更高版本，以及可用的 BLE 适配器
 - 网络连接，以及官方示例所使用 STT 提供商的 API 密钥
 
 1. 按照官方 Live STT 应用指南操作，并安装其 Python 依赖。
-2. 通过 BLE 连接 ReSpeaker Clip，并在应用设置中输入 STT 提供商密钥。
+2. 通过 BLE 连接 reSpeaker Clip，并在应用设置中输入 STT 提供商密钥。
 3. 选择 `Start Streaming`，开始说话，并等待每个完整话语在浏览器转写中显示出来。
 4. 在目标声学环境中测量延迟和转写准确率，在将该原型视为辅助工具之前完成评估。
 
@@ -89,13 +89,13 @@ keywords:
 
 **参考链接：**
 
-- [ReSpeaker Clip Live STT 应用指南](https://wiki.seeedstudio.com/cn/respeaker_clip_python_build_app/)
-- [ReSpeaker Clip RTC 流媒体指南](https://wiki.seeedstudio.com/cn/respeaker_clip_rtc_streaming/)
-- [ReSpeaker Clip 入门指南](https://wiki.seeedstudio.com/cn/respeaker_clip/)
+- [reSpeaker Clip Live STT 应用指南](https://wiki.seeedstudio.com/cn/respeaker_clip_python_build_app/)
+- [reSpeaker Clip RTC 流媒体指南](https://wiki.seeedstudio.com/cn/respeaker_clip_rtc_streaming/)
+- [reSpeaker Clip 入门指南](https://wiki.seeedstudio.com/cn/respeaker_clip/)
 
-### 在哪里可以获得官方的 ReSpeaker Clip 尺寸或机械图纸？ {#mechanical-drawing-status}
+### 在哪里可以获得官方的 reSpeaker Clip 尺寸或机械图纸？ {#mechanical-drawing-status}
 
-**适用对象：** ReSpeaker Clip 外壳、夹具或可穿戴配件设计
+**适用对象：** reSpeaker Clip 外壳、夹具或可穿戴配件设计
 
 **最近验证时间：** 2026-09-01
 
@@ -120,7 +120,7 @@ keywords:
 
 **参考链接：**
 
-- [ReSpeaker Clip 规格与资源](https://wiki.seeedstudio.com/cn/respeaker_clip/)
+- [reSpeaker Clip 规格与资源](https://wiki.seeedstudio.com/cn/respeaker_clip/)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->
 

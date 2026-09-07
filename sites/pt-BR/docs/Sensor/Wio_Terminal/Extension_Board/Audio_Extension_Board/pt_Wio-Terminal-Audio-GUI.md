@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/pt-br/Wio-Terminal-Audio-GUI/
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/GUI.gif"/></div>
 
-Este wiki apresenta como usar a **Ferramenta de Design de Sistema de Áudio** para projetar um sistema de áudio para a biblioteca Audio usando o [**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) e o [**ReSpeaker 2-Mit Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Isso torna o design de sistemas de áudio muito mais fácil quando você pode ver para onde as entradas e saídas estão indo.
+Este wiki apresenta como usar a **Ferramenta de Design de Sistema de Áudio** para projetar um sistema de áudio para a biblioteca Audio usando o [**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) e o [**reSpeaker 2-Mit Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). Isso torna o design de sistemas de áudio muito mais fácil quando você pode ver para onde as entradas e saídas estão indo.
 
 > **Este é um fork da Seeed da [Audio System Design Tool for Teensy Audio Library](https://www.pjrc.com/teensy/gui/).**
 
@@ -33,13 +33,13 @@ Este wiki apresenta como usar a **Ferramenta de Design de Sistema de Áudio** pa
 
 #### Reproduzindo arquivos de música a partir do cartão SD
 
-Vamos percorrer um exemplo para entender o básico do Sistema de Design de Áudio. Digamos que você queira simplesmente reproduzir uma música do cartão SD pelo alto-falante através do ReSpeaker 2-Mic Hat:
+Vamos percorrer um exemplo para entender o básico do Sistema de Design de Áudio. Digamos que você queira simplesmente reproduzir uma música do cartão SD pelo alto-falante através do reSpeaker 2-Mic Hat:
 
 - **`INPUT`** é a reprodução a partir do cartão SD.
 
 - **`OUTPUT`** é a saída I2S.
 
-- **`wm8960`** é a unidade de controle do ReSpeaker 2-Mics.
+- **`wm8960`** é a unidade de controle do reSpeaker 2-Mics.
 
 Portanto, o design deve ser algo como isto:
 
@@ -122,7 +122,7 @@ Vamos usar a ferramenta de design para projetar um sistema de detecção de pico
 
 - **`OUTPUT`** é a saída I2S e dois picos! Um pico para o canal esquerdo e um pico para o canal direito.
 
-- **`wm8960`** é a unidade de controle do ReSpeaker 2-Mics.
+- **`wm8960`** é a unidade de controle do reSpeaker 2-Mics.
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/peak-detection-gui.png"/></div>
 
@@ -138,7 +138,7 @@ Este é o exemplo de reprodução de música a partir do cartão SD enquanto é 
 
 - **`OUTPUT`** é a saída I2S e os cálculos de FFT.
 
-- **`wm8960`** é a unidade de controle do ReSpeaker 2-Mics.
+- **`wm8960`** é a unidade de controle do reSpeaker 2-Mics.
 
 Aqui apresentaremos outro recurso útil, o **Mixer**. Ele permite combinar no máximo **quatro** canais de áudio em um só. Isso é usado porque executar a FFT em canais combinados (esquerdo e direito) é mais preciso do que em um único canal.
 
@@ -156,7 +156,7 @@ Desta vez vamos projetar um sistema para gravar e reproduzir em tempo real!
 
 - **`OUTPUT`** é a saída I2S. **PlayQueue** -> **Output I2S**
 
-- **`wm8960`** é a unidade de controle do ReSpeaker 2-Mics.
+- **`wm8960`** é a unidade de controle do reSpeaker 2-Mics.
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/record-play-realtime.png"/></div>
 

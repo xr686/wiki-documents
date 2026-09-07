@@ -30,20 +30,20 @@ This page contains verified answers for the reSpeaker Lite. Each answer states t
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## Documentation & Usage {#documentation-and-usage}
 
-### Where can I download the ReSpeaker Lite STEP file? {#step-mechanical-file}
+### Where can I download the reSpeaker Lite STEP file? {#step-mechanical-file}
 
-**Applies to:** Mechanical integration of a ReSpeaker Lite board that matches the published v1.1 model
+**Applies to:** Mechanical integration of a reSpeaker Lite board that matches the published v1.1 model
 
 **Last verified:** 2026-09-01
 
-Download the public `ReSpeakerLitev1.1.step` model from the official ReSpeaker Lite Resources section. It is a board-level v1.1 model, not a complete Voice Assistant Kit, speaker, or enclosure assembly.
+Download the public `ReSpeakerLitev1.1.step` model from the official reSpeaker Lite Resources section. It is a board-level v1.1 model, not a complete Voice Assistant Kit, speaker, or enclosure assembly.
 
 **Prerequisites:**
 
-- The hardware revision printed on the physical ReSpeaker Lite board
+- The hardware revision printed on the physical reSpeaker Lite board
 - STEP-compatible CAD software
 
-1. Open the Resources section of the ReSpeaker Lite getting-started page.
+1. Open the Resources section of the reSpeaker Lite getting-started page.
 2. Download `ReSpeakerLitev1.1.step` from the official file link.
 3. Import the file into the CAD tool and compare mounting holes, board outline, and connector locations with the physical board revision.
 4. Request clarification before release if the design depends on a kit-level speaker, enclosure, tolerance, or keep-out detail that is absent from the file.
@@ -59,24 +59,24 @@ Download the public `ReSpeakerLitev1.1.step` model from the official ReSpeaker L
 
 **References:**
 
-- [ReSpeaker Lite Resources](https://wiki.seeedstudio.com/reSpeaker_usb_v3/#resource)
-- [Official ReSpeaker Lite v1.1 STEP file](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)
+- [reSpeaker Lite Resources](https://wiki.seeedstudio.com/reSpeaker_usb_v3/#resource)
+- [Official reSpeaker Lite v1.1 STEP file](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)
 
-### How do I test the I2S link between ReSpeaker Lite and XIAO ESP32S3? {#i2s-link-test}
+### How do I test the I2S link between reSpeaker Lite and XIAO ESP32S3? {#i2s-link-test}
 
-**Applies to:** ReSpeaker Lite with XIAO ESP32S3 before troubleshooting no microphone audio or I2S playback
+**Applies to:** reSpeaker Lite with XIAO ESP32S3 before troubleshooting no microphone audio or I2S playback
 
 **Last verified:** 2026-09-01
 
-Run the official ReSpeaker Lite I2S test with a matching 16 kHz I2S firmware. The sketch writes a test signal, reads microphone-array samples, and prints `I2S RX pass!` when more than 16,000 of 32,000 received samples are neither zero nor `0xFFFF`.
+Run the official reSpeaker Lite I2S test with a matching 16 kHz I2S firmware. The sketch writes a test signal, reads microphone-array samples, and prints `I2S RX pass!` when more than 16,000 of 32,000 received samples are neither zero nor `0xFFFF`.
 
 **Prerequisites:**
 
-- Official ReSpeaker Lite 16 kHz I2S firmware installed on the XMOS/XU316
+- Official reSpeaker Lite 16 kHz I2S firmware installed on the XMOS/XU316
 - Arduino IDE configured for XIAO ESP32S3
 - A USB data connection to the XIAO ESP32S3 port
 
-1. Open the current official ReSpeaker Lite I2S Test page and copy its sketch without changing the documented I2S pins or 16,000 Hz rate.
+1. Open the current official reSpeaker Lite I2S Test page and copy its sketch without changing the documented I2S pins or 16,000 Hz rate.
 2. Upload the sketch to the XIAO ESP32S3 and open Serial Monitor at 115200 baud.
 3. Let the test complete its first read and, if needed, its second read.
 4. Record the final `I2S RX pass!` or `I2S RX fail!` result before changing ESPHome, application, or hardware settings.
@@ -93,33 +93,33 @@ Run the official ReSpeaker Lite I2S test with a matching 16 kHz I2S firmware. Th
 
 **References:**
 
-- [Official ReSpeaker Lite I2S Test](https://wiki.seeedstudio.com/respeaker_i2s_test/)
-- [Official ReSpeaker Lite firmware repository](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
+- [Official reSpeaker Lite I2S Test](https://wiki.seeedstudio.com/respeaker_i2s_test/)
+- [Official reSpeaker Lite firmware repository](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
 ## Connectivity & Detection {#connectivity-and-detection}
 
-### Why is ReSpeaker Lite not appearing as a USB audio device on Windows? {#windows-usb-audio-detection}
+### Why is reSpeaker Lite not appearing as a USB audio device on Windows? {#windows-usb-audio-detection}
 
-**Applies to:** ReSpeaker Lite standalone or ReSpeaker Lite with XIAO ESP32S3 when USB audio on Windows is the intended mode
+**Applies to:** reSpeaker Lite standalone or reSpeaker Lite with XIAO ESP32S3 when USB audio on Windows is the intended mode
 
 **Last verified:** 2026-08-31
 
-Connect Windows to the ReSpeaker Lite XMOS USB-C port and make sure the XMOS is running USB firmware. I2S firmware is for communication with XIAO ESP32S3 and is not expected to enumerate as the normal ReSpeaker Lite USB sound device.
+Connect Windows to the reSpeaker Lite XMOS USB-C port and make sure the XMOS is running USB firmware. I2S firmware is for communication with XIAO ESP32S3 and is not expected to enumerate as the normal reSpeaker Lite USB sound device.
 
 **Prerequisites:**
 
-- A known-good USB data cable connected to the ReSpeaker Lite XMOS USB-C port
+- A known-good USB data cable connected to the reSpeaker Lite XMOS USB-C port
 - The official USB firmware image when USB audio is required
 
-1. Confirm that the cable is connected to the ReSpeaker Lite XMOS USB-C port, not only to the XIAO ESP32S3 USB port.
+1. Confirm that the cable is connected to the reSpeaker Lite XMOS USB-C port, not only to the XIAO ESP32S3 USB port.
 2. Confirm that the XMOS firmware is the USB variant. If it is the I2S variant, flash the current USB firmware using the official DFU procedure.
-3. If Device Manager shows ReSpeaker Lite with a warning after flashing USB firmware, uninstall that device, select the option to remove its driver software when offered, and power-cycle the board. Windows should reinstall the USB audio driver.
-4. Open Windows Sound settings and select ReSpeaker Lite as the input device.
+3. If Device Manager shows reSpeaker Lite with a warning after flashing USB firmware, uninstall that device, select the option to remove its driver software when offered, and power-cycle the board. Windows should reinstall the USB audio driver.
+4. Open Windows Sound settings and select reSpeaker Lite as the input device.
 
 **Success criteria:**
 
-- Windows Device Manager shows ReSpeaker Lite without a warning icon
-- Windows Sound settings list ReSpeaker Lite as an audio input and a test recording contains speech
+- Windows Device Manager shows reSpeaker Lite without a warning icon
+- Windows Sound settings list reSpeaker Lite as an audio input and a test recording contains speech
 
 **Notes:**
 
@@ -129,23 +129,23 @@ Connect Windows to the ReSpeaker Lite XMOS USB-C port and make sure the XMOS is 
 **References:**
 
 - [Getting Started with reSpeaker Lite](https://wiki.seeedstudio.com/reSpeaker_usb_v3/)
-- [ReSpeaker Lite Voice Assistant Kit](https://wiki.seeedstudio.com/xiao_respeaker/)
-- [Official ReSpeaker Lite firmware directory](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
+- [reSpeaker Lite Voice Assistant Kit](https://wiki.seeedstudio.com/xiao_respeaker/)
+- [Official reSpeaker Lite firmware directory](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
 ### How do I recover the XIAO ESP32S3 when its port disappears or a sketch will not upload? {#xiao-upload-bootloader-recovery}
 
-**Applies to:** ReSpeaker Lite Voice Assistant Kit with XIAO ESP32S3 when the XIAO port is missing or an Arduino sketch compiles but will not upload
+**Applies to:** reSpeaker Lite Voice Assistant Kit with XIAO ESP32S3 when the XIAO port is missing or an Arduino sketch compiles but will not upload
 
 **Last verified:** 2026-09-01
 
-Connect the computer to the XIAO ESP32S3 USB port, put the XIAO into BootLoader mode, and upload a minimal Blink sketch. This restores the XIAO programming path; it is separate from updating the ReSpeaker Lite XU316 audio firmware through the other USB port with `dfu-util`.
+Connect the computer to the XIAO ESP32S3 USB port, put the XIAO into BootLoader mode, and upload a minimal Blink sketch. This restores the XIAO programming path; it is separate from updating the reSpeaker Lite XU316 audio firmware through the other USB port with `dfu-util`.
 
 **Prerequisites:**
 
 - A known-good USB data cable connected to the XIAO ESP32S3 USB port
 - Arduino IDE with the current ESP32 board package and `XIAO ESP32S3` selected
 
-1. Confirm that the cable is connected to the XIAO ESP32S3 USB port, not the ReSpeaker Lite XMOS/XU316 audio-and-DFU port.
+1. Confirm that the cable is connected to the XIAO ESP32S3 USB port, not the reSpeaker Lite XMOS/XU316 audio-and-DFU port.
 2. Press and hold the XIAO `BOOT` button, connect the XIAO USB port to the computer, and then release `BOOT`.
 3. Select the newly visible XIAO port in Arduino IDE and upload `File > Examples > 01.Basics > Blink`.
 4. Press Reset once and confirm that the Blink sketch runs. If the port still does not appear, save the complete upload error, operating system, selected board, and selected port before requesting support.
@@ -158,18 +158,18 @@ Connect the computer to the XIAO ESP32S3 USB port, put the XIAO into BootLoader 
 **Notes:**
 
 - The carrier-board USR and Mute buttons are not substitutes for the XIAO BOOT button.
-- This procedure does not change the ReSpeaker Lite USB/I2S audio firmware.
+- This procedure does not change the reSpeaker Lite USB/I2S audio firmware.
 
 **References:**
 
-- [ReSpeaker Lite Voice Assistant Kit](https://wiki.seeedstudio.com/xiao_respeaker/)
+- [reSpeaker Lite Voice Assistant Kit](https://wiki.seeedstudio.com/xiao_respeaker/)
 - [XIAO ESP32S3 BootLoader mode and upload recovery](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#bootloader-mode)
 
 ## Firmware & Software {#firmware-and-software}
 
-### How do I troubleshoot an ESPHome compile failure for ReSpeaker Lite with XIAO ESP32S3? {#esphome-compile-failure}
+### How do I troubleshoot an ESPHome compile failure for reSpeaker Lite with XIAO ESP32S3? {#esphome-compile-failure}
 
-**Applies to:** ReSpeaker Lite with XIAO ESP32S3 using the community ESPHome integration linked by the official Seeed Wiki
+**Applies to:** reSpeaker Lite with XIAO ESP32S3 using the community ESPHome integration linked by the official Seeed Wiki
 
 **Last verified:** 2026-08-31
 
@@ -199,15 +199,15 @@ Start from the current configuration in the community-maintained repository link
 
 **References:**
 
-- [Seeed Wiki: ReSpeaker Lite Home Assistant guide](https://wiki.seeedstudio.com/respeaker_lite_ha/)
-- [Wiki-linked community ReSpeaker Lite ESPHome integration](https://github.com/formatBCE/Respeaker-Lite-ESPHome-integration)
-- [Current upstream ReSpeaker Lite base configuration](https://github.com/formatBCE/Respeaker-Lite-ESPHome-integration/blob/main/config/common/respeaker-satellite-base.yaml)
+- [Seeed Wiki: reSpeaker Lite Home Assistant guide](https://wiki.seeedstudio.com/respeaker_lite_ha/)
+- [Wiki-linked community reSpeaker Lite ESPHome integration](https://github.com/formatBCE/Respeaker-Lite-ESPHome-integration)
+- [Current upstream reSpeaker Lite base configuration](https://github.com/formatBCE/Respeaker-Lite-ESPHome-integration/blob/main/config/common/respeaker-satellite-base.yaml)
 
 ## Audio Issues {#audio-issues}
 
-### Why do the ReSpeaker Lite I2S examples play loud static instead of audio? {#i2s-static-noise-sample-rate}
+### Why do the reSpeaker Lite I2S examples play loud static instead of audio? {#i2s-static-noise-sample-rate}
 
-**Applies to:** ReSpeaker Lite with XIAO ESP32S3 running the official I2S recording/playback or stream-generator examples
+**Applies to:** reSpeaker Lite with XIAO ESP32S3 running the official I2S recording/playback or stream-generator examples
 
 **Last verified:** 2026-09-01
 
@@ -215,7 +215,7 @@ First make the sketch sample rate match the installed I2S firmware. The official
 
 **Prerequisites:**
 
-- The exact filename of the installed ReSpeaker Lite I2S firmware
+- The exact filename of the installed reSpeaker Lite I2S firmware
 - The current official example and its `AudioInfo` configuration
 - A known-good speaker or headphone connected to a documented output
 
@@ -236,22 +236,22 @@ First make the sketch sample rate match the installed I2S firmware. The official
 
 **References:**
 
-- [ReSpeaker Lite recording and playback example](https://wiki.seeedstudio.com/respeaker_record_and_play/)
-- [Current official ReSpeaker Lite firmware profiles](https://github.com/respeaker/ReSpeaker_Lite#latest-xmos-firmware)
+- [reSpeaker Lite recording and playback example](https://wiki.seeedstudio.com/respeaker_record_and_play/)
+- [Current official reSpeaker Lite firmware profiles](https://github.com/respeaker/ReSpeaker_Lite#latest-xmos-firmware)
 
 ## Hardware Issues {#hardware-issues}
 
-### Which audio outputs are available on ReSpeaker Lite? {#speaker-output-options}
+### Which audio outputs are available on reSpeaker Lite? {#speaker-output-options}
 
-**Applies to:** ReSpeaker Lite standalone and ReSpeaker Lite with XIAO ESP32S3 when playback audio is configured
+**Applies to:** reSpeaker Lite standalone and reSpeaker Lite with XIAO ESP32S3 when playback audio is configured
 
 **Last verified:** 2026-09-01
 
-ReSpeaker Lite provides a board speaker connector documented for the 5 W amplified-speaker path and a 3.5 mm output for headphones or an active speaker. The current official hardware description also states that inserting a 3.5 mm plug mutes the JST speaker path and switches output to the external device.
+reSpeaker Lite provides a board speaker connector documented for the 5 W amplified-speaker path and a 3.5 mm output for headphones or an active speaker. The current official hardware description also states that inserting a 3.5 mm plug mutes the JST speaker path and switches output to the external device.
 
 **Prerequisites:**
 
-- A playback application or firmware path that sends audio to ReSpeaker Lite
+- A playback application or firmware path that sends audio to reSpeaker Lite
 - A headphone, active speaker, or speaker matched to the documented connector path
 
 1. Power the system down before changing the speaker connection.
@@ -271,16 +271,16 @@ ReSpeaker Lite provides a board speaker connector documented for the 5 W amplifi
 
 **References:**
 
-- [ReSpeaker Lite specification and pinout](https://wiki.seeedstudio.com/reSpeaker_usb_v3/)
-- [Official ReSpeaker Lite hardware repository](https://github.com/respeaker/ReSpeaker_Lite#the-headphone-jack-detection-circuit)
+- [reSpeaker Lite specification and pinout](https://wiki.seeedstudio.com/reSpeaker_usb_v3/)
+- [Official reSpeaker Lite hardware repository](https://github.com/respeaker/ReSpeaker_Lite#the-headphone-jack-detection-circuit)
 
-### Can I power ReSpeaker Lite directly from a single-cell lithium battery? {#external-5v-power}
+### Can I power reSpeaker Lite directly from a single-cell lithium battery? {#external-5v-power}
 
-**Applies to:** ReSpeaker Lite standalone and ReSpeaker Lite with XIAO ESP32S3 powered without a normal USB host
+**Applies to:** reSpeaker Lite standalone and reSpeaker Lite with XIAO ESP32S3 powered without a normal USB host
 
 **Last verified:** 2026-09-01
 
-Do not treat direct single-cell battery input as supported. The published ReSpeaker Lite power contract is 5 V through USB or the external 5 V supply pad. If a battery is required, regulate it to a stable 5 V before connecting the board.
+Do not treat direct single-cell battery input as supported. The published reSpeaker Lite power contract is 5 V through USB or the external 5 V supply pad. If a battery is required, regulate it to a stable 5 V before connecting the board.
 
 **Prerequisites:**
 
@@ -288,7 +288,7 @@ Do not treat direct single-cell battery input as supported. The published ReSpea
 - Verified polarity and a common ground
 - The power source disconnected while wiring
 
-1. Configure and measure the regulator output before connecting ReSpeaker Lite; it must be a stable 5 V.
+1. Configure and measure the regulator output before connecting reSpeaker Lite; it must be a stable 5 V.
 2. With power removed, connect regulated 5 V and ground to the documented external-power connection, or use a compliant 5 V USB supply.
 3. Apply power and confirm that the power indicator turns on.
 4. Verify the intended interface: USB enumeration for USB firmware or the official I2S test for an embedded I2S setup.
@@ -304,7 +304,7 @@ Do not treat direct single-cell battery input as supported. The published ReSpea
 
 **References:**
 
-- [ReSpeaker Lite power specification and hardware overview](https://wiki.seeedstudio.com/reSpeaker_usb_v3/)
+- [reSpeaker Lite power specification and hardware overview](https://wiki.seeedstudio.com/reSpeaker_usb_v3/)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->
 

@@ -1,6 +1,6 @@
 ---
-description: この記事では、ReSpeaker 2-Mics Pi HATのハードウェアリビジョンを区別する方法を説明します。
-title: ReSpeaker 2-Mics Pi HATのハードウェアリビジョンを区別する方法
+description: この記事では、reSpeaker 2-Mics Pi HATのハードウェアリビジョンを区別する方法を説明します。
+title: reSpeaker 2-Mics Pi HATのハードウェアリビジョンを区別する方法
 keywords:
   - ReSpeaker_2-Mics_Pi_HAT
 image: https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/v2/pcn_1.webp
@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/ja/how-to-distinguish-respeaker_2-mics_pi_hat-
 
 v1とv2のPCBレイアウトは基本的に同じですが、追加の回路が追加されています（図で示されています）。
 
-![ReSpeaker 2-Mics Pi HAT PCN](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/v2/pcn.webp)
+![reSpeaker 2-Mics Pi HAT PCN](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/v2/pcn.webp)
 
 ## 技術サポートと製品ディスカッション
 

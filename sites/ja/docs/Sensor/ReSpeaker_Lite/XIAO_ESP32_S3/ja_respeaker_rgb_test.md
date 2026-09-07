@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Lite RGBテスト
+description: reSpeaker Lite RGBテスト
 title: RGBテスト
 keywords:
   - ReSpeaker
@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_rgb_test/
 
 ### 機能
 
-ReSpeaker LiteボードのRGBライトはWS2812チップを使用しており、`GPIO1`ピンを介して制御されています。このプロジェクトでは、RGBライトが正常に動作していることを確認するために、赤、緑、青、白の異なる色を順番に表示します。
+reSpeaker LiteボードのRGBライトはWS2812チップを使用しており、`GPIO1`ピンを介して制御されています。このプロジェクトでは、RGBライトが正常に動作していることを確認するために、赤、緑、青、白の異なる色を順番に表示します。
 
 
 

@@ -20,7 +20,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_flex_soarm/
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/reSpeaker_flex/lerobot_flex.png" alt="pir" width={800} height="auto" /></p>
 
 
-LeRobot SO-ARM 语音控制器让你可以使用由 AI 驱动的自然语音指令来控制 SO-ARM100 机械臂。该系统结合了唤醒词检测、Groq Whisper 语音转文本、LLaMA 3 语言理解以及 Orpheus 文本转语音，打造出一个完全交互式的免手动机器人体验。它基于 [LeRobot 框架](https://github.com/huggingface/lerobot?utm_source=chatgpt.com) 构建，可在 Ubuntu x86 系统和 NVIDIA Jetson 设备上运行，并使用 ReSpeaker USB 麦克风阵列进行语音输入。用户可以创建自定义的机械臂姿态、手势和对话触发器，用于构建面向科研、教育和机器人开发的智能机器人交互。
+LeRobot SO-ARM 语音控制器让你可以使用由 AI 驱动的自然语音指令来控制 SO-ARM100 机械臂。该系统结合了唤醒词检测、Groq Whisper 语音转文本、LLaMA 3 语言理解以及 Orpheus 文本转语音，打造出一个完全交互式的免手动机器人体验。它基于 [LeRobot 框架](https://github.com/huggingface/lerobot?utm_source=chatgpt.com) 构建，可在 Ubuntu x86 系统和 NVIDIA Jetson 设备上运行，并使用 reSpeaker USB 麦克风阵列进行语音输入。用户可以创建自定义的机械臂姿态、手势和对话触发器，用于构建面向科研、教育和机器人开发的智能机器人交互。
 
 
 ## 所需硬件
@@ -262,7 +262,7 @@ Available audio INPUT devices:
   [2] USB PnP Sound Device    (rate=16000Hz)
 ```
 
-记下 ReSpeaker 旁边的索引号——这就是你的 `MIC_INDEX`。
+记下 reSpeaker 旁边的索引号——这就是你的 `MIC_INDEX`。
 
 ### 配置项目
 
@@ -424,7 +424,7 @@ sudo apt-get install -y portaudio19-dev
 ```
 
 **唤醒词从未被触发**
-再次运行 `list_mics.py` 并确认 `MIC_INDEX` 与 ReSpeaker 匹配。尝试将 `WAKEWORD_THRESHOLD` 降低到 `0.3`。在距离麦克风约 1 米内清晰说话。
+再次运行 `list_mics.py` 并确认 `MIC_INDEX` 与 reSpeaker 匹配。尝试将 `WAKEWORD_THRESHOLD` 降低到 `0.3`。在距离麦克风约 1 米内清晰说话。
 
 **机械臂在接收指令后不移动**
 检查 `ARM_PORT` 是否正确（`lerobot-find-port`）。确认标定文件存在于 `~/.cache/huggingface/lerobot/calibration/robots/so_follower/<ARM_ID>.json`。
@@ -447,4 +447,4 @@ sudo apt-get install -y portaudio19-dev
 - [SO-ARM100](https://wiki.seeedstudio.com/cn/lerobot_so100m_new/) — Seeed Studio 推出的低成本开源机械臂
 - [openwakeword](https://github.com/dscripka/openWakeWord) — 本地唤醒词检测
 - [Groq](https://groq.com/) — 超高速 Whisper STT、LLaMA LLM 和 Orpheus TTS
-- [ReSpeaker Flex](https://wiki.seeedstudio.com/cn/respeaker_flex/) — USB 麦克风阵列
+- [reSpeaker Flex](https://wiki.seeedstudio.com/cn/respeaker_flex/) — USB 麦克风阵列

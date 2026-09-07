@@ -16,7 +16,7 @@ updatedAt: '2026-04-17'
 url: https://wiki.seeedstudio.com/cn/respeaker_flex_xiao_i2s/
 ---
 
-本项目作为一个测试示例，用于验证 **XIAO ESP32S3** 与 **ReSpeaker Flex** 之间 I2S 接口的功能。目标是确认通过 I2S 总线进行的数据发送和接收是否正常工作。为此，示例会生成一个合成的方波音频信号并将其写入 I2S 接口，然后从 ReSpeaker Flex 麦克风阵列读取音频数据，并验证接收样本的完整性。
+本项目作为一个测试示例，用于验证 **XIAO ESP32S3** 与 **reSpeaker Flex** 之间 I2S 接口的功能。目标是确认通过 I2S 总线进行的数据发送和接收是否正常工作。为此，示例会生成一个合成的方波音频信号并将其写入 I2S 接口，然后从 reSpeaker Flex 麦克风阵列读取音频数据，并验证接收样本的完整性。
 
 
 
@@ -51,7 +51,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_flex_xiao_i2s/
 
 ## 工作原理
 
-该示例测试 XIAO ESP32S3 与 ReSpeaker Flex 之间的全双工 I2S 通信。它会生成一个 440 Hz 的方波信号，并持续将其写入 I2S 发送端，同时从麦克风阵列读取输入音频样本。对接收到的数据进行分析，统计有效（非零）样本数量，作为基本的完整性检查。根据有效样本的数量，程序判断 I2S 接收通路是否正常工作。
+该示例测试 XIAO ESP32S3 与 reSpeaker Flex 之间的全双工 I2S 通信。它会生成一个 440 Hz 的方波信号，并持续将其写入 I2S 发送端，同时从麦克风阵列读取输入音频样本。对接收到的数据进行分析，统计有效（非零）样本数量，作为基本的完整性检查。根据有效样本的数量，程序判断 I2S 接收通路是否正常工作。
 
 ```c
 #include "AudioTools.h"

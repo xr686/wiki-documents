@@ -788,18 +788,18 @@ TX を RX に接続すると、ターミナルで `hello seeder` を確認でき
 
 ### ODYSSEY-STM32MP157C 上の I2S
 
-このセクションでは、Linux I2S プログラミングの制御原理を説明します。ここでは、I2S と ReSpeaker 2-Mics Pi HAT を使用してその使い方を説明します。
+このセクションでは、Linux I2S プログラミングの制御原理を説明します。ここでは、I2S と reSpeaker 2-Mics Pi HAT を使用してその使い方を説明します。
 
 #### ハードウェア
 
 - **ステップ 1**. このプロジェクトで使用するもの：
 
-| ODYSSEY – STM32MP157C | ReSpeaker 2-Mics Pi HAT |
+| ODYSSEY – STM32MP157C | reSpeaker 2-Mics Pi HAT |
 |--------------|----------------|
 |![画像をここに入力](https://files.seeedstudio.com/wiki/ODYSSEY-STM32MP157C/IMG/perspective-19-210X157.png)|![画像](https://files.seeedstudio.com/wiki/ODYSSEY-STM32MP157C/IMG/res-thumbnail.png)|
 |[今すぐ購入](https://www.seeedstudio.com/ODYSSEY-STM32MP157C-p-4464.html)|[今すぐ購入](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
 
-- **ステップ 2.** [インストールハードウェアガイド](https://wiki.seeedstudio.com/ja/ReSpeaker_2_Mics_Pi_HAT/#getting-started) に従って、ReSpeaker 2-Mics Pi HAT を ODYSSEY – STM32MP157C に挿入します。
+- **ステップ 2.** [インストールハードウェアガイド](https://wiki.seeedstudio.com/ja/ReSpeaker_2_Mics_Pi_HAT/#getting-started) に従って、reSpeaker 2-Mics Pi HAT を ODYSSEY – STM32MP157C に挿入します。
 
 #### ソフトウェア
 
@@ -865,7 +865,7 @@ card 1: STM32MP1SEEEDNP [STM32MP1-SEEEDNPi], device 1: 4400b024.audio-controller
   Subdevice #0: subdevice #0
 ```
 
-- **ステップ 7.** これで ReSpeaker 2-Mics Pi Hat を使い始めることができます！簡単な録音と再生テストを行うには、以下のコマンドを実行します：
+- **ステップ 7.** これで reSpeaker 2-Mics Pi Hat を使い始めることができます！簡単な録音と再生テストを行うには、以下のコマンドを実行します：
 
 1. `test.wav` に音声を録音するには：
 
@@ -884,7 +884,7 @@ aplay -Dhw:0 -r 48000 test.wav
 音声が出力されない場合は、再度再起動してみてください。
 </div>
 
-ReSpeaker 2-Mics Pi HAT の詳細については [wiki](https://wiki.seeedstudio.com/ja/ReSpeaker_2_Mics_Pi_HAT/) を参照してください。
+reSpeaker 2-Mics Pi HAT の詳細については [wiki](https://wiki.seeedstudio.com/ja/ReSpeaker_2_Mics_Pi_HAT/) を参照してください。
 
 ## リソース
 

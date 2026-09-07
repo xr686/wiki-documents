@@ -1,5 +1,5 @@
 ---
-description: 本wiki提供了一个全面的实现框架，用于为Lekiwi机器人套件配备声音追踪功能，使用ReSpeaker Mic Array v2.0和reComputer Jetson Mini。内容涵盖硬件集成、环境配置和软件适配，并演示实时音频源追踪功能。
+description: 本wiki提供了一个全面的实现框架，用于为Lekiwi机器人套件配备声音追踪功能，使用reSpeaker Mic Array v2.0和reComputer Jetson Mini。内容涵盖硬件集成、环境配置和软件适配，并演示实时音频源追踪功能。
 title: Lekiwi声音追踪
 keywords:
   - Lerobot
@@ -20,13 +20,13 @@ url: https://wiki.seeedstudio.com/cn/sound_follow_robot/
 ---
 
 ## 简介
-Lekiwi机器人套件结合ReSpeaker Mic Array v2.0，获得了语音交互和声音导航功能。本指南详细介绍了配置机器人的硬件和软件环境以实现声音追踪功能的逐步过程。
+Lekiwi机器人套件结合reSpeaker Mic Array v2.0，获得了语音交互和声音导航功能。本指南详细介绍了配置机器人的硬件和软件环境以实现声音追踪功能的逐步过程。
 
 <div class="table-center">
   <table align="center">
     <tr>
         <th>Lekiwi Robot Kit</th>
-        <th>ReSpeaker Mic Array v2.0</th>
+        <th>reSpeaker Mic Array v2.0</th>
         <th>reComputer Mini J4012</th>
     </tr>
     <tr>
@@ -76,7 +76,7 @@ Lekiwi机器人套件结合ReSpeaker Mic Array v2.0，获得了语音交互和�
 ## 硬件准备
 
 - Lekiwi 机器人套件
-- ReSpeaker 麦克风阵列 v2.0
+- reSpeaker 麦克风阵列 v2.0
 
 :::note
 考虑到未来功能扩展，本wiki使用`reComputer Jetson Mini J4012`作为机器人的主控设备。您也可以使用`Raspberry Pi 5`实现本维基中描述的所有功能。

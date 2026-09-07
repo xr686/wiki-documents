@@ -1,5 +1,5 @@
 ---
-description: 本维基将演示如何在 ReSpeaker 2-Mics Pi HAT v2 上使用 TensorFlow Lite 进行关键词检测并实现语音识别。
+description: 本维基将演示如何在 reSpeaker 2-Mics Pi HAT v2 上使用 TensorFlow Lite 进行关键词检测并实现语音识别。
 title: 在 Raspberry Pi Mic HAT 上使用 TensorFlow Lite 进行关键词检测
 keywords:
   - ReSpeaker_2-Mics_Pi_HAT
@@ -17,11 +17,11 @@ url: https://wiki.seeedstudio.com/cn/respeaker_2_mics_pi_hat_v2_speech_recogniti
 
 ## 介绍
 
-本项目演示如何在 ReSpeaker 2-Mics Pi HAT v2 上使用 TensorFlow Lite 进行关键词检测。关键词检测可以从音频输入中实时检测预定义的单词，从而实现诸如语音控制设备和交互式系统等应用。我们将引导你完成训练 TensorFlow Lite 模型、将其部署到 ReSpeaker HAT 上，并在本地运行语音识别的步骤。
+本项目演示如何在 reSpeaker 2-Mics Pi HAT v2 上使用 TensorFlow Lite 进行关键词检测。关键词检测可以从音频输入中实时检测预定义的单词，从而实现诸如语音控制设备和交互式系统等应用。我们将引导你完成训练 TensorFlow Lite 模型、将其部署到 reSpeaker HAT 上，并在本地运行语音识别的步骤。
 
 ### 硬件和软件需求
 
-- 硬件：搭载 ReSpeaker 2-Mics Pi HAT v2 的 Raspberry Pi
+- 硬件：搭载 reSpeaker 2-Mics Pi HAT v2 的 Raspberry Pi
 - 软件：TensorFlow Lite、Google Colab、Python 及相关依赖库
 
 ### 应用场景

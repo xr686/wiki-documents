@@ -840,7 +840,7 @@ gst-launch-1.0 audiotestsrc wave="pink-noise" ! audioconvert ! audioresample ! a
 - マイクが認識されているか確認：`arecord -l`
 - スピーカーが認識されているか確認：`aplay -l`
 - `No Reachy Mini Audio USB device found!` というエラーで audio-board の設定に失敗する場合は、
-  ReSpeaker オーディオボードが接続されているマシン上で SDK コードを実行してください。
+  reSpeaker オーディオボードが接続されているマシン上で SDK コードを実行してください。
   Lite の場合はあなたのコンピュータ、Wireless の場合はロボット本体になります。
 
 </details>

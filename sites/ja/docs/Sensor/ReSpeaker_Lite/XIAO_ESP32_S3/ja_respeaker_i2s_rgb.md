@@ -20,7 +20,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_i2s_rgb/
 
 ### ハードウェア要件
 
-* ReSpeaker Liteボード（統合されたXIAO ESP32S3マイクロコントローラー付き）
+* reSpeaker Liteボード（統合されたXIAO ESP32S3マイクロコントローラー付き）
 
 * [Grove - RGB LED Stick](https://www.seeedstudio.com/Grove-RGB-LED-Stick-10-WS2813-Mini.html)
 

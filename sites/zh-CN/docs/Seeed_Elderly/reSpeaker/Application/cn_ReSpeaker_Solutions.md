@@ -1,6 +1,6 @@
 ---
-description: ReSpeaker 解决方案
-title: ReSpeaker 解决方案
+description: reSpeaker 解决方案
+title: reSpeaker 解决方案
 keywords:
   - reSpeaker
 image: https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png
@@ -13,15 +13,15 @@ updatedAt: '2025-10-11'
 url: https://wiki.seeedstudio.com/cn/ReSpeaker_Solutions/
 ---
 
-# **ReSpeaker**
+# **reSpeaker**
 
 ## 面向开发者的开放语音生态系统
 
-[![所有 ReSpeaker 开发板](https://files.seeedstudio.com/wiki/ReSpeakerSolutions/img/FullReSpeakerLine.png)](https://www.seeedstudio.com/series/Respeaker-10.html)
+[![所有 reSpeaker 开发板](https://files.seeedstudio.com/wiki/ReSpeakerSolutions/img/FullReSpeakerLine.png)](https://www.seeedstudio.com/series/Respeaker-10.html)
 
 ## **启用语音接口**
 
-ReSpeaker 系列是一系列开发板，旨在实现语音接口成为日常人机交互一部分的未来。设计为易于集成（和定制）到产品中，同时也允许其他服务和产品轻松集成到其中，ReSpeaker 不断添加新功能和集成，并提供如何实现它们的示例。这些功能中的许多不仅仅是用于制作智能音箱。我们希望您能与我们合作，为办公室、建筑、零售、娱乐、保护等领域创造更好的语音解决方案。
+reSpeaker 系列是一系列开发板，旨在实现语音接口成为日常人机交互一部分的未来。设计为易于集成（和定制）到产品中，同时也允许其他服务和产品轻松集成到其中，reSpeaker 不断添加新功能和集成，并提供如何实现它们的示例。这些功能中的许多不仅仅是用于制作智能音箱。我们希望您能与我们合作，为办公室、建筑、零售、娱乐、保护等领域创造更好的语音解决方案。
 
 如果您想体验语音接口，或者您想尝试实现您的想法，请在[这里](https://www.seeedstudio.com/series/Respeaker-10.html)获取套件或开发板！
 
@@ -74,7 +74,7 @@ ReSpeaker 系列是一系列开发板，旨在实现语音接口成为日常人�
 
 ## **制造您的语音解决方案**
 
-我们还可以制造您定制的 ReSpeaker 以及您可能需要的任何其他物品。从几百块板子到超过 10,000 个单元，我们能够作为制造合作伙伴提供几项关键服务。
+我们还可以制造您定制的 reSpeaker 以及您可能需要的任何其他物品。从几百块板子到超过 10,000 个单元，我们能够作为制造合作伙伴提供几项关键服务。
 
 ### **制造服务**
 
@@ -86,15 +86,15 @@ ReSpeaker 系列是一系列开发板，旨在实现语音接口成为日常人�
 
 ## **最新动态**
 
-查看我们关于 ReSpeaker 产品线的最新博客！
+查看我们关于 reSpeaker 产品线的最新博客！
 
-**ReSpeaker Core V2.0 走进酒吧...**
+**reSpeaker Core V2.0 走进酒吧...**
 [![博客 a](https://www.seeedstudio.com/blog/wp-content/uploads/2018/06/Banner-1030x466.jpg)](https://www.seeedstudio.com/blog/2018/06/22/a-respeaker-core-v2-0-walks-into-a-bar/)
-我们又回来了，为我们的 ReSpeaker 产品线增加了另一个成员 – ReSpeaker Core v2.0。ReSpeaker Core v2.0 旨在帮助创建语音交互项目。具有强大的计算核心和带有专业语音增强算法的 6 麦克风阵列，这块板子是一个重大升级... [阅读更多](https://www.seeedstudio.com/blog/2018/06/22/a-respeaker-core-v2-0-walks-into-a-bar/)
+我们又回来了，为我们的 reSpeaker 产品线增加了另一个成员 – reSpeaker Core v2.0。reSpeaker Core v2.0 旨在帮助创建语音交互项目。具有强大的计算核心和带有专业语音增强算法的 6 麦克风阵列，这块板子是一个重大升级... [阅读更多](https://www.seeedstudio.com/blog/2018/06/22/a-respeaker-core-v2-0-walks-into-a-bar/)
 
-**家族新成员：ReSpeaker Mic Array v2.0**
+**家族新成员：reSpeaker Mic Array v2.0**
 [![博客 a](https://www.seeedstudio.com/blog/wp-content/uploads/2018/05/playback.jpg)](https://www.seeedstudio.com/blog/2018/05/22/adding-to-the-family-respeaker-mic-array-v2-0/)
-为您的设备/项目/产品添加语音交互功能是许多人都想做的事情。2016 年，Seeed 在 Kickstarter 支持者的帮助下，推出了 ReSpeaker Core 和 ReSpeaker Mic Array（已停产）。随着时间的推移，我们开始意识到两件事：首先，我们对继续追求语音交互这一领域非常感兴趣... [阅读更多](https://www.seeedstudio.com/blog/2018/05/22/adding-to-the-family-respeaker-mic-array-v2-0/)
+为您的设备/项目/产品添加语音交互功能是许多人都想做的事情。2016 年，Seeed 在 Kickstarter 支持者的帮助下，推出了 reSpeaker Core 和 reSpeaker Mic Array（已停产）。随着时间的推移，我们开始意识到两件事：首先，我们对继续追求语音交互这一领域非常感兴趣... [阅读更多](https://www.seeedstudio.com/blog/2018/05/22/adding-to-the-family-respeaker-mic-array-v2-0/)
 
 感谢您选择我们的产品！我们在这里为您提供不同的支持，以确保您使用我们产品的体验尽可能顺畅。我们提供多种沟通渠道，以满足不同的偏好和需求。
 

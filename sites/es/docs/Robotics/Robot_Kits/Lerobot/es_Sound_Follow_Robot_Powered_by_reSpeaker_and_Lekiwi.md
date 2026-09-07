@@ -1,5 +1,5 @@
 ---
-description: Este wiki proporciona un marco de implementación integral para equipar el Kit de Robot Lekiwi con capacidades de seguimiento de sonido utilizando ReSpeaker Mic Array v2.0 y reComputer Jetson Mini, cubriendo la integración de hardware, configuración del entorno y adaptación de software mientras demuestra la funcionalidad de seguimiento de fuente de audio en tiempo real.
+description: Este wiki proporciona un marco de implementación integral para equipar el Kit de Robot Lekiwi con capacidades de seguimiento de sonido utilizando reSpeaker Mic Array v2.0 y reComputer Jetson Mini, cubriendo la integración de hardware, configuración del entorno y adaptación de software mientras demuestra la funcionalidad de seguimiento de fuente de audio en tiempo real.
 title: Lekiwi con Seguimiento de Sonido
 keywords:
   - Lerobot
@@ -21,13 +21,13 @@ url: https://wiki.seeedstudio.com/es/sound_follow_robot/
 
 ## Introducción
 
-El Kit de Robot Lewiki, integrado con el ReSpeaker Mic Array v2.0, obtiene capacidades de interacción de voz y navegación por sonido. Esta guía detalla el proceso paso a paso para configurar tanto los entornos de hardware como de software para lograr la funcionalidad de seguimiento de sonido en el robot.
+El Kit de Robot Lewiki, integrado con el reSpeaker Mic Array v2.0, obtiene capacidades de interacción de voz y navegación por sonido. Esta guía detalla el proceso paso a paso para configurar tanto los entornos de hardware como de software para lograr la funcionalidad de seguimiento de sonido en el robot.
 
 <div class="table-center">
   <table align="center">
     <tr>
         <th>Kit de Robot Lekiwi</th>
-        <th>ReSpeaker Mic Array v2.0</th>
+        <th>reSpeaker Mic Array v2.0</th>
         <th>reComputer Mini J4012</th>
     </tr>
     <tr>
@@ -76,7 +76,7 @@ El Kit de Robot Lewiki, integrado con el ReSpeaker Mic Array v2.0, obtiene capac
 ## Prerrequisitos
 
 - Kit de Robot Lewiki
-- ReSpeaker Mic Array v2.0
+- reSpeaker Mic Array v2.0
 
 :::note
 Considerando futuras expansiones funcionales, este wiki utiliza el `reComputer Jetson Mini J4012` como el dispositivo de control principal del robot. También puedes lograr todas las funcionalidades descritas en este wiki usando una `Raspberry Pi 5`.

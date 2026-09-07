@@ -1,6 +1,6 @@
 ---
-description: Unidade de Drive ReSpeaker
-title: Unidade de Drive ReSpeaker
+description: Unidade de Drive reSpeaker
+title: Unidade de Drive reSpeaker
 keywords:
   - reSpeaker
 image: https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png
@@ -16,11 +16,11 @@ url: https://wiki.seeedstudio.com/pt-br/ReSpeaker_Drive_Unit/
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/img/Meow_King_Drive_Unit.jpg)
 
-ReSpeaker Drive Unit é especialmente projetada para o ReSpeaker Core, como uma unidade separada de acionamento de alto-falante.
+reSpeaker Drive Unit é especialmente projetada para o reSpeaker Core, como uma unidade separada de acionamento de alto-falante.
 
 Com esta unidade de drive você pode montar seu próprio alto-falante inteligente com Amazon Alexa Voice Services ou outros serviços de voz. Além disso, ela é compatível com Airplay, o que significa que você pode transmitir sua música via smartphone, PC e Mac. E, claro, reproduzir músicas locais também é possível.
 
-ReSpeaker Core possui poderosa capacidade de extensão, esperamos que ele possa ajudá-lo a habilitar voz em seu protótipo/produto com facilidade.
+reSpeaker Core possui poderosa capacidade de extensão, esperamos que ele possa ajudá-lo a habilitar voz em seu protótipo/produto com facilidade.
 
 ## Recursos
 
@@ -28,7 +28,7 @@ ReSpeaker Core possui poderosa capacidade de extensão, esperamos que ele possa 
 - Botão sensível ao toque
 - Suporte a Airplay
 - Impedância de 4Ω e Potência Nominal de 5W
-- LED indicador no ReSpeaker Core
+- LED indicador no reSpeaker Core
 
 ## Especificações
 
@@ -43,11 +43,11 @@ ReSpeaker Core possui poderosa capacidade de extensão, esperamos que ele possa 
 
 ## Guia Inicial
 
-### Preparar o ReSpeaker Core
+### Preparar o reSpeaker Core
 
-Para acionar a unidade de drive Meow King, o firmware do ReSpeaker Core deve ser atualizado. Para conhecer as diferenças entre o firmware original de fábrica e este firmware, consulte o log de alterações [aqui](https://onedrive.live.com/?authkey=%21AKD3ZD6g0DE2M9E&cid=5219529519B9B6A1&id=5219529519B9B6A1%21720&parId=5219529519B9B6A1%21721&o=OneUp).
+Para acionar a unidade de drive Meow King, o firmware do reSpeaker Core deve ser atualizado. Para conhecer as diferenças entre o firmware original de fábrica e este firmware, consulte o log de alterações [aqui](https://onedrive.live.com/?authkey=%21AKD3ZD6g0DE2M9E&cid=5219529519B9B6A1&id=5219529519B9B6A1%21720&parId=5219529519B9B6A1%21721&o=OneUp).
 
-Agora vamos atualizar o firmware. Primeiro, faça o download de `ramips-openwrt-v1.0.01-LinkIt7688-squashfs-sysupgrade.bin` a partir do [OneDrive](https://1drv.ms/f/s!AqG2uRmVUhlShUyg92Q-oNAxNjPR). Copie o firmware para o cartão SD e, em seguida, conecte o cartão SD ao ReSpeaker Core. Siga [as instruções aqui](https://wiki.seeedstudio.com/pt-br/ReSpeaker_Core/#2-connect-to-serial-console) para obter o console serial. Observe que, para fazer a porta serial USB funcionar, precisamos restaurar [o firmware padrão](https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/res/respeaker_arduino_library/examples/pixels_pattern/pixels_pattern.ino) para o chip Arduino (ATMega32U4) caso o tenhamos alterado. Depois de obter a porta serial USB, digite os seguintes comandos para atualizar o firmware:
+Agora vamos atualizar o firmware. Primeiro, faça o download de `ramips-openwrt-v1.0.01-LinkIt7688-squashfs-sysupgrade.bin` a partir do [OneDrive](https://1drv.ms/f/s!AqG2uRmVUhlShUyg92Q-oNAxNjPR). Copie o firmware para o cartão SD e, em seguida, conecte o cartão SD ao reSpeaker Core. Siga [as instruções aqui](https://wiki.seeedstudio.com/pt-br/ReSpeaker_Core/#2-connect-to-serial-console) para obter o console serial. Observe que, para fazer a porta serial USB funcionar, precisamos restaurar [o firmware padrão](https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/res/respeaker_arduino_library/examples/pixels_pattern/pixels_pattern.ino) para o chip Arduino (ATMega32U4) caso o tenhamos alterado. Depois de obter a porta serial USB, digite os seguintes comandos para atualizar o firmware:
 
 ```shell
 mount /dev/mmcblk0p1 /mnt
@@ -55,23 +55,23 @@ cd /mnt
 sysupgrade -n -F ramips-openwrt-v1.0.01-LinkIt7688-squashfs-sysupgrade.bin
 ```
 
-Depois que a imagem do sistema for gravada, o ReSpeaker Core será reiniciado.
+Depois que a imagem do sistema for gravada, o reSpeaker Core será reiniciado.
 
 ### Montagem
 
-Conecte seu ReSpeaker Core à unidade de drive Meow King como na imagem abaixo.
+Conecte seu reSpeaker Core à unidade de drive Meow King como na imagem abaixo.
 
 <div align="center"><img width={1000} src="https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/img/mk_1.jpg" /></div>
 
-Pressione o ícone de energia por mais de 5 segundos, a unidade de drive será ligada, assim como a placa ReSpeaker Core.
+Pressione o ícone de energia por mais de 5 segundos, a unidade de drive será ligada, assim como a placa reSpeaker Core.
 
 :::note
-O circuito de controle de energia está na unidade de drive; mesmo quando você remover o ReSpeaker Core, pressionar o ícone de energia por mais de 5 segundos ainda ligará a unidade de drive.
+O circuito de controle de energia está na unidade de drive; mesmo quando você remover o reSpeaker Core, pressionar o ícone de energia por mais de 5 segundos ainda ligará a unidade de drive.
 :::
 
 Para desligar todo o dispositivo, pressione novamente o ícone de energia por mais de 5 segundos.
 
-Quando o dispositivo é ligado, o ReSpeaker Core entrará no processo de inicialização. O anel de LED acenderá em vermelho por 1 segundo, indicando que o ReSpeaker Core está inicializando.
+Quando o dispositivo é ligado, o reSpeaker Core entrará no processo de inicialização. O anel de LED acenderá em vermelho por 1 segundo, indicando que o reSpeaker Core está inicializando.
 
 <div align="center"><img width={1000} src="https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/img/mk_2.jpg" /></div>
 
@@ -81,26 +81,26 @@ Agora aguarde alguns segundos, pegue seu smartphone e prepare-se para transmitir
 
 #### Para iOS
 
-1. Conecte seu dispositivo iOS e o ReSpeaker à mesma rede Wi‑Fi.
+1. Conecte seu dispositivo iOS e o reSpeaker à mesma rede Wi‑Fi.
 2. No seu dispositivo iOS, deslize de baixo para cima na tela para abrir a Central de Controle.
 3. Na Central de Controle, deslize horizontalmente para encontrar a tela Em Reprodução.
-4. Selecione ReSpeaker como na figura a seguir:
+4. Selecione reSpeaker como na figura a seguir:
 
 <div align="center"><img width="{500}" src="https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/img/airplay.png" /></div>
 
-5. Conecte seu fone de ouvido/alto-falante ao ReSpeaker e então você já pode aproveitar a música.
+5. Conecte seu fone de ouvido/alto-falante ao reSpeaker e então você já pode aproveitar a música.
 
 #### Para Android
 
-1. Conecte seu smartphone ao **Wi‑Fi do ReSpeaker**.
+1. Conecte seu smartphone ao **Wi‑Fi do reSpeaker**.
 2. No seu smartphone, abra um software cliente AirPlay, por exemplo: *AllConnect*.
-3. Selecione ReSpeaker como na figura a seguir:
+3. Selecione reSpeaker como na figura a seguir:
 
 <div className="text-center">
   <img src="https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/img/dlna.png" width="50%" height="50%" />
 </div>
 
-4. Conecte seu fone de ouvido/alto-falante ao ReSpeaker e então você já pode aproveitar a música.
+4. Conecte seu fone de ouvido/alto-falante ao reSpeaker e então você já pode aproveitar a música.
 
 :::note
 Uma dica adicional é tentar aumentar o volume do seu aplicativo reprodutor se você não ouvir som após iniciar a reprodução.

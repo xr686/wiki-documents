@@ -18,7 +18,7 @@ url: https://wiki.seeedstudio.com/es/respeaker_flex_xiao_udp_streaming/
 
 ## Descripción general
 
-Este proyecto demuestra la transmisión de audio en tiempo real utilizando la matriz de micrófonos **ReSpeaker Flex XVF3800** con una placa **XIAO ESP32S3**. El audio se captura mediante I2S y se transmite por UDP a un servidor que se ejecuta en una máquina local, donde puede almacenarse y procesarse como un archivo .wav.
+Este proyecto demuestra la transmisión de audio en tiempo real utilizando la matriz de micrófonos **reSpeaker Flex XVF3800** con una placa **XIAO ESP32S3**. El audio se captura mediante I2S y se transmite por UDP a un servidor que se ejecuta en una máquina local, donde puede almacenarse y procesarse como un archivo .wav.
 
 <table align="center">
   <tr>
@@ -54,7 +54,7 @@ Este sketch realiza las siguientes tareas:
 
 - Se conecta a la red Wi-Fi especificada.
 - Se conecta a un servidor UDP (por ejemplo, un script de Python que se ejecuta en el PC host).
-- Captura audio en tiempo real mediante I2S desde el ReSpeaker XVF3800 usando el XIAO ESP32S3.
+- Captura audio en tiempo real mediante I2S desde el reSpeaker XVF3800 usando el XIAO ESP32S3.
 - Transmite el audio capturado como datos en bruto.
 
 :::note

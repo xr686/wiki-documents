@@ -1,5 +1,5 @@
 ---
-description: Começando com o ReSpeaker Lite
+description: Começando com o reSpeaker Lite
 title: Começando com o reSpeaker Lite
 keywords:
   - ReSpeaker
@@ -80,7 +80,7 @@ Alimentada pelo chipset de áudio e som de IA XMOS XU316, esta placa de desenvol
 
 ### Uso Fora da Caixa
 
-ReSpeaker Lite é uma interface de voz modular plug-and-play, sem necessidade de driver, basta conectá-lo ao seu PC e você verá um dispositivo de voz chamado 'ReSpeaker Lite'.
+reSpeaker Lite é uma interface de voz modular plug-and-play, sem necessidade de driver, basta conectá-lo ao seu PC e você verá um dispositivo de voz chamado 'reSpeaker Lite'.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/pc.png" alt="pir" width={500} height="auto" /></p>
 
@@ -89,7 +89,7 @@ ReSpeaker Lite é uma interface de voz modular plug-and-play, sem necessidade de
 #### [Download de Firmware](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
 :::tip note
-Existem 2 versões para a placa ReSpeaker Lite:
+Existem 2 versões para a placa reSpeaker Lite:
 
 Para usá-la como um dispositivo de som USB, por favor grave o firmware da versão USB (firmware padrão).
 
@@ -101,7 +101,7 @@ Para usá-la com XIAO ESP32S3, por favor grave o firmware da versão I2S.
 
 #### Fiação
 
-Conecte a placa ReSpeaker Lite ao seu PC via cabo USB.
+Conecte a placa reSpeaker Lite ao seu PC via cabo USB.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/usb-connect.png" alt="pir" width={500} height="auto" /></p>
 
@@ -137,7 +137,7 @@ This program is Free Software and has ABSOLUTELY NO WARRANTY
 Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
 ```
 
-- Execute `dfu-util -l` para verificar se o ReSpeaker Lite é detectado:
+- Execute `dfu-util -l` para verificar se o reSpeaker Lite é detectado:
 
 ```
 C:\Users\yiping>dfu-util -l
@@ -179,7 +179,7 @@ Cannot open DFU device 2886:0019 found on devnum 9 (LIBUSB_ERROR_NOT_SUPPORTED)
 
 <p style={{textAlign: 'center'}}><img src="https://github.com/respeaker/ReSpeaker_Lite/raw/master/doc/images/dfu/dfu-fac.png" alt="pir" width={500} height="auto" /></p>
 
-- Após a conclusão da instalação (isso levará alguns minutos), por favor faça um power-cycle e execute `dfu-util -l` novamente; o ReSpeaker Lite deve ser detectado agora
+- Após a conclusão da instalação (isso levará alguns minutos), por favor faça um power-cycle e execute `dfu-util -l` novamente; o reSpeaker Lite deve ser detectado agora
 
 </TabItem>
 
@@ -187,7 +187,7 @@ Cannot open DFU device 2886:0019 found on devnum 9 (LIBUSB_ERROR_NOT_SUPPORTED)
 
 - Instale o dfu-util com o [brew](https://brew.sh/): `brew install dfu-util`
 
-- Execute `dfu-util -l` para verificar se o ReSpeaker Lite é detectado:
+- Execute `dfu-util -l` para verificar se o reSpeaker Lite é detectado:
 
 ```
 ➜  ~ dfu-util -l
@@ -209,7 +209,7 @@ Found DFU: [2886:0019] ver=0205, devnum=1, cfg=1, intf=3, path="1-1", alt=0, nam
 
 - Instale o dfu-util com apt: `sudo apt install dfu-util`
 
-- Execute `sudo dfu-util -l` para verificar se o ReSpeaker Lite é detectado:
+- Execute `sudo dfu-util -l` para verificar se o reSpeaker Lite é detectado:
 
 ```
 pi@raspberrypi:~ $ sudo dfu-util -l
@@ -231,7 +231,7 @@ Found DFU: [2886:0019] ver=0205, devnum=5, cfg=1, intf=3, path="1-1.1", alt=0, n
 
 #### Gravar Firmware
 
-- Conecte a placa ReSpeaker ao seu PC.
+- Conecte a placa reSpeaker ao seu PC.
 
 - Execute o seguinte comando `dfu-util -R -e -a 1 -D /path/to/dfu_firmware.bin`:
   - No Linux, execute `sudo dfu-util -R -e -a 1 -D /path/to/dfu_firmware.bin`
@@ -279,7 +279,7 @@ dfu-util -l
 
 ## Comparação
 
-||[ReSpeaker Lite](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)|[ReSpeaker Mic Array v2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html)|[reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
+||[reSpeaker Lite](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)|[reSpeaker Mic Array v2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html)|[reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
 |--|--|--|--|
 ||<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/xiao-res.png" alt="pir" width={150} height="auto" /></p>|<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/mic-array2.0.png" alt="pir" width={150} height="auto" /></p>|<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/mic-pi-hat.png" alt="pir" width={150} height="auto" /></p>|
 |<p style={{textAlign: 'center'}}>Chip Principal</p>|<p style={{textAlign: 'center'}}>XMOS XU316</p>|<p style={{textAlign: 'center'}}>XMOS XVF-3000</p>|<p style={{textAlign: 'center'}}>-</p>|
@@ -306,7 +306,7 @@ dfu-util -l
 
  Se não for a versão USB, siga [esta etapa](https://wiki.seeedstudio.com/pt-br/reSpeaker_usb_v3/#Gravar-firmware) para gravar o firmware.
 
-- **Não consegue detectar o dispositivo de som USB ReSpeaker Lite no Windows após gravar o firmware USB?**
+- **Não consegue detectar o dispositivo de som USB reSpeaker Lite no Windows após gravar o firmware USB?**
 
 - Abra o menu iniciar e digite `Device manager`. Encontre o dispositivo `ReSpeaker Lite`, clique com o botão direito nele e selecione `Uninstall device`. Selecione `Delete the driver software for this device` e clique em `Uninstall`. Depois disso, reinicie o dispositivo e o Windows irá reinstalar o driver de placa de som correto para ele.
 
@@ -314,8 +314,8 @@ dfu-util -l
 
 ### Recursos
 
-[ReSpeaker Lite XMOS Firmware](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
+[reSpeaker Lite XMOS Firmware](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
-[ReSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)
+[reSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)
 
-[ReSpeaker Lite Arquivo 3D](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)
+[reSpeaker Lite Arquivo 3D](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)

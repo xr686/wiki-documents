@@ -1,6 +1,6 @@
 ---
-description: ReSpeaker Solutions
-title: ReSpeaker Solutions
+description: reSpeaker Solutions
+title: reSpeaker Solutions
 keywords:
   - reSpeaker
 image: https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png
@@ -13,15 +13,15 @@ updatedAt: '2025-10-11'
 url: https://wiki.seeedstudio.com/ReSpeaker_Solutions/
 ---
 
-# **ReSpeaker**
+# **reSpeaker**
 
 ## The Open Voice Ecosystem for Developers
 
-[![All ReSpeaker Dev Boards](https://files.seeedstudio.com/wiki/ReSpeakerSolutions/img/FullReSpeakerLine.png)](https://www.seeedstudio.com/series/Respeaker-10.html)
+[![All reSpeaker Dev Boards](https://files.seeedstudio.com/wiki/ReSpeakerSolutions/img/FullReSpeakerLine.png)](https://www.seeedstudio.com/series/Respeaker-10.html)
 
 ## **Enabling Voice Interface**
 
-The ReSpeaker series is a family of development boards designed to enable a future where voice interface is part of everyday human-device interaction. Designed to be easily integrated (and customized) into products, but also to allow other services and products to be easily integrated into it, ReSpeaker is constantly adding new features and integrations along with examples on how to implement them. Many of these features will be for more than just making smart speakers. We hope you can work with us to create better voice solutions for offices, buildings, retail, entertainment, conservation, and more.
+The reSpeaker series is a family of development boards designed to enable a future where voice interface is part of everyday human-device interaction. Designed to be easily integrated (and customized) into products, but also to allow other services and products to be easily integrated into it, reSpeaker is constantly adding new features and integrations along with examples on how to implement them. Many of these features will be for more than just making smart speakers. We hope you can work with us to create better voice solutions for offices, buildings, retail, entertainment, conservation, and more.
 
 If you want to experience voice interface, or you want to try to implement your idea, grab a kit, or a development board [here](https://www.seeedstudio.com/series/Respeaker-10.html)!
 
@@ -74,7 +74,7 @@ If you have questions please reach us at iot@seeed.cc.
 
 ## **Manufacture Your Voice Solution**
 
-We can also manufacture your customized ReSpeaker as well as any other items you may need. From less than several hundred boards to over 10,000 units, we are able to provide several key services as a manufacturing partner.
+We can also manufacture your customized reSpeaker as well as any other items you may need. From less than several hundred boards to over 10,000 units, we are able to provide several key services as a manufacturing partner.
 
 ### **Manufacturing Services**
 
@@ -86,15 +86,15 @@ If you have questions please reach us at iot@seeed.cc.
 
 ## **What's New?**
 
-Check out our most recent blogs on the ReSpeaker line!
+Check out our most recent blogs on the reSpeaker line!
 
-**A ReSpeaker Core V2.0 Walks Into a Bar...**
+**A reSpeaker Core V2.0 Walks Into a Bar...**
 [![Blog a](https://www.seeedstudio.com/blog/wp-content/uploads/2018/06/Banner-1030x466.jpg)](https://www.seeedstudio.com/blog/2018/06/22/a-respeaker-core-v2-0-walks-into-a-bar/)
-We are back with another addition to our ReSpeaker product line – the ReSpeaker Core v2.0. The ReSpeaker Core v2.0 is geared towards helping create voice interaction projects. Featuring a powerful computing core and a 6-mic array with professional voice enhancement algorithms, this board is a significant upgrade... [Read More](https://www.seeedstudio.com/blog/2018/06/22/a-respeaker-core-v2-0-walks-into-a-bar/)
+We are back with another addition to our reSpeaker product line – the reSpeaker Core v2.0. The reSpeaker Core v2.0 is geared towards helping create voice interaction projects. Featuring a powerful computing core and a 6-mic array with professional voice enhancement algorithms, this board is a significant upgrade... [Read More](https://www.seeedstudio.com/blog/2018/06/22/a-respeaker-core-v2-0-walks-into-a-bar/)
 
-**Adding to the Family: ReSpeaker Mic Array v2.0**
+**Adding to the Family: reSpeaker Mic Array v2.0**
 [![Blog a](https://www.seeedstudio.com/blog/wp-content/uploads/2018/05/playback.jpg)](https://www.seeedstudio.com/blog/2018/05/22/adding-to-the-family-respeaker-mic-array-v2-0/)
-Adding voice interactivity to your device/project/product is something that many people would love to do. In 2016 Seeed, with the help of our Kickstarter backers, pushed out the ReSpeaker Core and the ReSpeaker Mic Array (discontinued). Over time we began to realize two things: first, that we were very interested in continuing to pursue this area of voice interaction... [Read More](https://www.seeedstudio.com/blog/2018/05/22/adding-to-the-family-respeaker-mic-array-v2-0/)
+Adding voice interactivity to your device/project/product is something that many people would love to do. In 2016 Seeed, with the help of our Kickstarter backers, pushed out the reSpeaker Core and the reSpeaker Mic Array (discontinued). Over time we began to realize two things: first, that we were very interested in continuing to pursue this area of voice interaction... [Read More](https://www.seeedstudio.com/blog/2018/05/22/adding-to-the-family-respeaker-mic-array-v2-0/)
 Thank you for choosing our products! We are here to provide you with different support to ensure that your experience with our products is as smooth as possible. We offer several communication channels to cater to different preferences and needs.
 
 <div class="button_tech_support_container">

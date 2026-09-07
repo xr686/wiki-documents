@@ -1,6 +1,6 @@
 ---
-description: ReSpeaker Mic Array
-title: ReSpeaker Mic Array
+description: reSpeaker Mic Array
+title: reSpeaker Mic Array
 keywords:
   - reSpeaker
 image: https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png
@@ -19,7 +19,7 @@ url: https://wiki.seeedstudio.com/es/ReSpeaker_Mic_Array/
 
 ## Descripción
 
-El ReSpeaker Mic Array puede apilarse (conectarse) directamente en la parte superior del ReSpeaker Core para mejorar significativamente la experiencia de interacción por voz. Está desarrollado basándose en el micrófono inteligente XVSM-2000 de XMOS. La placa integra 7 micrófonos PDM para ayudar a mejorar el rendimiento DSP acústico del ReSpeaker a un nivel mucho más alto.
+El reSpeaker Mic Array puede apilarse (conectarse) directamente en la parte superior del reSpeaker Core para mejorar significativamente la experiencia de interacción por voz. Está desarrollado basándose en el micrófono inteligente XVSM-2000 de XMOS. La placa integra 7 micrófonos PDM para ayudar a mejorar el rendimiento DSP acústico del reSpeaker a un nivel mucho más alto.
 
 ## Características Clave
 
@@ -69,14 +69,14 @@ El ReSpeaker Mic Array puede apilarse (conectarse) directamente en la parte supe
 - Peso:
   - 15.25g
 
-## Controlador para ReSpeaker Mic Array
+## Controlador para reSpeaker Mic Array
 
 - Para usuarios de Windows, haga clic [aquí](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Driver) para instalar el controlador
 - Para usuarios de Linux o Mac, no es necesario instalar el controlador
 
-## Extraer voz con ReSpeaker Core
+## Extraer voz con reSpeaker Core
 
-Cuando el Mic Array está apilado en el ReSpeaker Core, será detectado automáticamente (verificar con `aplay -l`). Y recomendamos que puedas usar nuestra [respeaker_python_library](https://github.com/respeaker/respeaker_python_library) para desarrollar tu aplicación de interacción por voz para que no necesites preocuparte por si el Mic Array está encendido o no. Nuestra biblioteca verificará esto y elegirá el Mic Array cuando esté encendido.
+Cuando el Mic Array está apilado en el reSpeaker Core, será detectado automáticamente (verificar con `aplay -l`). Y recomendamos que puedas usar nuestra [respeaker_python_library](https://github.com/respeaker/respeaker_python_library) para desarrollar tu aplicación de interacción por voz para que no necesites preocuparte por si el Mic Array está encendido o no. Nuestra biblioteca verificará esto y elegirá el Mic Array cuando esté encendido.
 
 También, en esa biblioteca, [*class Microphone*](https://github.com/respeaker/respeaker_python_library/blob/master/respeaker/microphone.py), que está basada en **Pyaudio**, tiene un método llamado [*listen*](https://github.com/respeaker/respeaker_python_library/blob/master/respeaker/microphone.py#L207), para extraer voz. Ve nuestro [código de ejemplo](https://github.com/respeaker/respeaker_python_library/blob/master/examples/SpeechRecognition_translator.py) aquí para su uso.
 
@@ -144,9 +144,9 @@ wf.writeframes(b''.join(frames))
 wf.close()
 ```
 
-## Firmwares para ReSpeaker Mic Array
+## Firmwares para reSpeaker Mic Array
 
-Puedes descargar los firmwares de ReSpeaker Mic array para DFU [aquí](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Firmware). Hemos proporcionado dos versiones:
+Puedes descargar los firmwares de reSpeaker Mic array para DFU [aquí](https://github.com/Fuhua-Chen/ReSpeaker_Microphone_Array_Firmware). Hemos proporcionado dos versiones:
 
 - *versión xvsm* : versión inicial, produce datos de 2 canales con soporte dsp.
 - *versión raw* : produce datos en bruto de 8 canales de micrófono, este firmware no tiene soporte xvsm dsp, por lo que no admite algunas funciones como DOA, AEC y demás.
@@ -154,9 +154,9 @@ Puedes descargar los firmwares de ReSpeaker Mic array para DFU [aquí](https://g
 Por favor consulta [aquí](https://github.com/respeaker/mic_array_dfu) para **actualizar firmware en Linux**.
 Por favor consulta [aquí](https://github.com/jerryyip/respeaker_micarray_dfu_mac_linux) para **actualizar firmware en Mac**.
 
-## HID para controlar ReSpeaker Mic Array
+## HID para controlar reSpeaker Mic Array
 
-Los usuarios pueden controlar ReSpeaker Mic Array a través de USB HID. Por favor consulta nuestro [Protocolo de comunicación](https://github.com/Fuhua-Chen/ReSpeaker-Microphone-Array-HID-tool).
+Los usuarios pueden controlar reSpeaker Mic Array a través de USB HID. Por favor consulta nuestro [Protocolo de comunicación](https://github.com/Fuhua-Chen/ReSpeaker-Microphone-Array-HID-tool).
 
 Ten en cuenta que si estás usando la última *versión raw*, solo puedes controlar los LEDs.
 
@@ -278,14 +278,14 @@ el administrador de dispositivos primero. después de desinstalar, actualiza el 
 
 ## Recursos
 
-- **[Eagle]**[ReSpeaker Microphone Array SCH](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0.sch.zip)
-- **[Eagle]**[ReSpeaker Microphone Array BRD](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0.brd.zip)
-- **[PDF]** [ReSpeaker Microphone Array SCH](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0%20Sch.pdf)
-- **[PDF]** [ReSpeaker Microphone Array PCB](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0%20PCB.pdf)
+- **[Eagle]**[reSpeaker Microphone Array SCH](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0.sch.zip)
+- **[Eagle]**[reSpeaker Microphone Array BRD](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0.brd.zip)
+- **[PDF]** [reSpeaker Microphone Array SCH](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0%20Sch.pdf)
+- **[PDF]** [reSpeaker Microphone Array PCB](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array/res/Respeaker%20Microphone%20Array%20v1.0%20PCB.pdf)
 
 ## Proyecto
 
-**Construir Google Assistant en RPi con ReSpeaker Mic Array**: ¡Con ReSpeaker Mic Array, ahora podemos construir Google Assistant en Raspberry Pi!
+**Construir Google Assistant en RPi con reSpeaker Mic Array**: ¡Con reSpeaker Mic Array, ahora podemos construir Google Assistant en Raspberry Pi!
 
 <iframe frameborder='0' height='327.5' scrolling='no' src='https://www.hackster.io/SeeedStudio/build-google-assistant-on-rpi-with-respeaker-mic-array-1030bb/embed' width='350'></iframe>
 

@@ -20,7 +20,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_flex_soarm/
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/reSpeaker_flex/lerobot_flex.png" alt="pir" width={800} height="auto" /></p>
 
 
-LeRobot SO-ARM Voice Controller を使うと、AI による自然な音声コマンドで SO-ARM100 ロボットアームを操作できます。このシステムは、ウェイクワード検出、Groq Whisper 音声認識、LLaMA 3 による言語理解、Orpheus 音声合成を組み合わせることで、完全にハンズフリーでインタラクティブなロボット体験を実現します。[LeRobot framework](https://github.com/huggingface/lerobot?utm_source=chatgpt.com) の上に構築されており、Ubuntu x86 システムおよび NVIDIA Jetson デバイス上で動作し、音声入力には ReSpeaker USB マイクアレイを使用します。ユーザーはカスタムのアームポーズ、ジェスチャー、会話トリガーを作成して、研究、教育、ロボット開発向けのインテリジェントなロボットインタラクションを構築できます。
+LeRobot SO-ARM Voice Controller を使うと、AI による自然な音声コマンドで SO-ARM100 ロボットアームを操作できます。このシステムは、ウェイクワード検出、Groq Whisper 音声認識、LLaMA 3 による言語理解、Orpheus 音声合成を組み合わせることで、完全にハンズフリーでインタラクティブなロボット体験を実現します。[LeRobot framework](https://github.com/huggingface/lerobot?utm_source=chatgpt.com) の上に構築されており、Ubuntu x86 システムおよび NVIDIA Jetson デバイス上で動作し、音声入力には reSpeaker USB マイクアレイを使用します。ユーザーはカスタムのアームポーズ、ジェスチャー、会話トリガーを作成して、研究、教育、ロボット開発向けのインテリジェントなロボットインタラクションを構築できます。
 
 
 ## 必要なハードウェア
@@ -262,7 +262,7 @@ Available audio INPUT devices:
   [2] USB PnP Sound Device    (rate=16000Hz)
 ```
 
-ReSpeaker の横に表示されているインデックス番号をメモします — それが `MIC_INDEX` です。
+reSpeaker の横に表示されているインデックス番号をメモします — それが `MIC_INDEX` です。
 
 ### プロジェクトを設定する
 
@@ -424,7 +424,7 @@ sudo apt-get install -y portaudio19-dev
 ```
 
 **ウェイクワードがまったく反応しない**
-`list_mics.py` をもう一度実行し、`MIC_INDEX` が ReSpeaker と一致していることを確認します。`WAKEWORD_THRESHOLD` を `0.3` に下げてみてください。マイクから約 1 メートル以内で、はっきりと話してください。
+`list_mics.py` をもう一度実行し、`MIC_INDEX` が reSpeaker と一致していることを確認します。`WAKEWORD_THRESHOLD` を `0.3` に下げてみてください。マイクから約 1 メートル以内で、はっきりと話してください。
 
 **コマンド後にアームが動かない**
 `ARM_PORT` が正しいか（`lerobot-find-port`）を確認します。キャリブレーションファイルが `~/.cache/huggingface/lerobot/calibration/robots/so_follower/<ARM_ID>.json` に存在することを確認します。
@@ -447,4 +447,4 @@ Raspberry Pi では、`raspi-config` → System Options → Audio から、正�
 - [SO-ARM100](https://wiki.seeedstudio.com/ja/lerobot_so100m_new/) — Seeed Studio による低コストのオープンソースロボットアーム
 - [openwakeword](https://github.com/dscripka/openWakeWord) — ローカルのウェイクワード検出
 - [Groq](https://groq.com/) — 超高速な Whisper STT、LLaMA LLM、Orpheus TTS
-- [ReSpeaker Flex](https://wiki.seeedstudio.com/ja/respeaker_flex/) — USB マイクアレイ
+- [reSpeaker Flex](https://wiki.seeedstudio.com/ja/respeaker_flex/) — USB マイクアレイ

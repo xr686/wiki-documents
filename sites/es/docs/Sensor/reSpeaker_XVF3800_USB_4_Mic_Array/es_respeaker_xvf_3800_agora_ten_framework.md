@@ -124,11 +124,11 @@ Workflow:
 | Hardware | Notas |
 |------|------|
 | **Seeed Studio XIAO ESP32-S3** | Placa controladora principal |
-| **ReSpeaker XVF3800** | Placa de expansión de audio (matriz de micrófonos + interfaz de altavoz) |
+| **reSpeaker XVF3800** | Placa de expansión de audio (matriz de micrófonos + interfaz de altavoz) |
 | **Altavoz** | Al menos un altavoz para reproducir las respuestas de la IA |
 | **Cable de datos USB-C** | Para grabar el firmware y alimentar el dispositivo |
 
-<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/respeaker-xvf3800-4-mic-array-with-xiao-esp32s3.webp" alt="ReSpeaker XVF3800" width={500} height="auto" /></p>
+<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/respeaker-xvf3800-4-mic-array-with-xiao-esp32s3.webp" alt="reSpeaker XVF3800" width={500} height="auto" /></p>
 
 ### Cuentas y Claves API
 
@@ -190,7 +190,7 @@ Puedes descargar el firmware desde [aquí](https://github.com/respeaker/reSpeake
 
 ### Pasos de Actualización
 
-En tu ordenador, conecta **ReSpeaker XMOS XVF3800 with XIAO ESP32S3** y ejecuta la herramienta de actualización de firmware, luego selecciona el firmware.
+En tu ordenador, conecta **reSpeaker XMOS XVF3800 with XIAO ESP32S3** y ejecuta la herramienta de actualización de firmware, luego selecciona el firmware.
 
 Para una guía detallada, consulta [esta página](https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/#update-firmware)。
 
@@ -514,7 +514,7 @@ git apply $ADF_PATH/idf_patches/idf_v5.2_freertos.patch
 
 #### Modificar la configuración de pines de la placa ESP-ADF (¡Crítico!)
 
-Debido a que el pinout de ReSpeaker XVF3800 difiere del Korvo-2 V3 por defecto, debes modificar la configuración de la placa en el framework:
+Debido a que el pinout de reSpeaker XVF3800 difiere del Korvo-2 V3 por defecto, debes modificar la configuración de la placa en el framework:
 
 **Ubicación del archivo:**
 - Windows: `C:\Espressif\frameworks\esp-adf\components\audio_board\esp32_s3_korvo2_v3\board_pins_config.c`
@@ -818,7 +818,7 @@ Si la dirección no es `0x18`, debes cambiar `AIC3104_ADDR` en `aic3104_ng.h`.
 | Guía de programación ESP-ADF | https://docs.espressif.com/projects/esp-adf/zh_CN/latest/ |
 | Documentación de Agora RTC | https://docs.agora.io/en/rtc/overview/product-overview |
 | Documentación de TEN Framework | https://doc.theten.ai |
-| Guía de firmware de ReSpeaker XVF3800 | https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/ |
+| Guía de firmware de reSpeaker XVF3800 | https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/ |
 
 ### Servicios de API
 

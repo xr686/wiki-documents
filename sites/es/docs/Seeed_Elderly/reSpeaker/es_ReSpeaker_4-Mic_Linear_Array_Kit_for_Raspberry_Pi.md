@@ -1,5 +1,5 @@
 ---
-description: Kit lineal ReSpeaker 4-Mic
+description: Kit lineal reSpeaker 4-Mic
 title: reSpeaker 4-Mic Linear Array Kit
 keywords:
   - reSpeaker
@@ -16,15 +16,15 @@ url: https://wiki.seeedstudio.com/es/ReSpeaker_4-Mic_Linear_Array_Kit_for_Raspbe
 
 ![enter image description here](https://files.seeedstudio.com/wiki/ReSpeaker_4-Mics_Linear_Array_Kit/img/main_wiki.jpg)
 
-El kit lineal ReSpeaker 4-Mic de Seeed es una placa de expansión, también conocida como HAT, diseñada para Raspberry Pi. Es un kit de matriz lineal de micrófonos, viene con cuatro micrófonos y está diseñado para aplicaciones de IA y voz. Esto significa que puedes construir un producto de voz más potente y flexible con Raspberry Pi que pueda integrar Amazon Alexa Voice Service, Google Assistant, etc.
+El kit lineal reSpeaker 4-Mic de Seeed es una placa de expansión, también conocida como HAT, diseñada para Raspberry Pi. Es un kit de matriz lineal de micrófonos, viene con cuatro micrófonos y está diseñado para aplicaciones de IA y voz. Esto significa que puedes construir un producto de voz más potente y flexible con Raspberry Pi que pueda integrar Amazon Alexa Voice Service, Google Assistant, etc.
 
-ReSpeaker 4-Mic Linear Array Kit para Raspberry Pi consta de dos placas, una es el HAT de accesorio de voz y la otra es la matriz lineal de cuatro micrófonos.
+reSpeaker 4-Mic Linear Array Kit para Raspberry Pi consta de dos placas, una es el HAT de accesorio de voz y la otra es la matriz lineal de cuatro micrófonos.
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/NxZx9nz67Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-ReSpeaker 4-Mic Linear Array Kit para Raspberry Pi admite 8 canales de entrada y 8 canales de salida en Raspberry Pi OS. Los primeros 6 canales de entrada son para la grabación del micrófono (solo los primeros 4 canales de entrada capturan datos válidos), los otros 2 canales de entrada son canales de eco de la reproducción. Los primeros 2 canales de salida son para la salida de sonido, los otros 6 canales de salida son ficticios.
+reSpeaker 4-Mic Linear Array Kit para Raspberry Pi admite 8 canales de entrada y 8 canales de salida en Raspberry Pi OS. Los primeros 6 canales de entrada son para la grabación del micrófono (solo los primeros 4 canales de entrada capturan datos válidos), los otros 2 canales de entrada son canales de eco de la reproducción. Los primeros 2 canales de salida son para la salida de sonido, los otros 6 canales de salida son ficticios.
 
 <p style={{textAlign: 'center'}}><a href="https://www.seeedstudio.com/ReSpeaker-4-Mic-Linear-Array-Kit-p-3066.html" target="_blank"><img src="https://files.seeedstudio.com/wiki/Seeed-WiKi/docs/images/300px-Get_One_Now_Banner-ragular.png" /></a></p>
 
@@ -82,11 +82,11 @@ Después de conectar, asegúrate de usar un multímetro para determinar si la co
 
 ## Primeros pasos
 
-**Conectar ReSpeaker 4-Mic Array a Raspberry Pi**
+**Conectar reSpeaker 4-Mic Array a Raspberry Pi**
 
-**Paso 1.**  Conecta el *ReSpeaker Voice Accessory HAT* con el *ReSpeaker 4-Mic linear Array* mediante el cable plano
+**Paso 1.**  Conecta el *reSpeaker Voice Accessory HAT* con el *reSpeaker 4-Mic linear Array* mediante el cable plano
 
-**Paso 2.**  Inserta el *ReSpeaker Voice Accessory HAT* en la *Raspberry Pi* a través del GPIO de 40 pines
+**Paso 2.**  Inserta el *reSpeaker Voice Accessory HAT* en la *Raspberry Pi* a través del GPIO de 40 pines
 
 **Paso 3.**  Conecta los *auriculares* al *conector de audio para auriculares de 3,5 mm* o conecta el *altavoz* al *conector para altavoz JST 2.0*
 
@@ -278,7 +278,7 @@ Verás el ID del dispositivo como se muestra a continuación.
 Input Device id  2  -  seeed-8mic-voicecard: - (hw:1,0)
 ```
 
-Para grabar el sonido, abre el archivo ```recording_examples/record.py``` con nano u otro editor de texto y cambia `RESPEAKER_INDEX = 2` al número de índice de ReSpeaker en tu sistema. Luego ejecuta el script de Python record.py para hacer una grabación:
+Para grabar el sonido, abre el archivo ```recording_examples/record.py``` con nano u otro editor de texto y cambia `RESPEAKER_INDEX = 2` al número de índice de reSpeaker en tu sistema. Luego ejecuta el script de Python record.py para hacer una grabación:
 
 ```
 python3 recording_examples/record.py
@@ -303,7 +303,7 @@ aplay -D plughw:0,0 output_one_channel.wav #for Mono sound from one channel
 
 R1: Hay 2 AC108 en esta matriz, y cada chip AC108 tiene 4 canales de salida. Así que en total hay 8 canales aquí, 4 de los cuales son para el micrófono, dos canales para la reproducción y los otros 2 canales no se usan.
 
-**P2: Si Raspberry puede detectar ReSpeaker 2-mics hat, pero no puede detectar ReSpeaker 4-mics linear array?**
+**P2: Si Raspberry puede detectar reSpeaker 2-mics hat, pero no puede detectar reSpeaker 4-mics linear array?**
 
 R2: Haz clic en raspberry -> Preferences -> Raspberry Pi Configuration, luego selecciona la pestaña Interfaces y asegúrate de que 1-Wire esté en Disabled.
 
@@ -319,7 +319,7 @@ R2: Haz clic en raspberry -> Preferences -> Raspberry Pi Configuration, luego se
 
 ## Proyectos
 
-[Mojing Mojing - A Smart Mirror with ReSpeaker!](https://www.hackster.io/SeeedStudio/mojing-mojing-a-smart-mirror-with-respeaker-e1ae20): Un espejo inteligente con control mediante interfaz de voz a través de ReSpeaker. También lo conectamos con Wio Link para controlar otros objetos. Basado en Raspberry Pi.
+[Mojing Mojing - A Smart Mirror with reSpeaker!](https://www.hackster.io/SeeedStudio/mojing-mojing-a-smart-mirror-with-respeaker-e1ae20): Un espejo inteligente con control mediante interfaz de voz a través de reSpeaker. También lo conectamos con Wio Link para controlar otros objetos. Basado en Raspberry Pi.
 
 ## Soporte técnico y debate sobre el producto
 

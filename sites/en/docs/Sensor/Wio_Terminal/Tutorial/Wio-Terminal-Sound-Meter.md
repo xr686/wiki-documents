@@ -22,7 +22,7 @@ This example showing how perfectly display the Decibel Meter on the Wio Terminal
 ## Part list
 
 - [**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
-- [**ReSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
+- [**reSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
 
 :::note
 Please visit the [**Audio Overview**](https://wiki.seeedstudio.com/Wio-Terminal-Audio-Overview/) for the **Hardware Connection**.
@@ -112,7 +112,7 @@ The value of dB is presented.
 
 ## The Decibel Meter Demo
 
-This example detects dB using the mic on ReSpeaker 2-Mic Hat, The around evirnment is detected, then displayed on the display.
+This example detects dB using the mic on reSpeaker 2-Mic Hat, The around evirnment is detected, then displayed on the display.
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Sound-Meter/sound-Meter_gGIF.gif" /></div>
 

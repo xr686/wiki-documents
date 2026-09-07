@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/cn/Wio-Terminal-Audio-GUI/
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/GUI.gif"/></div>
 
-本文档介绍如何使用**音频系统设计工具**为使用[**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)和[**ReSpeaker 2-Mit Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)的音频库设计音频系统。当您可以看到输入和输出的去向时，这使得设计音频系统变得更加容易。
+本文档介绍如何使用**音频系统设计工具**为使用[**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)和[**reSpeaker 2-Mit Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)的音频库设计音频系统。当您可以看到输入和输出的去向时，这使得设计音频系统变得更加容易。
 
 > **这是Seeed对[Teensy音频库音频系统设计工具](https://www.pjrc.com/teensy/gui/)的分支版本。**
 
@@ -33,13 +33,13 @@ url: https://wiki.seeedstudio.com/cn/Wio-Terminal-Audio-GUI/
 
 #### 从SD卡播放音乐文件
 
-让我们通过一个示例来了解音频设计系统的基础知识。假设您想要通过ReSpeaker 2-Mic hat的扬声器简单地播放SD卡中的歌曲：
+让我们通过一个示例来了解音频设计系统的基础知识。假设您想要通过reSpeaker 2-Mic hat的扬声器简单地播放SD卡中的歌曲：
 
 - **`INPUT`**是从SD卡播放。
 
 - **`OUTPUT`**是I2S输出。
 
-- **`wm8960`**是ReSpeaker 2-Mics的控制单元。
+- **`wm8960`**是reSpeaker 2-Mics的控制单元。
 
 所以设计应该看起来像这样：
 
@@ -122,7 +122,7 @@ void loop() {
 
 - **`OUTPUT`**是I2S输出和两个峰值！一个峰值用于左声道，一个峰值用于右声道。
 
-- **`wm8960`**是ReSpeaker 2-Mics的控制单元。
+- **`wm8960`**是reSpeaker 2-Mics的控制单元。
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/peak-detection-gui.png"/></div>
 
@@ -138,7 +138,7 @@ void loop() {
 
 - **`OUTPUT`**是I2S输出和FFT计算。
 
-- **`wm8960`**是ReSpeaker 2-Mics的控制单元。
+- **`wm8960`**是reSpeaker 2-Mics的控制单元。
 
 这里我们将介绍另一个有用的功能，**混音器**。这允许您将最多**四个**音频通道合并为一个。这用于对合并通道（左和右）执行FFT，比单通道更准确。
 
@@ -156,7 +156,7 @@ void loop() {
 
 - **`OUTPUT`**是I2S输出。**PlayQueue** -> **Output I2S**
 
-- **`wm8960`**是ReSpeaker 2-Mics的控制单元。
+- **`wm8960`**是reSpeaker 2-Mics的控制单元。
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/record-play-realtime.png"/></div>
 

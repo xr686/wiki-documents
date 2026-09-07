@@ -80,7 +80,7 @@ url: https://wiki.seeedstudio.com/cn/reSpeaker_usb_v3/
 
 ### 开箱即用
 
-ReSpeaker Lite 是一款即插即用的模块化语音接口，无需驱动，只需将其插入你的 PC，你就会看到一个名为“ReSpeaker Lite”的语音设备。
+reSpeaker Lite 是一款即插即用的模块化语音接口，无需驱动，只需将其插入你的 PC，你就会看到一个名为“reSpeaker Lite”的语音设备。
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/pc.png" alt="pir" width={500} height="auto" /></p>
 
@@ -89,7 +89,7 @@ ReSpeaker Lite 是一款即插即用的模块化语音接口，无需驱动，�
 #### [固件下载](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
 :::tip note
-ReSpeaker Lite 开发板有 2 个版本：
+reSpeaker Lite 开发板有 2 个版本：
 
 若要将其用作 USB 声卡设备，请烧录 USB 版本固件（默认固件）。
 
@@ -101,7 +101,7 @@ ReSpeaker Lite 开发板有 2 个版本：
 
 #### 接线
 
-通过 USB 线将 ReSpeaker Lite 开发板连接到你的 PC。
+通过 USB 线将 reSpeaker Lite 开发板连接到你的 PC。
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/usb-connect.png" alt="pir" width={500} height="auto" /></p>
 
@@ -137,7 +137,7 @@ This program is Free Software and has ABSOLUTELY NO WARRANTY
 Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
 ```
 
-- 运行 `dfu-util -l` 检查是否检测到 ReSpeaker Lite：
+- 运行 `dfu-util -l` 检查是否检测到 reSpeaker Lite：
 
 ```
 C:\Users\yiping>dfu-util -l
@@ -179,7 +179,7 @@ Cannot open DFU device 2886:0019 found on devnum 9 (LIBUSB_ERROR_NOT_SUPPORTED)
 
 <p style={{textAlign: 'center'}}><img src="https://github.com/respeaker/ReSpeaker_Lite/raw/master/doc/images/dfu/dfu-fac.png" alt="pir" width={500} height="auto" /></p>
 
-- 安装完成后（这将花费几分钟），请重新上电并再次运行 `dfu-util -l`，此时应该可以检测到 ReSpeaker Lite
+- 安装完成后（这将花费几分钟），请重新上电并再次运行 `dfu-util -l`，此时应该可以检测到 reSpeaker Lite
 
 </TabItem>
 
@@ -187,7 +187,7 @@ Cannot open DFU device 2886:0019 found on devnum 9 (LIBUSB_ERROR_NOT_SUPPORTED)
 
 - 使用 [brew](https://brew.sh/) 安装 dfu-util：`brew install dfu-util`
 
-- 运行 `dfu-util -l` 检查是否检测到 ReSpeaker Lite：
+- 运行 `dfu-util -l` 检查是否检测到 reSpeaker Lite：
 
 ```
 ➜  ~ dfu-util -l
@@ -209,7 +209,7 @@ Found DFU: [2886:0019] ver=0205, devnum=1, cfg=1, intf=3, path="1-1", alt=0, nam
 
 - 使用 apt 安装 dfu-util：`sudo apt install dfu-util`
 
-- 运行 `sudo dfu-util -l` 检查是否检测到 ReSpeaker Lite：
+- 运行 `sudo dfu-util -l` 检查是否检测到 reSpeaker Lite：
 
 ```
 pi@raspberrypi:~ $ sudo dfu-util -l
@@ -231,7 +231,7 @@ Found DFU: [2886:0019] ver=0205, devnum=5, cfg=1, intf=3, path="1-1.1", alt=0, n
 
 #### 烧录固件
 
-- 将 ReSpeaker 开发板连接到你的电脑。
+- 将 reSpeaker 开发板连接到你的电脑。
 
 - 运行以下命令 `dfu-util -R -e -a 1 -D /path/to/dfu_firmware.bin`：
   - 在 Linux 上请运行 `sudo dfu-util -R -e -a 1 -D /path/to/dfu_firmware.bin`
@@ -279,7 +279,7 @@ dfu-util -l
 
 ## 对比
 
-||[ReSpeaker Lite](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)|[ReSpeaker Mic Array v2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html)|[reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
+||[reSpeaker Lite](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)|[reSpeaker Mic Array v2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html)|[reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
 |--|--|--|--|
 ||<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/xiao-res.png" alt="pir" width={150} height="auto" /></p>|<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/mic-array2.0.png" alt="pir" width={150} height="auto" /></p>|<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/mic-pi-hat.png" alt="pir" width={150} height="auto" /></p>|
 |<p style={{textAlign: 'center'}}>核心芯片</p>|<p style={{textAlign: 'center'}}>XMOS XU316</p>|<p style={{textAlign: 'center'}}>XMOS XVF-3000</p>|<p style={{textAlign: 'center'}}>-</p>|
@@ -306,7 +306,7 @@ dfu-util -l
 
  如果不是 USB 版本，请按照[此步骤](https://wiki.seeedstudio.com/cn/reSpeaker_usb_v3/#flash-firmware)来烧录固件。
 
-- **在烧录 USB 固件后，Windows 上无法检测到 ReSpeaker Lite USB 声音设备？**
+- **在烧录 USB 固件后，Windows 上无法检测到 reSpeaker Lite USB 声音设备？**
 
 - 打开开始菜单并输入 `Device manager`。找到 `ReSpeaker Lite` 设备，右键点击并选择 `Uninstall device`。勾选 `Delete the driver software for this device`，然后点击 `Uninstall`。之后重启设备，Windows 会为其重新安装正确的声卡驱动。
 
@@ -314,8 +314,8 @@ dfu-util -l
 
 ### 资源
 
-[ReSpeaker Lite XMOS 固件](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
+[reSpeaker Lite XMOS 固件](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
-[ReSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)
+[reSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)
 
-[ReSpeaker Lite 3D 文件](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)
+[reSpeaker Lite 3D 文件](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)

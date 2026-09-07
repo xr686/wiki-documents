@@ -788,18 +788,18 @@ if we connect the TX to RX we will get `hello seeder` at terminal.and the locati
 
 ### I2S on ODYSSEY-STM32MP157C
 
-In this section, we will explain the control principle of the Linux I2S programming. Now we will use I2S and ReSpeaker 2-Mics Pi HAT to tell you how to use it.
+In this section, we will explain the control principle of the Linux I2S programming. Now we will use I2S and reSpeaker 2-Mics Pi HAT to tell you how to use it.
 
 #### Hardware
 
 - **Step 1**. Things used in this project:
 
-| ODYSSEY – STM32MP157C | ReSpeaker 2-Mics Pi HAT |
+| ODYSSEY – STM32MP157C | reSpeaker 2-Mics Pi HAT |
 |--------------|----------------|
 |![enter image description here](https://files.seeedstudio.com/wiki/ODYSSEY-STM32MP157C/IMG/perspective-19-210X157.png)|![image](https://files.seeedstudio.com/wiki/ODYSSEY-STM32MP157C/IMG/res-thumbnail.png)|
 |[Get ONE Now](https://www.seeedstudio.com/ODYSSEY-STM32MP157C-p-4464.html)|[Get ONE Now](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
 
-- **Step 2.** According to the [installation hardware guide](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/#getting-started) insert ReSpeaker 2-Mics Pi HAT onto ODYSSEY – STM32MP157C.
+- **Step 2.** According to the [installation hardware guide](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/#getting-started) insert reSpeaker 2-Mics Pi HAT onto ODYSSEY – STM32MP157C.
 
 #### Software
 
@@ -865,7 +865,7 @@ card 1: STM32MP1SEEEDNP [STM32MP1-SEEEDNPi], device 1: 4400b024.audio-controller
   Subdevice #0: subdevice #0
 ```
 
-- **Step 7.** Now you can start playing with ReSpeaker 2-Mics Pi Hat! For simple record and play testing, run the following command:
+- **Step 7.** Now you can start playing with reSpeaker 2-Mics Pi Hat! For simple record and play testing, run the following command:
 
 1. To record an audio to `test.wav`:
 
@@ -884,7 +884,7 @@ aplay -Dhw:0 -r 48000 test.wav
 if you cannot get any sound maybe you can reboot again.
 </div>
 
-For more information about the ReSpeaker 2-Mics Pi HAT you can visit [wiki](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/)
+For more information about the reSpeaker 2-Mics Pi HAT you can visit [wiki](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/)
 
 ## Resourses
 

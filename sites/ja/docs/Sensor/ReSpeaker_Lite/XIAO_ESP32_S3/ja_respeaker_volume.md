@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Liteの音量調整
+description: reSpeaker Liteの音量調整
 title: 音量調整
 keywords:
   - ReSpeaker
@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_volume/
 
 ### 機能
 
-このサンプルプロジェクトは、I2Cコマンドを使用してReSpeaker Liteの音量を調整する方法を示しています。
+このサンプルプロジェクトは、I2Cコマンドを使用してreSpeaker Liteの音量を調整する方法を示しています。
 
 `AIC3204`のI2Cアドレス: `0x18`
 

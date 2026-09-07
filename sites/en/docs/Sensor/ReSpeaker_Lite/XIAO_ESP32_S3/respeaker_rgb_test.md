@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Lite RGB test
+description: reSpeaker Lite RGB test
 title: RGB test
 keywords:
   - ReSpeaker
@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/respeaker_rgb_test/
 ### Functionality
 
 
-The RGB light on the ReSpeaker Lite board is using the WS2812 chip and controlled via the `GPIO1` pin. The project cycles through different colors (red, green, blue, and white) to ensure that the RGB light is functioning properly. 
+The RGB light on the reSpeaker Lite board is using the WS2812 chip and controlled via the `GPIO1` pin. The project cycles through different colors (red, green, blue, and white) to ensure that the RGB light is functioning properly. 
 
 
 

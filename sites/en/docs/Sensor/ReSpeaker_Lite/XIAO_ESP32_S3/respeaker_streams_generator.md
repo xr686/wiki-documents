@@ -1,6 +1,6 @@
 ---
-description: Sine Wave Generator with ReSpeaker Lite
-title: Sine Wave Generator with ReSpeaker Lite
+description: Sine Wave Generator with reSpeaker Lite
+title: Sine Wave Generator with reSpeaker Lite
 keywords:
   - ESP32S3
   - XIAO

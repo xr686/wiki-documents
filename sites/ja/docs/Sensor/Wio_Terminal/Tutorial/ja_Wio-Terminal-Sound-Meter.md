@@ -23,7 +23,7 @@ url: https://wiki.seeedstudio.com/ja/Wio-Terminal-Sound-Meter/
 ## 部品リスト
 
 - [**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
-- [**ReSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
+- [**reSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
 
 :::note
 **ハードウェア接続**については、[**Audio Overview**](https://wiki.seeedstudio.com/ja/Wio-Terminal-Audio-Overview/)をご覧ください。
@@ -113,7 +113,7 @@ void loop() {
 
 ## デシベルメーターデモ
 
-この例では、ReSpeaker 2-Mic Hat のマイクを使用してデシベル (dB) を検出します。周囲の環境が検出され、ディスプレイに表示されます。
+この例では、reSpeaker 2-Mic Hat のマイクを使用してデシベル (dB) を検出します。周囲の環境が検出され、ディスプレイに表示されます。
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Sound-Meter/sound-Meter_gGIF.gif" /></div>
 

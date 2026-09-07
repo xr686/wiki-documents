@@ -790,18 +790,18 @@ python uart.py
 
 ### ODYSSEY-STM32MP157C 上的 I2S
 
-在本节中，我们将解释 Linux I2S 编程的控制原理。现在我们将使用 I2S 和 ReSpeaker 2-Mics Pi HAT 来演示如何使用它。
+在本节中，我们将解释 Linux I2S 编程的控制原理。现在我们将使用 I2S 和 reSpeaker 2-Mics Pi HAT 来演示如何使用它。
 
 #### 硬件
 
 - **步骤 1**. 本项目中使用的物品：
 
-| ODYSSEY – STM32MP157C | ReSpeaker 2-Mics Pi HAT |
+| ODYSSEY – STM32MP157C | reSpeaker 2-Mics Pi HAT |
 |--------------|----------------|
 |![enter image description here](https://files.seeedstudio.com/wiki/ODYSSEY-STM32MP157C/IMG/perspective-19-210X157.png)|![image](https://files.seeedstudio.com/wiki/ODYSSEY-STM32MP157C/IMG/res-thumbnail.png)|
 |[立即购买](https://www.seeedstudio.com/ODYSSEY-STM32MP157C-p-4464.html)|[立即购买](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
 
-- **步骤 2.** 根据 [安装硬件指南](https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT/#getting-started) 将 ReSpeaker 2-Mics Pi HAT 插入 ODYSSEY – STM32MP157C。
+- **步骤 2.** 根据 [安装硬件指南](https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT/#getting-started) 将 reSpeaker 2-Mics Pi HAT 插入 ODYSSEY – STM32MP157C。
 
 #### 软件
 
@@ -867,7 +867,7 @@ card 1: STM32MP1SEEEDNP [STM32MP1-SEEEDNPi], device 1: 4400b024.audio-controller
   Subdevice #0: subdevice #0
 ```
 
-- **步骤 7.** 现在你可以开始使用 ReSpeaker 2-Mics Pi Hat！对于简单的录音和播放测试，运行以下命令：
+- **步骤 7.** 现在你可以开始使用 reSpeaker 2-Mics Pi Hat！对于简单的录音和播放测试，运行以下命令：
 
 1. 录制音频到 `test.wav`：
 
@@ -886,7 +886,7 @@ aplay -Dhw:0 -r 48000 test.wav
 如果你听不到任何声音，可能需要再次重启。
 </div>
 
-有关 ReSpeaker 2-Mics Pi HAT 的更多信息，你可以访问 [wiki](https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT/)
+有关 reSpeaker 2-Mics Pi HAT 的更多信息，你可以访问 [wiki](https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT/)
 
 ## 资源
 -----

@@ -1,6 +1,6 @@
 ---
-description: 使用 ReSpeaker Lite 的正弦波生成器
-title: 使用 ReSpeaker Lite 的正弦波生成器
+description: 使用 reSpeaker Lite 的正弦波生成器
+title: 使用 reSpeaker Lite 的正弦波生成器
 keywords:
   - ESP32S3
   - XIAO

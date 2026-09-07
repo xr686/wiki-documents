@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Lite Voice Assistant Kitのエンクロージャーを組み立てるための簡単な手順
+description: reSpeaker Lite Voice Assistant Kitのエンクロージャーを組み立てるための簡単な手順
 title: エンクロージャー設置ガイド
 keywords:
   - ESP32S3
@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_enclosure/
 ---
 
 
-[ReSpeaker Lite Voice Kit](https://www.seeedstudio.com/ReSpeaker-Lite-Voice-Assistant-Kit-Full-Kit-of-2-Mic-Array-pre-soldered-XIAO-ESP32S3-Mono-Enclosed-Speaker-and-Enclosure.html)のセットアップを安全に組み立てるための詳細でわかりやすいエンクロージャー設置ガイドです。
+[reSpeaker Lite Voice Kit](https://www.seeedstudio.com/ReSpeaker-Lite-Voice-Assistant-Kit-Full-Kit-of-2-Mic-Array-pre-soldered-XIAO-ESP32S3-Mono-Enclosed-Speaker-and-Enclosure.html)のセットアップを安全に組み立てるための詳細でわかりやすいエンクロージャー設置ガイドです。
 
 以下の動画を視聴して、デバイスを完璧に収納し、使用準備を整えましょう：
 

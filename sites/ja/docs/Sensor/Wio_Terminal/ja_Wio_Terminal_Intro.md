@@ -230,7 +230,7 @@ Wio Terminal は、ATSAMD51マイクロコントローラーを搭載し、2.4�
     <tr class="table-trnobg"></tr>
     <tr class="table-trnobg">
       <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> このWikiでは、Raspberry Pi用ENC28J60 OVERLAYS HATをWio Terminalで使用して安定したネットワーク接続を実現する方法を紹介します。これは、Raspberry Pi 40ピン拡張ボードをWio Terminalで使用する完璧な例です。</font></td>
-      <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> このWikiでは、ReSpeaker 2-Mic Hatを使用してWio Terminalでオーディオライブラリを使用する方法を紹介します。このライブラリを使用すると、Wio Terminalで音声を録音、再生、分析することができます！さらに、このオーディオライブラリは音声認識などのさまざまな分野に実装することが可能です！</font></td>
+      <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> このWikiでは、reSpeaker 2-Mic Hatを使用してWio Terminalでオーディオライブラリを使用する方法を紹介します。このライブラリを使用すると、Wio Terminalで音声を録音、再生、分析することができます！さらに、このオーディオライブラリは音声認識などのさまざまな分野に実装することが可能です！</font></td>
     </tr>
     <tr class="table-trnobg"></tr>
 		<tr class="table-trnobg">
@@ -475,7 +475,7 @@ Wio Terminal は、ATSAMD51マイクロコントローラーを搭載し、2.4�
     <tr class="table-trnobg"></tr>
     <tr class="table-trnobg">
       <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>この Wiki では、Wio Terminal を HMI (Human Machine Interface) USB ディスプレイとして使用し、Raspberry Pi、Nvidia Jetson Nano、BeagleBone、さらには Odyssey X86J4105 に接続する方法を紹介します。</font></td>
-      <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>この例では、ReSpeaker 2-Mic Hat のマイクを使用して dB を検出します。周囲の環境が検出され、その結果がディスプレイに表示されます。</font></td>
+      <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>この例では、reSpeaker 2-Mic Hat のマイクを使用して dB を検出します。周囲の環境が検出され、その結果がディスプレイに表示されます。</font></td>
       <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>この Wiki では、Wio Terminal を使用して HTTPS サーバーにアクセスする方法を紹介します。これにより、Wio Terminal を使用してインターネットからライブデータを取得することが可能になります！ここでは、Wio Terminal を Wi-Fi に接続し、GitHub からデータを取得します。</font></td>
     </tr>
     <tr class="table-trnobg"></tr>

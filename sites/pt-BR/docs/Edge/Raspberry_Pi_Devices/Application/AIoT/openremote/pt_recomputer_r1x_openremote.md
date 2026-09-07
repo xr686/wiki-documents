@@ -343,7 +343,7 @@ Este tutorial irá guiá-lo pelo processo de integração de um MQTT Agent com o
 <div class="video-container">
   <iframe width="800" height="400"
           src="https://www.youtube.com/embed/vYmtEf-7j2I"
-          title="ReSpeaker XVF3800 with XIAO ESP32S3 Home Assistant"
+          title="reSpeaker XVF3800 with XIAO ESP32S3 Home Assistant"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"

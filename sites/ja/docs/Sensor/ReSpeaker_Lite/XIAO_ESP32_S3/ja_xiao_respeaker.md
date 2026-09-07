@@ -1,6 +1,6 @@
 ---
-description: ReSpeaker Lite と XIAO ESP32S3 の統合
-title: ReSpeaker Lite 音声アシスタントキット
+description: reSpeaker Lite と XIAO ESP32S3 の統合
+title: reSpeaker Lite 音声アシスタントキット
 keywords:
   - ESP32S3
   - XIAO
@@ -18,7 +18,7 @@ url: https://wiki.seeedstudio.com/ja/xiao_respeaker/
 
 
 
-XMOS XU316 AI サウンド & オーディオチップセットを搭載した、高性能なオープンソース音声アシスタント開発キットです。このキットは ReSpeaker Lite デュアルマイクアレイと高性能な [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html) プロセッサを統合しており、優れた音声認識、ノイズリダクション、音声処理機能を提供します。また、このキットは ESPHome を介して Home Assistant とファームウェア統合が可能で、スマート音声アシスタントやホームオートメーション用途に最適です。
+XMOS XU316 AI サウンド & オーディオチップセットを搭載した、高性能なオープンソース音声アシスタント開発キットです。このキットは reSpeaker Lite デュアルマイクアレイと高性能な [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html) プロセッサを統合しており、優れた音声認識、ノイズリダクション、音声処理機能を提供します。また、このキットは ESPHome を介して Home Assistant とファームウェア統合が可能で、スマート音声アシスタントやホームオートメーション用途に最適です。
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/xiao-res.png" alt="pir" width={600} height="auto" /></p>
 
@@ -88,7 +88,7 @@ XMOS XU316 AI サウンド & オーディオチップセットを搭載した、
 
 ### I2S ファームウェアを書き込む
 
-ReSpeaker Lite を XIAO ESP32S3 と一緒に使用するには、ReSpeaker Lite のファームウェアが I2S バージョンであることを確認してください。
+reSpeaker Lite を XIAO ESP32S3 と一緒に使用するには、reSpeaker Lite のファームウェアが I2S バージョンであることを確認してください。
 
 最新の I2S ファームウェアを書き込むには、[Firmware Flash](https://wiki.seeedstudio.com/ja/reSpeaker_usb_v3/#update-firmware) を確認してください。
 
@@ -126,7 +126,7 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 
 - Arduino IDE を再起動します。
 
-#### ReSpeaker Lite ライブラリのインストール
+#### reSpeaker Lite ライブラリのインストール
 
 ユーザーがすぐに使い始められるよう、ライブラリを提供しています。
 
@@ -143,7 +143,7 @@ git clone https://github.com/respeaker/respeaker_arduino_library.git
 
 ### FAQ
 
-- **USB ファームウェアを書き込んだ後、Windows で ReSpeaker Lite の USB サウンドデバイスが検出されません。どうすればよいですか？**
+- **USB ファームウェアを書き込んだ後、Windows で reSpeaker Lite の USB サウンドデバイスが検出されません。どうすればよいですか？**
 
 - スタートメニューを開き、`Device manager` と入力します。`ReSpeaker Lite` デバイスを見つけて右クリックし、`Uninstall device` を選択します。`Delete the driver software for this device` を選択して `Uninstall` をクリックします。その後、デバイスを再起動すると、Windows が適切なサウンドカードドライバを再インストールします。
 
@@ -151,6 +151,6 @@ git clone https://github.com/respeaker/respeaker_arduino_library.git
 
 ### リソース
 
-[ReSpeaker Lite XMOS ファームウェア](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
+[reSpeaker Lite XMOS ファームウェア](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
-[ReSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)
+[reSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)

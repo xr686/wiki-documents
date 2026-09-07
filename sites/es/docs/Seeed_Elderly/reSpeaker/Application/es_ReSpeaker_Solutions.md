@@ -1,6 +1,6 @@
 ---
-description: Soluciones ReSpeaker
-title: Soluciones ReSpeaker
+description: Soluciones reSpeaker
+title: Soluciones reSpeaker
 keywords:
   - reSpeaker
 image: https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png
@@ -13,15 +13,15 @@ updatedAt: '2025-10-11'
 url: https://wiki.seeedstudio.com/es/ReSpeaker_Solutions/
 ---
 
-# **ReSpeaker**
+# **reSpeaker**
 
 ## El Ecosistema de Voz Abierto para Desarrolladores
 
-[![Todas las Placas de Desarrollo ReSpeaker](https://files.seeedstudio.com/wiki/ReSpeakerSolutions/img/FullReSpeakerLine.png)](https://www.seeedstudio.com/series/Respeaker-10.html)
+[![Todas las Placas de Desarrollo reSpeaker](https://files.seeedstudio.com/wiki/ReSpeakerSolutions/img/FullReSpeakerLine.png)](https://www.seeedstudio.com/series/Respeaker-10.html)
 
 ## **Habilitando la Interfaz de Voz**
 
-La serie ReSpeaker es una familia de placas de desarrollo diseñadas para habilitar un futuro donde la interfaz de voz sea parte de la interacción cotidiana entre humanos y dispositivos. Diseñado para ser fácilmente integrado (y personalizado) en productos, pero también para permitir que otros servicios y productos se integren fácilmente en él, ReSpeaker está constantemente añadiendo nuevas características e integraciones junto con ejemplos sobre cómo implementarlas. Muchas de estas características serán para más que solo hacer altavoces inteligentes. Esperamos que puedas trabajar con nosotros para crear mejores soluciones de voz para oficinas, edificios, comercio minorista, entretenimiento, conservación y más.
+La serie reSpeaker es una familia de placas de desarrollo diseñadas para habilitar un futuro donde la interfaz de voz sea parte de la interacción cotidiana entre humanos y dispositivos. Diseñado para ser fácilmente integrado (y personalizado) en productos, pero también para permitir que otros servicios y productos se integren fácilmente en él, reSpeaker está constantemente añadiendo nuevas características e integraciones junto con ejemplos sobre cómo implementarlas. Muchas de estas características serán para más que solo hacer altavoces inteligentes. Esperamos que puedas trabajar con nosotros para crear mejores soluciones de voz para oficinas, edificios, comercio minorista, entretenimiento, conservación y más.
 
 Si quieres experimentar la interfaz de voz, o quieres intentar implementar tu idea, ¡consigue un kit o una placa de desarrollo [aquí](https://www.seeedstudio.com/series/Respeaker-10.html)!
 
@@ -74,7 +74,7 @@ Si tienes preguntas, por favor contáctanos en iot@seeed.cc.
 
 ## **Manufactura Tu Solución de Voz**
 
-También podemos manufacturar tu ReSpeaker personalizado así como cualquier otro artículo que puedas necesitar. Desde menos de varios cientos de placas hasta más de 10,000 unidades, somos capaces de proporcionar varios servicios clave como socio de manufactura.
+También podemos manufacturar tu reSpeaker personalizado así como cualquier otro artículo que puedas necesitar. Desde menos de varios cientos de placas hasta más de 10,000 unidades, somos capaces de proporcionar varios servicios clave como socio de manufactura.
 
 ### **Servicios de Manufactura**
 
@@ -86,15 +86,15 @@ Si tienes preguntas, por favor contáctanos en iot@seeed.cc.
 
 ## **¿Qué hay de Nuevo?**
 
-¡Echa un vistazo a nuestros blogs más recientes sobre la línea ReSpeaker!
+¡Echa un vistazo a nuestros blogs más recientes sobre la línea reSpeaker!
 
-**Un ReSpeaker Core V2.0 Entra a un Bar...**
+**Un reSpeaker Core V2.0 Entra a un Bar...**
 [![Blog a](https://www.seeedstudio.com/blog/wp-content/uploads/2018/06/Banner-1030x466.jpg)](https://www.seeedstudio.com/blog/2018/06/22/a-respeaker-core-v2-0-walks-into-a-bar/)
-Estamos de vuelta con otra adición a nuestra línea de productos ReSpeaker – el ReSpeaker Core v2.0. El ReSpeaker Core v2.0 está orientado hacia ayudar a crear proyectos de interacción de voz. Con un núcleo de computación potente y un arreglo de 6 micrófonos con algoritmos profesionales de mejora de voz, esta placa es una actualización significativa... [Leer Más](https://www.seeedstudio.com/blog/2018/06/22/a-respeaker-core-v2-0-walks-into-a-bar/)
+Estamos de vuelta con otra adición a nuestra línea de productos reSpeaker – el reSpeaker Core v2.0. El reSpeaker Core v2.0 está orientado hacia ayudar a crear proyectos de interacción de voz. Con un núcleo de computación potente y un arreglo de 6 micrófonos con algoritmos profesionales de mejora de voz, esta placa es una actualización significativa... [Leer Más](https://www.seeedstudio.com/blog/2018/06/22/a-respeaker-core-v2-0-walks-into-a-bar/)
 
-**Agregando a la Familia: ReSpeaker Mic Array v2.0**
+**Agregando a la Familia: reSpeaker Mic Array v2.0**
 [![Blog a](https://www.seeedstudio.com/blog/wp-content/uploads/2018/05/playback.jpg)](https://www.seeedstudio.com/blog/2018/05/22/adding-to-the-family-respeaker-mic-array-v2-0/)
-Agregar interactividad de voz a tu dispositivo/proyecto/producto es algo que muchas personas les encantaría hacer. En 2016 Seeed, con la ayuda de nuestros patrocinadores de Kickstarter, lanzó el ReSpeaker Core y el ReSpeaker Mic Array (descontinuado). Con el tiempo comenzamos a darnos cuenta de dos cosas: primero, que estábamos muy interesados en continuar persiguiendo esta área de interacción de voz... [Leer Más](https://www.seeedstudio.com/blog/2018/05/22/adding-to-the-family-respeaker-mic-array-v2-0/)
+Agregar interactividad de voz a tu dispositivo/proyecto/producto es algo que muchas personas les encantaría hacer. En 2016 Seeed, con la ayuda de nuestros patrocinadores de Kickstarter, lanzó el reSpeaker Core y el reSpeaker Mic Array (descontinuado). Con el tiempo comenzamos a darnos cuenta de dos cosas: primero, que estábamos muy interesados en continuar persiguiendo esta área de interacción de voz... [Leer Más](https://www.seeedstudio.com/blog/2018/05/22/adding-to-the-family-respeaker-mic-array-v2-0/)
 ¡Gracias por elegir nuestros productos! Estamos aquí para proporcionarte diferentes tipos de soporte para asegurar que tu experiencia con nuestros productos sea lo más fluida posible. Ofrecemos varios canales de comunicación para atender diferentes preferencias y necesidades.
 
 <div class="button_tech_support_container">

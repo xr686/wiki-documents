@@ -27,13 +27,13 @@ keywords:
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## 硬件问题 {#hardware-issues}
 
-### ReSpeaker 2-Mics Pi HAT V2.0 上的编解码器 I2C 地址是多少？ {#v2-codec-i2c-address}
+### reSpeaker 2-Mics Pi HAT V2.0 上的编解码器 I2C 地址是多少？ {#v2-codec-i2c-address}
 
-**适用范围：** 仅适用于 ReSpeaker 2-Mics Pi HAT V2.0；V1.x 使用不同的编解码器硬件
+**适用范围：** 仅适用于 reSpeaker 2-Mics Pi HAT V2.0；V1.x 使用不同的编解码器硬件
 
 **最近验证时间：** 2026-09-01
 
-ReSpeaker 2-Mics Pi HAT V2.0 使用 TLV320AIC3104 编解码器，其 7 位 I2C 地址为 `0x18`。官方 V2.0 设备树覆盖文件中声明了 `tlv320aic3104@18`，并设置 `reg = <0x18>`，公开的 V2.0 原理图也标识了相同的编解码器。
+reSpeaker 2-Mics Pi HAT V2.0 使用 TLV320AIC3104 编解码器，其 7 位 I2C 地址为 `0x18`。官方 V2.0 设备树覆盖文件中声明了 `tlv320aic3104@18`，并设置 `reg = <0x18>`，公开的 V2.0 原理图也标识了相同的编解码器。
 
 **前提条件：**
 
@@ -50,14 +50,14 @@ ReSpeaker 2-Mics Pi HAT V2.0 使用 TLV320AIC3104 编解码器，其 7 位 I2C �
 
 **注意：**
 
-- 不要将此地址直接套用到 ReSpeaker 2-Mics Pi HAT V1.x 上，V1.x 使用的是不同的编解码器硬件。
+- 不要将此地址直接套用到 reSpeaker 2-Mics Pi HAT V1.x 上，V1.x 使用的是不同的编解码器硬件。
 - 仅凭该地址并不能构成完整或受支持的 ESP32-S3 接线与编解码器初始化指南。
 
 **参考资料：**
 
-- [ReSpeaker 2-Mics Pi HAT V2.0 Raspberry Pi 指南](https://wiki.seeedstudio.com/cn/respeaker_2_mics_pi_hat_raspberry_v2/)
+- [reSpeaker 2-Mics Pi HAT V2.0 Raspberry Pi 指南](https://wiki.seeedstudio.com/cn/respeaker_2_mics_pi_hat_raspberry_v2/)
 - [官方 V2.0 Raspberry Pi 设备树覆盖文件](https://github.com/Seeed-Studio/seeed-linux-dtoverlays/blob/master/overlays/rpi/respeaker-2mic-v2_0-overlay.dts)
-- [官方 ReSpeaker 2-Mics Pi HAT V2.0 原理图](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/202004059_ReSpeaker-2-Mics-Pi-HAT-V2.0_SCH_PDF_241121.pdf)
+- [官方 reSpeaker 2-Mics Pi HAT V2.0 原理图](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/202004059_ReSpeaker-2-Mics-Pi-HAT-V2.0_SCH_PDF_241121.pdf)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->
 

@@ -1,5 +1,5 @@
 ---
-description: Kit de Matriz Circular ReSpeaker 6-Mic para Raspberry Pi
+description: Kit de Matriz Circular reSpeaker 6-Mic para Raspberry Pi
 title: Kit de Matriz Circular reSpeaker 6-Mic para Raspberry Pi
 keywords:
   - reSpeaker
@@ -16,11 +16,11 @@ url: https://wiki.seeedstudio.com/pt-br/ReSpeaker_6-Mic_Circular_Array_kit_for_R
 
 ![enter image description here](https://files.seeedstudio.com/products/107990055/01.png)
 
-O Kit de Matriz Circular ReSpeaker 6-Mic da Seeed é uma placa de extensão, também conhecida como HAT, projetada para Raspberry Pi. É um kit de matriz de microfones circular, vem com seis microfones e é projetado para aplicações de IA e voz. Isso significa que você pode construir um produto de voz mais poderoso e flexível com o Raspberry Pi, que pode integrar Amazon Alexa Voice Service, Google Assistant e assim por diante.
+O Kit de Matriz Circular reSpeaker 6-Mic da Seeed é uma placa de extensão, também conhecida como HAT, projetada para Raspberry Pi. É um kit de matriz de microfones circular, vem com seis microfones e é projetado para aplicações de IA e voz. Isso significa que você pode construir um produto de voz mais poderoso e flexível com o Raspberry Pi, que pode integrar Amazon Alexa Voice Service, Google Assistant e assim por diante.
 
-O Kit de Matriz Circular ReSpeaker 6-Mic para Raspberry Pi consiste em duas placas, uma é o HAT de acessório de voz e a outra é a matriz circular de seis microfones.
+O Kit de Matriz Circular reSpeaker 6-Mic para Raspberry Pi consiste em duas placas, uma é o HAT de acessório de voz e a outra é a matriz circular de seis microfones.
 
-O Kit de Matriz Circular ReSpeaker 6-Mic para Raspberry Pi suporta 8 canais de entrada e 8 canais de saída no sistema Raspbian. Os primeiros 6 canais de entrada são para gravação de microfone, os 2 canais de entrada restantes são canais de eco da reprodução. Os primeiros 2 canais de saída são para reprodução, os 6 canais de saída restantes são fictícios.
+O Kit de Matriz Circular reSpeaker 6-Mic para Raspberry Pi suporta 8 canais de entrada e 8 canais de saída no sistema Raspbian. Os primeiros 6 canais de entrada são para gravação de microfone, os 2 canais de entrada restantes são canais de eco da reprodução. Os primeiros 2 canais de saída são para reprodução, os 6 canais de saída restantes são fictícios.
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/NxZx9nz67Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -88,7 +88,7 @@ Depois de conectar, certifique-se de usar um multímetro para determinar se a co
 
 **Pré-requisitos**
 
-ReSpeaker 6-Mic Circular Array    x1
+reSpeaker 6-Mic Circular Array    x1
 
 [Raspberry Pi 3B ou 3B+](https://www.seeedstudio.com/Raspberry-Pi-3-Model-B%2B-p-3037.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0605)              x1
 
@@ -99,14 +99,14 @@ PC                                  x1
 Fone de ouvido ou Alto-falante                 x1
 
 :::tip
-Na verdade, o ReSpeaker 6-Mic Circular Array suporta Raspberry Pi Zero, Raspberry Pi 1 B+, Raspberry Pi 2 B, Raspberry Pi 3 B, Raspberry Pi 3 model B+, Raspberry Pi 3 A+ e Raspberry Pi 4; neste wiki estamos usando Raspberry Pi 3.
+Na verdade, o reSpeaker 6-Mic Circular Array suporta Raspberry Pi Zero, Raspberry Pi 1 B+, Raspberry Pi 2 B, Raspberry Pi 3 B, Raspberry Pi 3 model B+, Raspberry Pi 3 A+ e Raspberry Pi 4; neste wiki estamos usando Raspberry Pi 3.
 :::
 
 **Conexão**
 
-**Passo 1.**  Conecte o *ReSpeaker Voice Accessory HAT* com o *ReSpeaker 6-Mic Circular Array* através do Cabo Flat
+**Passo 1.**  Conecte o *reSpeaker Voice Accessory HAT* com o *reSpeaker 6-Mic Circular Array* através do Cabo Flat
 
-**Passo 2.**  Conecte o *ReSpeaker Voice Accessory HAT* ao *Raspberry Pi* através do GPIO de 40 pinos
+**Passo 2.**  Conecte o *reSpeaker Voice Accessory HAT* ao *Raspberry Pi* através do GPIO de 40 pinos
 
 **Passo 3.**  Conecte o *fone de ouvido* ao *conector de áudio para headset de 3,5 mm* ou conecte o *alto-falante* ao *conector para alto-falante JST 2.0*
 
@@ -609,7 +609,7 @@ while True:
 
 R1: Há 2 AC108 neste array, e cada chip AC108 tem saída de 4 canais. Então temos um total de 8 canais aqui, 6 dos quais são para o microfone, e os outros 2 são os canais de reprodução.
 
-**P2: E se o Raspberry conseguir detectar o ReSpeaker 2-mics hat, mas não conseguir detectar o ReSpeaker 6-mics Circular array?**
+**P2: E se o Raspberry conseguir detectar o reSpeaker 2-mics hat, mas não conseguir detectar o reSpeaker 6-mics Circular array?**
 
 A2: Clique em raspberry -> Preferences -> Raspberry Pi Configuration, depois selecione a aba Interfaces e certifique-se de que o 1-Wire está Disabled.
 
@@ -617,8 +617,8 @@ A2: Clique em raspberry -> Preferences -> Raspberry Pi Configuration, depois sel
 
 - **[PDF]** [AC101 Datasheet](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/AC101_User_Manual_v1.1.pdf)
 - **[PDF]** [AC108 Datesheet](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/AC108_Datasheet_V1.2.pdf)
-- **[Dxf]** [Arquivo de case ReSpeaker Circular Array para Voice Accessory HAT com 6 microfones](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/ReSpeaker%20Circular%20Array%20for%20Voice%20Accessory%20HAT%20with%206%20Microphones.dxf)
-- **[Dxf]** [Arquivo 2D ReSpeaker Circular Array para Voice Accessory HAT com 6 microfones](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/2d.zip)
+- **[Dxf]** [Arquivo de case reSpeaker Circular Array para Voice Accessory HAT com 6 microfones](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/ReSpeaker%20Circular%20Array%20for%20Voice%20Accessory%20HAT%20with%206%20Microphones.dxf)
+- **[Dxf]** [Arquivo 2D reSpeaker Circular Array para Voice Accessory HAT com 6 microfones](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/2d.zip)
 - **[Driver]** [Driver Seeed-Voice](https://github.com/respeaker/seeed-voicecard)
 - **[Algorithms]** [Algoritmos incluindo DOA, VAD, NS](https://github.com/respeaker/mic_array)
 - **[Voice Engine]** [Projeto Voice Engine, fornece blocos de construção para criar objetos habilitados por voz](https://github.com/voice-engine/voice-engine)

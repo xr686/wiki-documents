@@ -230,7 +230,7 @@ Wio Terminal 是一款多功能开发板，搭载 ATSAMD51 微控制器并配备
     <tr class="table-trnobg"></tr>
     <tr class="table-trnobg">
       <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> 本教程介绍如何在Wio Terminal上使用树莓派的ENC28J60 OVERLAYS HAT来实现稳定的网络连接。这是在Wio Terminal上使用树莓派40引脚扩展板的完美示例。</font></td>
-      <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> 本教程介绍如何使用ReSpeaker 2-Mic Hat在Wio Terminal上使用音频库。借助这个库，您可以使用Wio Terminal录制、播放和分析音频！此外，这个音频库可以应用到不同的领域，如语音识别等等！</font></td>
+      <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> 本教程介绍如何使用reSpeaker 2-Mic Hat在Wio Terminal上使用音频库。借助这个库，您可以使用Wio Terminal录制、播放和分析音频！此外，这个音频库可以应用到不同的领域，如语音识别等等！</font></td>
     </tr>
     <tr class="table-trnobg"></tr>
 		<tr class="table-trnobg">
@@ -475,7 +475,7 @@ Wio Terminal 是一款多功能开发板，搭载 ATSAMD51 微控制器并配备
     <tr class="table-trnobg"></tr>
     <tr class="table-trnobg">
       <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>在本教程中，我们将介绍如何将Wio Terminal用作树莓派、Nvidia Jetson Nano、BeagleBone甚至Odyssey X86J4105的HMI（人机界面）USB显示器。</font></td>
-      <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>此示例使用ReSpeaker 2-Mic Hat上的麦克风检测分贝，检测周围环境，然后在显示器上显示。</font></td>
+      <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>此示例使用reSpeaker 2-Mic Hat上的麦克风检测分贝，检测周围环境，然后在显示器上显示。</font></td>
       <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>本教程介绍如何使用Wio Terminal访问HTTPS服务器，这意味着您可以使用Wio Terminal从互联网获取实时数据！在这里，Wio Terminal连接到Wi-Fi并从Github获取数据。</font></td>
     </tr>
     <tr class="table-trnobg"></tr>

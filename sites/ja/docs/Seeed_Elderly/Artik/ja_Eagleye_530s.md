@@ -26,7 +26,7 @@ Samsung ARTIK™は、エンタープライズグレードのシステムオン�
 
 前述の通り、Eagleye 530sはARTIK 530s 1GB SoMをベースにしており、Quad Core Cortex® A9（1.2 GHz動作）、4GBフラッシュメモリ、ハードウェアベースのセキュリティ機能、Linux OS（Ubuntu）を搭載しています。Eagleye 530sはまた、40ピンGPIOおよびMicro SD、Ethernet 10/100/1000、Wi-Fi 802.11 a/b/g/n、Bluetooth BLE 4.2 802.15.4、ZigBee/Thread用のアクセサリインターフェースを提供します。さらに、フルHDMI、MIPIカメラインターフェース、ビデオ、オーディオメディアもサポートしています。
 
-Eagleye 530sは、多くの「メイカー」ハードウェアアクセサリとピン互換性があるため、Samsung ARTIK™開発者は広範な「メイカー」アクセサリ市場に簡単にアクセスできます。これにより、市販のセンサー（例：[GrovePi+](https://www.seeedstudio.com/GrovePi%2B-p-2241.html)、[Groveセンサー](https://www.seeedstudio.com/grove.html)）、音声認識（例：[ReSpeaker 2-mic array](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html)、[ReSpeaker 4-mic array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html)）、リレー、GPS、セルラー接続などを使用して、機能豊富な概念実証（PoC）や製品化準備が整った製品を簡単にプロトタイプ化および構築できます。
+Eagleye 530sは、多くの「メイカー」ハードウェアアクセサリとピン互換性があるため、Samsung ARTIK™開発者は広範な「メイカー」アクセサリ市場に簡単にアクセスできます。これにより、市販のセンサー（例：[GrovePi+](https://www.seeedstudio.com/GrovePi%2B-p-2241.html)、[Groveセンサー](https://www.seeedstudio.com/grove.html)）、音声認識（例：[reSpeaker 2-mic array](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html)、[reSpeaker 4-mic array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html)）、リレー、GPS、セルラー接続などを使用して、機能豊富な概念実証（PoC）や製品化準備が整った製品を簡単にプロトタイプ化および構築できます。
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/4IR768d8Ins" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -557,7 +557,7 @@ hello ..
 hello ..
 ```
 
-## ReSpeakers マイクを使用する
+## reSpeakers マイクを使用する
 
 **2 Mics Pi HAT を使用する**
 
@@ -709,7 +709,7 @@ waveFile.close()
 ```
 
 :::caution
-詳細情報については、Google アシスタントとの連携など、[ReSpeaker 2-Mics Pi HAT](https://wiki.seeedstudio.com/ja/ReSpeaker_2_Mics_Pi_HAT/) を参照してください。
+詳細情報については、Google アシスタントとの連携など、[reSpeaker 2-Mics Pi HAT](https://wiki.seeedstudio.com/ja/ReSpeaker_2_Mics_Pi_HAT/) を参照してください。
 :::
 
 **4 Mics Pi HAT を使用する**
@@ -869,7 +869,7 @@ waveFile.close()
 ```
 
 :::caution
-詳細情報については、Alexa/DuerOS との連携など、[ReSpeaker 4-Mic Array for Raspberry Pi](https://wiki.seeedstudio.com/ja/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/) を参照してください。
+詳細情報については、Alexa/DuerOS との連携など、[reSpeaker 4-Mic Array for Raspberry Pi](https://wiki.seeedstudio.com/ja/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/) を参照してください。
 :::
 
 **Mic Array v2.0 を使用する**
@@ -972,7 +972,7 @@ wf.close()
 ```
 
 :::caution
-DOA/LEDs などの詳細については、[ReSpeaker Mic Array v2.0](https://wiki.seeedstudio.com/ja/ReSpeaker_Mic_Array_v2.0/) を参照してください。
+DOA/LEDs などの詳細については、[reSpeaker Mic Array v2.0](https://wiki.seeedstudio.com/ja/ReSpeaker_Mic_Array_v2.0/) を参照してください。
 :::
 
 ## GrovePi+ を使用する

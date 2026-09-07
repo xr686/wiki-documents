@@ -27,20 +27,20 @@ keywords:
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## 文档与使用 {#documentation-and-usage}
 
-### 我在哪里可以下载 ReSpeaker Lite 的 STEP 文件？ {#step-mechanical-file}
+### 我在哪里可以下载 reSpeaker Lite 的 STEP 文件？ {#step-mechanical-file}
 
-**适用范围：** 与已发布 v1.1 模型匹配的 ReSpeaker Lite 板卡的机械集成
+**适用范围：** 与已发布 v1.1 模型匹配的 reSpeaker Lite 板卡的机械集成
 
 **最近验证时间：** 2026-09-01
 
-从官方 ReSpeaker Lite 资源部分下载公开的 `ReSpeakerLitev1.1.step` 模型。它是板级 v1.1 模型，而不是完整的 Voice Assistant Kit、扬声器或外壳装配体。
+从官方 reSpeaker Lite 资源部分下载公开的 `ReSpeakerLitev1.1.step` 模型。它是板级 v1.1 模型，而不是完整的 Voice Assistant Kit、扬声器或外壳装配体。
 
 **前提条件：**
 
-- 印在实物 ReSpeaker Lite 板上的硬件版本
+- 印在实物 reSpeaker Lite 板上的硬件版本
 - 支持 STEP 的 CAD 软件
 
-1. 打开 ReSpeaker Lite 入门页面的 Resources（资源）部分。
+1. 打开 reSpeaker Lite 入门页面的 Resources（资源）部分。
 2. 从官方文件链接下载 `ReSpeakerLitev1.1.step`。
 3. 将该文件导入 CAD 工具，并将安装孔、板轮廓和连接器位置与实物板版本进行比较。
 4. 如果你的设计依赖于文件中不存在的套件级扬声器、外壳、公差或禁布区细节，请在发布前请求澄清。
@@ -56,24 +56,24 @@ keywords:
 
 **参考资料：**
 
-- [ReSpeaker Lite 资源](https://wiki.seeedstudio.com/cn/reSpeaker_usb_v3/#resource)
-- [官方 ReSpeaker Lite v1.1 STEP 文件](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)
+- [reSpeaker Lite 资源](https://wiki.seeedstudio.com/cn/reSpeaker_usb_v3/#resource)
+- [官方 reSpeaker Lite v1.1 STEP 文件](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)
 
-### 如何测试 ReSpeaker Lite 与 XIAO ESP32S3 之间的 I2S 链路？ {#i2s-link-test}
+### 如何测试 reSpeaker Lite 与 XIAO ESP32S3 之间的 I2S 链路？ {#i2s-link-test}
 
-**适用范围：** 在排查无麦克风音频或 I2S 回放之前，使用 XIAO ESP32S3 的 ReSpeaker Lite
+**适用范围：** 在排查无麦克风音频或 I2S 回放之前，使用 XIAO ESP32S3 的 reSpeaker Lite
 
 **最近验证时间：** 2026-09-01
 
-使用匹配的 16 kHz I2S 固件运行官方 ReSpeaker Lite I2S 测试。该示例程序会写入测试信号、读取麦克风阵列采样，并在 32,000 个接收样本中有超过 16,000 个既不为零也不为 `0xFFFF` 时打印 `I2S RX pass!`。
+使用匹配的 16 kHz I2S 固件运行官方 reSpeaker Lite I2S 测试。该示例程序会写入测试信号、读取麦克风阵列采样，并在 32,000 个接收样本中有超过 16,000 个既不为零也不为 `0xFFFF` 时打印 `I2S RX pass!`。
 
 **前提条件：**
 
-- 已在 XMOS/XU316 上安装官方 ReSpeaker Lite 16 kHz I2S 固件
+- 已在 XMOS/XU316 上安装官方 reSpeaker Lite 16 kHz I2S 固件
 - 已为 XIAO ESP32S3 配置好的 Arduino IDE
 - 与 XIAO ESP32S3 接口的 USB 数据连接
 
-1. 打开当前官方 ReSpeaker Lite I2S 测试页面，并在不更改文档中 I2S 引脚或 16,000 Hz 速率的前提下复制其示例程序。
+1. 打开当前官方 reSpeaker Lite I2S 测试页面，并在不更改文档中 I2S 引脚或 16,000 Hz 速率的前提下复制其示例程序。
 2. 将示例程序上传到 XIAO ESP32S3，并以 115200 波特率打开串口监视器。
 3. 让测试完成第一次读取，如有需要，再完成第二次读取。
 4. 在更改 ESPHome、应用或硬件设置之前，记录最终的 `I2S RX pass!` 或 `I2S RX fail!` 结果。
@@ -90,33 +90,33 @@ keywords:
 
 **参考资料：**
 
-- [官方 ReSpeaker Lite I2S 测试](https://wiki.seeedstudio.com/cn/respeaker_i2s_test/)
-- [官方 ReSpeaker Lite 固件仓库](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
+- [官方 reSpeaker Lite I2S 测试](https://wiki.seeedstudio.com/cn/respeaker_i2s_test/)
+- [官方 reSpeaker Lite 固件仓库](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
 ## 连接与检测 {#connectivity-and-detection}
 
-### 为什么 ReSpeaker Lite 没有在 Windows 中显示为 USB 音频设备？ {#windows-usb-audio-detection}
+### 为什么 reSpeaker Lite 没有在 Windows 中显示为 USB 音频设备？ {#windows-usb-audio-detection}
 
-**适用范围：** 计划在 Windows 上使用 USB 音频模式的独立 ReSpeaker Lite 或搭配 XIAO ESP32S3 的 ReSpeaker Lite
+**适用范围：** 计划在 Windows 上使用 USB 音频模式的独立 reSpeaker Lite 或搭配 XIAO ESP32S3 的 reSpeaker Lite
 
 **最近验证时间：** 2026-08-31
 
-将 Windows 连接到 ReSpeaker Lite 的 XMOS USB-C 接口，并确保 XMOS 正在运行 USB 固件。I2S 固件用于与 XIAO ESP32S3 通信，不会按正常 ReSpeaker Lite USB 声卡设备的方式枚举。
+将 Windows 连接到 reSpeaker Lite 的 XMOS USB-C 接口，并确保 XMOS 正在运行 USB 固件。I2S 固件用于与 XIAO ESP32S3 通信，不会按正常 reSpeaker Lite USB 声卡设备的方式枚举。
 
 **前提条件：**
 
-- 一根已知良好的 USB 数据线，连接到 ReSpeaker Lite 的 XMOS USB-C 接口
+- 一根已知良好的 USB 数据线，连接到 reSpeaker Lite 的 XMOS USB-C 接口
 - 当需要 USB 音频时，使用官方 USB 固件镜像
 
-1. 确认数据线连接的是 ReSpeaker Lite 的 XMOS USB-C 接口，而不仅仅是 XIAO ESP32S3 的 USB 接口。
+1. 确认数据线连接的是 reSpeaker Lite 的 XMOS USB-C 接口，而不仅仅是 XIAO ESP32S3 的 USB 接口。
 2. 确认 XMOS 固件为 USB 版本。如果是 I2S 版本，请使用官方 DFU 流程刷写当前 USB 固件。
-3. 如果在刷写 USB 固件后，设备管理器中 ReSpeaker Lite 带有警告标志，请卸载该设备，在出现选项时勾选删除其驱动程序软件，然后对板卡断电重启。Windows 应会重新安装 USB 音频驱动。
-4. 打开 Windows 声音设置，并选择 ReSpeaker Lite 作为输入设备。
+3. 如果在刷写 USB 固件后，设备管理器中 reSpeaker Lite 带有警告标志，请卸载该设备，在出现选项时勾选删除其驱动程序软件，然后对板卡断电重启。Windows 应会重新安装 USB 音频驱动。
+4. 打开 Windows 声音设置，并选择 reSpeaker Lite 作为输入设备。
 
 **成功标准：**
 
-- Windows 设备管理器中 ReSpeaker Lite 显示正常且无警告图标
-- Windows 声音设置中列出 ReSpeaker Lite 作为音频输入，并且测试录音中包含语音
+- Windows 设备管理器中 reSpeaker Lite 显示正常且无警告图标
+- Windows 声音设置中列出 reSpeaker Lite 作为音频输入，并且测试录音中包含语音
 
 **注意：**
 
@@ -126,23 +126,23 @@ keywords:
 **参考资料：**
 
 - [reSpeaker Lite 入门指南](https://wiki.seeedstudio.com/cn/reSpeaker_usb_v3/)
-- [ReSpeaker Lite Voice Assistant Kit](https://wiki.seeedstudio.com/cn/xiao_respeaker/)
-- [官方 ReSpeaker Lite 固件目录](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
+- [reSpeaker Lite Voice Assistant Kit](https://wiki.seeedstudio.com/cn/xiao_respeaker/)
+- [官方 reSpeaker Lite 固件目录](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
 ### 当 XIAO ESP32S3 端口消失或示例程序无法上传时，如何恢复 XIAO ESP32S3？ {#xiao-upload-bootloader-recovery}
 
-**适用范围：** 使用 XIAO ESP32S3 的 ReSpeaker Lite Voice Assistant Kit，当 XIAO 端口缺失或 Arduino 示例程序已编译但无法上传时
+**适用范围：** 使用 XIAO ESP32S3 的 reSpeaker Lite Voice Assistant Kit，当 XIAO 端口缺失或 Arduino 示例程序已编译但无法上传时
 
 **最近验证时间：** 2026-09-01
 
-将电脑连接到 XIAO ESP32S3 的 USB 接口，使 XIAO 进入 BootLoader 模式，并上传一个最小的 Blink 示例程序。这会恢复 XIAO 的编程路径；它与通过另一 USB 接口使用 `dfu-util` 更新 ReSpeaker Lite XU316 音频固件是分开的。
+将电脑连接到 XIAO ESP32S3 的 USB 接口，使 XIAO 进入 BootLoader 模式，并上传一个最小的 Blink 示例程序。这会恢复 XIAO 的编程路径；它与通过另一 USB 接口使用 `dfu-util` 更新 reSpeaker Lite XU316 音频固件是分开的。
 
 **前提条件：**
 
 - 一根已知良好的 USB 数据线，连接到 XIAO ESP32S3 的 USB 接口
 - 已安装当前 ESP32 开发板包并选择了 `XIAO ESP32S3` 的 Arduino IDE
 
-1. 确认数据线连接的是 XIAO ESP32S3 的 USB 接口，而不是 ReSpeaker Lite 的 XMOS/XU316 音频与 DFU 接口。
+1. 确认数据线连接的是 XIAO ESP32S3 的 USB 接口，而不是 reSpeaker Lite 的 XMOS/XU316 音频与 DFU 接口。
 2. 按住 XIAO 的 `BOOT` 按钮，将 XIAO 的 USB 接口连接到电脑，然后松开 `BOOT`。
 3. 在 Arduino IDE 中选择新出现的 XIAO 端口，并上传 `File > Examples > 01.Basics > Blink`。
 4. 按一次 Reset 并确认 Blink 示例程序运行。如果端口仍未出现，请在请求支持前保存完整的上传错误信息、操作系统、所选开发板和所选端口信息。
@@ -155,18 +155,18 @@ keywords:
 **注意：**
 
 - 载板上的 USR 和 Mute 按钮不能替代 XIAO 的 BOOT 按钮。
-- 此流程不会更改 ReSpeaker Lite 的 USB/I2S 音频固件。
+- 此流程不会更改 reSpeaker Lite 的 USB/I2S 音频固件。
 
 **参考资料：**
 
-- [ReSpeaker Lite Voice Assistant Kit](https://wiki.seeedstudio.com/cn/xiao_respeaker/)
+- [reSpeaker Lite Voice Assistant Kit](https://wiki.seeedstudio.com/cn/xiao_respeaker/)
 - [XIAO ESP32S3 BootLoader 模式与上传恢复](https://wiki.seeedstudio.com/cn/xiao_esp32s3_getting_started/#bootloader-mode)
 
 ## 固件与软件 {#firmware-and-software}
 
-### 如何排查使用 XIAO ESP32S3 的 ReSpeaker Lite 在 ESPHome 中编译失败的问题？ {#esphome-compile-failure}
+### 如何排查使用 XIAO ESP32S3 的 reSpeaker Lite 在 ESPHome 中编译失败的问题？ {#esphome-compile-failure}
 
-**适用范围：** 使用官方 Seeed Wiki 链接的社区 ESPHome 集成的 ReSpeaker Lite 搭配 XIAO ESP32S3
+**适用范围：** 使用官方 Seeed Wiki 链接的社区 ESPHome 集成的 reSpeaker Lite 搭配 XIAO ESP32S3
 
 **最近验证时间：** 2026-08-31
 
@@ -196,15 +196,15 @@ keywords:
 
 **参考资料：**
 
-- [Seeed Wiki：ReSpeaker Lite Home Assistant 指南](https://wiki.seeedstudio.com/cn/respeaker_lite_ha/)
-- [Wiki 链接的社区版 ReSpeaker Lite ESPHome 集成](https://github.com/formatBCE/Respeaker-Lite-ESPHome-integration)
-- [当前上游 ReSpeaker Lite 基础配置](https://github.com/formatBCE/Respeaker-Lite-ESPHome-integration/blob/main/config/common/respeaker-satellite-base.yaml)
+- [Seeed Wiki：reSpeaker Lite Home Assistant 指南](https://wiki.seeedstudio.com/cn/respeaker_lite_ha/)
+- [Wiki 链接的社区版 reSpeaker Lite ESPHome 集成](https://github.com/formatBCE/Respeaker-Lite-ESPHome-integration)
+- [当前上游 reSpeaker Lite 基础配置](https://github.com/formatBCE/Respeaker-Lite-ESPHome-integration/blob/main/config/common/respeaker-satellite-base.yaml)
 
 ## 音频问题 {#audio-issues}
 
-### 为什么 ReSpeaker Lite 的 I2S 示例播放的是很大的噪声而不是音频？ {#i2s-static-noise-sample-rate}
+### 为什么 reSpeaker Lite 的 I2S 示例播放的是很大的噪声而不是音频？ {#i2s-static-noise-sample-rate}
 
-**适用范围：** 运行官方 I2S 录音/回放或流生成示例的、搭载 XIAO ESP32S3 的 ReSpeaker Lite
+**适用范围：** 运行官方 I2S 录音/回放或流生成示例的、搭载 XIAO ESP32S3 的 reSpeaker Lite
 
 **最后验证日期：** 2026-09-01
 
@@ -212,7 +212,7 @@ keywords:
 
 **前提条件：**
 
-- 已安装的 ReSpeaker Lite I2S 固件的精确文件名
+- 已安装的 reSpeaker Lite I2S 固件的精确文件名
 - 当前官方示例及其 `AudioInfo` 配置
 - 连接到已文档化输出端口的、已知正常的扬声器或耳机
 
@@ -233,22 +233,22 @@ keywords:
 
 **参考资料：**
 
-- [ReSpeaker Lite 录音与回放示例](https://wiki.seeedstudio.com/cn/respeaker_record_and_play/)
-- [当前官方 ReSpeaker Lite 固件配置文件](https://github.com/respeaker/ReSpeaker_Lite#latest-xmos-firmware)
+- [reSpeaker Lite 录音与回放示例](https://wiki.seeedstudio.com/cn/respeaker_record_and_play/)
+- [当前官方 reSpeaker Lite 固件配置文件](https://github.com/respeaker/ReSpeaker_Lite#latest-xmos-firmware)
 
 ## 硬件问题 {#hardware-issues}
 
-### ReSpeaker Lite 上有哪些可用的音频输出？ {#speaker-output-options}
+### reSpeaker Lite 上有哪些可用的音频输出？ {#speaker-output-options}
 
-**适用范围：** 已配置回放音频的独立 ReSpeaker Lite 和搭载 XIAO ESP32S3 的 ReSpeaker Lite
+**适用范围：** 已配置回放音频的独立 reSpeaker Lite 和搭载 XIAO ESP32S3 的 reSpeaker Lite
 
 **最后验证日期：** 2026-09-01
 
-ReSpeaker Lite 提供一个板载扬声器连接器，用于 5 W 功放扬声器路径，以及一个用于耳机或有源扬声器的 3.5 mm 输出。当前官方硬件说明还指出，插入 3.5 mm 插头会静音 JST 扬声器路径，并将输出切换到外部设备。
+reSpeaker Lite 提供一个板载扬声器连接器，用于 5 W 功放扬声器路径，以及一个用于耳机或有源扬声器的 3.5 mm 输出。当前官方硬件说明还指出，插入 3.5 mm 插头会静音 JST 扬声器路径，并将输出切换到外部设备。
 
 **前提条件：**
 
-- 一个将音频发送到 ReSpeaker Lite 的回放应用或固件路径
+- 一个将音频发送到 reSpeaker Lite 的回放应用或固件路径
 - 与文档中所述连接器路径匹配的耳机、有源扬声器或扬声器
 
 1. 在更换扬声器连接之前先关闭系统电源。
@@ -268,16 +268,16 @@ ReSpeaker Lite 提供一个板载扬声器连接器，用于 5 W 功放扬声器
 
 **参考资料：**
 
-- [ReSpeaker Lite 规格与引脚定义](https://wiki.seeedstudio.com/cn/reSpeaker_usb_v3/)
-- [官方 ReSpeaker Lite 硬件仓库](https://github.com/respeaker/ReSpeaker_Lite#the-headphone-jack-detection-circuit)
+- [reSpeaker Lite 规格与引脚定义](https://wiki.seeedstudio.com/cn/reSpeaker_usb_v3/)
+- [官方 reSpeaker Lite 硬件仓库](https://github.com/respeaker/ReSpeaker_Lite#the-headphone-jack-detection-circuit)
 
-### 我可以直接用单节锂电池给 ReSpeaker Lite 供电吗？ {#external-5v-power}
+### 我可以直接用单节锂电池给 reSpeaker Lite 供电吗？ {#external-5v-power}
 
-**适用范围：** 在没有正常 USB 主机的情况下，由外部供电的独立 ReSpeaker Lite 和搭载 XIAO ESP32S3 的 ReSpeaker Lite
+**适用范围：** 在没有正常 USB 主机的情况下，由外部供电的独立 reSpeaker Lite 和搭载 XIAO ESP32S3 的 reSpeaker Lite
 
 **最后验证日期：** 2026-09-01
 
-不要将直接单节电池输入视为受支持的方式。已发布的 ReSpeaker Lite 供电约定是通过 USB 或外部 5 V 供电焊盘提供 5 V。如果必须使用电池，请在连接电路板之前将其稳压到稳定的 5 V。
+不要将直接单节电池输入视为受支持的方式。已发布的 reSpeaker Lite 供电约定是通过 USB 或外部 5 V 供电焊盘提供 5 V。如果必须使用电池，请在连接电路板之前将其稳压到稳定的 5 V。
 
 **前提条件：**
 
@@ -285,7 +285,7 @@ ReSpeaker Lite 提供一个板载扬声器连接器，用于 5 W 功放扬声器
 - 已验证极性并具有公共地
 - 接线时电源已断开
 
-1. 在连接 ReSpeaker Lite 之前先配置并测量稳压器输出；其必须是稳定的 5 V。
+1. 在连接 reSpeaker Lite 之前先配置并测量稳压器输出；其必须是稳定的 5 V。
 2. 在断电状态下，将稳压后的 5 V 和地连接到文档中说明的外部电源连接点，或使用符合规范的 5 V USB 电源。
 3. 加电并确认电源指示灯点亮。
 4. 验证预期接口：对 USB 固件进行 USB 枚举，或对嵌入式 I2S 设置运行官方 I2S 测试。
@@ -301,7 +301,7 @@ ReSpeaker Lite 提供一个板载扬声器连接器，用于 5 W 功放扬声器
 
 **参考资料：**
 
-- [ReSpeaker Lite 供电规格与硬件概览](https://wiki.seeedstudio.com/cn/reSpeaker_usb_v3/)
+- [reSpeaker Lite 供电规格与硬件概览](https://wiki.seeedstudio.com/cn/reSpeaker_usb_v3/)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->
 

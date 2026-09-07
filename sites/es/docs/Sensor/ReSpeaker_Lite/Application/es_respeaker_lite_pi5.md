@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/es/respeaker_lite_pi5/
 ---
 
 
-Este proyecto integra funcionalidades de entrada de voz, respuesta de modelo grande y salida de voz utilizando una Raspberry Pi 5. Emplea el ReSpeaker Lite como dispositivo de entrada y salida de audio, permitiendo una interacción fluida con ChatGPT y servicios de conversión de voz a texto.
+Este proyecto integra funcionalidades de entrada de voz, respuesta de modelo grande y salida de voz utilizando una Raspberry Pi 5. Emplea el reSpeaker Lite como dispositivo de entrada y salida de audio, permitiendo una interacción fluida con ChatGPT y servicios de conversión de voz a texto.
 
 
 <div class="table-center">
@@ -30,7 +30,7 @@ Este proyecto integra funcionalidades de entrada de voz, respuesta de modelo gra
 
 ## Hardware Requerido
 
-* [ReSpeaker Lite USB 2-Mic Array](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)
+* [reSpeaker Lite USB 2-Mic Array](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)
 * [Raspberry Pi 5](https://www.seeedstudio.com/Raspberry-Pi-5-8GB-p-5810.html)
 
 ## Comenzando
@@ -60,7 +60,7 @@ pip3 install openai
 pip3 install playsound
 ```
 
-* Para Raspberry Pi 5, ejecuta el siguiente comando para configurar ReSpeaker Lite:
+* Para Raspberry Pi 5, ejecuta el siguiente comando para configurar reSpeaker Lite:
 
 ```shell
 pw-metadata -n settings 0 clock.force-rate 16000
@@ -69,7 +69,7 @@ pw-metadata -n settings 0 clock.force-rate 16000
 Para un cambio permanente, descomenta y edita la línea `default.clock.rate` en `/etc/pipewire/pipewire.conf` (cópialo primero desde /usr/share/).
 
 :::tip
-Comando para ajustar el volumen del ReSpeaker Lite:
+Comando para ajustar el volumen del reSpeaker Lite:
 
 ```shell
 alsamixer

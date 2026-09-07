@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker USB Mic Array
+description: reSpeaker USB Mic Array
 title: reSpeaker USB Mic Array
 keywords:
   - reSpeaker
@@ -26,12 +26,12 @@ An out-of-the-box voice pick-up device is the voice of the customer.
 
 During the past year, [Respeaker Mic Array V2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html)  has been sold out for more than 10K units in the format of the development board. Customers keep requesting a complete device with an enclosure, which is challenging for them to design it, considering the acoustic principles.
 
-And here Seeed provides the answer with ReSpeaker USB Mic Array:
+And here Seeed provides the answer with reSpeaker USB Mic Array:
 
 - An out-of-box device with a well-designed acoustic structure brings the flexibility for the customer to build in their solution.
 - Mold injected enclosure available, saves the time to go to the market and the mold cost.
 
-The difference between the PCBA inside ReSpeaker USB Mic Array and Respeaker Mic Array V2.0:
+The difference between the PCBA inside reSpeaker USB Mic Array and Respeaker Mic Array V2.0:
 
 - Optimized power circuit
 - Move the audio jack and micro USB port to the backside.
@@ -109,7 +109,7 @@ The WM8960 is a low power stereo codec featuring Class D speaker drivers to prov
 ## Getting Started
 
 :::note
-ReSpeaker USB Mic Array is compatiable with Windows, Mac, Linux systems andriod. The below scripts are tested on Python2.7.
+reSpeaker USB Mic Array is compatiable with Windows, Mac, Linux systems andriod. The below scripts are tested on Python2.7.
 :::
 
 ### Update Firmware
@@ -185,7 +185,7 @@ Here is the video about the DOA and AEC.
 
 ### Install DFU and LED Control Driver  
 
-- **Windows:** Audio recording and playback works well by default. Libusb-win32 driver is only required to control LEDs an DSP parameters on Windows. We use [a handy tool - Zadig](http://zadig.akeo.ie/) to install the libusb-win32 driver for both `SEEED DFU` and `SEEED Control` (ReSpeaker Mic Array has 2 devices on Windows Device Manager).
+- **Windows:** Audio recording and playback works well by default. Libusb-win32 driver is only required to control LEDs an DSP parameters on Windows. We use [a handy tool - Zadig](http://zadig.akeo.ie/) to install the libusb-win32 driver for both `SEEED DFU` and `SEEED Control` (reSpeaker Mic Array has 2 devices on Windows Device Manager).
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/usb_4mic_array_driver.png)
 
@@ -223,7 +223,7 @@ DOAANGLE: 180
 
 ### Control the LEDs
 
-We can control the ReSpeaker USB Mic Array's LEDs through USB. The USB device has a Vendor Specific Class Interface which can be used to send data through USB Control Transfer. We refer [pyusb python library](https://github.com/pyusb/pyusb) and come out the [usb_pixel_ring python library](https://github.com/respeaker/pixel_ring/blob/master/pixel_ring/usb_pixel_ring_v2.py).
+We can control the reSpeaker USB Mic Array's LEDs through USB. The USB device has a Vendor Specific Class Interface which can be used to send data through USB Control Transfer. We refer [pyusb python library](https://github.com/pyusb/pyusb) and come out the [usb_pixel_ring python library](https://github.com/respeaker/pixel_ring/blob/master/pixel_ring/usb_pixel_ring_v2.py).
 
 The LED control command is sent by pyusb's usb.core.Device.ctrl_transfer(), its parameters as below：
 
@@ -775,7 +775,7 @@ A3: Yes, we can connect the mic array v2.0 to raspberry usb port and follow [Ras
 
 **Q4: Do you have the example for Mic array v2.1 with ROS system?**
 
-A4: Yes, thanks for Yuki sharing the package for integrating [ReSpeaker USB Mic Array with ROS (Robot Operating System) Middleware](https://github.com/furushchev/respeaker_ros).
+A4: Yes, thanks for Yuki sharing the package for integrating [reSpeaker USB Mic Array with ROS (Robot Operating System) Middleware](https://github.com/furushchev/respeaker_ros).
 
 **Q5: How to enable 3.5mm audio port to receive the signal as well as usb port?**
 
@@ -791,8 +791,8 @@ sudo apt-get install portaudio19-dev
 
 ## Resource
 
-- **[PDF]** [ReSpeaker USB Mic Array Dimension](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/dimension.pdf)
-- **[DWG]** [ReSpeaker USB Mic Array Case 3D Model](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/case.dwg)
+- **[PDF]** [reSpeaker USB Mic Array Dimension](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/dimension.pdf)
+- **[DWG]** [reSpeaker USB Mic Array Case 3D Model](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/case.dwg)
 - **[PDF]** [XVF3000 Product Brief](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/XVF3000-3100-product-brief_1.4.pdf)
 - **[PDF]** [XVF3000 Datasheet](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/XVF3000-3100-TQ128-Datasheet_1.0.pdf)
 

@@ -15,14 +15,14 @@ url: https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT_Raspberry/
 ---
 
 :::caution
-本 wiki 是为 ReSpeaker 2-Mics Pi HAT **v1** 编写的，要区分 v1 和 v2 设备，请参考 [如何区分 ReSpeaker 2-Mics Pi HAT 硬件版本](/cn/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions)。
+本 wiki 是为 reSpeaker 2-Mics Pi HAT **v1** 编写的，要区分 v1 和 v2 设备，请参考 [如何区分 reSpeaker 2-Mics Pi HAT 硬件版本](/cn/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions)。
 :::
 
 ### 驱动安装和配置
 
-**1. 将 ReSpeaker 2-Mics Pi HAT 连接到 Raspberry Pi**
+**1. 将 reSpeaker 2-Mics Pi HAT 连接到 Raspberry Pi**
 
-将 ReSpeaker 2-Mics Pi HAT 安装到您的 Raspberry Pi 上，确保在堆叠 ReSpeaker 2-Mics Pi HAT 时引脚正确对齐。
+将 reSpeaker 2-Mics Pi HAT 安装到您的 Raspberry Pi 上，确保在堆叠 reSpeaker 2-Mics Pi HAT 时引脚正确对齐。
 
 Raspberry Pi 连接
 
@@ -36,7 +36,7 @@ Raspberry Pi Zero 连接
 
 确保您的 Pi 运行的是[最新的 Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspbian/)。*(更新于 2021.05.01)*
 
-- 步骤 1：获取 ReSpeaker 2-Mics Pi HAT (V1.0) 的设备树源码 (DTS)，编译并安装设备树覆盖。
+- 步骤 1：获取 reSpeaker 2-Mics Pi HAT (V1.0) 的设备树源码 (DTS)，编译并安装设备树覆盖。
 
 ```bash
 git clone https://github.com/Seeed-Studio/seeed-linux-dtoverlays.git  
@@ -200,7 +200,7 @@ python3 recording_examples/get_device_index.py
 Input Device id  2  -  seeed-2mic-voicecard: - (hw:1,0)
 ```
 
-要录制声音，使用 nano 或其他文本编辑器打开 ```recording_examples/record.py``` 文件，将 `RESPEAKER_INDEX = 2` 更改为您系统上 ReSpeaker 的索引号。然后运行 python 脚本 record.py 进行录制：
+要录制声音，使用 nano 或其他文本编辑器打开 ```recording_examples/record.py``` 文件，将 `RESPEAKER_INDEX = 2` 更改为您系统上 reSpeaker 的索引号。然后运行 python 脚本 record.py 进行录制：
 
 ```bash
 python3 recording_examples/record.py
@@ -227,13 +227,13 @@ python3 recording_examples/play.py path-to-wav-file
 
 确保在 play.py 中指定正确的输出设备索引 - 否则 PyAudio 会冻结！
 
-### 使用 ReSpeaker 2-Mic Pi HAT 和 Raspberry Pi 的 Picovoice
+### 使用 reSpeaker 2-Mic Pi HAT 和 Raspberry Pi 的 Picovoice
 
-**步骤 1.** 在以下操作之前，请遵循**上述 ReSpeaker 2-Mic Pi HAT 与 Raspberry Pi 的分步教程**。
+**步骤 1.** 在以下操作之前，请遵循**上述 reSpeaker 2-Mic Pi HAT 与 Raspberry Pi 的分步教程**。
 
-**注意：** 请确保 `APA102` LED 在 ReSpeaker 2-Mic Pi HAT 与 Raspberry Pi 上正常工作。
+**注意：** 请确保 `APA102` LED 在 reSpeaker 2-Mic Pi HAT 与 Raspberry Pi 上正常工作。
 
-**步骤 2.** 在终端中输入以下命令来**安装 ReSpeaker 2-Mic Pi HAT 的 Picovoice 演示**。
+**步骤 2.** 在终端中输入以下命令来**安装 reSpeaker 2-Mic Pi HAT 的 Picovoice 演示**。
 
 ```bash
 pip3 install pvrespeakerdemo
@@ -250,7 +250,7 @@ echo 'export PATH="$HOME/bin:$HOME/.local/bin:$PATH"' >> ~/.bashrc
 
 #### 演示使用
 
-该演示利用 Raspberry Pi 上的 ReSpeaker 2-Mic Pi HAT 与 Picovoice 技术来控制 LED。**此演示由唤醒词 "`Picovoice`" 触发，并准备执行后续操作，如打开和关闭 LED，以及更改 LED 颜色。**
+该演示利用 Raspberry Pi 上的 reSpeaker 2-Mic Pi HAT 与 Picovoice 技术来控制 LED。**此演示由唤醒词 "`Picovoice`" 触发，并准备执行后续操作，如打开和关闭 LED，以及更改 LED 颜色。**
 
 安装完成后，在终端中输入此命令运行演示：
 
@@ -351,9 +351,9 @@ context:
 - 可扩展。它可以检测多个始终监听的语音命令，而不会增加运行时占用空间。
 - 自助服务。开发者可以使用 [Picovoice Console](https://picovoice.ai/console/) 训练自定义唤醒词模型。
 
-为了演示 Picovoice 的能力，我们还准备了使用 ReSpeaker 2-Mic Pi HAT 与 Raspberry Pi 的多唤醒词示例！不同的唤醒词可以设置为执行特定任务。
+为了演示 Picovoice 的能力，我们还准备了使用 reSpeaker 2-Mic Pi HAT 与 Raspberry Pi 的多唤醒词示例！不同的唤醒词可以设置为执行特定任务。
 
-*此包包含一个使用 Porcupine 控制 ReSpeaker 2-Mic Pi HAT LED 的命令行演示。*
+*此包包含一个使用 Porcupine 控制 reSpeaker 2-Mic Pi HAT LED 的命令行演示。*
 
 #### 多唤醒词入门指南
 
@@ -409,7 +409,7 @@ detected 'Picovoice'
 
 请在此处查看此示例的完整源代码：[https://github.com/Picovoice/porcupine/tree/master/demo/respeaker](https://github.com/Picovoice/porcupine/tree/master/demo/respeaker)。
 
-## 使用 ReSpeaker 2-Mic Pi HAT 和 Mycroft Precise 进行关键词识别
+## 使用 reSpeaker 2-Mic Pi HAT 和 Mycroft Precise 进行关键词识别
 
 Mycroft Precise 是一个完全开源的关键词检测引擎。虽然与 Picovoice 相比功能更有限，但它具有更宽松的许可证（Apache 2.0），允许修改和重新分发，包括闭源和商业用途，只要保留许可证。
 
@@ -437,13 +437,13 @@ mycroft-precise --model hey-mycroft
 
 如果您想将 Mycroft Precise 集成到您自己的项目中，请查看 Github 仓库 README 文件以获取有关 API 的更多信息。
 
-## 使用 ReSpeaker 2-Mic Pi HAT 和 Mycroft Core 的智能助手
+## 使用 reSpeaker 2-Mic Pi HAT 和 Mycroft Core 的智能助手
 
 Mycroft 是一个可破解的开源语音助手。它在功能上类似于 Amazon Alexa 或 Google Assistant，但具有更宽松的许可证（Apache 2.0），允许修改和重新分发，包括闭源和商业用途，只要保留许可证。
 
 **此部分目前正在开发中，我们将添加更多关于将 Mycroft Core 与 Respeaker 一起使用的详细信息**
 
-## 使用 ReSpeaker 2-Mic Pi HAT 和 Raspberry Pi Zero 的 Picovoice 入门指南
+## 使用 reSpeaker 2-Mic Pi HAT 和 Raspberry Pi Zero 的 Picovoice 入门指南
 
 **步骤 1.** 按照 **驱动程序安装和配置** 中的描述安装驱动程序并配置设备。
 
@@ -454,7 +454,7 @@ git clone --recurse-submodules https://github.com/Picovoice/picovoice.git
 cd picovoice
 ```
 
-**注意：** 请确保 `APA102` LED 在 ReSpeaker 2-Mic Pi HAT 与 Raspberry Pi Zero 上正常工作。
+**注意：** 请确保 `APA102` LED 在 reSpeaker 2-Mic Pi HAT 与 Raspberry Pi Zero 上正常工作。
 
 **步骤 2.** 通过在终端中输入以下命令安装 `wiringpi` 库。
 
@@ -462,7 +462,7 @@ cd picovoice
 sudo apt-get install wiringpi
 ```
 
-**步骤 3.** 从仓库根目录，在终端中输入以下命令来 **安装 ReSpeaker 2-Mic Pi HAT 的 Picovoice 演示**。
+**步骤 3.** 从仓库根目录，在终端中输入以下命令来 **安装 reSpeaker 2-Mic Pi HAT 的 Picovoice 演示**。
 
 ```sh
 gcc -std=c99 -O3 -o demo/respeaker-rpi0/picovoice_demo_mic \
@@ -472,7 +472,7 @@ gcc -std=c99 -O3 -o demo/respeaker-rpi0/picovoice_demo_mic \
 
 ### 演示使用方法
 
-该演示利用 Raspberry Pi Zero 上的 ReSpeaker 2-Mic Pi HAT 与 Picovoice 技术来控制 LED。**此演示由唤醒词 "`Picovoice`" 触发，并准备好执行后续操作，例如打开和关闭 LED，以及更改 LED 颜色。**
+该演示利用 Raspberry Pi Zero 上的 reSpeaker 2-Mic Pi HAT 与 Picovoice 技术来控制 LED。**此演示由唤醒词 "`Picovoice`" 触发，并准备好执行后续操作，例如打开和关闭 LED，以及更改 LED 颜色。**
 
 安装完成后，从仓库根目录输入此命令，在终端中运行演示：
 
@@ -569,9 +569,9 @@ context:
 
 <p style={{textAlign: 'center'}}><iframe width={720} height={480} src="https://www.youtube.com/embed/Fi_IJEcNr3I" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></p>
 
-为了演示 Picovoice 的能力，我们还准备了使用 ReSpeaker 2-Mic Pi HAT 与 Raspberry Pi Zero 的多唤醒词示例！不同的唤醒词可以设置为执行特定任务。
+为了演示 Picovoice 的能力，我们还准备了使用 reSpeaker 2-Mic Pi HAT 与 Raspberry Pi Zero 的多唤醒词示例！不同的唤醒词可以设置为执行特定任务。
 
-*此包包含一个命令行演示，用于使用 Porcupine 控制 ReSpeaker 2-Mic Pi HAT LED。*
+*此包包含一个命令行演示，用于使用 Porcupine 控制 reSpeaker 2-Mic Pi HAT LED。*
 
 ### Porcupine
 
@@ -600,7 +600,7 @@ git clone --recurse-submodules https://github.com/Picovoice/porcupine.git
 cd picovoice
 ```
 
-**步骤 2.** 从仓库根目录，在终端中输入以下命令来**安装 ReSpeaker 2-Mic Pi HAT 的 Porcupine 演示**。
+**步骤 2.** 从仓库根目录，在终端中输入以下命令来**安装 reSpeaker 2-Mic Pi HAT 的 Porcupine 演示**。
 
 ```sh
 gcc -std=c99 -O3 -o demo/respeaker-rpi0/porcupine_demo_mic \

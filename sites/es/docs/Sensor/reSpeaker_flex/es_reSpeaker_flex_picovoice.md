@@ -1,5 +1,5 @@
 ---
-description: Aprende cómo implementar detección de palabra clave y NLU usando ReSpeaker Flex con el XMOS XVF3800, que cuenta con arreglos de 4 micrófonos circulares y lineales para robótica y dispositivos inteligentes.
+description: Aprende cómo implementar detección de palabra clave y NLU usando reSpeaker Flex con el XMOS XVF3800, que cuenta con arreglos de 4 micrófonos circulares y lineales para robótica y dispositivos inteligentes.
 title: reSpeaker Flex Control Despertador de Voz y NLU con Pico-voice
 keywords:
   - reSpeaker
@@ -147,7 +147,7 @@ Además, Rhino permite a los desarrolladores definir contextos personalizados co
 
 ### Crear un contexto 
 
-Un contexto define el conjunto de comandos hablados, intenciones y slots para un dominio específico; aquí creamos un contexto **“Bumblebee”** para controlar ReSpeaker Flex usando comandos de voz. Ve a la consola Rhino Speech-to-Intent en Picovoice y crea un nuevo contexto llamado **Bumblebee** usando la plantilla **“Empty”**.
+Un contexto define el conjunto de comandos hablados, intenciones y slots para un dominio específico; aquí creamos un contexto **“Bumblebee”** para controlar reSpeaker Flex usando comandos de voz. Ve a la consola Rhino Speech-to-Intent en Picovoice y crea un nuevo contexto llamado **Bumblebee** usando la plantilla **“Empty”**.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/pico/pic4.png" alt="pir" width={600} height="auto" /></p>
 

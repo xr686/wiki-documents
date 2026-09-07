@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Lite を使用した I2S から CSV へのコンバーター
+description: reSpeaker Lite を使用した I2S から CSV へのコンバーター
 title: CSV コンバーター
 keywords:
   - ESP32S3
@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_streams_print/
 ---
 
 
-このプロジェクトでは、ReSpeaker Lite ボードを使用して I2S インターフェースからオーディオデータをキャプチャし、それを CSV 形式に変換してさらなる分析や処理を行う方法を示します。ReSpeaker Lite は、デュアルチャンネルマイクとスピーカーを備えた XIAO ESP32S3 マイクロコントローラーを統合したオーディオボードです。
+このプロジェクトでは、reSpeaker Lite ボードを使用して I2S インターフェースからオーディオデータをキャプチャし、それを CSV 形式に変換してさらなる分析や処理を行う方法を示します。reSpeaker Lite は、デュアルチャンネルマイクとスピーカーを備えた XIAO ESP32S3 マイクロコントローラーを統合したオーディオボードです。
 
 
 

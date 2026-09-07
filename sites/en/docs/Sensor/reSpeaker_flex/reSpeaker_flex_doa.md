@@ -18,7 +18,7 @@ url: https://wiki.seeedstudio.com/respeaker_flex_xiao_doa_vad/
 
 ## Introduction 
 
-The ReSpeaker Flex is a multi-microphone voice processing solution based on the XMOS XVF3800, designed for embedded applications requiring real-time audio intelligence. The XVF3800 internally computes Voice Activity Detection (VAD) and Direction of Arrival (DoA) to indicate when speech is present and the direction it originates from. These inference results can be accessed directly by a host MCU over I2C using resource-based commands, enabling features such as wake-on-voice, sound source localization, and direction-aware feedback without processing raw audio on the host.
+The reSpeaker Flex is a multi-microphone voice processing solution based on the XMOS XVF3800, designed for embedded applications requiring real-time audio intelligence. The XVF3800 internally computes Voice Activity Detection (VAD) and Direction of Arrival (DoA) to indicate when speech is present and the direction it originates from. These inference results can be accessed directly by a host MCU over I2C using resource-based commands, enabling features such as wake-on-voice, sound source localization, and direction-aware feedback without processing raw audio on the host.
 
 
 <table align="center">

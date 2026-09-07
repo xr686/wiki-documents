@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Core
+description: reSpeaker Core
 title: reSpeaker Core
 keywords:
   - reSpeaker
@@ -16,19 +16,19 @@ url: https://wiki.seeedstudio.com/es/ReSpeaker_Core/
 
 ![](https://files.seeedstudio.com/wiki/Respeaker_Core/img/respeaker_core.jpg)
 
-ReSpeaker es una interfaz de voz modular y abierta para hackear las cosas que te rodean. Te permite interactuar con tus electrodomésticos, tus plantas, tu oficina, tus dispositivos conectados a Internet o cualquier otra cosa en tu vida diaria, todo con tu voz.
+reSpeaker es una interfaz de voz modular y abierta para hackear las cosas que te rodean. Te permite interactuar con tus electrodomésticos, tus plantas, tu oficina, tus dispositivos conectados a Internet o cualquier otra cosa en tu vida diaria, todo con tu voz.
 
 - **Es una extensión habilitada por voz para tu entorno**
 
-  ReSpeaker es compatible tanto con servicios cognitivos en línea como con un motor de reconocimiento de voz ligero sin conexión. Puedes añadir ReSpeaker a las cosas que te rodean para hacerlas inteligentes (más inteligentes).
+  reSpeaker es compatible tanto con servicios cognitivos en línea como con un motor de reconocimiento de voz ligero sin conexión. Puedes añadir reSpeaker a las cosas que te rodean para hacerlas inteligentes (más inteligentes).
 
 - **Es un dispositivo para transmisión de música**
 
-  La interfaz de voz nunca ha estado separada del entretenimiento musical, y ReSpeaker tampoco. ReSpeaker es compatible con Airplay/DLNA para la transmisión inalámbrica de música. Solo conecta ReSpeaker a cualquier altavoz normal con un cable AUX, y podrás empezar a disfrutar de la música que te gusta sin pulsar un solo botón.
+  La interfaz de voz nunca ha estado separada del entretenimiento musical, y reSpeaker tampoco. reSpeaker es compatible con Airplay/DLNA para la transmisión inalámbrica de música. Solo conecta reSpeaker a cualquier altavoz normal con un cable AUX, y podrás empezar a disfrutar de la música que te gusta sin pulsar un solo botón.
 
 - **Es una herramienta de aprendizaje para niños**
 
-  Además del módulo Wi-Fi MT7688 a bordo que ejecuta OpenWrt basado en Linux, ReSpeaker también está impulsado por el chip ATmega32u4 y es totalmente compatible con Arduino, lo que significa que podemos usar ReSpeaker como una potente placa Arduino y hacer muchas cosas de ‘Arduino’. Es para aprender, es para practicar y es para divertirse.
+  Además del módulo Wi-Fi MT7688 a bordo que ejecuta OpenWrt basado en Linux, reSpeaker también está impulsado por el chip ATmega32u4 y es totalmente compatible con Arduino, lo que significa que podemos usar reSpeaker como una potente placa Arduino y hacer muchas cosas de ‘Arduino’. Es para aprender, es para practicar y es para divertirse.
 
 [![](https://files.seeedstudio.com/wiki/Seeed-WiKi/docs/images/300px-Get_One_Now_Banner-ragular.png)](https://www.seeedstudio.com/ReSpeaker-Core-Based-On-MT7688-and-OpenWRT-p-2716.html)
 
@@ -90,20 +90,20 @@ ReSpeaker es una interfaz de voz modular y abierta para hackear las cosas que te
 - GPIO2/I2S_LRCLK: controla codificador/decodificador externo, reloj de muestreo de canal izquierdo/derecho
 - GPIO3/I2S_BCLK: controla codificador/decodificador externo, reloj de bits
 - MCLK_OUT: reloj maestro para dispositivo externo
-- HP_SEL: selección de canal de auriculares. Si se usa ReSpeaker Mic Array para sacar audio, establece HP_SEL en alto
-- HP_L: canal de audio analógico izquierdo desde ReSpeaker Mic Array
-- HP_R: canal de audio analógico derecho desde ReSpeaker Mic Array
+- HP_SEL: selección de canal de auriculares. Si se usa reSpeaker Mic Array para sacar audio, establece HP_SEL en alto
+- HP_L: canal de audio analógico izquierdo desde reSpeaker Mic Array
+- HP_R: canal de audio analógico derecho desde reSpeaker Mic Array
 - AGND: tierra analógica para audio
 
 ## Primeros pasos
 
 ---
 
-### Qué debo hacer cuando recibo un ReSpeaker Core por primera vez
+### Qué debo hacer cuando recibo un reSpeaker Core por primera vez
 
 **1. Preparativos**
 
-- ReSpeaker Core
+- reSpeaker Core
 - PC o Mac
 - Red Wi-Fi
 - Tarjeta SD
@@ -112,11 +112,11 @@ ReSpeaker es una interfaz de voz modular y abierta para hackear las cosas que te
 
 - Para Windows, se recomienda [putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
 
-  - Conecta ReSpeaker a tu PC mediante USB, comprueba el puerto COM en "Device Manager". Aquí el puerto COM de mi ReSpeaker es COM31.
+  - Conecta reSpeaker a tu PC mediante USB, comprueba el puerto COM en "Device Manager". Aquí el puerto COM de mi reSpeaker es COM31.
 
     ![](https://files.seeedstudio.com/wiki/Respeaker_Core/img/putty1.png)
 
-  - Selecciona Serial en Connection type. En el campo Serial line, introduce el puerto COM de tu ReSpeaker. En el campo Speed, escribe 57600.
+  - Selecciona Serial en Connection type. En el campo Serial line, introduce el puerto COM de tu reSpeaker. En el campo Speed, escribe 57600.
 
     ![](https://files.seeedstudio.com/wiki/Respeaker_Core/img/putty2.png)
 
@@ -126,7 +126,7 @@ ReSpeaker es una interfaz de voz modular y abierta para hackear las cosas que te
 
 - Para Linux/Mac
 
-  - Conecta ReSpeaker a tu PC mediante USB
+  - Conecta reSpeaker a tu PC mediante USB
   - Abre una sesión de Terminal
   - Escribe ls /dev/tty.usb* en el Terminal. Deberíamos ver una lista de dispositivos. Busca algo como tty.usbmodemXXXXX donde XXXXX suele ser un identificador aleatorio. Este es el dispositivo serie usado para acceder a la consola del sistema. Luego usa la utilidad screen para conectarte al puerto serie y establece la velocidad en baudios a 57600. Esto se debe a que la velocidad en baudios de la consola del sistema es 57600 por defecto.
 
@@ -138,23 +138,23 @@ $ screen /dev/tty.usbmodem14221 57600
 
 **3. Configurar Wi-Fi**
 
-ReSpeaker está configurado en Modo Repetidor por defecto, y tienes que conectarlo a una red inalámbrica existente antes de disfrutar del reconocimiento de voz con Internet.
+reSpeaker está configurado en Modo Repetidor por defecto, y tienes que conectarlo a una red inalámbrica existente antes de disfrutar del reconocimiento de voz con Internet.
 
-Cuando enciendas ReSpeaker por primera vez, creará una red Wi-Fi llamada "ReSpeakerXXXXXX". Aquí "XXXXXX" son los últimos 6 dígitos de la dirección MAC de tu ReSpeaker, que está marcada en la placa. Conecta tu ordenador a esta red.
+Cuando enciendas reSpeaker por primera vez, creará una red Wi-Fi llamada "reSpeakerXXXXXX". Aquí "XXXXXX" son los últimos 6 dígitos de la dirección MAC de tu reSpeaker, que está marcada en la placa. Conecta tu ordenador a esta red.
 
 ![](https://files.seeedstudio.com/wiki/Respeaker_Core/img/wifi1.png)
 
 :::note
-Si "ReSpeakerXXXXXX" no aparece, pero se encuentra "LinkIt_Smart_7688_XXXXXX". Haz clic [aquí](https://wiki.seeedstudio.com/es/ReSpeaker_Core/#q20-system-recovery-by-factory-image).
+Si "reSpeakerXXXXXX" no aparece, pero se encuentra "LinkIt_Smart_7688_XXXXXX". Haz clic [aquí](https://wiki.seeedstudio.com/es/ReSpeaker_Core/#q20-system-recovery-by-factory-image).
 :::
 
 Una vez que hayas obtenido una dirección IP, abre un navegador web e introduce 192.168.100.1 en la barra de direcciones. Después de unos segundos, aparecerá una página web pidiendo el ssid y la contraseña de una red Wi-Fi existente.
 
 ![](https://files.seeedstudio.com/wiki/Respeaker_Core/img/wifi2.png)
 
-Selecciona la red Wi-Fi a la que deseas conectarte e introduce la contraseña. Cuando pulses el botón OK, ReSpeaker se unirá a la red especificada.
+Selecciona la red Wi-Fi a la que deseas conectarte e introduce la contraseña. Cuando pulses el botón OK, reSpeaker se unirá a la red especificada.
 
-Ahora tu ReSpeaker puede acceder a Internet.
+Ahora tu reSpeaker puede acceder a Internet.
 
 Además, aquí hay otra forma de configurar Wi-Fi con la línea de comandos.
 Podemos usar wictl para escanear la red wifi y conectarla.
@@ -202,12 +202,12 @@ ssh root@ssh *.*.*.*
 
 **4. Usar una tarjeta SD para ampliar el almacenamiento**
 
-Muy a menudo, solo hay una cantidad limitada de almacenamiento disponible en los dispositivos embebidos (ReSpeaker solo tiene 5M de almacenamiento flash a bordo disponible para los usuarios). Más almacenamiento para aplicaciones y datos puede ampliar el potencial de ReSpeaker, por lo que usar una tarjeta SD para ampliar el almacenamiento como un **extroot** es una buena opción.
+Muy a menudo, solo hay una cantidad limitada de almacenamiento disponible en los dispositivos embebidos (reSpeaker solo tiene 5M de almacenamiento flash a bordo disponible para los usuarios). Más almacenamiento para aplicaciones y datos puede ampliar el potencial de reSpeaker, por lo que usar una tarjeta SD para ampliar el almacenamiento como un **extroot** es una buena opción.
 
 Al emplear **extroot**, la ampliación de la capacidad de almacenamiento de tu sistema de archivos raíz se logra utilizando un dispositivo de almacenamiento adicional.
 Durante el proceso de arranque, el espacio de almacenamiento externo se monta como sistema de archivos raíz, o en una configuración superpuesta sobre el sistema de archivos original.
 
-- Asegúrate de que tu tarjeta SD esté conectada a ReSpeaker y que /dev/mmcblk0p1 pueda ser detectado por df -h o ls /dev.
+- Asegúrate de que tu tarjeta SD esté conectada a reSpeaker y que /dev/mmcblk0p1 pueda ser detectado por df -h o ls /dev.
 
 ```
 root@ReSpeaker:/# df -h
@@ -221,7 +221,7 @@ tmpfs                   512.0K         0    512.0K   0% /dev
 /dev/mmcblk0p1            7.4G      2.5M      7.4G   0% /tmp/run/mountd/mmcblk0p1
 ```
 
-- Formatea tu tarjeta SD en dos particiones, una es FAT32 y la otra es EXT4. El sistema de archivos EXT4 será un extroot mientras que FAT32 será un dispositivo de almacenamiento normal, que puede transferir archivos entre ReSpeaker y tu PC.
+- Formatea tu tarjeta SD en dos particiones, una es FAT32 y la otra es EXT4. El sistema de archivos EXT4 será un extroot mientras que FAT32 será un dispositivo de almacenamiento normal, que puede transferir archivos entre reSpeaker y tu PC.
 
 ```
  umount /dev/mmcblk0p1
@@ -293,11 +293,11 @@ mount /dev/mmcblk0p2 /mnt ; tar -C /overlay -cvf - . | tar -C /mnt -xf - ; umoun
   /dev/mmcblk0p2            5.2G     11.8M      4.9G   0% /overlay
 ```
 
-- Reinicie ReSpeaker y vuelva a comprobar. Si la tarjeta SD se monta automáticamente, ha terminado. Para más información sobre **extroot**, haga clic [aquí](https://wiki.openwrt.org/doc/howto/extroot).
+- Reinicie reSpeaker y vuelva a comprobar. Si la tarjeta SD se monta automáticamente, ha terminado. Para más información sobre **extroot**, haga clic [aquí](https://wiki.openwrt.org/doc/howto/extroot).
 
-**5. Instalar software en ReSpeaker**
+**5. Instalar software en reSpeaker**
 
-Después de ampliar el almacenamiento con una tarjeta SD, hay suficiente espacio para instalar software en ReSpeaker.
+Después de ampliar el almacenamiento con una tarjeta SD, hay suficiente espacio para instalar software en reSpeaker.
 
 Instalar git
 
@@ -314,9 +314,9 @@ cd respeaker_python_library
 python setup.py install
 ```
 
-### Primera impresión con interacción por voz - ReSpeaker, reproducir música
+### Primera impresión con interacción por voz - reSpeaker, reproducir música
 
-Con Bing Speech API, ReSpeaker puede activarse y reconocer audio proveniente del micrófono en tiempo real, o reconocer audio desde un archivo.
+Con Bing Speech API, reSpeaker puede activarse y reconocer audio proveniente del micrófono en tiempo real, o reconocer audio desde un archivo.
 
 Para usar Bing Speech API, primero tiene que obtener una clave de Microsoft Cognitive Services desde [aquí](https://www.microsoft.com/cognitive-services/en-us/speech-api), y copiarla en BING_KEY = '' , luego guarde el siguiente código en playmusic.py y ejecútelo
 
@@ -380,7 +380,7 @@ if __name__ == '__main__':
     main()                  
 ```
 
-Después de que aparezca "INFO:mic:Start Detecting", intente decir "ReSpeaker" para activar el programa, y diga "play music" para que reproduzca música. Entonces ReSpeaker reproducirá "Tchaikovsky_Concerto_No.1p.mp3" en la ruta actual con la herramienta **madplay**.
+Después de que aparezca "INFO:mic:Start Detecting", intente decir "reSpeaker" para activar el programa, y diga "play music" para que reproduzca música. Entonces reSpeaker reproducirá "Tchaikovsky_Concerto_No.1p.mp3" en la ruta actual con la herramienta **madplay**.
 
 ![](https://files.seeedstudio.com/wiki/Respeaker_Core/img/bingplaymusic.png)
 
@@ -403,56 +403,56 @@ File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
 
 ![](https://files.seeedstudio.com/wiki/Respeaker_Core/img/fruitpiano.PNG)
 
-Además del módulo MT7688 Wi-FI integrado que ejecuta OpenWrt basado en Linux, ReSpeaker también está impulsado por el chip ATmega32u4 y es absolutamente compatible con Arduino, lo que significa que podemos usar ReSpeaker como una potente placa Arduino y hacer muchas cosas de “Arduino”. Es para aprender, es para practicar y es para divertirse.
+Además del módulo MT7688 Wi-FI integrado que ejecuta OpenWrt basado en Linux, reSpeaker también está impulsado por el chip ATmega32u4 y es absolutamente compatible con Arduino, lo que significa que podemos usar reSpeaker como una potente placa Arduino y hacer muchas cosas de “Arduino”. Es para aprender, es para practicar y es para divertirse.
 
-Por ejemplo, puede programarlo con Arduino IDE para tener un piano DIY especial que se construye sobre 8 tomates cherry conectados a los 8 sensores táctiles de ReSpeaker.
+Por ejemplo, puede programarlo con Arduino IDE para tener un piano DIY especial que se construye sobre 8 tomates cherry conectados a los 8 sensores táctiles de reSpeaker.
 ![](https://files.seeedstudio.com/wiki/Respeaker_Core/img/fruitpiano2.PNG)
 
-1. git clone &lt;https://github.com/respeaker/piano.git&gt;  En ReSpeaker, descargue el repositorio
-2. Descargue [ReSpeaker Arduino Library](https://github.com/respeaker/respeaker_arduino_library) en su ordenador
-3. Cargue [piano.ino](https://github.com/respeaker/piano/blob/master/arduino/piano.ino) al Arduino Leonardo (ATmega32U4) de ReSpeaker
-4. Ejecute python piano.py en la consola serie de ReSpeaker
+1. git clone &lt;https://github.com/respeaker/piano.git&gt;  En reSpeaker, descargue el repositorio
+2. Descargue [reSpeaker Arduino Library](https://github.com/respeaker/respeaker_arduino_library) en su ordenador
+3. Cargue [piano.ino](https://github.com/respeaker/piano/blob/master/arduino/piano.ino) al Arduino Leonardo (ATmega32U4) de reSpeaker
+4. Ejecute python piano.py en la consola serie de reSpeaker
 
 ### Nube del tiempo
 
 ![](https://files.seeedstudio.com/wiki/Respeaker_Core/img/weathercloud.jpg)
 
-Weather Cloud es un proyecto impresionante para ReSpeaker. Esta genial construcción convierte un ReSpeaker en una Nube del Tiempo, que es capaz de mostrarle el clima con luces y sonidos vívidos.
+Weather Cloud es un proyecto impresionante para reSpeaker. Esta genial construcción convierte un reSpeaker en una Nube del Tiempo, que es capaz de mostrarle el clima con luces y sonidos vívidos.
 
 En este proyecto, Openwrt se encarga de obtener información meteorológica en tiempo real de Internet, realizar interacción por voz y salida de audio, mientras que Arduino es responsable de controlar los coloridos LED RGB.
 
-1. git clone &lt;https://github.com/jerryyip/WeatherCloud.git&gt;  en ReSpeaker, descargue el repositorio
-2. Descargue [ReSpeaker Arduino Library](https://github.com/respeaker/respeaker_arduino_library) en su ordenador
-3. Cargue [pixels_pattern.ino](https://github.com/respeaker/respeaker_arduino_library/blob/master/examples/pixels_pattern/pixels_pattern.ino) en ReSpeaker Arduino Library al Arduino de ReSpeaker
+1. git clone &lt;https://github.com/jerryyip/WeatherCloud.git&gt;  en reSpeaker, descargue el repositorio
+2. Descargue [reSpeaker Arduino Library](https://github.com/respeaker/respeaker_arduino_library) en su ordenador
+3. Cargue [pixels_pattern.ino](https://github.com/respeaker/respeaker_arduino_library/blob/master/examples/pixels_pattern/pixels_pattern.ino) en reSpeaker Arduino Library al Arduino de reSpeaker
 4. Obtenga el appid de OpenWeatherMap desde [aquí](http://openweathermap.org/appid) y cópielo en appID = "" en main.py, no olvide añadir su ciudad en city=""
 5. Detenga el servicio mopidy en OpenWrt antes de usar el puente SPI
 /etc/init.d/mopidy stop
-6. Ejecute python main.py y diga "ReSpeaker, what is the weather like?" a ReSpeaker.
+6. Ejecute python main.py y diga "reSpeaker, what is the weather like?" a reSpeaker.
 7. Para más detalles sobre cómo hacer una Weather Could, haga clic [aquí](https://www.instructables.com/id/How-to-DIY-an-in-House-Weather-telling-Cloud/).
 
-## ReSpeaker Mic Array
+## reSpeaker Mic Array
 
 ---
 
-### [ReSpeaker Mic Array](https://www.seeedstudio.com/ReSpeaker-Mic-Array-Far-field-w%2F-7-PDM-Microphones--p-2719.html)
+### [reSpeaker Mic Array](https://www.seeedstudio.com/ReSpeaker-Mic-Array-Far-field-w%2F-7-PDM-Microphones--p-2719.html)
 
-El ReSpeaker Mic Array se puede apilar (conectar) directamente sobre la parte superior de ReSpeaker Core para mejorar significativamente la experiencia de interacción por voz. Está desarrollado sobre el micrófono inteligente XVSM-2000 de XMOS. La placa integra 7 micrófonos PDM para ayudar a mejorar el rendimiento DSP acústico de ReSpeaker a un nivel mucho más alto.
+El reSpeaker Mic Array se puede apilar (conectar) directamente sobre la parte superior de reSpeaker Core para mejorar significativamente la experiencia de interacción por voz. Está desarrollado sobre el micrófono inteligente XVSM-2000 de XMOS. La placa integra 7 micrófonos PDM para ayudar a mejorar el rendimiento DSP acústico de reSpeaker a un nivel mucho más alto.
 
 ## Sobre nuestro software
 
 ---
 
-### [ReSpeaker Arduino Library](https://github.com/respeaker/get_started_with_respeaker/blob/master/docs/ReSpeaker/ReSpeakerArduinoLibrary.md#respeaker-arduino-library)
+### [reSpeaker Arduino Library](https://github.com/respeaker/get_started_with_respeaker/blob/master/docs/ReSpeaker/ReSpeakerArduinoLibrary.md#respeaker-arduino-library)
 
-ReSpeaker Arudino Library proporciona las siguientes funciones:
+reSpeaker Arudino Library proporciona las siguientes funciones:
 
 - Soporte para detección táctil capacitiva
 - Implementado el controlador de LED RGB WS2812
 - Construido el puente USB a serie y el puente SPI entre - Arduino (ATmega32U4) y OpenWrt basado en Linux (MT7688)
 
-### [ReSpeaker Python Library](https://github.com/respeaker/respeaker_python_library)
+### [reSpeaker Python Library](https://github.com/respeaker/respeaker_python_library)
 
-ReSpeaker es un proyecto abierto para crear objetos habilitados por voz. ReSpeaker python library es una biblioteca de código abierto en python para proporcionar funciones básicas de interacción por voz.
+reSpeaker es un proyecto abierto para crear objetos habilitados por voz. reSpeaker python library es una biblioteca de código abierto en python para proporcionar funciones básicas de interacción por voz.
 
 Utiliza PocketSphinx para la detección de palabras clave y utiliza webrtcvad para la detección de actividad de voz.
 
@@ -467,12 +467,12 @@ Utiliza PocketSphinx para la detección de palabras clave y utiliza webrtcvad pa
 
 **P2: ¿Cómo rescatar desde una actualización fallida?**
 
-- Cuando el ReSpeaker no puede arrancar en su sistema OpenWrt, no podemos acceder al sistema a través de la terminal web, ssh o consola serie. Podemos seguir las [instrucciones de rescate](https://github.com/respeaker/get_started_with_respeaker/wiki/Rescue-from-a-failed-upgrade) para recuperarlo.
+- Cuando el reSpeaker no puede arrancar en su sistema OpenWrt, no podemos acceder al sistema a través de la terminal web, ssh o consola serie. Podemos seguir las [instrucciones de rescate](https://github.com/respeaker/get_started_with_respeaker/wiki/Rescue-from-a-failed-upgrade) para recuperarlo.
 
-**P3: ReSpeaker no encuentra mi Wi-Fi**
+**P3: reSpeaker no encuentra mi Wi-Fi**
 
 - Intente primero el [restablecimiento de fábrica](https://github.com/respeaker/get_started_with_respeaker/blob/master/docs/ReSpeaker/faq.md#factory-reset).
-- Y el canal 12 de Wi-Fi no es compatible con ReSpeaker. Asegúrese de que su router no esté usando ese canal.
+- Y el canal 12 de Wi-Fi no es compatible con reSpeaker. Asegúrese de que su router no esté usando ese canal.
 
 **P4: Wifi-Config**
 
@@ -582,9 +582,9 @@ orangectl passwd root 12345678  //replace 12345678 with the password you want to
 
 **P20: Recuperación del sistema mediante imagen de fábrica.**
 
-Nota: Si no puedes actualizar tu ReSpeaker mediante Web o no puedes visitar [http://192.168.100.1/home.html](http://192.168.100.1/home.html), haz clic [aquí](https://s3-us-west-2.amazonaws.com/respeaker.io/firmware/ramips-openwrt-latest-LinkIt7688-squashfs-sysupgrade.bin). para descargar el firmware más reciente en tu ordenador, cópialo a una tarjeta SD e introduce la tarjeta SD en ReSpeaker.
+Nota: Si no puedes actualizar tu reSpeaker mediante Web o no puedes visitar [http://192.168.100.1/home.html](http://192.168.100.1/home.html), haz clic [aquí](https://s3-us-west-2.amazonaws.com/respeaker.io/firmware/ramips-openwrt-latest-LinkIt7688-squashfs-sysupgrade.bin). para descargar el firmware más reciente en tu ordenador, cópialo a una tarjeta SD e introduce la tarjeta SD en reSpeaker.
 
-Conéctate a la [consola serie](https://github.com/respeaker/get_started_with_respeaker/blob/master/docs/ReSpeaker/QuickStart.md#serial-console). de ReSpeaker y escribe las siguientes líneas de comando para actualizar el firmware:
+Conéctate a la [consola serie](https://github.com/respeaker/get_started_with_respeaker/blob/master/docs/ReSpeaker/QuickStart.md#serial-console). de reSpeaker y escribe las siguientes líneas de comando para actualizar el firmware:
 
 ```
 mount /dev/mmcblk0p1 /mnt
@@ -592,7 +592,7 @@ cd /mnt
 sysupgrade -n -F ramips-openwrt-latest-LinkIt7688-squashfs-sysupgrade.bin
 ```
 
-ReSpeaker tardará unos 3 minutos en instalar el firmware y reiniciarse, por favor **no lo apagues** mientras se actualiza.
+reSpeaker tardará unos 3 minutos en instalar el firmware y reiniciarse, por favor **no lo apagues** mientras se actualiza.
 
 ![](https://files.seeedstudio.com/wiki/Respeaker_Core/img/systemupdate2.png)
 
@@ -605,12 +605,12 @@ ReSpeaker tardará unos 3 minutos en instalar el firmware y reiniciarse, por fav
 
 ----
 
-- **[Eagle]**[ReSpeaker Core v1.0 SCH](https://files.seeedstudio.com/wiki/Respeaker_Core/res/RespeakerCorev1.0_SCH.sch.zip)
-- **[Eagle]**[ReSpeaker Core v1.0 BRD](https://files.seeedstudio.com/wiki/Respeaker_Core/res/RespeakerCorev1.0_BRD.brd.zip)
-- **[PDF]**[ReSpeaker Core v1.0 Schematic(pdf)](https://github.com/respeaker/get_started_with_respeaker/blob/master/files/RespeakerCorev1.0_Schematic.pdf)
-- **[PDF]**[ReSpeaker Core v1.0 PCB bottom(pdf)](https://github.com/respeaker/get_started_with_respeaker/blob/master/files/RespeakerCorev1.0_PCB_bottom.pdf)
-- **[PDF]**[ReSpeaker Core v1.0 PCB top(pdf)](https://github.com/respeaker/get_started_with_respeaker/blob/master/files/RespeakerCorev1.0_PCB_top.pdf)
-- **[Document]**[ReSpeaker_Detail](https://github.com/respeaker/get_started_with_respeaker/blob/master/docs/ReSpeaker/README.md)
+- **[Eagle]**[reSpeaker Core v1.0 SCH](https://files.seeedstudio.com/wiki/Respeaker_Core/res/RespeakerCorev1.0_SCH.sch.zip)
+- **[Eagle]**[reSpeaker Core v1.0 BRD](https://files.seeedstudio.com/wiki/Respeaker_Core/res/RespeakerCorev1.0_BRD.brd.zip)
+- **[PDF]**[reSpeaker Core v1.0 Schematic(pdf)](https://github.com/respeaker/get_started_with_respeaker/blob/master/files/RespeakerCorev1.0_Schematic.pdf)
+- **[PDF]**[reSpeaker Core v1.0 PCB bottom(pdf)](https://github.com/respeaker/get_started_with_respeaker/blob/master/files/RespeakerCorev1.0_PCB_bottom.pdf)
+- **[PDF]**[reSpeaker Core v1.0 PCB top(pdf)](https://github.com/respeaker/get_started_with_respeaker/blob/master/files/RespeakerCorev1.0_PCB_top.pdf)
+- **[Document]**[reSpeaker_Detail](https://github.com/respeaker/get_started_with_respeaker/blob/master/docs/ReSpeaker/README.md)
 - **[PDF]** [AI7688 Datasheet](https://files.seeedstudio.com/wiki/Bazaar_file/AI7688.pdf)
 
 ## Soporte técnico y debate sobre el producto

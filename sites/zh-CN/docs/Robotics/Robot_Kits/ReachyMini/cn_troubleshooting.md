@@ -826,7 +826,7 @@ gst-launch-1.0 audiotestsrc wave="pink-noise" ! audioconvert ! audioresample ! a
 - 检查是否检测到麦克风：`arecord -l`
 - 检查是否检测到扬声器：`aplay -l`
 - 如果音频板配置失败并显示"未找到Reachy Mini Audio USB设备！"，
-  请在与ReSpeaker音频板连接的机器上运行SDK代码。
+  请在与reSpeaker音频板连接的机器上运行SDK代码。
   对于Lite，这是您的电脑；对于无线版，这是机器人本身。
 
 </details>

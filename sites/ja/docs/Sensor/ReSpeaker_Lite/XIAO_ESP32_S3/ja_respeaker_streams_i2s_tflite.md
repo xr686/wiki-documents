@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Lite と TensorFlow Lite を用いたキーワードスポッティング
+description: reSpeaker Lite と TensorFlow Lite を用いたキーワードスポッティング
 title: reSpeaker Lite でのキーワードスポッティング
 keywords:
   - ESP32S3
@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_streams_i2s_tflite/
 ---
 
 
-このプロジェクトでは、reSpeaker Lite ボードと TensorFlow Lite を使用してキーワードスポッティングを行う方法を紹介します。ReSpeaker Lite は、XIAO ESP32S3 マイコンを搭載したオーディオボードで、デュアルチャネルマイクとスピーカーを備えています。本プロジェクトでは、AudioTools フレームワーク上に構築された reSpeaker Lite ライブラリを利用し、TensorFlow Lite と統合して音声分類を行います。
+このプロジェクトでは、reSpeaker Lite ボードと TensorFlow Lite を使用してキーワードスポッティングを行う方法を紹介します。reSpeaker Lite は、XIAO ESP32S3 マイコンを搭載したオーディオボードで、デュアルチャネルマイクとスピーカーを備えています。本プロジェクトでは、AudioTools フレームワーク上に構築された reSpeaker Lite ライブラリを利用し、TensorFlow Lite と統合して音声分類を行います。
 
 
 ### 必要なライブラリ

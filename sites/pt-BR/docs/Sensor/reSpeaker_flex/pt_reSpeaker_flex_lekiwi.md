@@ -1,5 +1,5 @@
 ---
-description: Robô Kiwi-drive de 3 rodas controlado por voz usando Raspberry Pi, XIAO ESP32, ReSpeaker Lite e embeddings de voz para um controle robótico inteligente e mãos livres.
+description: Robô Kiwi-drive de 3 rodas controlado por voz usando Raspberry Pi, XIAO ESP32, reSpeaker Lite e embeddings de voz para um controle robótico inteligente e mãos livres.
 title: Adicione Interação por Voz ao Seu Robô LeKiwi com reSpeaker
 keywords:
   - reSpeaker flex
@@ -595,7 +595,7 @@ Available audio INPUT devices:
   [2] USB PnP Sound Device  (rate=16000Hz)
 ```
 
-Anote o número entre colchetes ao lado do seu ReSpeaker — esse é o seu `MIC_INDEX`.
+Anote o número entre colchetes ao lado do seu reSpeaker — esse é o seu `MIC_INDEX`.
 
 ### Etapa 6 — Encontre a porta serial do seu ESP32
 

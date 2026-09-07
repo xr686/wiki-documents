@@ -30,9 +30,9 @@ This page contains verified answers for the reSpeaker XVF3000. Each answer state
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## Algorithm Tuning {#algorithm-tuning}
 
-### How can I inspect the built-in DSP tuning controls on ReSpeaker Mic Array v2.0? {#dsp-tuning-controls}
+### How can I inspect the built-in DSP tuning controls on reSpeaker Mic Array v2.0? {#dsp-tuning-controls}
 
-**Applies to:** ReSpeaker Mic Array v2.0 with XVF3000 and the matching official firmware
+**Applies to:** reSpeaker Mic Array v2.0 with XVF3000 and the matching official firmware
 
 **Last verified:** 2026-09-01
 
@@ -40,7 +40,7 @@ Use the official `usb_4_mic_array` repository's `tuning.py` tool. The current v2
 
 **Prerequisites:**
 
-- Confirm the hardware is ReSpeaker Mic Array v2.0 rather than another ReSpeaker revision
+- Confirm the hardware is reSpeaker Mic Array v2.0 rather than another reSpeaker revision
 - Install the USB control dependency and host driver required by the official guide
 - Keep a record of the starting parameter values and use a repeatable audio test
 
@@ -61,7 +61,7 @@ Use the official `usb_4_mic_array` repository's `tuning.py` tool. The current v2
 
 **References:**
 
-- [ReSpeaker Mic Array v2.0 tuning guide and parameter table](https://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/)
+- [reSpeaker Mic Array v2.0 tuning guide and parameter table](https://wiki.seeedstudio.com/ReSpeaker_Mic_Array_v2.0/)
 - [Official XVF3000 USB 4-Mic Array tools repository](https://github.com/respeaker/usb_4_mic_array)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->

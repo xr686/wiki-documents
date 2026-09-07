@@ -15,13 +15,13 @@ url: https://wiki.seeedstudio.com/ja/Google_Assistant/
 
 ![](https://files.seeedstudio.com/wiki/Google-Assitant/img/Front.jpg)
 
-このwikiはReSpeaker Core v2.0用です。まず[ReSpeaker Core v2.0のWiki](https://wiki.seeedstudio.com/ja/ReSpeaker_Core_v2.0/#preparation)を読むことをお勧めします。
+このwikiはreSpeaker Core v2.0用です。まず[reSpeaker Core v2.0のWiki](https://wiki.seeedstudio.com/ja/ReSpeaker_Core_v2.0/#preparation)を読むことをお勧めします。
 
 ## 開始前の準備
 
 以下の準備が必要です：
 
-- 最新イメージを搭載したReSpeaker Core v2.0
+- 最新イメージを搭載したreSpeaker Core v2.0
 - Wi-Fiネットワーク（このネットワークでgoogleにpingできることを確認してください）
 - PCまたはMac
 - Micro-USBケーブル1本
@@ -35,7 +35,7 @@ url: https://wiki.seeedstudio.com/ja/Google_Assistant/
 
 ### ハードウェア
 
-この部分は簡単です。ReSpeaker Core v2.0を`OTG`ポート経由でコンピューターに接続するだけです。
+この部分は簡単です。reSpeaker Core v2.0を`OTG`ポート経由でコンピューターに接続するだけです。
 
 ### ソフトウェア
 
@@ -89,7 +89,7 @@ url: https://wiki.seeedstudio.com/ja/Google_Assistant/
 
 ![](https://files.seeedstudio.com/wiki/Google-Assitant/img/Google_8.png)
 
-[WinCP](https://winscp.net/eng/docs/lang:chs)または他の転送ツールを使用して、jsonファイルをReSpeaker Core v2.0にコピーします。
+[WinCP](https://winscp.net/eng/docs/lang:chs)または他の転送ツールを使用して、jsonファイルをreSpeaker Core v2.0にコピーします。
 例えば、`/home/respeaker`パスにコピーします。
 
 次に、左上角の歯車をクリックし、`Project settings`をクリックして、このデモでは``である`Project ID`を覚えておいてください。

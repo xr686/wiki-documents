@@ -1,6 +1,6 @@
 ---
-description: 将 ReSpeaker Lite 与 XIAO ESP32S3 集成
-title: ReSpeaker Lite 语音助手套件
+description: 将 reSpeaker Lite 与 XIAO ESP32S3 集成
+title: reSpeaker Lite 语音助手套件
 keywords:
   - ESP32S3
   - XIAO
@@ -18,7 +18,7 @@ url: https://wiki.seeedstudio.com/cn/xiao_respeaker/
 
 
 
-由 XMOS XU316 AI 声音与音频芯片组驱动，它是一款高性能的开源语音助手开发套件。该套件集成了 ReSpeaker Lite 双麦克风阵列和强大的 [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html) 处理器，提供出色的语音识别、降噪和语音处理能力。此套件通过 ESPHome 与 Home Assistant 实现固件集成，非常适合用于智能语音助手和家庭自动化应用。
+由 XMOS XU316 AI 声音与音频芯片组驱动，它是一款高性能的开源语音助手开发套件。该套件集成了 reSpeaker Lite 双麦克风阵列和强大的 [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html) 处理器，提供出色的语音识别、降噪和语音处理能力。此套件通过 ESPHome 与 Home Assistant 实现固件集成，非常适合用于智能语音助手和家庭自动化应用。
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/xiao-res.png" alt="pir" width={600} height="auto" /></p>
 
@@ -88,7 +88,7 @@ url: https://wiki.seeedstudio.com/cn/xiao_respeaker/
 
 ### 烧录 I2S 固件
 
-要将 ReSpeaker Lite 与 XIAO ESP32S3 搭配使用，请确保 ReSpeaker Lite 的固件为 I2S 版本。
+要将 reSpeaker Lite 与 XIAO ESP32S3 搭配使用，请确保 reSpeaker Lite 的固件为 I2S 版本。
 
 查看 [Firmware Flash](https://wiki.seeedstudio.com/cn/reSpeaker_usb_v3/#update-firmware) 以烧录最新的 I2S 固件。
 
@@ -126,7 +126,7 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 
 - 重启 Arduino IDE。
 
-#### 安装 ReSpeaker Lite 库
+#### 安装 reSpeaker Lite 库
 
 我们提供了一个库，方便用户快速上手：
 
@@ -143,7 +143,7 @@ git clone https://github.com/respeaker/respeaker_arduino_library.git
 
 ### 常见问题
 
-- **在 Windows 上刷写 USB 固件后无法检测到 ReSpeaker Lite USB 声卡设备？**
+- **在 Windows 上刷写 USB 固件后无法检测到 reSpeaker Lite USB 声卡设备？**
 
 - 打开开始菜单并输入 `Device manager`。找到 `ReSpeaker Lite` 设备，右键点击并选择 `Uninstall device`。勾选 `Delete the driver software for this device`，然后点击 `Uninstall`。之后重启设备，Windows 会为其重新安装正确的声卡驱动。
 
@@ -151,6 +151,6 @@ git clone https://github.com/respeaker/respeaker_arduino_library.git
 
 ### 资源
 
-[ReSpeaker Lite XMOS 固件](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
+[reSpeaker Lite XMOS 固件](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
-[ReSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)
+[reSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)

@@ -788,18 +788,18 @@ si conectamos el TX al RX obtendremos `hello seeder` en el terminal. y la ubicac
 
 ### I2S en ODYSSEY-STM32MP157C
 
-En esta sección, explicaremos el principio de control de la programación I2S de Linux. Ahora usaremos I2S y ReSpeaker 2-Mics Pi HAT para mostrarte cómo usarlo.
+En esta sección, explicaremos el principio de control de la programación I2S de Linux. Ahora usaremos I2S y reSpeaker 2-Mics Pi HAT para mostrarte cómo usarlo.
 
 #### Hardware
 
 - **Paso 1**. Elementos utilizados en este proyecto:
 
-| ODYSSEY – STM32MP157C | ReSpeaker 2-Mics Pi HAT |
+| ODYSSEY – STM32MP157C | reSpeaker 2-Mics Pi HAT |
 |--------------|----------------|
 |![enter image description here](https://files.seeedstudio.com/wiki/ODYSSEY-STM32MP157C/IMG/perspective-19-210X157.png)|![image](https://files.seeedstudio.com/wiki/ODYSSEY-STM32MP157C/IMG/res-thumbnail.png)|
 |[Consigue UNO Ahora](https://www.seeedstudio.com/ODYSSEY-STM32MP157C-p-4464.html)|[Consigue UNO Ahora](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
 
-- **Paso 2.** Según la [guía de instalación de hardware](https://wiki.seeedstudio.com/es/ReSpeaker_2_Mics_Pi_HAT/#getting-started) inserta ReSpeaker 2-Mics Pi HAT en ODYSSEY – STM32MP157C.
+- **Paso 2.** Según la [guía de instalación de hardware](https://wiki.seeedstudio.com/es/ReSpeaker_2_Mics_Pi_HAT/#getting-started) inserta reSpeaker 2-Mics Pi HAT en ODYSSEY – STM32MP157C.
 
 #### Software
 
@@ -865,7 +865,7 @@ card 1: STM32MP1SEEEDNP [STM32MP1-SEEEDNPi], device 1: 4400b024.audio-controller
   Subdevice #0: subdevice #0
 ```
 
-- **Paso 7.** ¡Ahora puedes empezar a jugar con ReSpeaker 2-Mics Pi Hat! Para pruebas simples de grabación y reproducción, ejecuta el siguiente comando:
+- **Paso 7.** ¡Ahora puedes empezar a jugar con reSpeaker 2-Mics Pi Hat! Para pruebas simples de grabación y reproducción, ejecuta el siguiente comando:
 
 1. Para grabar un audio a `test.wav`:
 
@@ -884,7 +884,7 @@ aplay -Dhw:0 -r 48000 test.wav
 si no puedes obtener ningún sonido, tal vez puedas reiniciar de nuevo.
 </div>
 
-Para más información sobre el ReSpeaker 2-Mics Pi HAT puedes visitar [wiki](https://wiki.seeedstudio.com/es/ReSpeaker_2_Mics_Pi_HAT/)
+Para más información sobre el reSpeaker 2-Mics Pi HAT puedes visitar [wiki](https://wiki.seeedstudio.com/es/ReSpeaker_2_Mics_Pi_HAT/)
 
 ## Recursos
 
