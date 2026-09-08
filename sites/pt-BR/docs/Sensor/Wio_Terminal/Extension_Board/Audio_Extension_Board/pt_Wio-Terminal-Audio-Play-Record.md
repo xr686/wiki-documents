@@ -15,7 +15,7 @@ url: https://wiki.seeedstudio.com/pt-br/Wio-Terminal-Audio-Play-Record/
 
 # Recursos de Áudio
 
-Este wiki apresenta como configurar o áudio para o Wio Terminal usando os ReSpeaker 2-Mic Hats.
+Este wiki apresenta como configurar o áudio para o Wio Terminal usando os reSpeaker 2-Mic Hats.
 
 :::note
 Por favor, visite a [**Visão Geral de Áudio**](https://wiki.seeedstudio.com/pt-br/Wio-Terminal-Audio-Overview/) para a **Conexão de Hardware**.
@@ -23,7 +23,7 @@ Por favor, visite a [**Visão Geral de Áudio**](https://wiki.seeedstudio.com/pt
 
 ## Reproduzindo Áudio a partir do Cartão SD
 
-Este exemplo reproduz um arquivo de música do cartão MicroSD usando o ReSpeaker 2-Mic Hat.
+Este exemplo reproduz um arquivo de música do cartão MicroSD usando o reSpeaker 2-Mic Hat.
 
 - Você vai precisar de um cartão MicroSD para o Wio Terminal.
 
@@ -31,7 +31,7 @@ Este exemplo reproduz um arquivo de música do cartão MicroSD usando o ReSpeake
 
 - Insira o cartão MicroSD no Wio Terminal e envie o código a seguir para o Wio Terminal.
 
-- Certifique-se de que o ReSpeaker 2-Mic está conectado corretamente ao Wio Terminal e que **um alto-falante esteja conectado ao pino JST2.0 Speaker no ReSpeaker 2-Mic**.
+- Certifique-se de que o reSpeaker 2-Mic está conectado corretamente ao Wio Terminal e que **um alto-falante esteja conectado ao pino JST2.0 Speaker no reSpeaker 2-Mic**.
 
 Você também pode encontrar este exemplo na página do [github](https://github.com/Seeed-Studio/Seeed_Arduino_Audio/blob/master/examples/Tutorial/Part_1_03_Playing_Music/Part_1_03_Playing_Music.ino).
 
@@ -77,13 +77,13 @@ void loop() {
 
 ## Gravando Som e Reprodução
 
-Este exemplo grava som usando o microfone no ReSpeaker 2-Mic Hat, armazena os dados brutos no cartão MicroSD e os reproduz pelo alto-falante.
+Este exemplo grava som usando o microfone no reSpeaker 2-Mic Hat, armazena os dados brutos no cartão MicroSD e os reproduz pelo alto-falante.
 
 - Você vai precisar de um cartão MicroSD para o Wio Terminal.
 
 - Envie o código para o Wio Terminal.
 
-- Pressione o **botão direito** na parte superior do Wio Terminal (`WIO_KEY_A`) e ele começará a gravar. Fale no microfone do ReSpeaker 2-Mic Hat. A gravação é salva no cartão MicroSD como `RECORD.WAV`.
+- Pressione o **botão direito** na parte superior do Wio Terminal (`WIO_KEY_A`) e ele começará a gravar. Fale no microfone do reSpeaker 2-Mic Hat. A gravação é salva no cartão MicroSD como `RECORD.WAV`.
 
 :::note
     Ao gravar, pressione qualquer um dos outros dois botões para parar a gravação.
@@ -642,7 +642,7 @@ void computeVerticalLevels() {
     <source src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/mic-spec.mp4" type="video/mp4" />
   </video></div>
 
-Este é um exemplo utilizando os microfones de ReSpeaker 2-Mic Hats e cálculos de FFT.
+Este é um exemplo utilizando os microfones de reSpeaker 2-Mic Hats e cálculos de FFT.
 
 #### Recurso
 

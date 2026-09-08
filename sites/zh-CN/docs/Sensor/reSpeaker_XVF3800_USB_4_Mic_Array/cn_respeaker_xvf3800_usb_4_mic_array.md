@@ -1,5 +1,5 @@
 ---
-description: 开始使用 ReSpeaker XVF3800 USB 4-Mic Array——一款通过 USB 或 I2C 提供语音采集和跨平台支持的高性能语音接口模块。
+description: 开始使用 reSpeaker XVF3800 USB 4-Mic Array——一款通过 USB 或 I2C 提供语音采集和跨平台支持的高性能语音接口模块。
 title: reSpeaker XVF3800 USB Mic Array 入门指南
 keywords:
   - reSpeaker
@@ -14,11 +14,11 @@ updatedAt: '2026-08-24'
 url: https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/
 ---
 
-# ReSpeaker XVF3800 入门指南
+# reSpeaker XVF3800 入门指南
 
 ## 概述
 
-ReSpeaker XVF3800 USB 4-Mic Array 是一款搭载 XMOS XVF3800 的专业级 4 麦克风环形阵列，具备 AEC、AGC、DoA、波束成形、VAD、噪声抑制、去混响、360° 语音采集（最远 5m）以及双工作模式，可用于高级语音应用。
+reSpeaker XVF3800 USB 4-Mic Array 是一款搭载 XMOS XVF3800 的专业级 4 麦克风环形阵列，具备 AEC、AGC、DoA、波束成形、VAD、噪声抑制、去混响、360° 语音采集（最远 5m）以及双工作模式，可用于高级语音应用。
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/respeaker-banner.jpg" alt="pir" width={800} height="auto" /></p>
 
@@ -76,7 +76,7 @@ ReSpeaker XVF3800 USB 4-Mic Array 是一款搭载 XMOS XVF3800 的专业级 4 �
 | **音频质量**                  | 与 **基于 XVF3000 的上一代设计** 相当或更佳。                                                        |
 
 :::note
-ReSpeaker XVF3800 提供两个版本——一个不带 XIAO，另一个板载 XIAO ESP32S3。不带 XIAO 的版本使用默认 USB 固件工作。若要使用集成 XIAO 的版本，必须烧录为 **INT-Device（I2S）模式** 构建的固件。有关详细的设置说明，请参考[官方 wiki 指南](/cn/respeaker_xvf3800_xiao_getting_started)。
+reSpeaker XVF3800 提供两个版本——一个不带 XIAO，另一个板载 XIAO ESP32S3。不带 XIAO 的版本使用默认 USB 固件工作。若要使用集成 XIAO 的版本，必须烧录为 **INT-Device（I2S）模式** 构建的固件。有关详细的设置说明，请参考[官方 wiki 指南](/cn/respeaker_xvf3800_xiao_getting_started)。
 :::
 
 ### XIAO ESP32S3 支持
@@ -131,7 +131,7 @@ reSpeaker XVF3800 暴露了 3 个输入引脚（GPI）和 5 个输出引脚（GP
 <div class="video-container">
   <iframe width="800" height="400"
           src="https://www.youtube.com/embed/nYxsTq_2bw4"
-          title="ReSpeaker XVF3800 Plug & Play: Boot Light Show and DOA Demo"
+          title="reSpeaker XVF3800 Plug & Play: Boot Light Show and DOA Demo"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
@@ -143,12 +143,12 @@ reSpeaker XVF3800 暴露了 3 个输入引脚（GPI）和 5 个输出引脚（GP
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/mute.jpg" alt="pir" width={600} height="auto"/></p>
 
-ReSpeaker 上的 **静音按键（Mute button）** 用于临时 **禁用麦克风阵列的语音采集**。
+reSpeaker 上的 **静音按键（Mute button）** 用于临时 **禁用麦克风阵列的语音采集**。
 按下静音按键会发生什么？
 
 - **麦克风被静音** —— 外部声音将不再被采集或处理。
 - **红色 LED 会点亮**，表示 **静音模式已激活**。
-- 这意味着 ReSpeaker 将 **不会向你的电脑或主机设备发送任何音频输入**。
+- 这意味着 reSpeaker 将 **不会向你的电脑或主机设备发送任何音频输入**。
 
 **使用 Audacity 自行体验**
 
@@ -170,10 +170,10 @@ ReSpeaker 上的 **静音按键（Mute button）** 用于临时 **禁用麦克�
 
 #### 安全模式
 
-安全模式是 ReSpeaker XVF3800 上的一种特殊恢复模式，它允许你通过 USB DFU 或 I2C 为设备（如 Raspberry Pi 和 ESP32）烧录固件。如果你之前已经烧录了 I2S 固件并希望切换回 USB 固件，可以进入安全模式，然后使用 USB DFU 重新烧录 USB 固件。
+安全模式是 reSpeaker XVF3800 上的一种特殊恢复模式，它允许你通过 USB DFU 或 I2C 为设备（如 Raspberry Pi 和 ESP32）烧录固件。如果你之前已经烧录了 I2S 固件并希望切换回 USB 固件，可以进入安全模式，然后使用 USB DFU 重新烧录 USB 固件。
 
 :::note
-ReSpeaker XVF3800 上的每种固件类型支持不同的更新方式：
+reSpeaker XVF3800 上的每种固件类型支持不同的更新方式：
 
 - **USB 固件**仅支持 **USB DFU**，这意味着你可以通过 USB 连接来更新设备。但是，它**不支持 I2C DFU**。
 
@@ -273,7 +273,7 @@ dfu-util -V
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/image.png" alt="pir" width={600} height="auto"/></p>
 
-- 连接 ReSpeaker XVF3800 并检查设备是否被检测到：
+- 连接 reSpeaker XVF3800 并检查设备是否被检测到：
 
 ```bash
 dfu-util -l
@@ -471,7 +471,7 @@ arecord -D plughw:4,0 -c 2 -r 16000 -f S16_LE -d 5 output.wav
 
 ---
 
-3. **在 ALSA 中调整 ReSpeaker XVF3800 的音量**
+3. **在 ALSA 中调整 reSpeaker XVF3800 的音量**
 
 ```bash
 alsamixer
@@ -1169,7 +1169,7 @@ brew install dfu-util
 
 ### 扬声器播放声音输出不够大？
 
-如果 **ReSpeaker XVF3800** 在 Linux 上的扬声器输出音量太小，你可能需要调整 XVF3800 声卡的 **ALSA 混音器级别**。按照以下步骤提高输出音量。
+如果 **reSpeaker XVF3800** 在 Linux 上的扬声器输出音量太小，你可能需要调整 XVF3800 声卡的 **ALSA 混音器级别**。按照以下步骤提高输出音量。
 
 **步骤 1：打开 ALSA Mixer**
 
@@ -1212,9 +1212,9 @@ sudo apt install pavucontrol -y
 
 然后你可以打开 **pavucontrol**，在需要时将输出音量提高到 100% 以上。
 
-### 重新安装 USB 驱动后，我的 ReSpeaker 无法录音和播放
+### 重新安装 USB 驱动后，我的 reSpeaker 无法录音和播放
 
-在设备管理器中卸载与 ReSpeaker 相关的所有驱动程序。这样可以解决该问题。
+在设备管理器中卸载与 reSpeaker 相关的所有驱动程序。这样可以解决该问题。
 
 ### 在刷写固件后，无法在 Windows 中作为声音设备使用？
 
@@ -1271,10 +1271,10 @@ sudo alsactl store 1
 
 ## 资源
 
-- [ReSpeaker XVF3800 2D 文件](https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/respeaker_xvf3800_2d_mechanical_drawing.pdf)
-- [ReSpeaker XVF3800 3D 文件](https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/3d/respeaker_mic_array_xvf3800_1_with-xiao-0820.stp)
-- [ReSpeaker XVF3800 3D-Enclosure-Up 文件](https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/3d/1-up.stp)
-- [ReSpeaker XVF3800 3D-Enclosure-Down 文件](https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/3d/1-down.stp)
+- [reSpeaker XVF3800 2D 文件](https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/respeaker_xvf3800_2d_mechanical_drawing.pdf)
+- [reSpeaker XVF3800 3D 文件](https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/3d/respeaker_mic_array_xvf3800_1_with-xiao-0820.stp)
+- [reSpeaker XVF3800 3D-Enclosure-Up 文件](https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/3d/1-up.stp)
+- [reSpeaker XVF3800 3D-Enclosure-Down 文件](https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/3d/1-down.stp)
 
 ## 参考资料
 

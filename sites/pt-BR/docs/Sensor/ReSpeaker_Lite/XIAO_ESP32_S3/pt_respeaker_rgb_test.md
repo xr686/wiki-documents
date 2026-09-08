@@ -1,5 +1,5 @@
 ---
-description: Teste de RGB do ReSpeaker Lite
+description: Teste de RGB do reSpeaker Lite
 title: Teste de RGB
 keywords:
   - ReSpeaker
@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/pt-br/respeaker_rgb_test/
 ### Funcionalidade
 
 
-A luz RGB na placa ReSpeaker Lite utiliza o chip WS2812 e é controlada pelo pino `GPIO1`. O projeto alterna entre diferentes cores (vermelho, verde, azul e branco) para garantir que a luz RGB esteja funcionando corretamente. 
+A luz RGB na placa reSpeaker Lite utiliza o chip WS2812 e é controlada pelo pino `GPIO1`. O projeto alterna entre diferentes cores (vermelho, verde, azul e branco) para garantir que a luz RGB esteja funcionando corretamente. 
 
 
 

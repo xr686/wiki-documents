@@ -229,7 +229,7 @@ Open Source Hardware (OSHW) refers to hardware whose design is made publicly ava
     <tr class="table-trnobg"></tr>
     <tr class="table-trnobg">
       <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> This wiki introduces how to use the ENC28J60 OVERLAYS HAT for Raspberry Pi on Wio Terminal for stable network connectivity. This is a perfect example of using Raspberry Pi 40 Pi extensions board on Wio Terminal.</font></td>
-      <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> This wiki introduces how to use the Audio library with Wio Terminal using ReSpeaker 2-Mic Hat. With the help of this library, you are able to record, play and analysis audio using Wio Terminal! Furthermore, this audio library can be implemented into different areas such as Speech recognition and much more!</font></td>
+      <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> This wiki introduces how to use the Audio library with Wio Terminal using reSpeaker 2-Mic Hat. With the help of this library, you are able to record, play and analysis audio using Wio Terminal! Furthermore, this audio library can be implemented into different areas such as Speech recognition and much more!</font></td>
     </tr>
     <tr class="table-trnobg"></tr>
   <tr class="table-trnobg">
@@ -474,7 +474,7 @@ Open Source Hardware (OSHW) refers to hardware whose design is made publicly ava
     <tr class="table-trnobg"></tr>
     <tr class="table-trnobg">
       <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>In this wiki, we will introduce how to use Wio Terminal as a HMI (Human Machine Interface) USB display for Raspberry Pi, Nvidia Jetson Nano, BeagleBone and even Odyssey X86J4105.</font></td>
-      <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>This example detects dB using the mic on ReSpeaker 2-Mic Hat, The around evirnment is detected, then displayed on the display.</font></td>
+      <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>This example detects dB using the mic on reSpeaker 2-Mic Hat, The around evirnment is detected, then displayed on the display.</font></td>
       <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>This wiki introduces how to use Wio Terminal to access to HTTPS server, which means you could use Wio Terminal to grab live data from the internet! Here, Wio Terminal is connected to a Wi-Fi and obtain data from the Github.</font></td>
     </tr>
     <tr class="table-trnobg"></tr>

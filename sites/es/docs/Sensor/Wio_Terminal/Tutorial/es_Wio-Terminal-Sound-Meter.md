@@ -22,7 +22,7 @@ Este ejemplo muestra cómo mostrar perfectamente el Medidor de Decibelios en el 
 ## Lista de componentes
 
 - [**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
-- [**ReSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
+- [**reSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
 
 :::note
 Por favor visita la [**Descripción general de Audio**](https://wiki.seeedstudio.com/es/Wio-Terminal-Audio-Overview/) para la **Conexión de Hardware**.
@@ -112,7 +112,7 @@ El valor de dB se presenta.
 
 ## La Demostración del Medidor de Decibelios
 
-Este ejemplo detecta dB usando el micrófono en ReSpeaker 2-Mic Hat, Se detecta el entorno circundante, luego se muestra en la pantalla.
+Este ejemplo detecta dB usando el micrófono en reSpeaker 2-Mic Hat, Se detecta el entorno circundante, luego se muestra en la pantalla.
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Sound-Meter/sound-Meter_gGIF.gif" /></div>
 

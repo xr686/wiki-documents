@@ -545,16 +545,16 @@ can0: flags=128<NOARP>  mtu 16
 
 #### IIS
 
-在本节中，我们将解释 Linux IIS 程序的控制原理。现在我们将使用 IIS 和 ReSpeaker 2-Mics Pi HAT 来演示如何使用它。
+在本节中，我们将解释 Linux IIS 程序的控制原理。现在我们将使用 IIS 和 reSpeaker 2-Mics Pi HAT 来演示如何使用它。
 
 **所需材料**
 
 - NPi i.MX6ULL 开发板 - Linux SBC NAND 版本（或 eMMC 版本）
-- [ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
+- [reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
 
 **软件**
 
-- **步骤 1.** 根据 [安装指南](https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT/#getting-started) 将 ReSpeaker 2-Mics Pi HAT 插入 NPi i.MX6ULL 开发板。
+- **步骤 1.** 根据 [安装指南](https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT/#getting-started) 将 reSpeaker 2-Mics Pi HAT 插入 NPi i.MX6ULL 开发板。
 
 - **步骤 2.** 使用 `apt` 安装 alsa-utils
 
@@ -596,7 +596,7 @@ debian@npi:~/seeed-linux-dtverlays$ sudo cp extras/wm8960_asound.state /var/lib/
 debian@npi:~/seeed-linux-dtverlays$ sudo alsactl restore
 ```
 
-- **步骤 6.** 现在您可以开始使用 ReSpeaker 2-Mics Pi Hat 了！对于简单的录音和播放测试，请运行以下命令：
+- **步骤 6.** 现在您可以开始使用 reSpeaker 2-Mics Pi Hat 了！对于简单的录音和播放测试，请运行以下命令：
 
 1. 录制音频到 `test.wav` 文件：
 
@@ -610,7 +610,7 @@ arecord -f cd -r 48000 -Dhw:0 test.wav
 aplay -Dhw:0 -r 48000 test.wav
 ```
 
-有关 ReSpeaker 2-Mics Pi HAT 的更多信息，请访问 [wiki](https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT/)
+有关 reSpeaker 2-Mics Pi HAT 的更多信息，请访问 [wiki](https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT/)
 
 ## 资源
 

@@ -1,5 +1,5 @@
 ---
-description: 使用 ReSpeaker Lite 和 TensorFlow Lite 进行关键词识别
+description: 使用 reSpeaker Lite 和 TensorFlow Lite 进行关键词识别
 title: 在 reSpeaker Lite 上进行关键词识别
 keywords:
   - ESP32S3
@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_streams_i2s_tflite/
 ---
 
 
-本项目演示如何使用 reSpeaker Lite 开发板和 TensorFlow Lite 进行关键词识别。ReSpeaker Lite 是一款集成了 XIAO ESP32S3 微控制器的音频板，配备双通道麦克风和扬声器。该项目使用基于 AudioTools 框架构建的 reSpeaker Lite 库，并与 TensorFlow Lite 集成以实现音频分类。
+本项目演示如何使用 reSpeaker Lite 开发板和 TensorFlow Lite 进行关键词识别。reSpeaker Lite 是一款集成了 XIAO ESP32S3 微控制器的音频板，配备双通道麦克风和扬声器。该项目使用基于 AudioTools 框架构建的 reSpeaker Lite 库，并与 TensorFlow Lite 集成以实现音频分类。
 
 
 ### 所需库

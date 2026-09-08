@@ -1,5 +1,5 @@
 ---
-description: 使用 ReSpeaker Lite 的 I2S 到 CSV 转换器
+description: 使用 reSpeaker Lite 的 I2S 到 CSV 转换器
 title: CSV 转换器
 keywords:
   - ESP32S3

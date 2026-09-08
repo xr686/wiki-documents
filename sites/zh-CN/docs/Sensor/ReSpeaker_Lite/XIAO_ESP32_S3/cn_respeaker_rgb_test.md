@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Lite RGB 测试
+description: reSpeaker Lite RGB 测试
 title: RGB 测试
 keywords:
   - ReSpeaker
@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_rgb_test/
 ### 功能
 
 
-ReSpeaker Lite 板上的 RGB 灯使用 WS2812 芯片，通过 `GPIO1` 引脚控制。该项目循环显示不同的颜色（红色、绿色、蓝色和白色），以确保 RGB 灯正常工作。
+reSpeaker Lite 板上的 RGB 灯使用 WS2812 芯片，通过 `GPIO1` 引脚控制。该项目循环显示不同的颜色（红色、绿色、蓝色和白色），以确保 RGB 灯正常工作。
 
 
 ### 代码

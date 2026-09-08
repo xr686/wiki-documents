@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker 6-Mic Circular Array Kit for Raspberry Pi
+description: reSpeaker 6-Mic Circular Array Kit for Raspberry Pi
 title: reSpeaker 6-Mic Circular Array Kit for Raspberry Pi
 keywords:
   - reSpeaker
@@ -16,11 +16,11 @@ url: https://wiki.seeedstudio.com/cn/ReSpeaker_6-Mic_Circular_Array_kit_for_Rasp
 
 ![enter image description here](https://files.seeedstudio.com/products/107990055/01.png)
 
-Seeed 的 ReSpeaker 6-Mic Circular Array Kit 是一块扩展板，也叫 HAT，为 Raspberry Pi 设计。它是一个圆形麦克风阵列套件，带有六个麦克风，专为 AI 和语音应用而设计。这意味着你可以使用 Raspberry Pi 构建一个更强大、更灵活的语音产品，并集成 Amazon Alexa Voice Service、Google Assistant 等。
+Seeed 的 reSpeaker 6-Mic Circular Array Kit 是一块扩展板，也叫 HAT，为 Raspberry Pi 设计。它是一个圆形麦克风阵列套件，带有六个麦克风，专为 AI 和语音应用而设计。这意味着你可以使用 Raspberry Pi 构建一个更强大、更灵活的语音产品，并集成 Amazon Alexa Voice Service、Google Assistant 等。
 
-ReSpeaker 6-Mic Circular Array Kit for Raspberry Pi 由两块板组成，一块是语音扩展 HAT，另一块是六麦克风圆形阵列。
+reSpeaker 6-Mic Circular Array Kit for Raspberry Pi 由两块板组成，一块是语音扩展 HAT，另一块是六麦克风圆形阵列。
 
-ReSpeaker 6-Mic Circular Array Kit for Raspberry Pi 在 Raspbian 系统中支持 8 路输入和 8 路输出通道。前 6 路输入通道用于麦克风录音，剩余 2 路输入通道为回放的回声通道。前 2 路输出通道用于播放，剩余 6 路输出通道为空通道。
+reSpeaker 6-Mic Circular Array Kit for Raspberry Pi 在 Raspbian 系统中支持 8 路输入和 8 路输出通道。前 6 路输入通道用于麦克风录音，剩余 2 路输入通道为回放的回声通道。前 2 路输出通道用于播放，剩余 6 路输出通道为空通道。
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/NxZx9nz67Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -88,7 +88,7 @@ ReSpeaker 6-Mic Circular Array Kit for Raspberry Pi 在 Raspbian 系统中支持
 
 **准备工作**
 
-ReSpeaker 6-Mic Circular Array    x1
+reSpeaker 6-Mic Circular Array    x1
 
 [Raspberry Pi 3B or 3B+](https://www.seeedstudio.com/Raspberry-Pi-3-Model-B%2B-p-3037.html?utm_source=homepage&utm_medium=homepagebanner&utm_campaign=hp_0605)              x1
 
@@ -99,14 +99,14 @@ PC                                  x1
 耳机或扬声器                 x1
 
 :::tip
-实际上 ReSpeaker 6-Mic Circular Array 支持 Raspberry Pi Zero、Raspberry Pi 1 B+、Raspberry Pi 2 B、Raspberry Pi 3 B、Raspberry Pi 3 model B+、Raspberry Pi 3 A+ 和 Raspberry Pi 4，在本教程中我们使用的是 Raspberry Pi 3。
+实际上 reSpeaker 6-Mic Circular Array 支持 Raspberry Pi Zero、Raspberry Pi 1 B+、Raspberry Pi 2 B、Raspberry Pi 3 B、Raspberry Pi 3 model B+、Raspberry Pi 3 A+ 和 Raspberry Pi 4，在本教程中我们使用的是 Raspberry Pi 3。
 :::
 
 **连接**
 
-**步骤 1.**  通过排线将 *ReSpeaker Voice Accessory HAT* 与 *ReSpeaker 6-Mic circular Array* 连接
+**步骤 1.**  通过排线将 *reSpeaker Voice Accessory HAT* 与 *reSpeaker 6-Mic circular Array* 连接
 
-**步骤 2.**  通过 40 针 GPIO 将 *ReSpeaker Voice Accessory HAT* 插到 *Raspberry Pi* 上
+**步骤 2.**  通过 40 针 GPIO 将 *reSpeaker Voice Accessory HAT* 插到 *Raspberry Pi* 上
 
 **步骤 3.**  将 *earphone* 插入 *3.5mm headset audio jack*，或者将 *speaker* 插入 *JST 2.0 speaker jack*
 
@@ -609,7 +609,7 @@ while True:
 
 A1: 该阵列中有 2 个 AC108，每个 AC108 芯片有 4 个通道输出。所以总共是 8 个通道，其中 6 个用于麦克风，其余 2 个是回放通道。
 
-**Q2: 如果树莓派可以检测到 ReSpeaker 2-mics hat，但无法检测到 ReSpeaker 6-mics 环形阵列怎么办？**
+**Q2: 如果树莓派可以检测到 reSpeaker 2-mics hat，但无法检测到 reSpeaker 6-mics 环形阵列怎么办？**
 
 A2：请点击 raspberry -> Preferences -> Raspberry Pi Configuration，然后选择 Interfaces 选项卡，确保 1-Wire 为 Disabled。
 
@@ -617,8 +617,8 @@ A2：请点击 raspberry -> Preferences -> Raspberry Pi Configuration，然后�
 
 - **[PDF]** [AC101 数据手册](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/AC101_User_Manual_v1.1.pdf)
 - **[PDF]** [AC108 数据手册](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/AC108_Datasheet_V1.2.pdf)
-- **[Dxf]** [ReSpeaker Circular Array for Voice Accessory HAT with 6 Microphones 外壳文件](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/ReSpeaker%20Circular%20Array%20for%20Voice%20Accessory%20HAT%20with%206%20Microphones.dxf)
-- **[Dxf]** [ReSpeaker Circular Array for Voice Accessory HAT with 6 Microphone 2D 文件](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/2d.zip)
+- **[Dxf]** [reSpeaker Circular Array for Voice Accessory HAT with 6 Microphones 外壳文件](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/ReSpeaker%20Circular%20Array%20for%20Voice%20Accessory%20HAT%20with%206%20Microphones.dxf)
+- **[Dxf]** [reSpeaker Circular Array for Voice Accessory HAT with 6 Microphone 2D 文件](https://files.seeedstudio.com/wiki/ReSpeaker_6-Mics_Circular_Array_kit_for_Raspberry_Pi/reg/2d.zip)
 - **[Driver]** [Seeed-Voice 驱动](https://github.com/respeaker/seeed-voicecard)
 - **[Algorithms]** [包含 DOA、VAD、NS 的算法](https://github.com/respeaker/mic_array)
 - **[Voice Engine]** [Voice Engine 项目，提供用于创建语音功能对象的构建模块](https://github.com/voice-engine/voice-engine)

@@ -21,8 +21,8 @@ Este proyecto demuestra cómo usar la placa reSpeaker Lite para reproducir archi
 
 ### Biblioteca Requerida
 
-* [Biblioteca ReSpeaker Lite](https://github.com/limengdu/reSpeaker_Lite-Arduino-Library.git)
-* [ReSpeaker Lite arduino libhelix](https://github.com/limengdu/reSpeaker_Lite-arduino-libhelix)
+* [Biblioteca reSpeaker Lite](https://github.com/limengdu/reSpeaker_Lite-Arduino-Library.git)
+* [reSpeaker Lite arduino libhelix](https://github.com/limengdu/reSpeaker_Lite-arduino-libhelix)
 
 ### Funcionalidad
 

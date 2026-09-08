@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker USB Mic Array
+description: reSpeaker USB Mic Array
 title: reSpeaker USB Mic Array
 keywords:
   - reSpeaker
@@ -26,12 +26,12 @@ url: https://wiki.seeedstudio.com/cn/ReSpeaker-USB-Mic-Array/
 
 在过去的一年中，[Respeaker Mic Array V2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html) 以开发板的形式已经销售超过 1 万片。客户不断要求提供带外壳的完整设备，而考虑到声学原理，要自己设计外壳对他们来说具有挑战性。
 
-现在 Seeed 给出的答案就是 ReSpeaker USB Mic Array：
+现在 Seeed 给出的答案就是 reSpeaker USB Mic Array：
 
 - 一个具有精心设计声学结构的开箱即用设备，为客户集成到其解决方案中提供了灵活性。
 - 提供注塑外壳，可节省产品上市时间和模具成本。
 
-ReSpeaker USB Mic Array 内部 PCBA 与 Respeaker Mic Array V2.0 之间的差异：
+reSpeaker USB Mic Array 内部 PCBA 与 Respeaker Mic Array V2.0 之间的差异：
 
 - 优化的电源电路
 - 将音频插孔和 micro USB 接口移到了背面。
@@ -109,7 +109,7 @@ WM8960 是一款低功耗立体声编解码器，带有 D 类扬声器驱动器�
 ## 入门指南
 
 :::note
-ReSpeaker USB Mic Array 兼容 Windows、Mac、Linux 系统和 andriod。下面的脚本在 Python2.7 上测试通过。
+reSpeaker USB Mic Array 兼容 Windows、Mac、Linux 系统和 andriod。下面的脚本在 Python2.7 上测试通过。
 :::
 
 ### 更新固件
@@ -185,7 +185,7 @@ sudo python dfu.py --download 1_channel_firmware.bin
 
 ### 安装 DFU 和 LED 控制驱动  
 
-- **Windows：** 音频录制和回放在默认情况下工作良好。仅在 Windows 上控制 LED 和 DSP 参数时才需要安装 Libusb-win32 驱动。我们使用 [一个方便的工具 - Zadig](http://zadig.akeo.ie/) 为 `SEEED DFU` 和 `SEEED Control` 安装 libusb-win32 驱动（ReSpeaker Mic Array 在 Windows 设备管理器中有 2 个设备）。
+- **Windows：** 音频录制和回放在默认情况下工作良好。仅在 Windows 上控制 LED 和 DSP 参数时才需要安装 Libusb-win32 驱动。我们使用 [一个方便的工具 - Zadig](http://zadig.akeo.ie/) 为 `SEEED DFU` 和 `SEEED Control` 安装 libusb-win32 驱动（reSpeaker Mic Array 在 Windows 设备管理器中有 2 个设备）。
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/usb_4mic_array_driver.png)
 
@@ -223,7 +223,7 @@ DOAANGLE: 180
 
 ### 控制 LED
 
-我们可以通过 USB 控制 ReSpeaker USB Mic Array 的 LED。该 USB 设备具有 Vendor Specific Class 接口，可用于通过 USB 控制传输发送数据。我们参考了 [pyusb python library](https://github.com/pyusb/pyusb)，并由此实现了 [usb_pixel_ring python library](https://github.com/respeaker/pixel_ring/blob/master/pixel_ring/usb_pixel_ring_v2.py)。
+我们可以通过 USB 控制 reSpeaker USB Mic Array 的 LED。该 USB 设备具有 Vendor Specific Class 接口，可用于通过 USB 控制传输发送数据。我们参考了 [pyusb python library](https://github.com/pyusb/pyusb)，并由此实现了 [usb_pixel_ring python library](https://github.com/respeaker/pixel_ring/blob/master/pixel_ring/usb_pixel_ring_v2.py)。
 
 LED 控制命令通过 pyusb 的 usb.core.Device.ctrl_transfer() 发送，其参数如下：
 
@@ -775,7 +775,7 @@ A3：有的，我们可以将 mic array v2.0 连接到 Raspberry 的 USB 端口�
 
 **Q4：是否有 Mic array v2.1 在 ROS 系统上的示例？**
 
-A4：有的，感谢 Yuki 分享了用于集成 [ReSpeaker USB Mic Array with ROS (Robot Operating System) Middleware](https://github.com/furushchev/respeaker_ros) 的软件包。
+A4：有的，感谢 Yuki 分享了用于集成 [reSpeaker USB Mic Array with ROS (Robot Operating System) Middleware](https://github.com/furushchev/respeaker_ros) 的软件包。
 
 **Q5：如何让 3.5mm 音频口在 USB 端口输出的同时也接收信号？**
 
@@ -791,8 +791,8 @@ sudo apt-get install portaudio19-dev
 
 ## 资源
 
-- **[PDF]** [ReSpeaker USB Mic Array 尺寸](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/dimension.pdf)
-- **[DWG]** [ReSpeaker USB Mic Array 外壳 3D 模型](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/case.dwg)
+- **[PDF]** [reSpeaker USB Mic Array 尺寸](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/dimension.pdf)
+- **[DWG]** [reSpeaker USB Mic Array 外壳 3D 模型](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/case.dwg)
 - **[PDF]** [XVF3000 产品简介](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/XVF3000-3100-product-brief_1.4.pdf)
 - **[PDF]** [XVF3000 数据手册](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/XVF3000-3100-TQ128-Datasheet_1.0.pdf)
 

@@ -16,7 +16,7 @@ updatedAt: '2026-04-17'
 url: https://wiki.seeedstudio.com/pt-br/respeaker_flex_xiao_i2s/
 ---
 
-Este projeto serve como um sketch de teste para verificar a funcionalidade da interface I2S entre o **XIAO ESP32S3** e o **ReSpeaker Flex**. O objetivo é confirmar que a transmissão e recepção de dados pelo barramento I2S estão funcionando corretamente. Para isso, o sketch gera um sinal de áudio sintético em onda quadrada e o escreve na interface I2S. Em seguida, ele lê os dados de áudio do array de microfones do ReSpeaker Flex e verifica a integridade das amostras recebidas.
+Este projeto serve como um sketch de teste para verificar a funcionalidade da interface I2S entre o **XIAO ESP32S3** e o **reSpeaker Flex**. O objetivo é confirmar que a transmissão e recepção de dados pelo barramento I2S estão funcionando corretamente. Para isso, o sketch gera um sinal de áudio sintético em onda quadrada e o escreve na interface I2S. Em seguida, ele lê os dados de áudio do array de microfones do reSpeaker Flex e verifica a integridade das amostras recebidas.
 
 
 
@@ -51,7 +51,7 @@ Este projeto serve como um sketch de teste para verificar a funcionalidade da in
 
 ## Como funciona
 
-Este sketch testa a comunicação I2S full-duplex entre o XIAO ESP32S3 e o ReSpeaker Flex. Ele gera um sinal de onda quadrada de 440 Hz e o escreve continuamente na linha de transmissão I2S enquanto, simultaneamente, lê as amostras de áudio recebidas do array de microfones. Os dados recebidos são analisados para contar amostras válidas (diferentes de zero) como uma verificação básica de integridade. Com base no número de amostras válidas, o programa determina se o caminho de recepção I2S está funcionando corretamente.
+Este sketch testa a comunicação I2S full-duplex entre o XIAO ESP32S3 e o reSpeaker Flex. Ele gera um sinal de onda quadrada de 440 Hz e o escreve continuamente na linha de transmissão I2S enquanto, simultaneamente, lê as amostras de áudio recebidas do array de microfones. Os dados recebidos são analisados para contar amostras válidas (diferentes de zero) como uma verificação básica de integridade. Com base no número de amostras válidas, o programa determina se o caminho de recepção I2S está funcionando corretamente.
 
 ```c
 #include "AudioTools.h"

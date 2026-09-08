@@ -17,12 +17,12 @@ updatedAt: '2026-06-15'
 url: https://wiki.seeedstudio.com/cn/respeaker_lite_ha/
 ---
 
-在本教程中，你将学习如何配置你的 ReSpeaker Lite 以配合 Home Assistant 使用。你将学习如何烧录所需固件，以及如何编译并上传 YAML 文件。之后，你就可以通过语音来控制和自动化你的家用电器。只需说出 “Okay Nabu”，然后开始与家对话。
+在本教程中，你将学习如何配置你的 reSpeaker Lite 以配合 Home Assistant 使用。你将学习如何烧录所需固件，以及如何编译并上传 YAML 文件。之后，你就可以通过语音来控制和自动化你的家用电器。只需说出 “Okay Nabu”，然后开始与家对话。
 
 <div class="video-container">
   <iframe width="800" height="400"
           src="https://www.youtube.com/embed/RBt2VAVpsBw"
-          title="ReSpeaker Lite with XIAO ESP32S3 Home Assistant"
+          title="reSpeaker Lite with XIAO ESP32S3 Home Assistant"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
@@ -48,7 +48,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_lite_ha/
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeakerv3/HA_2026/firmware_1.png" alt="pir" width={800} height="auto" /></p>
 
-在你的电脑上，通过 USB 接口（靠近 3.5mm 插孔）插入 ReSpeaker Lite，并运行以下命令：
+在你的电脑上，通过 USB 接口（靠近 3.5mm 插孔）插入 reSpeaker Lite，并运行以下命令：
 
 
 

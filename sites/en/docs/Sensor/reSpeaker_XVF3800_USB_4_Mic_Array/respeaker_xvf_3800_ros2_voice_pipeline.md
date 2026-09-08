@@ -99,7 +99,7 @@ You should see a window with a turtle you can drive with arrow keys. Press `Ctrl
 
 ## Part 2 — Create a udev Rule for the Device
 
-Create a new udev rule to ensure proper permissions for the ReSpeaker USB Mic Array:
+Create a new udev rule to ensure proper permissions for the reSpeaker USB Mic Array:
 
 ```bash
 sudo nano /etc/udev/rules.d/50-respeaker.rules

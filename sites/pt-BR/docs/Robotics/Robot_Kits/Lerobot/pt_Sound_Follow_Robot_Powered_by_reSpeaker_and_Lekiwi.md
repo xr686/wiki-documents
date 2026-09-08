@@ -1,5 +1,5 @@
 ---
-description: Este wiki fornece uma estrutura de implementação abrangente para equipar o Kit de Robô Lekiwi com capacidades de seguir som usando ReSpeaker Mic Array v2.0 e reComputer Jetson Mini, cobrindo integração de hardware, configuração de ambiente e adaptação de software, ao mesmo tempo em que demonstra funcionalidade de rastreamento de fonte de áudio em tempo real.
+description: Este wiki fornece uma estrutura de implementação abrangente para equipar o Kit de Robô Lekiwi com capacidades de seguir som usando reSpeaker Mic Array v2.0 e reComputer Jetson Mini, cobrindo integração de hardware, configuração de ambiente e adaptação de software, ao mesmo tempo em que demonstra funcionalidade de rastreamento de fonte de áudio em tempo real.
 title: Lekiwi com Seguimento de Som
 keywords:
   - Lerobot
@@ -21,13 +21,13 @@ url: https://wiki.seeedstudio.com/pt-br/sound_follow_robot/
 
 ## Introdução
 
-O Kit de Robô Lewiki, integrado com o ReSpeaker Mic Array v2.0, obtém capacidades de interação por voz e navegação por som. Este guia detalha o processo passo a passo para configurar tanto o hardware quanto os ambientes de software para alcançar a funcionalidade de seguir som no robô.
+O Kit de Robô Lewiki, integrado com o reSpeaker Mic Array v2.0, obtém capacidades de interação por voz e navegação por som. Este guia detalha o processo passo a passo para configurar tanto o hardware quanto os ambientes de software para alcançar a funcionalidade de seguir som no robô.
 
 <div class="table-center">
   <table align="center">
     <tr>
         <th>Kit de Robô Lekiwi</th>
-        <th>ReSpeaker Mic Array v2.0</th>
+        <th>reSpeaker Mic Array v2.0</th>
         <th>reComputer Mini J4012</th>
     </tr>
     <tr>
@@ -76,7 +76,7 @@ O Kit de Robô Lewiki, integrado com o ReSpeaker Mic Array v2.0, obtém capacida
 ## Pré-requisitos
 
 - Kit de Robô Lewiki
-- ReSpeaker Mic Array v2.0
+- reSpeaker Mic Array v2.0
 
 :::note
 Considerando futuras expansões de funcionalidades, este wiki utiliza o `reComputer Jetson Mini J4012` como o dispositivo de controle principal do robô. Você também pode obter todas as funcionalidades descritas neste wiki usando um `Raspberry Pi 5`.

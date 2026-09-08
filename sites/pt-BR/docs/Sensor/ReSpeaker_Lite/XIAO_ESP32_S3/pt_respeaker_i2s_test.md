@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/pt-br/respeaker_i2s_test/
 
 
 
-Este projeto é um sketch de teste para verificar a funcionalidade da interface I2S na placa ReSpeaker Lite, que integra um microcontrolador [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html) e um array de microfones. O sketch gera um sinal de áudio de onda quadrada, grava-o na interface I2S e, em seguida, lê novamente as amostras do array de microfones onboard para verificar a integridade da transmissão e recepção I2S.
+Este projeto é um sketch de teste para verificar a funcionalidade da interface I2S na placa reSpeaker Lite, que integra um microcontrolador [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html) e um array de microfones. O sketch gera um sinal de áudio de onda quadrada, grava-o na interface I2S e, em seguida, lê novamente as amostras do array de microfones onboard para verificar a integridade da transmissão e recepção I2S.
 
 
 ### Funcionalidade

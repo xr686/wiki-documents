@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_lite_beagley-ai_chatgpt/
 
 ## 简介
 
-该项目使用 BeagleY-AI 集成了语音输入、大模型响应和语音输出功能。它采用 ReSpeaker Lite 作为音频输入和输出设备，实现与 ChatGPT 和语音转文本转换服务的无缝交互。
+该项目使用 BeagleY-AI 集成了语音输入、大模型响应和语音输出功能。它采用 reSpeaker Lite 作为音频输入和输出设备，实现与 ChatGPT 和语音转文本转换服务的无缝交互。
 
 <div class="table-center">
 <iframe width="730" height="500" src="https://files.seeedstudio.com/wiki/Beaglebone_Solutions/bby_chatgpt.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
@@ -27,7 +27,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_lite_beagley-ai_chatgpt/
 
 ## 所需硬件
 
-* [ReSpeaker Lite USB 2-Mic Array](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)
+* [reSpeaker Lite USB 2-Mic Array](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)
 * [BeagleY-AI](https://www.seeedstudio.com/BeagleYr-AI-beagleboard-orgr-4-TOPS-AI-Acceleration-powered-by-TI-AM67A.html)
 
 ## 入门指南
@@ -56,14 +56,14 @@ pip3 install openai
 pip3 install playsound
 ```
 
-* 运行以下命令配置 ReSpeaker Lite：
+* 运行以下命令配置 reSpeaker Lite：
 
 ```shell
 pw-metadata -n settings 0 clock.force-rate 16000
 ```
 
 :::tip
-调整 ReSpeaker Lite 音量的命令：
+调整 reSpeaker Lite 音量的命令：
 
 ```shell
 alsamixer

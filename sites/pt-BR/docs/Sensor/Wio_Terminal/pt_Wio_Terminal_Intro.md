@@ -229,7 +229,7 @@ Open Source Hardware (OSHW) refere‑se a hardware cujo projeto é disponibiliza
     <tr class="table-trnobg"></tr>
     <tr class="table-trnobg">
       <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> Este wiki apresenta como usar o ENC28J60 OVERLAYS HAT para Raspberry Pi no Wio Terminal para uma conectividade de rede estável. Este é um exemplo perfeito do uso da placa de extensão Raspberry Pi 40 Pi no Wio Terminal.</font></td>
-      <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> Este wiki apresenta como usar a biblioteca de áudio com o Wio Terminal usando o ReSpeaker 2-Mic Hat. Com a ajuda desta biblioteca, você poderá gravar, reproduzir e analisar áudio usando o Wio Terminal! Além disso, esta biblioteca de áudio pode ser implementada em diferentes áreas, como reconhecimento de fala e muito mais!</font></td>
+      <td className="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}> Este wiki apresenta como usar a biblioteca de áudio com o Wio Terminal usando o reSpeaker 2-Mic Hat. Com a ajuda desta biblioteca, você poderá gravar, reproduzir e analisar áudio usando o Wio Terminal! Além disso, esta biblioteca de áudio pode ser implementada em diferentes áreas, como reconhecimento de fala e muito mais!</font></td>
     </tr>
     <tr class="table-trnobg"></tr>
   <tr class="table-trnobg">
@@ -474,7 +474,7 @@ Open Source Hardware (OSHW) refere‑se a hardware cujo projeto é disponibiliza
     <tr class="table-trnobg"></tr>
     <tr class="table-trnobg">
       <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>Neste wiki, vamos apresentar como usar o Wio Terminal como um display USB HMI (Interface Homem-Máquina) para Raspberry Pi, Nvidia Jetson Nano, BeagleBone e até mesmo Odyssey X86J4105.</font></td>
-      <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>Este exemplo detecta dB usando o microfone no ReSpeaker 2-Mic Hat. O ambiente ao redor é detectado e depois exibido no display.</font></td>
+      <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>Este exemplo detecta dB usando o microfone no reSpeaker 2-Mic Hat. O ambiente ao redor é detectado e depois exibido no display.</font></td>
       <td class="table-trnobg" style={{ textAlign: 'justify' }}><font size={"2"}>Este wiki apresenta como usar o Wio Terminal para acessar um servidor HTTPS, o que significa que você pode usar o Wio Terminal para obter dados em tempo real da internet! Aqui, o Wio Terminal está conectado a uma rede Wi-Fi e obtém dados do Github.</font></td>
     </tr>
     <tr class="table-trnobg"></tr>

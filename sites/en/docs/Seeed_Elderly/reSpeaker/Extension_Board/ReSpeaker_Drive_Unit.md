@@ -1,6 +1,6 @@
 ---
-description: ReSpeaker Drive Unit
-title: ReSpeaker Drive Unit
+description: reSpeaker Drive Unit
+title: reSpeaker Drive Unit
 keywords:
   - reSpeaker
 image: https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png
@@ -16,11 +16,11 @@ url: https://wiki.seeedstudio.com/ReSpeaker_Drive_Unit/
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/img/Meow_King_Drive_Unit.jpg)
 
-ReSpeaker Drive Unit is specially designed for ReSpeaker Core, as a separate speaker drive unit.
+reSpeaker Drive Unit is specially designed for reSpeaker Core, as a separate speaker drive unit.
 
 With this drive unit that you can build your own smart speaker with Amazon Alexa Voice Services or other voice services. What's more, it supports Airplay that means you can stream your music via smart phone, PC and Mac. And of course play local music is possible.
 
-ReSpeaker Core contains powerful exntension ability, we hopefully it can help you to enable voice on your prototype/product easily.
+reSpeaker Core contains powerful exntension ability, we hopefully it can help you to enable voice on your prototype/product easily.
 
 ## Features
 
@@ -28,7 +28,7 @@ ReSpeaker Core contains powerful exntension ability, we hopefully it can help yo
 - Touch button
 - Airplay support
 - Impedance is 4Ω, and Rated Power is 5W
-- Indicator LED on the ReSpeaker Core
+- Indicator LED on the reSpeaker Core
 
 ## Specification
 
@@ -43,11 +43,11 @@ ReSpeaker Core contains powerful exntension ability, we hopefully it can help yo
 
 ## Out of the box guide
 
-### Prepare the ReSpeaker Core
+### Prepare the reSpeaker Core
 
-To drive the Meow King drive unit, the firmware for ReSpeaker Core should be updated. To know the differences between the original stock firmware and this firmware, please refer to the change log [here](https://onedrive.live.com/?authkey=%21AKD3ZD6g0DE2M9E&cid=5219529519B9B6A1&id=5219529519B9B6A1%21720&parId=5219529519B9B6A1%21721&o=OneUp).
+To drive the Meow King drive unit, the firmware for reSpeaker Core should be updated. To know the differences between the original stock firmware and this firmware, please refer to the change log [here](https://onedrive.live.com/?authkey=%21AKD3ZD6g0DE2M9E&cid=5219529519B9B6A1&id=5219529519B9B6A1%21720&parId=5219529519B9B6A1%21721&o=OneUp).
 
-Now let's update the firmware. Firstly, download `ramips-openwrt-v1.0.01-LinkIt7688-squashfs-sysupgrade.bin` from [OneDrive](https://1drv.ms/f/s!AqG2uRmVUhlShUyg92Q-oNAxNjPR). Copy the firmware to SD card and then plug the SD card into the ReSpeaker Core. Follow [the instruction here](https://wiki.seeedstudio.com/ReSpeaker_Core/#2-connect-to-serial-console) to get the serial console. Please note that, to get the USB serial working we need to restore [the default firmware](https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/res/respeaker_arduino_library/examples/pixels_pattern/pixels_pattern.ino) for the Arduino chip (ATMega32U4) if we have changed it. After we get the USB serial, type the following commands to update the firmware:
+Now let's update the firmware. Firstly, download `ramips-openwrt-v1.0.01-LinkIt7688-squashfs-sysupgrade.bin` from [OneDrive](https://1drv.ms/f/s!AqG2uRmVUhlShUyg92Q-oNAxNjPR). Copy the firmware to SD card and then plug the SD card into the reSpeaker Core. Follow [the instruction here](https://wiki.seeedstudio.com/ReSpeaker_Core/#2-connect-to-serial-console) to get the serial console. Please note that, to get the USB serial working we need to restore [the default firmware](https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/res/respeaker_arduino_library/examples/pixels_pattern/pixels_pattern.ino) for the Arduino chip (ATMega32U4) if we have changed it. After we get the USB serial, type the following commands to update the firmware:
 
 ```shell
 mount /dev/mmcblk0p1 /mnt
@@ -55,23 +55,23 @@ cd /mnt
 sysupgrade -n -F ramips-openwrt-v1.0.01-LinkIt7688-squashfs-sysupgrade.bin
 ```
 
-After the system image has been written, the ReSpeaker Core will reboot.
+After the system image has been written, the reSpeaker Core will reboot.
 
 ### Build up
 
-Plug your ReSpeaker Core onto the Meow King drive unit like the image below.
+Plug your reSpeaker Core onto the Meow King drive unit like the image below.
 
 <div align="center"><img width={1000} src="https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/img/mk_1.jpg" /></div>
 
-Press the power logo over 5 seconds, the drive unit will power on, and also the ReSpeaker Core board.
+Press the power logo over 5 seconds, the drive unit will power on, and also the reSpeaker Core board.
 
 :::note
-The power control circuit is in the drive unit, even when you pulled the ReSpeaker Core off, pressing the power logo over 5 seconds will still power on the drive unit.
+The power control circuit is in the drive unit, even when you pulled the reSpeaker Core off, pressing the power logo over 5 seconds will still power on the drive unit.
 :::
 
 To power down the whole device, please press the power logo over 5 seconds again.
 
-When the device is powered on, the ReSpeaker Core will enter the boot up process. The LED ring will light up with red color for 1 second, indicating that the ReSpeaker Core is booting up.
+When the device is powered on, the reSpeaker Core will enter the boot up process. The LED ring will light up with red color for 1 second, indicating that the reSpeaker Core is booting up.
 
 <div align="center"><img width={1000} src="https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/img/mk_2.jpg" /></div>
 
@@ -81,10 +81,10 @@ Now wait a few seconds, find your smart phone and prepare to stream your music o
 
 #### For iOS
 
-1. Connect to the same Wi-Fi network on your iOS device and ReSpeaker.
+1. Connect to the same Wi-Fi network on your iOS device and reSpeaker.
 2. On your iOS device, swipe up from the bottom of your screen to open Control Center.
 3. In Control Center, swipe horizontally to find the Now Playing screen.
-4. Select ReSpeaker as the following picture:
+4. Select reSpeaker as the following picture:
 
 <div align="center"><img width="{500}" src="https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/img/airplay.png" /></div>
 
@@ -92,9 +92,9 @@ Now wait a few seconds, find your smart phone and prepare to stream your music o
 
 #### For Android
 
-1. Connect your smart phone to **ReSpeaker's Wi-Fi**.
+1. Connect your smart phone to **reSpeaker's Wi-Fi**.
 2. On your smart phone, open an AirPlay client software, such as: *AllConnect*.
-3. Select ReSpeaker as the following picture:
+3. Select reSpeaker as the following picture:
 
 <div className="text-center">
   <img src="https://files.seeedstudio.com/wiki/ReSpeaker_Drive_Unit/img/dlna.png" width="50%" height="50%" />

@@ -18,7 +18,7 @@ url: https://wiki.seeedstudio.com/ja/Wio-Terminal-Audio-GUI/
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/GUI.gif"/></div>
 
-このWikiでは、[**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)と[**ReSpeaker 2-Mit Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)を使用して、オーディオライブラリ用のオーディオシステムを設計するための**オーディオシステム設計ツール**の使用方法を紹介します。このツールを使用すると、入力と出力がどこに向かっているかを視覚的に確認できるため、オーディオシステムの設計が非常に簡単になります。
+このWikiでは、[**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)と[**reSpeaker 2-Mit Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)を使用して、オーディオライブラリ用のオーディオシステムを設計するための**オーディオシステム設計ツール**の使用方法を紹介します。このツールを使用すると、入力と出力がどこに向かっているかを視覚的に確認できるため、オーディオシステムの設計が非常に簡単になります。
 
 > **これは、[Teensy Audio Library用オーディオシステム設計ツール](https://www.pjrc.com/teensy/gui/)のSeeedによるフォーク版です。**
 
@@ -34,13 +34,13 @@ url: https://wiki.seeedstudio.com/ja/Wio-Terminal-Audio-GUI/
 
 #### SDカードから音楽ファイルを再生する
 
-オーディオ設計システムの基本を理解するために、例を使って説明します。例えば、ReSpeaker 2-Mic Hatを介してスピーカーからSDカードの曲を再生したい場合：
+オーディオ設計システムの基本を理解するために、例を使って説明します。例えば、reSpeaker 2-Mic Hatを介してスピーカーからSDカードの曲を再生したい場合：
 
 - **`INPUT`** はSDカードからの再生です。
 
 - **`OUTPUT`** はI2S出力です。
 
-- **`wm8960`** はReSpeaker 2-Micsの制御ユニットです。
+- **`wm8960`** はreSpeaker 2-Micsの制御ユニットです。
 
 設計は以下のようになります：
 
@@ -121,7 +121,7 @@ void loop() {
 
 - **`OUTPUT`** はI2S出力と2つのピークです！1つは左チャンネル用、もう1つは右チャンネル用です。
 
-- **`wm8960`** はReSpeaker 2-Micsの制御ユニットです。
+- **`wm8960`** はreSpeaker 2-Micsの制御ユニットです。
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/peak-detection-gui.png"/></div>
 
@@ -137,7 +137,7 @@ void loop() {
 
 - **`OUTPUT`** はI2S出力とFFT計算です。
 
-- **`wm8960`** はReSpeaker 2-Micsの制御ユニットです。
+- **`wm8960`** はreSpeaker 2-Micsの制御ユニットです。
 
 ここでは、もう1つの便利な機能である**Mixer**を紹介します。これにより、最大**4つ**のオーディオチャンネルを1つにまとめることができます。FFTを実行する際にチャンネル（左と右）を組み合わせる方が、単一チャンネルよりも正確です。
 
@@ -155,7 +155,7 @@ void loop() {
 
 - **`OUTPUT`** はI2S出力です：**PlayQueue** -> **Output I2S**
 
-- **`wm8960`** はReSpeaker 2-Micsの制御ユニットです。
+- **`wm8960`** はreSpeaker 2-Micsの制御ユニットです。
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/record-play-realtime.png"/></div>
 

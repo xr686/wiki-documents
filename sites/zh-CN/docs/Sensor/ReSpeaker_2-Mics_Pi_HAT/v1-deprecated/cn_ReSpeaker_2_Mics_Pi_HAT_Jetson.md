@@ -14,14 +14,14 @@ url: https://wiki.seeedstudio.com/cn/ReSpeaker_2_Mics_Pi_HAT_Jetson/
 ---
 
 :::caution
-本 wiki 是为 ReSpeaker 2-Mics Pi HAT **v1** 编写的，要区分 v1 和 v2 设备，请参考 [如何区分 ReSpeaker 2-Mics Pi HAT 硬件版本](/cn/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions)。
+本 wiki 是为 reSpeaker 2-Mics Pi HAT **v1** 编写的，要区分 v1 和 v2 设备，请参考 [如何区分 reSpeaker 2-Mics Pi HAT 硬件版本](/cn/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions)。
 :::
 
 ### 驱动安装和配置
 
-**1. 将 ReSpeaker 2-Mics Pi HAT 连接到 Jetson Nano**
+**1. 将 reSpeaker 2-Mics Pi HAT 连接到 Jetson Nano**
 
-将 ReSpeaker 2-Mics Pi HAT 安装到您的 Jetson Nano 上，确保在堆叠 ReSpeaker 2-Mics Pi HAT 时引脚正确对齐。
+将 reSpeaker 2-Mics Pi HAT 安装到您的 Jetson Nano 上，确保在堆叠 reSpeaker 2-Mics Pi HAT 时引脚正确对齐。
 
 Jetson Nano 连接
 
@@ -210,7 +210,7 @@ python3 recording_examples/get_device_index.py
 Input Device id  1  -  tegra-snd-t210ref-mobile-rt565x: - (hw:1,1)
 ```
 
-要录制声音，请使用 nano 或其他文本编辑器打开 ```recording_examples/record.py``` 文件，并将 `RESPEAKER_INDEX = 1` 更改为您系统上 ReSpeaker 的索引号。然后运行 python 脚本 record.py 进行录制：
+要录制声音，请使用 nano 或其他文本编辑器打开 ```recording_examples/record.py``` 文件，并将 `RESPEAKER_INDEX = 1` 更改为您系统上 reSpeaker 的索引号。然后运行 python 脚本 record.py 进行录制：
 
 ```
 python3 recording_examples/record.py

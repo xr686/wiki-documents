@@ -20,7 +20,7 @@ url: https://wiki.seeedstudio.com/pt-br/respeaker_flex_soarm/
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/reSpeaker_flex/lerobot_flex.png" alt="pir" width={800} height="auto" /></p>
 
 
-O LeRobot SO-ARM Voice Controller permite controlar um braço robótico SO-ARM100 usando comandos de voz naturais alimentados por IA. O sistema combina detecção de palavra de ativação, Groq Whisper speech-to-text, compreensão de linguagem com LLaMA 3 e Orpheus text-to-speech para criar uma experiência robótica totalmente interativa e mãos livres. Construído sobre o [framework LeRobot](https://github.com/huggingface/lerobot?utm_source=chatgpt.com), ele roda em sistemas Ubuntu x86 e dispositivos NVIDIA Jetson usando um array de microfones USB ReSpeaker para entrada de voz. Os usuários podem criar poses personalizadas do braço, gestos e gatilhos conversacionais para construir interações robóticas inteligentes para pesquisa, educação e desenvolvimento em robótica.
+O LeRobot SO-ARM Voice Controller permite controlar um braço robótico SO-ARM100 usando comandos de voz naturais alimentados por IA. O sistema combina detecção de palavra de ativação, Groq Whisper speech-to-text, compreensão de linguagem com LLaMA 3 e Orpheus text-to-speech para criar uma experiência robótica totalmente interativa e mãos livres. Construído sobre o [framework LeRobot](https://github.com/huggingface/lerobot?utm_source=chatgpt.com), ele roda em sistemas Ubuntu x86 e dispositivos NVIDIA Jetson usando um array de microfones USB reSpeaker para entrada de voz. Os usuários podem criar poses personalizadas do braço, gestos e gatilhos conversacionais para construir interações robóticas inteligentes para pesquisa, educação e desenvolvimento em robótica.
 
 
 ## Hardware necessário
@@ -262,7 +262,7 @@ Available audio INPUT devices:
   [2] USB PnP Sound Device    (rate=16000Hz)
 ```
 
-Anote o número de índice ao lado do seu ReSpeaker — esse é o seu `MIC_INDEX`.
+Anote o número de índice ao lado do seu reSpeaker — esse é o seu `MIC_INDEX`.
 
 ### Configurar o projeto
 
@@ -424,7 +424,7 @@ sudo apt-get install -y portaudio19-dev
 ```
 
 **A palavra de ativação nunca é acionada**
-Execute `list_mics.py` novamente e confirme que `MIC_INDEX` corresponde ao seu ReSpeaker. Tente reduzir `WAKEWORD_THRESHOLD` para `0.3`. Fale claramente a cerca de 1 metro do microfone.
+Execute `list_mics.py` novamente e confirme que `MIC_INDEX` corresponde ao seu reSpeaker. Tente reduzir `WAKEWORD_THRESHOLD` para `0.3`. Fale claramente a cerca de 1 metro do microfone.
 
 **Braço não se move após um comando**
 Verifique se `ARM_PORT` está correto (`lerobot-find-port`). Confirme se o arquivo de calibração existe em `~/.cache/huggingface/lerobot/calibration/robots/so_follower/<ARM_ID>.json`.
@@ -447,4 +447,4 @@ Feito com:
 - [SO-ARM100](https://wiki.seeedstudio.com/pt-br/lerobot_so100m_new/) — braço robótico open-source de baixo custo da Seeed Studio
 - [openwakeword](https://github.com/dscripka/openWakeWord) — detecção local de palavra de ativação
 - [Groq](https://groq.com/) — Whisper STT, LLaMA LLM e Orpheus TTS ultrarrápidos
-- [ReSpeaker Flex](https://wiki.seeedstudio.com/pt-br/respeaker_flex/) — matriz de microfones USB
+- [reSpeaker Flex](https://wiki.seeedstudio.com/pt-br/respeaker_flex/) — matriz de microfones USB

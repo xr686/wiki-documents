@@ -99,7 +99,7 @@ ros2 run turtlesim turtle_teleop_key
 
 ## 第 2 部分 — 为设备创建 udev 规则
 
-创建一个新的 udev 规则，以确保 ReSpeaker USB Mic Array 拥有正确的权限：
+创建一个新的 udev 规则，以确保 reSpeaker USB Mic Array 拥有正确的权限：
 
 ```bash
 sudo nano /etc/udev/rules.d/50-respeaker.rules

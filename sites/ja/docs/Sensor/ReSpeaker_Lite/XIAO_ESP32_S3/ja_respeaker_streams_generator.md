@@ -1,6 +1,6 @@
 ---
-description: ReSpeaker Lite を使用した正弦波ジェネレーター
-title: ReSpeaker Lite を使用した正弦波ジェネレーター
+description: reSpeaker Lite を使用した正弦波ジェネレーター
+title: reSpeaker Lite を使用した正弦波ジェネレーター
 keywords:
   - ESP32S3
   - XIAO
@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_streams_generator/
 ---
 
 
-このプロジェクトでは、ReSpeaker Lite ボードの I2S インターフェースを使用して正弦波を生成し、再生する方法を示します。ReSpeaker Lite は、デュアルチャンネルのマイクとスピーカーを備えた XIAO ESP32S3 マイクロコントローラーを統合したオーディオボードです。
+このプロジェクトでは、reSpeaker Lite ボードの I2S インターフェースを使用して正弦波を生成し、再生する方法を示します。reSpeaker Lite は、デュアルチャンネルのマイクとスピーカーを備えた XIAO ESP32S3 マイクロコントローラーを統合したオーディオボードです。
 
 ### 機能
 

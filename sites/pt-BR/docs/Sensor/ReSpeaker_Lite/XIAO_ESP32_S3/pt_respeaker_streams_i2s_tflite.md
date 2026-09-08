@@ -1,5 +1,5 @@
 ---
-description: Detecção de palavras‑chave com ReSpeaker Lite e TensorFlow Lite
+description: Detecção de palavras‑chave com reSpeaker Lite e TensorFlow Lite
 title: Detecção de palavras‑chave no reSpeaker Lite
 keywords:
   - ESP32S3

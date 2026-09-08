@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_lite_pi5/
 ---
 
 
-本项目使用 Raspberry Pi 5 集成了语音输入、大模型响应和语音输出功能。它采用 ReSpeaker Lite 作为音频输入和输出设备，实现与 ChatGPT 和语音转文本服务的无缝交互。
+本项目使用 Raspberry Pi 5 集成了语音输入、大模型响应和语音输出功能。它采用 reSpeaker Lite 作为音频输入和输出设备，实现与 ChatGPT 和语音转文本服务的无缝交互。
 
 
 <div class="table-center">
@@ -30,7 +30,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_lite_pi5/
 
 ## 所需硬件
 
-* [ReSpeaker Lite USB 2-Mic Array](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)
+* [reSpeaker Lite USB 2-Mic Array](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)
 * [Raspberry Pi 5](https://www.seeedstudio.com/Raspberry-Pi-5-8GB-p-5810.html)
 
 ## 入门指南
@@ -59,7 +59,7 @@ pip3 install openai
 pip3 install playsound
 ```
 
-* 对于树莓派 5，运行以下命令来配置 ReSpeaker Lite：
+* 对于树莓派 5，运行以下命令来配置 reSpeaker Lite：
 
 ```shell
 pw-metadata -n settings 0 clock.force-rate 16000
@@ -68,7 +68,7 @@ pw-metadata -n settings 0 clock.force-rate 16000
 对于永久更改，请取消注释并编辑 `/etc/pipewire/pipewire.conf` 中的 `default.clock.rate` 行（首先从 /usr/share/ 复制它）。
 
 :::tip
-调整 ReSpeaker Lite 音量的命令：
+调整 reSpeaker Lite 音量的命令：
 
 ```shell
 alsamixer

@@ -19,7 +19,7 @@ Este projeto demonstra como usar a placa reSpeaker para controlar uma faixa de L
 
 ### Requisitos de Hardware
 
-* Placa ReSpeaker Lite (com microcontrolador XIAO ESP32S3 integrado)
+* Placa reSpeaker Lite (com microcontrolador XIAO ESP32S3 integrado)
 
 * [Grove - RGB LED Stick](https://www.seeedstudio.com/Grove-RGB-LED-Stick-10-WS2813-Mini.html)
 

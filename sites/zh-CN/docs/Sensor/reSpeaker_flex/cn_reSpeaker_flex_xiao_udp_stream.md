@@ -18,7 +18,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_flex_xiao_udp_streaming/
 
 ## 概述
 
-本项目演示如何使用 **ReSpeaker Flex XVF3800** 麦克风阵列与 **XIAO ESP32S3** 开发板实现实时音频流传输。音频通过 I2S 采集，并通过 UDP 传输到本地计算机上运行的服务器，在那里可以将其保存并作为 .wav 文件进行处理。
+本项目演示如何使用 **reSpeaker Flex XVF3800** 麦克风阵列与 **XIAO ESP32S3** 开发板实现实时音频流传输。音频通过 I2S 采集，并通过 UDP 传输到本地计算机上运行的服务器，在那里可以将其保存并作为 .wav 文件进行处理。
 
 <table align="center">
   <tr>
@@ -54,7 +54,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_flex_xiao_udp_streaming/
 
 - 连接到指定的 Wi-Fi 网络。
 - 连接到 UDP 服务器（例如在主机 PC 上运行的 Python 脚本）。
-- 使用 XIAO ESP32S3 通过 I2S 从 ReSpeaker XVF3800 采集实时音频。
+- 使用 XIAO ESP32S3 通过 I2S 从 reSpeaker XVF3800 采集实时音频。
 - 将采集到的音频作为原始数据进行传输。
 
 :::note

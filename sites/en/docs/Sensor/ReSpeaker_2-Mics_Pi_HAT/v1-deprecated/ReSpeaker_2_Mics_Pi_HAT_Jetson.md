@@ -14,14 +14,14 @@ url: https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT_Jetson/
 ---
 
 :::caution
-This wiki is wrote for ReSpeaker 2-Mics Pi HAT **v1**, to distinguish the v1 and v2 device, please refer to [How to Distinguish ReSpeaker 2-Mics Pi HAT Hardware Revisions](/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions).
+This wiki is wrote for reSpeaker 2-Mics Pi HAT **v1**, to distinguish the v1 and v2 device, please refer to [How to Distinguish reSpeaker 2-Mics Pi HAT Hardware Revisions](/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions).
 :::
 
 ### Driver installation and configuration
 
-**1. Connect ReSpeaker 2-Mics Pi HAT to Jetson Nano**
+**1. Connect reSpeaker 2-Mics Pi HAT to Jetson Nano**
 
-Mount ReSpeaker 2-Mics Pi HAT on your Jetson Nano, make sure that the pins are properly aligned when stacking the ReSpeaker 2-Mics Pi HAT.
+Mount reSpeaker 2-Mics Pi HAT on your Jetson Nano, make sure that the pins are properly aligned when stacking the reSpeaker 2-Mics Pi HAT.
 
 Jetson Nano Connection
 
@@ -210,7 +210,7 @@ You will see the device ID as below.
 Input Device id  1  -  tegra-snd-t210ref-mobile-rt565x: - (hw:1,1)
 ```
 
-To record the sound, open ```recording_examples/record.py``` file with nano or other text editor and change  `RESPEAKER_INDEX = 1` to index number of ReSpeaker on your system. Then run python script record.py to make a recording:
+To record the sound, open ```recording_examples/record.py``` file with nano or other text editor and change  `RESPEAKER_INDEX = 1` to index number of reSpeaker on your system. Then run python script record.py to make a recording:
 
 ```
 python3 recording_examples/record.py

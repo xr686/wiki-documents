@@ -14,21 +14,21 @@ url: https://wiki.seeedstudio.com/pt-br/respeaker_2_mics_pi_hat_raspberry_v2/
 ---
 
 :::caution
-Este wiki foi escrito para o ReSpeaker 2-Mics Pi HAT **v2**; para diferenciar os dispositivos v1 e v2, consulte [How to Distinguish ReSpeaker 2-Mics Pi HAT Hardware Revisions](/pt-br/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions).
+Este wiki foi escrito para o reSpeaker 2-Mics Pi HAT **v2**; para diferenciar os dispositivos v1 e v2, consulte [How to Distinguish reSpeaker 2-Mics Pi HAT Hardware Revisions](/pt-br/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions).
 :::
 
 No Raspberry Pi OS mais recente, o método tradicional de instalação de driver (para dispositivo v1) não está mais disponível e pode levar aos seguintes problemas conhecidos:
 
 - O ambiente de área de trabalho pode ser corrompido após a instalação.
-- O dispositivo ReSpeaker pode não ser detectado por `aplay` / `arecord`.
+- O dispositivo reSpeaker pode não ser detectado por `aplay` / `arecord`.
 
-Portanto, relançamos um novo wiki sobre este problema; se você estiver usando uma versão mais moderna do Raspberry Pi OS em vez de versões anteriores, siga estas etapas para fazer seu ReSpeaker funcionar.
+Portanto, relançamos um novo wiki sobre este problema; se você estiver usando uma versão mais moderna do Raspberry Pi OS em vez de versões anteriores, siga estas etapas para fazer seu reSpeaker funcionar.
 
 ## Instalação e configuração do driver
 
-### 1. Conectar o ReSpeaker 2-Mics Pi HAT ao Raspberry Pi
+### 1. Conectar o reSpeaker 2-Mics Pi HAT ao Raspberry Pi
 
-Monte o ReSpeaker 2-Mics Pi HAT no seu Raspberry Pi, certificando-se de que os pinos estejam devidamente alinhados ao empilhar o ReSpeaker 2-Mics Pi HAT.
+Monte o reSpeaker 2-Mics Pi HAT no seu Raspberry Pi, certificando-se de que os pinos estejam devidamente alinhados ao empilhar o reSpeaker 2-Mics Pi HAT.
 
 Conexão com Raspberry Pi
 
@@ -90,7 +90,7 @@ dmesg | grep tlv320
 
 </details>
 
-- Etapa 1: Obter o Device Tree Source (DTS) para o ReSpeaker 2-Mics Pi HAT (V2.0), compilá-lo e instalar o device tree overlay.
+- Etapa 1: Obter o Device Tree Source (DTS) para o reSpeaker 2-Mics Pi HAT (V2.0), compilá-lo e instalar o device tree overlay.
 
 ```bash
 git clone https://github.com/Seeed-Studio/seeed-linux-dtoverlays.git  
@@ -139,7 +139,7 @@ card 2: seeed2micvoicec [seeed2micvoicec], device 0: 1f000a4000.i2s-tlv320aic3x-
   Subdevice #0: subdevice #0
 ```
 
-**Onde `card 2` é o índice do ReSpeaker 2-Mics Pi HAT; dependendo do seu sistema, esse número pode ser diferente. Para acessar o ReSpeaker neste exemplo, você pode usar `arecord -D plughw:2,0` ou `aplay -D plughw:2,0`.**
+**Onde `card 2` é o índice do reSpeaker 2-Mics Pi HAT; dependendo do seu sistema, esse número pode ser diferente. Para acessar o reSpeaker neste exemplo, você pode usar `arecord -D plughw:2,0` ou `aplay -D plughw:2,0`.**
 
 ### 3. Configurar as definições de som e ajustar o volume com alsamixer
 
@@ -267,7 +267,7 @@ python3 ~/button.py
 
 Usamos a [biblioteca Python PyAudio](https://people.csail.mit.edu/hubert/pyaudio/) para gravar som com Python.
 
-Primeiro, execute o seguinte script para obter o número de índice de dispositivo do ReSpeaker:
+Primeiro, execute o seguinte script para obter o número de índice de dispositivo do reSpeaker:
 
 ```bash
 cd mic_hit
@@ -280,7 +280,7 @@ Você verá o ID do dispositivo como abaixo.
 Input Device id  1  -  seeed2micvoicec: 1f000a4000.i2s-tlv320aic3x-hifi tlv320aic3x-hifi-0 (hw:2,0)
 ```
 
-Para gravar o som, abra o arquivo ```recording_examples/record.py``` com `nano`, `vim` ou outro editor de texto e altere `RESPEAKER_INDEX = 2` para o número de índice do ReSpeaker no seu sistema. Em seguida, execute o script Python `record.py` para fazer uma gravação:
+Para gravar o som, abra o arquivo ```recording_examples/record.py``` com `nano`, `vim` ou outro editor de texto e altere `RESPEAKER_INDEX = 2` para o número de índice do reSpeaker no seu sistema. Em seguida, execute o script Python `record.py` para fazer uma gravação:
 
 ```bash
 python3 recording_examples/record.py

@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/
 
 ![](https://files.seeedstudio.com/products/107100001/01.png)
 
-ReSpeaker 2-Mics Pi HAT is a dual-microphone expansion board for Raspberry Pi designed for AI and voice applications. This means that you can build a more powerful and flexible voice product that integrates Amazon Alexa Voice Service, Google Assistant, and so on.
+reSpeaker 2-Mics Pi HAT is a dual-microphone expansion board for Raspberry Pi designed for AI and voice applications. This means that you can build a more powerful and flexible voice product that integrates Amazon Alexa Voice Service, Google Assistant, and so on.
 
 The board is developed based on WM8960, a low power stereo codec. There are 2 microphones on both sides of the board for collecting sounds and it also provides 3 APA102 RGB LEDs, 1 User Button and 2 on-board Grove interfaces for expanding your applications. What is more, 3.5mm Audio Jack or JST 2.0 Speaker Out are both available for audio output.
 
@@ -48,7 +48,7 @@ The board is developed based on WM8960, a low power stereo codec. There are 2 mi
 * RGB LED: 3 APA102 RGB LEDs, connected to SPI interface
 * WM8960: a low power stereo codec
 * Raspberry Pi 40-Pin Headers: support Raspberry Pi Zero, Raspberry Pi 1 B+, Raspberry Pi 2 B , Raspberry Pi 3 B and Raspberry Pi 3 B+
-* POWER: Micro USB port for powering the ReSpeaker 2-Mics Pi HAT, please power the board for providing enough current when using the speaker.
+* POWER: Micro USB port for powering the reSpeaker 2-Mics Pi HAT, please power the board for providing enough current when using the speaker.
 * I2C: Grove I2C port, connected to I2C-1
 * GPIO12: Grove digital port, connected to GPIO12 & GPIO13
 * JST 2.0 SPEAKER OUT: for connecting speaker with JST 2.0 connector
@@ -78,7 +78,7 @@ The board is developed based on WM8960, a low power stereo codec. There are 2 mi
 
 [**Picovoice**](https://picovoice.ai/) **enables enterprises to innovate and differentiate rapidly with private voice AI**. Build a unified AI strategy around your brand and products with our speech recognition and [**Natural-language understanding (NLU) technologies**](https://searchenterpriseai.techtarget.com/definition/natural-language-understanding-NLU).
 
-**Seeed has partnered with Picovoice to bring Speech Recognition solution at the edge using [ReSpeaker 2-Mic Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html) for developers.**
+**Seeed has partnered with Picovoice to bring Speech Recognition solution at the edge using [reSpeaker 2-Mic Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html) for developers.**
 
 Picovoice is an end-to-end platform for building voice products on your terms. It enables creating voice experiences similar to Alexa and Google. But it entirely runs 100% on-device. There are advantages of Picovoice:
 
@@ -107,7 +107,7 @@ Mycroft Precise is Apache-2.0 License project, which means you can modify and di
 * **[Eagle]** [Respeaker_2_Mics_Pi_HAT_PCB](https://files.seeedstudio.com/wiki/MIC_HATv1.0_for_raspberrypi/src/ReSpeaker%202-Mics%20Pi%20HAT_PCB.zip)
 * **[PDF]** [Respeaker_2_Mics_Pi_HAT_SCH](https://files.seeedstudio.com/wiki/MIC_HATv1.0_for_raspberrypi/src/ReSpeaker%202-Mics%20Pi%20HAT_SCH.pdf)
 * **[PDF]** [Respeaker_2_Mics_Pi_HAT_PCB](https://files.seeedstudio.com/wiki/MIC_HATv1.0_for_raspberrypi/src/ReSpeaker%202-Mics%20Pi%20HAT_PCB.pdf)
-* **[3D]** [ReSpeaker 2 Mics Pi HAT 3D](https://files.seeedstudio.com/wiki/MIC_HATv1.0_for_raspberrypi/src/ReSpeaker%202-Mics%20Pi%20HAT.zip)
+* **[3D]** [reSpeaker 2 Mics Pi HAT 3D](https://files.seeedstudio.com/wiki/MIC_HATv1.0_for_raspberrypi/src/ReSpeaker%202-Mics%20Pi%20HAT.zip)
 * **[Driver]** [Seeed-Voice Driver](https://github.com/respeaker/seeed-voicecard)
 * **[Algorithms]** [Algorithms includes DOA, VAD, NS](https://github.com/respeaker/mic_array)
 * **[Voice Engine]** [Voice Engine project, provides building blocks to create voice enabled objects](https://github.com/voice-engine/voice-engine)
@@ -118,7 +118,7 @@ Mycroft Precise is Apache-2.0 License project, which means you can modify and di
 
 ## Projects
 
-**Build Your Own Amazon Echo Using a RPI and ReSpeaker HAT**: How to build your own Amazon Echo using a Raspberry Pi and ReSpeaker 2-Mics HAT.
+**Build Your Own Amazon Echo Using a RPI and reSpeaker HAT**: How to build your own Amazon Echo using a Raspberry Pi and reSpeaker 2-Mics HAT.
 
 <iframe frameborder='0' height='327.5' scrolling='no' src='https://www.hackster.io/idreams/build-your-own-amazon-echo-using-a-rpi-and-respeaker-hat-7f44a0/embed' width='350'></iframe>
 

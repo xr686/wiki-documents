@@ -15,14 +15,14 @@ url: https://wiki.seeedstudio.com/ja/ReSpeaker_2_Mics_Pi_HAT_Jetson/
 
 
 :::caution
-この Wiki は ReSpeaker 2-Mics Pi HAT **v1** 用に書かれています。v1 と v2 デバイスを区別するには、[ReSpeaker 2-Mics Pi HAT ハードウェアリビジョンの区別方法](/ja/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions)を参照してください。
+この Wiki は reSpeaker 2-Mics Pi HAT **v1** 用に書かれています。v1 と v2 デバイスを区別するには、[reSpeaker 2-Mics Pi HAT ハードウェアリビジョンの区別方法](/ja/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions)を参照してください。
 :::
 
 ### ドライバーのインストールと設定
 
-**1. ReSpeaker 2-Mics Pi HAT を Jetson Nano に接続する**
+**1. reSpeaker 2-Mics Pi HAT を Jetson Nano に接続する**
 
-ReSpeaker 2-Mics Pi HAT を Jetson Nano に取り付けます。ReSpeaker 2-Mics Pi HAT を積み重ねる際にピンが正しく整列していることを確認してください。
+reSpeaker 2-Mics Pi HAT を Jetson Nano に取り付けます。reSpeaker 2-Mics Pi HAT を積み重ねる際にピンが正しく整列していることを確認してください。
 
 Jetson Nano 接続
 
@@ -211,7 +211,7 @@ python3 recording_examples/get_device_index.py
 Input Device id  1  -  tegra-snd-t210ref-mobile-rt565x: - (hw:1,1)
 ```
 
-音声を録音するには、```recording_examples/record.py``` ファイルを nano または他のテキストエディタで開き、`RESPEAKER_INDEX = 1` をシステム上の ReSpeaker のインデックス番号に変更します。その後、Pythonスクリプト record.py を実行して録音を行います。
+音声を録音するには、```recording_examples/record.py``` ファイルを nano または他のテキストエディタで開き、`RESPEAKER_INDEX = 1` をシステム上の reSpeaker のインデックス番号に変更します。その後、Pythonスクリプト record.py を実行して録音を行います。
 
 ```
 python3 recording_examples/record.py

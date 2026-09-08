@@ -16,7 +16,7 @@ updatedAt: '2026-04-17'
 url: https://wiki.seeedstudio.com/respeaker_flex_xiao_i2s/
 ---
 
-This project serves as a test sketch to verify the functionality of the I2S interface between the **XIAO ESP32S3** and the **ReSpeaker Flex**. The goal is to confirm that data transmission and reception through the I2S bus are working correctly. To achieve this, the sketch generates a synthetic square wave audio signal and writes it to the I2S interface. It then reads audio data from the ReSpeaker Flex microphone array and verifies the integrity of the received samples.
+This project serves as a test sketch to verify the functionality of the I2S interface between the **XIAO ESP32S3** and the **reSpeaker Flex**. The goal is to confirm that data transmission and reception through the I2S bus are working correctly. To achieve this, the sketch generates a synthetic square wave audio signal and writes it to the I2S interface. It then reads audio data from the reSpeaker Flex microphone array and verifies the integrity of the received samples.
 
 
 
@@ -51,7 +51,7 @@ This project serves as a test sketch to verify the functionality of the I2S inte
 
 ## How It Works
 
-This sketch tests full-duplex I2S communication between the XIAO ESP32S3 and the ReSpeaker Flex. It generates a 440 Hz square wave signal and continuously writes it to the I2S transmit line while simultaneously reading incoming audio samples from the microphone array. The received data is analyzed to count valid (non-zero) samples as a basic integrity check. Based on the number of valid samples, the program determines whether the I2S receive path is functioning correctly.
+This sketch tests full-duplex I2S communication between the XIAO ESP32S3 and the reSpeaker Flex. It generates a 440 Hz square wave signal and continuously writes it to the I2S transmit line while simultaneously reading incoming audio samples from the microphone array. The received data is analyzed to count valid (non-zero) samples as a basic integrity check. Based on the number of valid samples, the program determines whether the I2S receive path is functioning correctly.
 
 ```c
 #include "AudioTools.h"

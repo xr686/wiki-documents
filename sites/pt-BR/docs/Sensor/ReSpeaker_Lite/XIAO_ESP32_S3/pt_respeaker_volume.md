@@ -1,5 +1,5 @@
 ---
-description: Ajuste de Volume do ReSpeaker Lite
+description: Ajuste de Volume do reSpeaker Lite
 title: Ajuste de Volume
 keywords:
   - ReSpeaker
@@ -18,7 +18,7 @@ url: https://wiki.seeedstudio.com/pt-br/respeaker_volume/
 ### Funcionalidade
 
 
-Este projeto de exemplo demonstra como ajustar o volume do ReSpeaker Lite via comando I2C.
+Este projeto de exemplo demonstra como ajustar o volume do reSpeaker Lite via comando I2C.
 
 `AIC3204` I2C address: `0x18`
 

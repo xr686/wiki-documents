@@ -22,7 +22,7 @@ url: https://wiki.seeedstudio.com/cn/Wio-Terminal-Sound-Meter/
 ## 零件清单
 
 - [**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
-- [**ReSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
+- [**reSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
 
 :::注
 请访问 [**Audio 概述**](https://wiki.seeedstudio.com/cn/Wio-Terminal-Audio-Overview/) 以获取 **硬件连接**的详细信息。
@@ -112,7 +112,7 @@ void loop() {
 
 ## 分贝计示例
 
-此示例使用ReSpeaker 2-Mic Hat上的麦克风检测分贝，将环境中的噪音水平检测并显示在屏幕上。
+此示例使用reSpeaker 2-Mic Hat上的麦克风检测分贝，将环境中的噪音水平检测并显示在屏幕上。
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Sound-Meter/sound-Meter_gGIF.gif" /></div>
 

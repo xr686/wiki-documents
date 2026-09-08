@@ -1,6 +1,6 @@
 ---
-description: ReSpeaker Core V2 & Wio Link
-title: ReSpeaker Core V2 & Wio Link
+description: reSpeaker Core V2 & Wio Link
+title: reSpeaker Core V2 & Wio Link
 keywords:
   - reSpeaker
 image: https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png
@@ -13,11 +13,11 @@ updatedAt: '2025-09-17'
 url: https://wiki.seeedstudio.com/cn/ReSpeaker_Core_V2_&_Wio_Link/
 ---
 
-这里是关于如何使用 ReSpeaker Core V2 通过 [IFTTT](https://ifttt.com/) 控制 [Wio Link](https://wiki.seeedstudio.com/cn/Wio_Link/) 的教程。
+这里是关于如何使用 reSpeaker Core V2 通过 [IFTTT](https://ifttt.com/) 控制 [Wio Link](https://wiki.seeedstudio.com/cn/Wio_Link/) 的教程。
 
-## 1. 设置 ReSpeaker Core v2.0
+## 1. 设置 reSpeaker Core v2.0
 
-按照 ReSpeaker Core v2.0 [开箱演示](https://wiki.seeedstudio.com/cn/ReSpeaker_Core_v2.0/#out-of-box-demo) 来设置 respeaker core 并使用用户名密码登录 alexa。
+按照 reSpeaker Core v2.0 [开箱演示](https://wiki.seeedstudio.com/cn/ReSpeaker_Core_v2.0/#out-of-box-demo) 来设置 respeaker core 并使用用户名密码登录 alexa。
 
 ## 2. 通过 Wio APP 设置 Wio Link
 
@@ -32,7 +32,7 @@ url: https://wiki.seeedstudio.com/cn/ReSpeaker_Core_V2_&_Wio_Link/
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Core_V2_-_Wio_Link/this.png)
 
-- 步骤 5. 选择 **amazon alexa** 并使用与 ReSpeaker Core v2.0 相同的亚马逊账户登录。
+- 步骤 5. 选择 **amazon alexa** 并使用与 reSpeaker Core v2.0 相同的亚马逊账户登录。
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Core_V2_-_Wio_Link/alexa.png)
 

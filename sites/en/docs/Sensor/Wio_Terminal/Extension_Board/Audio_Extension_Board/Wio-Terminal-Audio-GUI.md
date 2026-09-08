@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/Wio-Terminal-Audio-GUI/
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/GUI.gif"/></div>
 
-This wiki introduces how to use the **Audio System Design Tool** to design a audio system for Audio library using [**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) and [**ReSpeaker 2-Mit Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). This makes designing audio system much easier when you can see where the inputs and outputs are going.
+This wiki introduces how to use the **Audio System Design Tool** to design a audio system for Audio library using [**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) and [**reSpeaker 2-Mit Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html). This makes designing audio system much easier when you can see where the inputs and outputs are going.
 
 > **This is a Seeed's fork of the [Audio System Design Tool for Teensy Audio Library](https://www.pjrc.com/teensy/gui/).**
 
@@ -33,13 +33,13 @@ This wiki introduces how to use the **Audio System Design Tool** to design a aud
 
 #### Playing Music files from SD Card
 
-Let's use walk through an example to get the basic of the Audio Design System. Let's say you want to simply play a song from the SD card via the speaker via ReSpeaker 2-Mic hat:
+Let's use walk through an example to get the basic of the Audio Design System. Let's say you want to simply play a song from the SD card via the speaker via reSpeaker 2-Mic hat:
 
 - **`INPUT`** is the play from SD card.
 
 - **`OUTPUT`** is the I2S output.
 
-- **`wm8960`** is the control unit of the ReSpeaker 2-Mics.
+- **`wm8960`** is the control unit of the reSpeaker 2-Mics.
 
 So the design should look something like this:
 
@@ -122,7 +122,7 @@ Let's use the design tool to design a system for peak detection whilst playing t
 
 - **`OUTPUT`** is the I2S output and two peaks! One peak for left channel, and one peak for the right channel.
 
-- **`wm8960`** is the control unit of the ReSpeaker 2-Mics.
+- **`wm8960`** is the control unit of the reSpeaker 2-Mics.
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/peak-detection-gui.png"/></div>
 
@@ -138,7 +138,7 @@ This is the example of playing music from SD card whilst performing a FFT to get
 
 - **`OUTPUT`** is the I2S output and FFT calculations.
 
-- **`wm8960`** is the control unit of the ReSpeaker 2-Mics.
+- **`wm8960`** is the control unit of the reSpeaker 2-Mics.
 
 Here we will introduce another useful feature, the **Mixer**. This allows you to combine max **four** audio channels into one. This is used as performing FFT to combined channels (left and right) is more accurate instead of single channel.
 
@@ -156,7 +156,7 @@ This time let's design a system to record and play at real-time!
 
 - **`OUTPUT`** is the I2S output. **PlayQueue** -> **Output I2S**
 
-- **`wm8960`** is the control unit of the ReSpeaker 2-Mics.
+- **`wm8960`** is the control unit of the reSpeaker 2-Mics.
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/record-play-realtime.png"/></div>
 

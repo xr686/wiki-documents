@@ -1,5 +1,5 @@
 ---
-description: Learn how to implement keyword spotting and NLU using ReSpeaker Flex with the XMOS XVF3800, featuring circular and linear 4-mic arrays for robotics and smart devices.
+description: Learn how to implement keyword spotting and NLU using reSpeaker Flex with the XMOS XVF3800, featuring circular and linear 4-mic arrays for robotics and smart devices.
 title: reSpeaker Flex Control Wakeword and NLU with Pico-voice
 keywords:
   - reSpeaker
@@ -147,7 +147,7 @@ Additionally, Rhino allows developers to define custom contexts with intents and
 
 ### Create a context 
 
-A context defines the set of spoken commands, intents, and slots for a specific domain; here, we create a **“Bumblebee”** context to control ReSpeaker Flex using voice commands. Navigate to the Rhino Speech-to-Intent console in Picovoice, then create a new context named **Bumblebee** using the **“Empty”** template.
+A context defines the set of spoken commands, intents, and slots for a specific domain; here, we create a **“Bumblebee”** context to control reSpeaker Flex using voice commands. Navigate to the Rhino Speech-to-Intent console in Picovoice, then create a new context named **Bumblebee** using the **“Empty”** template.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/pico/pic4.png" alt="pir" width={600} height="auto" /></p>
 

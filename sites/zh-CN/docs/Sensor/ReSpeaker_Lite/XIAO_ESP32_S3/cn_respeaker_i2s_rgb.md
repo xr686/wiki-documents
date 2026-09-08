@@ -19,7 +19,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_i2s_rgb/
 
 ### 硬件要求
 
-* ReSpeaker Lite 开发板（集成 XIAO ESP32S3 微控制器）
+* reSpeaker Lite 开发板（集成 XIAO ESP32S3 微控制器）
 
 * [Grove - RGB LED 灯条](https://www.seeedstudio.com/Grove-RGB-LED-Stick-10-WS2813-Mini.html)
 

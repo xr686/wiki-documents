@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/ja/Wio-Terminal-Audio-Play-Record/
 
 # オーディオ機能
 
-この Wiki では、Wio Terminal を ReSpeaker 2-Mic Hats と組み合わせて使用する際のオーディオ設定方法を紹介します。
+この Wiki では、Wio Terminal を reSpeaker 2-Mic Hats と組み合わせて使用する際のオーディオ設定方法を紹介します。
 
 :::note
 **ハードウェア接続**については、[**Audio Overview**](https://wiki.seeedstudio.com/ja/Wio-Terminal-Audio-Overview/) をご覧ください。
@@ -24,7 +24,7 @@ url: https://wiki.seeedstudio.com/ja/Wio-Terminal-Audio-Play-Record/
 
 ## SDカードからオーディオを再生する
 
-この例では、ReSpeaker 2-Mic Hat を使用して MicroSD カードから音楽ファイルを再生します。
+この例では、reSpeaker 2-Mic Hat を使用して MicroSD カードから音楽ファイルを再生します。
 
 - Wio Terminal 用に MicroSD カードが必要です。
 
@@ -32,7 +32,7 @@ url: https://wiki.seeedstudio.com/ja/Wio-Terminal-Audio-Play-Record/
 
 - MicroSD カードを Wio Terminal に挿入し、以下のコードを Wio Terminal にアップロードします。
 
-- ReSpeaker 2-Mic が Wio Terminal に正しく接続されていることを確認し、**スピーカーが ReSpeaker 2-Mic の JST2.0 スピーカーピンに接続されている**ことを確認してください。
+- reSpeaker 2-Mic が Wio Terminal に正しく接続されていることを確認し、**スピーカーが reSpeaker 2-Mic の JST2.0 スピーカーピンに接続されている**ことを確認してください。
 
 この例は [github](https://github.com/Seeed-Studio/Seeed_Arduino_Audio/blob/master/examples/Tutorial/Part_1_03_Playing_Music/Part_1_03_Playing_Music.ino) ページでも確認できます。
 
@@ -78,13 +78,13 @@ void loop() {
 
 ## 音声の録音と再生
 
-この例では、ReSpeaker 2-Mic Hat のマイクを使用して音声を録音し、MicroSD カードに生データとして保存し、スピーカーを通じて再生します。
+この例では、reSpeaker 2-Mic Hat のマイクを使用して音声を録音し、MicroSD カードに生データとして保存し、スピーカーを通じて再生します。
 
 - Wio Terminal 用に MicroSD カードが必要です。
 
 - コードを Wio Terminal にアップロードします。
 
-- Wio Terminal の上部にある **右ボタン** (`WIO_KEY_A`) を押すと録音が開始されます。ReSpeaker 2-Mic Hat のマイクに向かって話してください。録音は `RECORD.WAV` として MicroSD カードに保存されます。
+- Wio Terminal の上部にある **右ボタン** (`WIO_KEY_A`) を押すと録音が開始されます。reSpeaker 2-Mic Hat のマイクに向かって話してください。録音は `RECORD.WAV` として MicroSD カードに保存されます。
 
 :::note
 録音中に他の2つのボタンのいずれかを押すと録音が停止します。
@@ -631,7 +631,7 @@ void computeVerticalLevels() {
     <source src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/mic-spec.mp4" type="video/mp4" />
   </video></div>
 
-これは、ReSpeaker 2-Mic HatsのマイクとFFT計算を使用した例です。
+これは、reSpeaker 2-Mic HatsのマイクとFFT計算を使用した例です。
 
 #### 特徴
 

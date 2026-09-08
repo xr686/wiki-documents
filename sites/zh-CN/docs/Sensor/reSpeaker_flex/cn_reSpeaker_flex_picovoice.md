@@ -1,5 +1,5 @@
 ---
-description: 了解如何使用搭载 XMOS XVF3800 的 ReSpeaker Flex 实现关键词唤醒和 NLU，该产品为机器人和智能设备提供环形和线性 4 麦克风阵列。
+description: 了解如何使用搭载 XMOS XVF3800 的 reSpeaker Flex 实现关键词唤醒和 NLU，该产品为机器人和智能设备提供环形和线性 4 麦克风阵列。
 title: 使用 Pico-voice 在 reSpeaker Flex 上控制唤醒词和 NLU
 keywords:
   - reSpeaker
@@ -147,7 +147,7 @@ Rhino 针对**实时、本地处理**进行了优化，这意味着它可以离�
 
 ### 创建一个上下文 
 
-上下文定义了特定领域内的口语命令、意图以及槽位集合；在这里，我们创建一个 **“Bumblebee”** 上下文，通过语音指令控制 ReSpeaker Flex。进入 Picovoice 中的 Rhino Speech-to-Intent 控制台，然后使用 **“Empty”** 模板创建一个名为 **Bumblebee** 的新上下文。
+上下文定义了特定领域内的口语命令、意图以及槽位集合；在这里，我们创建一个 **“Bumblebee”** 上下文，通过语音指令控制 reSpeaker Flex。进入 Picovoice 中的 Rhino Speech-to-Intent 控制台，然后使用 **“Empty”** 模板创建一个名为 **Bumblebee** 的新上下文。
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/pico/pic4.png" alt="pir" width={600} height="auto" /></p>
 

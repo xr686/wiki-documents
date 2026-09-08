@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker 4-Mic Array for Raspberry Pi
+description: reSpeaker 4-Mic Array for Raspberry Pi
 title: reSpeaker 4-Mic Array for Raspberry Pi
 keywords:
   - reSpeaker
@@ -17,9 +17,9 @@ url: https://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/img/overview.jpg)
 
-ReSpeaker 4-Mic Array for Raspberry Pi is a quad-microphone expansion board for Raspberry Pi designed for AI and voice applications. This means that we can build a more powerful and flexible voice product that integrates Amazon Alexa Voice Service, Google Assistant, and so on.
+reSpeaker 4-Mic Array for Raspberry Pi is a quad-microphone expansion board for Raspberry Pi designed for AI and voice applications. This means that we can build a more powerful and flexible voice product that integrates Amazon Alexa Voice Service, Google Assistant, and so on.
 
-Different from [ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html), this board is developed based on AC108, a highly integrated quad-channel ADC with I2S/TDM output transition for high definition voice capture, which allows the device to pick up sounds in a 3 meters radius. Additionally, this 4-Mics version features an LED ring with 12 APA102 programable LEDs. With that 4 microphones and the LED ring, Raspberry Pi would have the ability to do VAD(Voice Activity Detection), estimate DOA(Direction of Arrival), do KWS(Keyword Search) and show the direction via LED ring, just like Amazon Echo or Google Home.
+Different from [reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html), this board is developed based on AC108, a highly integrated quad-channel ADC with I2S/TDM output transition for high definition voice capture, which allows the device to pick up sounds in a 3 meters radius. Additionally, this 4-Mics version features an LED ring with 12 APA102 programable LEDs. With that 4 microphones and the LED ring, Raspberry Pi would have the ability to do VAD(Voice Activity Detection), estimate DOA(Direction of Arrival), do KWS(Keyword Search) and show the direction via LED ring, just like Amazon Echo or Google Home.
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/IkSfBSf1IRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -38,7 +38,7 @@ Different from [ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2
 - 12 APA102 User LEDs
 - Software Algorithms: VAD(Voice Activity Detection), DOA(Direction of Arrival) and KWS(Keyword Search)
 
-Note: There is no audio output interface on ReSpeaker 4-Mic Array for Raspberry Pi. It is only for voice capture. We can use the [headphone jack](https://www.raspberrypi.org/documentation/configuration/audio-config.md) on Raspberry Pi for audio output.
+Note: There is no audio output interface on reSpeaker 4-Mic Array for Raspberry Pi. It is only for voice capture. We can use the [headphone jack](https://www.raspberrypi.org/documentation/configuration/audio-config.md) on Raspberry Pi for audio output.
 
 ## Application Ideas
 
@@ -60,11 +60,11 @@ Note: If you use the APA102 RGB LEDs, make sure to write HIGH to `GPIO5` first t
 
 ## Getting Started
 
-**Connect ReSpeaker 4-Mic Array to Raspberry Pi**
+**Connect reSpeaker 4-Mic Array to Raspberry Pi**
 
-Mount ReSpeaker 4-Mic Array on Raspberry Pi, make sure that the pins are properly aligned when stacking the ReSpeaker 4-Mic Array for Raspberry Pi.
+Mount reSpeaker 4-Mic Array on Raspberry Pi, make sure that the pins are properly aligned when stacking the reSpeaker 4-Mic Array for Raspberry Pi.
 
-Note: Hot-plugging ReSpeaker 4-Mic Array is not allowed. It will damage the respeaker.
+Note: Hot-plugging reSpeaker 4-Mic Array is not allowed. It will damage the respeaker.
 
 ![connection pic1](https://files.seeedstudio.com/wiki/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/img/connect1.jpg)
 ![connection pic2](https://files.seeedstudio.com/wiki/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/img/connect2.jpg)
@@ -205,7 +205,7 @@ You will see the device ID as below.
 Input Device id  2  -  seeed-4mic-voicecard: - (hw:1,0)
 ```
 
-To record the sound, open ```recording_examples/record.py``` file with nano or other text editor and change  `RESPEAKER_INDEX = 2` to index number of ReSpeaker on your system. Then run python script record.py to make a recording:
+To record the sound, open ```recording_examples/record.py``` file with nano or other text editor and change  `RESPEAKER_INDEX = 2` to index number of reSpeaker on your system. Then run python script record.py to make a recording:
 
 ```bash
 python3 recording_examples/record.py
@@ -336,7 +336,7 @@ When configured correctly it will look like this
 
 [**Picovoice**](https://picovoice.ai/) **enables enterprises to innovate and differentiate rapidly with private voice AI**. Build a unified AI strategy around your brand and products with our speech recognition and [**Natural-language understanding (NLU) technologies**](https://searchenterpriseai.techtarget.com/definition/natural-language-understanding-NLU).
 
-**Seeed has partnered with Picovice to bring Speech Recognition solution on the edge using [ReSpeaker 4 Mic](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi.html) for developers.**
+**Seeed has partnered with Picovice to bring Speech Recognition solution on the edge using [reSpeaker 4 Mic](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi.html) for developers.**
 
 Picovoice is an end-to-end platform for building voice products on your terms. It enables creating voice experiences similar to Alexa and Google. But it entirely runs 100% on-device. There are advantages of Picovoice:
 
@@ -346,11 +346,11 @@ Picovoice is an end-to-end platform for building voice products on your terms. I
 - **Accurate**: Resilient to noise and reverberation. It outperforms cloud-based alternatives by wide margins.
 - **Cross-Platform**: Design once, deploy anywhere. Build using familiar languages and frameworks.
 
-### Picovocie with ReSpeaker 4-Mic Array Getting Started
+### Picovocie with reSpeaker 4-Mic Array Getting Started
 
-**Step 1.** Please follow the **above step-to-step tutorial of ReSpeaker 4-Mic Array with Raspberry Pi** before the followings.
+**Step 1.** Please follow the **above step-to-step tutorial of reSpeaker 4-Mic Array with Raspberry Pi** before the followings.
 
-**Note:** Please make sure that `Audacity` and the `APA102` LEDs are working properly on the ReSpeaker 4-Mic Array with Raspberry Pi.
+**Note:** Please make sure that `Audacity` and the `APA102` LEDs are working properly on the reSpeaker 4-Mic Array with Raspberry Pi.
 
 **Step 2.** Open Terminal and type following command to install `pyaudio` driver.
 
@@ -360,7 +360,7 @@ pip3 install pyaudio
 
 **Note**: Please make sure you have `pip3` installed in your Raspberry Pi
 
-**Step 3.** Type the following command on the terminal to **install the Picovoice demo for ReSpeaker 4-Mic Array**.
+**Step 3.** Type the following command on the terminal to **install the Picovoice demo for reSpeaker 4-Mic Array**.
 
 ```sh
 pip3 install pvrespeakerdemo
@@ -368,7 +368,7 @@ pip3 install pvrespeakerdemo
 
 ### Demo Usage
 
-The demo utilizes the ReSpeaker 4-Mic array on a Raspberry Pi with Picovoice technology to control the LEDs. **This demo is triggered by the wake word "`Picovoice`" and will be ready to take follow-on actions, such as turning LEDs on and off, and changing LED colors.**
+The demo utilizes the reSpeaker 4-Mic array on a Raspberry Pi with Picovoice technology to control the LEDs. **This demo is triggered by the wake word "`Picovoice`" and will be ready to take follow-on actions, such as turning LEDs on and off, and changing LED colors.**
 
 After the installation is finished, type this command to run the demo in the terminal:
 
@@ -457,9 +457,9 @@ The lighting commands are defined by a Picovoice *Speech-to-Intent context*. You
 
 <p style={{textAlign: 'center'}}><iframe width={720} height={480} src="https://www.youtube.com/embed/Dfn3wBE2pwY" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></p>
 
-To demonstrate the Picovoice's capability we have also prepared a multi wake word examples using ReSpeaker 4-Mic Array with Raspberry Pi! Different wake word can set to execute certain tasks.
+To demonstrate the Picovoice's capability we have also prepared a multi wake word examples using reSpeaker 4-Mic Array with Raspberry Pi! Different wake word can set to execute certain tasks.
 
-*This package contains a command line demo for controlling ReSpeaker 4-mic microphone array LEDs using Porcupine.*
+*This package contains a command line demo for controlling reSpeaker 4-mic microphone array LEDs using Porcupine.*
 
 ### Porcupine
 
@@ -549,9 +549,9 @@ A4: There is a genuine one-off small memory loss when the driver is first loaded
 
 ## Resources
 
-- **[PDF]** [ReSpeaker 4-Mic Array for Raspberry Pi(PDF)](https://files.seeedstudio.com/wiki/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/src/ReSpeaker%204-Mic%20Array%20for%20Raspberry%20Pi%20%20v1.0.pdf)
-- **[DXF]** [ReSpeaker 4-Mic Array for Raspberry Pi v1.0](https://files.seeedstudio.com/wiki/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/src/ReSpeaker%204-Mic%20Array%20for%20Raspberry%20Pi%20v1.0.dxf.zip)
-- **[3D]** [ReSpeaker 4-Mic Array for Raspberry Pi v1.0 3D Model](https://files.seeedstudio.com/wiki/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/src/ReSpeaker%204-Mics%20Pi%20HAT%20v1.0.skp.zip)
+- **[PDF]** [reSpeaker 4-Mic Array for Raspberry Pi(PDF)](https://files.seeedstudio.com/wiki/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/src/ReSpeaker%204-Mic%20Array%20for%20Raspberry%20Pi%20%20v1.0.pdf)
+- **[DXF]** [reSpeaker 4-Mic Array for Raspberry Pi v1.0](https://files.seeedstudio.com/wiki/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/src/ReSpeaker%204-Mic%20Array%20for%20Raspberry%20Pi%20v1.0.dxf.zip)
+- **[3D]** [reSpeaker 4-Mic Array for Raspberry Pi v1.0 3D Model](https://files.seeedstudio.com/wiki/ReSpeaker-4-Mic-Array-for-Raspberry-Pi/src/ReSpeaker%204-Mics%20Pi%20HAT%20v1.0.skp.zip)
 - **[AC108]** [AC108 DataSheet](http://www.x-powers.com/en.php/Info/product_detail/article_id/41)
 - **[Driver]** [Seeed-Voice Driver](https://github.com/respeaker/seeed-voicecard)
 - **[Algorithms]** [Algorithms includes DOA, VAD, NS](https://github.com/respeaker/mic_array)

@@ -28,7 +28,7 @@ keywords:
 
 ### XVF3800 の筐体を損傷させずに開けるにはどうすればよいですか？ {#open-casing-safely}
 
-**対象:** クリップ式エンクロージャ付きで提供される ReSpeaker XVF3800 USB 4-Mic Array
+**対象:** クリップ式エンクロージャ付きで提供される reSpeaker XVF3800 USB 4-Mic Array
 
 **最終検証日:** 2026-09-01
 
@@ -60,7 +60,7 @@ keywords:
 
 ### エンクロージャ設計用の XVF3800 機構ファイルはどこで入手できますか？ {#mechanical-design-files}
 
-**対象:** ReSpeaker XVF3800 USB 4-Mic Array と、その公開されている筐体の機構的インテグレーション
+**対象:** reSpeaker XVF3800 USB 4-Mic Array と、その公開されている筐体の機構的インテグレーション
 
 **最終検証日:** 2026-09-01
 
@@ -92,7 +92,7 @@ keywords:
 
 ### XVF3800 の I2C コマンド一覧はどこにあり、I2C 制御をどのように検証しますか？ {#i2c-command-reference}
 
-**対象:** XIAO ESP32S3 またはその他のサポートされる組み込み I2C ホストに接続された ReSpeaker XVF3800
+**対象:** XIAO ESP32S3 またはその他のサポートされる組み込み I2C ホストに接続された reSpeaker XVF3800
 
 **最終検証日:** 2026-09-01
 
@@ -129,7 +129,7 @@ keywords:
 
 ### Raspberry Pi 5 または Linux で XVF3800 が USB 経由で検出されないのはなぜですか？ {#usb-not-detected-pi5-linux}
 
-**対象:** Raspberry Pi 5 またはその他の Linux ホストに接続された ReSpeaker XVF3800 USB 4-Mic Array
+**対象:** Raspberry Pi 5 またはその他の Linux ホストに接続された reSpeaker XVF3800 USB 4-Mic Array
 
 **最終検証日:** 2026-08-31
 
@@ -166,7 +166,7 @@ keywords:
 
 ### 間違ったファームウェアを書き込んだ後に XVF3800 を復旧するにはどうすればよいですか？ {#recover-wrong-firmware}
 
-**対象:** ファームウェアまたは保存済み設定の変更後に、通常どおり起動または列挙しなくなった ReSpeaker XVF3800 USB 4-Mic Array
+**対象:** ファームウェアまたは保存済み設定の変更後に、通常どおり起動または列挙しなくなった reSpeaker XVF3800 USB 4-Mic Array
 
 **最終検証日:** 2026-08-31
 
@@ -201,7 +201,7 @@ keywords:
 
 ### XVF3800 で `LED_EFFECT 5` が範囲外エラーを返すのはなぜですか？ {#led-effect-5-out-of-range}
 
-**対象:** USB ファームウェアと公式 Python ホスト制御ツールを使用している ReSpeaker XVF3800 USB 4-Mic Array
+**対象:** USB ファームウェアと公式 Python ホスト制御ツールを使用している reSpeaker XVF3800 USB 4-Mic Array
 
 **最終検証日：** 2026-08-31
 
@@ -235,7 +235,7 @@ keywords:
 
 ### XVF3800 USB ファームウェアを更新する前に Safe Mode に入る必要がありますか？ {#usb-dfu-without-safe-mode}
 
-**対象：** Windows、macOS、または Linux 上で、応答のある USB ファームウェアから更新される ReSpeaker XVF3800 USB 4-Mic Array
+**対象：** Windows、macOS、または Linux 上で、応答のある USB ファームウェアから更新される reSpeaker XVF3800 USB 4-Mic Array
 
 **最終検証日：** 2026-09-01
 
@@ -273,7 +273,7 @@ keywords:
 
 ### XVF3800 の 6 チャンネル USB ファームウェアで一部の入力が無音なのはなぜですか？ {#six-channel-silent-inputs}
 
-**対象：** Linux 上で公式の 6 チャンネル USB ファームウェアプロファイルを実行している ReSpeaker XVF3800 USB 4-Mic Array
+**対象：** Linux 上で公式の 6 チャンネル USB ファームウェアプロファイルを実行している reSpeaker XVF3800 USB 4-Mic Array
 
 **最終検証日：** 2026-09-01
 
@@ -310,7 +310,7 @@ Linux では、ファームウェアが正常に動作していても、6 つの
 
 ### Linux で XVF3800 の再生音量が小さい場合、どのように上げればよいですか？ {#linux-speaker-volume-low}
 
-**対象：** ALSA ベースの Linux ホスト上で再生デバイスとして使用される ReSpeaker XVF3800 USB 4-Mic Array
+**対象：** ALSA ベースの Linux ホスト上で再生デバイスとして使用される reSpeaker XVF3800 USB 4-Mic Array
 
 **最終検証日：** 2026-09-01
 
@@ -345,7 +345,7 @@ Linux では、ファームウェアが正常に動作していても、6 つの
 
 ### XVF3800 に内蔵スピーカーはありますか？ {#external-speaker-required}
 
-**対象：** XIAO ESP32S3 の有無にかかわらず、ReSpeaker XVF3800 USB 4-Mic Array
+**対象：** XIAO ESP32S3 の有無にかかわらず、reSpeaker XVF3800 USB 4-Mic Array
 
 **最終検証日：** 2026-09-01
 
@@ -372,13 +372,13 @@ Linux では、ファームウェアが正常に動作していても、6 つの
 
 **参考情報：**
 
-- [Getting Started with ReSpeaker XVF3800](https://wiki.seeedstudio.com/ja/respeaker_xvf3800_introduction/)
+- [Getting Started with reSpeaker XVF3800](https://wiki.seeedstudio.com/ja/respeaker_xvf3800_introduction/)
 
 ## 製品とビジネス {#product-and-business}
 
 ### XVF3800 USB 4-Mic Array は USB 経由で 48 kHz をサポートしますか？ {#usb-48-khz-support}
 
-**対象：** Windows、Linux、または macOS 上で USB キャプチャに使用される ReSpeaker XVF3800 USB 4-Mic Array
+**対象：** Windows、Linux、または macOS 上で USB キャプチャに使用される reSpeaker XVF3800 USB 4-Mic Array
 
 **最終検証日：** 2026-08-31
 
@@ -414,7 +414,7 @@ Linux では、ファームウェアが正常に動作していても、6 つの
 
 ### XVF3800 は一意のデバイスシリアル番号を公開しますか？ {#unique-device-serial}
 
-**対象：** 対応 USB ホストによって列挙された ReSpeaker XVF3800 USB 4-Mic Array
+**対象：** 対応 USB ホストによって列挙された reSpeaker XVF3800 USB 4-Mic Array
 
 **最終検証日：** 2026-09-01
 

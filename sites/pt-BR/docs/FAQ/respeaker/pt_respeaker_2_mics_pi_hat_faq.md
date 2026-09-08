@@ -27,13 +27,13 @@ Esta página contém respostas verificadas para o reSpeaker 2-Mics Pi HAT V2.0. 
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## Problemas de hardware {#hardware-issues}
 
-### Qual é o endereço I2C do codec no ReSpeaker 2-Mics Pi HAT V2.0? {#v2-codec-i2c-address}
+### Qual é o endereço I2C do codec no reSpeaker 2-Mics Pi HAT V2.0? {#v2-codec-i2c-address}
 
-**Aplica-se a:** ReSpeaker 2-Mics Pi HAT V2.0 apenas; a V1.x usa hardware de codec diferente
+**Aplica-se a:** reSpeaker 2-Mics Pi HAT V2.0 apenas; a V1.x usa hardware de codec diferente
 
 **Última verificação:** 2026-09-01
 
-O ReSpeaker 2-Mics Pi HAT V2.0 usa um codec TLV320AIC3104 no endereço I2C de 7 bits `0x18`. A device-tree overlay oficial da V2.0 declara `tlv320aic3104@18` com `reg = <0x18>`, e o esquema público da V2.0 identifica o mesmo codec.
+O reSpeaker 2-Mics Pi HAT V2.0 usa um codec TLV320AIC3104 no endereço I2C de 7 bits `0x18`. A device-tree overlay oficial da V2.0 declara `tlv320aic3104@18` com `reg = <0x18>`, e o esquema público da V2.0 identifica o mesmo codec.
 
 **Pré-requisitos:**
 
@@ -50,14 +50,14 @@ O ReSpeaker 2-Mics Pi HAT V2.0 usa um codec TLV320AIC3104 no endereço I2C de 7 
 
 **Observações:**
 
-- Não copie este endereço para o ReSpeaker 2-Mics Pi HAT V1.x, que usa hardware de codec diferente.
+- Não copie este endereço para o reSpeaker 2-Mics Pi HAT V1.x, que usa hardware de codec diferente.
 - O endereço por si só não é um guia completo ou suportado de fiação e inicialização de codec para ESP32-S3.
 
 **Referências:**
 
-- [Guia Raspberry Pi do ReSpeaker 2-Mics Pi HAT V2.0](https://wiki.seeedstudio.com/pt-br/respeaker_2_mics_pi_hat_raspberry_v2/)
+- [Guia Raspberry Pi do reSpeaker 2-Mics Pi HAT V2.0](https://wiki.seeedstudio.com/pt-br/respeaker_2_mics_pi_hat_raspberry_v2/)
 - [Device-tree overlay oficial Raspberry Pi V2.0](https://github.com/Seeed-Studio/seeed-linux-dtoverlays/blob/master/overlays/rpi/respeaker-2mic-v2_0-overlay.dts)
-- [Esquema oficial do ReSpeaker 2-Mics Pi HAT V2.0](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/202004059_ReSpeaker-2-Mics-Pi-HAT-V2.0_SCH_PDF_241121.pdf)
+- [Esquema oficial do reSpeaker 2-Mics Pi HAT V2.0](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/202004059_ReSpeaker-2-Mics-Pi-HAT-V2.0_SCH_PDF_241121.pdf)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->
 

@@ -1,5 +1,5 @@
 ---
-description: この Wiki では、TensorFlow Lite を使用して ReSpeaker 2-Mics Pi HAT v2 でキーワードスポッティングを行い、音声認識を実行する方法を紹介します。
+description: この Wiki では、TensorFlow Lite を使用して reSpeaker 2-Mics Pi HAT v2 でキーワードスポッティングを行い、音声認識を実行する方法を紹介します。
 title: Raspberry Pi Mic HAT 上で TensorFlow Lite を用いたキーワードスポッティング
 keywords:
   - ReSpeaker_2-Mics_Pi_HAT
@@ -17,11 +17,11 @@ url: https://wiki.seeedstudio.com/ja/respeaker_2_mics_pi_hat_v2_speech_recogniti
 
 ## はじめに
 
-このプロジェクトでは、TensorFlow Lite を使用して ReSpeaker 2-Mics Pi HAT v2 上でキーワードスポッティングを行う方法を紹介します。キーワードスポッティングは、音声入力からあらかじめ定義された単語をリアルタイムに検出する技術であり、音声制御デバイスやインタラクティブシステムなどのアプリケーションを実現できます。ここでは、TensorFlow Lite モデルを学習し、ReSpeaker HAT にデプロイし、ローカルで音声認識を実行するまでの手順を順を追って説明します。
+このプロジェクトでは、TensorFlow Lite を使用して reSpeaker 2-Mics Pi HAT v2 上でキーワードスポッティングを行う方法を紹介します。キーワードスポッティングは、音声入力からあらかじめ定義された単語をリアルタイムに検出する技術であり、音声制御デバイスやインタラクティブシステムなどのアプリケーションを実現できます。ここでは、TensorFlow Lite モデルを学習し、reSpeaker HAT にデプロイし、ローカルで音声認識を実行するまでの手順を順を追って説明します。
 
 ### ハードウェアおよびソフトウェア要件
 
-- ハードウェア: ReSpeaker 2-Mics Pi HAT v2 を搭載した Raspberry Pi
+- ハードウェア: reSpeaker 2-Mics Pi HAT v2 を搭載した Raspberry Pi
 - ソフトウェア: TensorFlow Lite、Google Colab、Python、および関連ライブラリ
 
 ### 応用例

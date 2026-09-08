@@ -17,7 +17,7 @@ url: https://wiki.seeedstudio.com/respeaker_lite_beagley-ai_chatgpt/
 
 ## Introduction
 
-This project integrates voice input, large model response, and voice output functionalities using a BeagleY-AI. It employs the ReSpeaker Lite as the audio input and output device, enabling seamless interaction with ChatGPT and speech-to-text conversion services.
+This project integrates voice input, large model response, and voice output functionalities using a BeagleY-AI. It employs the reSpeaker Lite as the audio input and output device, enabling seamless interaction with ChatGPT and speech-to-text conversion services.
 
 
 <div class="table-center">
@@ -31,7 +31,7 @@ This project integrates voice input, large model response, and voice output func
 
 ## Hardware Required
 
-* [ReSpeaker Lite USB 2-Mic Array](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)
+* [reSpeaker Lite USB 2-Mic Array](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)
 * [BeagleY-AI](https://www.seeedstudio.com/BeagleYr-AI-beagleboard-orgr-4-TOPS-AI-Acceleration-powered-by-TI-AM67A.html)
 
 ## Getting Started
@@ -62,14 +62,14 @@ pip3 install openai
 pip3 install playsound
 
 ```
-* Run the following command to configure ReSpeaker Lite:
+* Run the following command to configure reSpeaker Lite:
 
 ```shell
 pw-metadata -n settings 0 clock.force-rate 16000
 ```
 
 :::tip
-Command to adjust the volume of ReSpeaker Lite:
+Command to adjust the volume of reSpeaker Lite:
 
 ```shell
 alsamixer

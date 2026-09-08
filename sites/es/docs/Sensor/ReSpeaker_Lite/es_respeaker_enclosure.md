@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/es/respeaker_enclosure/
 ---
 
 
-Una guía detallada y fácil de seguir para la instalación de la carcasa que te ayudará a ensamblar de forma segura tu configuración del [Kit de Voz ReSpeaker Lite](https://www.seeedstudio.com/ReSpeaker-Lite-Voice-Assistant-Kit-Full-Kit-of-2-Mic-Array-pre-soldered-XIAO-ESP32S3-Mono-Enclosed-Speaker-and-Enclosure.html).
+Una guía detallada y fácil de seguir para la instalación de la carcasa que te ayudará a ensamblar de forma segura tu configuración del [Kit de Voz reSpeaker Lite](https://www.seeedstudio.com/ReSpeaker-Lite-Voice-Assistant-Kit-Full-Kit-of-2-Mic-Array-pre-soldered-XIAO-ESP32S3-Mono-Enclosed-Speaker-and-Enclosure.html).
 
 Mira el video y asegúrate de que tu dispositivo esté perfectamente alojado y listo para usar:
 

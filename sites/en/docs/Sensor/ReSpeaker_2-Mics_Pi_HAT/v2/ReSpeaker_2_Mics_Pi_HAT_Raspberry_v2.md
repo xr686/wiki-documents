@@ -14,21 +14,21 @@ url: https://wiki.seeedstudio.com/respeaker_2_mics_pi_hat_raspberry_v2/
 ---
 
 :::caution
-This wiki is wrote for ReSpeaker 2-Mics Pi HAT **v2**, to distinguish the v1 and v2 device, please refer to [How to Distinguish ReSpeaker 2-Mics Pi HAT Hardware Revisions](/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions).
+This wiki is wrote for reSpeaker 2-Mics Pi HAT **v2**, to distinguish the v1 and v2 device, please refer to [How to Distinguish reSpeaker 2-Mics Pi HAT Hardware Revisions](/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions).
 :::
 
 On the latest Raspberry Pi OS, the traditional method of driver installation (For v1 device) is no longer available and may lead to the following known issues:
 
 - The desktop environment may be corrupted after installation.
-- The ReSpeaker device may not able to be detected by `aplay` / `arecord`.
+- The reSpeaker device may not able to be detected by `aplay` / `arecord`.
 
-We have therefore re-released a new wiki on this issue, if you are using the more modern Raspberry Pi OS rather than previous releases, please follow these steps to get your ReSpeaker working.
+We have therefore re-released a new wiki on this issue, if you are using the more modern Raspberry Pi OS rather than previous releases, please follow these steps to get your reSpeaker working.
 
 ## Driver installation and configuration
 
-### 1. Connect ReSpeaker 2-Mics Pi HAT to Raspberry Pi
+### 1. Connect reSpeaker 2-Mics Pi HAT to Raspberry Pi
 
-Mount ReSpeaker 2-Mics Pi HAT on your Raspberry Pi, make sure that the pins are properly aligned when stacking the ReSpeaker 2-Mics Pi HAT.
+Mount reSpeaker 2-Mics Pi HAT on your Raspberry Pi, make sure that the pins are properly aligned when stacking the reSpeaker 2-Mics Pi HAT.
 
 Raspberry Pi Connection
 
@@ -90,7 +90,7 @@ dmesg | grep tlv320
 
 </details>
 
-- Step 1: Get Device Tree Source (DTS) for the ReSpeaker 2-Mics Pi HAT (V2.0), compile it and install the device tree overlay.
+- Step 1: Get Device Tree Source (DTS) for the reSpeaker 2-Mics Pi HAT (V2.0), compile it and install the device tree overlay.
 
 ```bash
 git clone https://github.com/Seeed-Studio/seeed-linux-dtoverlays.git  
@@ -139,7 +139,7 @@ card 2: seeed2micvoicec [seeed2micvoicec], device 0: 1f000a4000.i2s-tlv320aic3x-
   Subdevice #0: subdevice #0
 ```
 
-**Where the `card 2` is the index of the ReSpeaker 2-Mics Pi HAT, depending on your system this number may differ. To access the ReSpeaker in this example, you can use `arecord -D plughw:2,0` or `aplay -D plughw:2,0`.**
+**Where the `card 2` is the index of the reSpeaker 2-Mics Pi HAT, depending on your system this number may differ. To access the reSpeaker in this example, you can use `arecord -D plughw:2,0` or `aplay -D plughw:2,0`.**
 
 ### 3. Configure sound settings and adjust the volume with alsamixer
 
@@ -267,7 +267,7 @@ python3 ~/button.py
 
 We use [PyAudio python library](https://people.csail.mit.edu/hubert/pyaudio/) to record sound with Python.
 
-First, run the following script to get the device index number of ReSpeaker:
+First, run the following script to get the device index number of reSpeaker:
 
 ```bash
 cd mic_hit
@@ -280,7 +280,7 @@ You will see the device ID as below.
 Input Device id  1  -  seeed2micvoicec: 1f000a4000.i2s-tlv320aic3x-hifi tlv320aic3x-hifi-0 (hw:2,0)
 ```
 
-To record the sound, open ```recording_examples/record.py``` file with `nano`, `vim` or other text editor and change `RESPEAKER_INDEX = 2` to index number of ReSpeaker on your system. Then run python script `record.py` to make a recording:
+To record the sound, open ```recording_examples/record.py``` file with `nano`, `vim` or other text editor and change `RESPEAKER_INDEX = 2` to index number of reSpeaker on your system. Then run python script `record.py` to make a recording:
 
 ```bash
 python3 recording_examples/record.py

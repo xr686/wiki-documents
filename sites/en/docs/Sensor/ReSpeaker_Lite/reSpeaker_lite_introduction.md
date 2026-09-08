@@ -1,5 +1,5 @@
 ---
-description: Getting Started with ReSpeaker Lite
+description: Getting Started with reSpeaker Lite
 title: Getting Started with reSpeaker Lite
 keywords:
   - ReSpeaker
@@ -80,7 +80,7 @@ Powered by XMOS XU316 AI Sound and Audio chipset, this dev board excels in audio
 
 ### Out of Box Usage
 
-ReSpeaker Lite is a plug-and-play modular voice interface, no driver required, just plug it to your PC, you will see a voice device named 'ReSpeaker Lite'.
+reSpeaker Lite is a plug-and-play modular voice interface, no driver required, just plug it to your PC, you will see a voice device named 'reSpeaker Lite'.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/pc.png" alt="pir" width={500} height="auto" /></p>
 
@@ -89,7 +89,7 @@ ReSpeaker Lite is a plug-and-play modular voice interface, no driver required, j
 #### [Firmware Download](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
 :::tip note
-There are 2 versions for the ReSpeaker Lite board:
+There are 2 versions for the reSpeaker Lite board:
 
 To use it as a USB sound device, please flash the USB version firmware(default firmware).
 
@@ -101,7 +101,7 @@ To use it with XIAO ESP32S3, please flash the I2S version firmware.
 
 #### Wiring
 
-Connect the ReSpeaker Lite Board to your PC via the USB cable.
+Connect the reSpeaker Lite Board to your PC via the USB cable.
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/usb-connect.png" alt="pir" width={500} height="auto" /></p>
 
@@ -137,7 +137,7 @@ This program is Free Software and has ABSOLUTELY NO WARRANTY
 Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
 ```
 
-- Run `dfu-util -l` to check if ReSpeaker Lite is detected:
+- Run `dfu-util -l` to check if reSpeaker Lite is detected:
 
 ```
 C:\Users\yiping>dfu-util -l
@@ -179,7 +179,7 @@ Cannot open DFU device 2886:0019 found on devnum 9 (LIBUSB_ERROR_NOT_SUPPORTED)
 
 <p style={{textAlign: 'center'}}><img src="https://github.com/respeaker/ReSpeaker_Lite/raw/master/doc/images/dfu/dfu-fac.png" alt="pir" width={500} height="auto" /></p>
 
-- After installation is completed(that will take a few minutes), please do power-cycle and run `dfu-util -l` again, ReSpeaker Lite should be detected right now
+- After installation is completed(that will take a few minutes), please do power-cycle and run `dfu-util -l` again, reSpeaker Lite should be detected right now
 
 </TabItem>
 
@@ -187,7 +187,7 @@ Cannot open DFU device 2886:0019 found on devnum 9 (LIBUSB_ERROR_NOT_SUPPORTED)
 
 - Install dfu-util with [brew](https://brew.sh/): `brew install dfu-util`
 
-- Run `dfu-util -l` to check if ReSpeaker Lite is detected:
+- Run `dfu-util -l` to check if reSpeaker Lite is detected:
 
 ```
 ➜  ~ dfu-util -l
@@ -209,7 +209,7 @@ Found DFU: [2886:0019] ver=0205, devnum=1, cfg=1, intf=3, path="1-1", alt=0, nam
 
 - Install dfu-util with apt: `sudo apt install dfu-util`
 
-- Run `sudo dfu-util -l` to check if ReSpeaker Lite is detected:
+- Run `sudo dfu-util -l` to check if reSpeaker Lite is detected:
 
 ```
 pi@raspberrypi:~ $ sudo dfu-util -l
@@ -231,7 +231,7 @@ Found DFU: [2886:0019] ver=0205, devnum=5, cfg=1, intf=3, path="1-1.1", alt=0, n
 
 #### Flash Firmware
 
-- Connect the ReSpeaker board to your PC.
+- Connect the reSpeaker board to your PC.
 
 - Run the following command `dfu-util -R -e -a 1 -D /path/to/dfu_firmware.bin`:
   - On Linux please run `sudo dfu-util -R -e -a 1 -D /path/to/dfu_firmware.bin`
@@ -279,7 +279,7 @@ dfu-util -l
 
 ## Comparison
 
-||[ReSpeaker Lite](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)|[ReSpeaker Mic Array v2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html)|[reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
+||[reSpeaker Lite](https://www.seeedstudio.com/ReSpeaker-Lite-p-5928.html)|[reSpeaker Mic Array v2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html)|[reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)|
 |--|--|--|--|
 ||<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/xiao-res.png" alt="pir" width={150} height="auto" /></p>|<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/mic-array2.0.png" alt="pir" width={150} height="auto" /></p>|<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/SenseCAP/respeaker/mic-pi-hat.png" alt="pir" width={150} height="auto" /></p>|
 |<p style={{textAlign: 'center'}}>Core Chip</p>|<p style={{textAlign: 'center'}}>XMOS XU316</p>|<p style={{textAlign: 'center'}}>XMOS XVF-3000</p>|<p style={{textAlign: 'center'}}>-</p>|
@@ -306,7 +306,7 @@ dfu-util -l
 
  If it's not USB version, please follow [this step](https://wiki.seeedstudio.com/reSpeaker_usb_v3/#flash-firmware) to flash the firmware.
 
-- **Can't detect ReSpeaker Lite USB sound device on Windows after flashing USB firmware?**
+- **Can't detect reSpeaker Lite USB sound device on Windows after flashing USB firmware?**
 
 - Open the start menu and type `Device manager`. Find `ReSpeaker Lite` device, right click it and select `Uninstall device`. Select   `Delete the driver software for this device` and click `Uninstall`. After that, restart the device and Windows will re-install the right sound card driver for it.
 
@@ -314,8 +314,8 @@ dfu-util -l
 
 ### Resource
 
-[ReSpeaker Lite XMOS Firmware](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
+[reSpeaker Lite XMOS Firmware](https://github.com/respeaker/ReSpeaker_Lite/tree/master/xmos_firmwares)
 
-[ReSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)
+[reSpeaker Lite Github](https://github.com/respeaker/ReSpeaker_Lite/)
 
-[ReSpeaker Lite 3D file](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)
+[reSpeaker Lite 3D file](https://files.seeedstudio.com/wiki/respeakerv3/ReSpeakerLitev1.1.step)

@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/cn/respeaker_i2s_test/
 ---
 
 
-这个项目是一个测试程序，用于验证 ReSpeaker Lite 板上 I2S 接口的功能，该板集成了 [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html) 微控制器和麦克风阵列。该程序生成方波音频信号，将其写入 I2S 接口，然后从板载麦克风阵列读取采样数据，以检查 I2S 传输和接收的完整性。
+这个项目是一个测试程序，用于验证 reSpeaker Lite 板上 I2S 接口的功能，该板集成了 [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html) 微控制器和麦克风阵列。该程序生成方波音频信号，将其写入 I2S 接口，然后从板载麦克风阵列读取采样数据，以检查 I2S 传输和接收的完整性。
 
 
 ### 功能

@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Mic Array v3.0
+description: reSpeaker Mic Array v3.0
 title: reSpeaker USB 4-Mic Array XVF3000 v3.0
 keywords:
   - reSpeaker
@@ -22,14 +22,14 @@ We are excited to formally introduce the **reSpeaker XVF3800** — a comprehensi
 - **AI-Powered Audio Algorithms**: Integrated suite featuring AEC (Acoustic Echo Cancellation), AGC (Automatic Gain Control), DoA (Direction of Arrival) detection, beamforming, VAD (Voice Activity Detection), noise suppression, and dereverberation — laying robust groundwork for advanced voice applications.  
 - **360° Far-Field Voice Capture**: Precision voice pickup within a 5-meter radius, effortlessly accommodating conferencing systems, intelligent interaction, and voice-controlled scenarios.  
 - **Dual Operating Modes**: Flexible USB/I2S firmware switching to meet diverse development and deployment requirements.
-- **Product Details & Specifications**: [ReSpeaker XVF3800 4-Mic Array Store Page](https://www.seeedstudio.com/ReSpeaker-XVF3800-4-Mic-Array-With-XIAO-ESP32S3-p-6489.html)
+- **Product Details & Specifications**: [reSpeaker XVF3800 4-Mic Array Store Page](https://www.seeedstudio.com/ReSpeaker-XVF3800-4-Mic-Array-With-XIAO-ESP32S3-p-6489.html)
 - **Quick Start & Wiki Guide**: [reSpeaker XVF3800 Getting Started Guide | Seeed Studio Wiki](https://wiki.seeedstudio.com/respeaker_xvf3800_introduction/)
 
-ReSpeaker Mic Array v3.0 is the next evolution of Seeed Studio’s USB microphone arrays, following the ReSpeaker Mic Array v2.0. While the v2.0 was built on XMOS’s XVF-3000 chipset and designed as a major upgrade from v1.0, the v3.0 focuses on refining audio quality and algorithm performance, even with a smaller physical microphone count.
+reSpeaker Mic Array v3.0 is the next evolution of Seeed Studio’s USB microphone arrays, following the reSpeaker Mic Array v2.0. While the v2.0 was built on XMOS’s XVF-3000 chipset and designed as a major upgrade from v1.0, the v3.0 focuses on refining audio quality and algorithm performance, even with a smaller physical microphone count.
 
 Compared with the v2.0’s 4-mic array, the v3.0 also uses 4 microphones but integrates improved built-in audio processing algorithms, offering clearer far-field voice capture and better noise handling than its predecessor. The v3.0 replaces the WM8960 codec in v2.0 with a  TLV320AIC3104  codec, contributing to higher fidelity sound capture.
 
-While the v2.0 was often paired with the ReSpeaker Core or used as a development board, the v3.0 is more of a plug-and-play USB device—similar to the v2.0 in supporting USB Audio Class 1.0 for full compatibility with Windows, macOS, and Linux—yet tuned for out-of-the-box voice interface performance without requiring additional hardware.
+While the v2.0 was often paired with the reSpeaker Core or used as a development board, the v3.0 is more of a plug-and-play USB device—similar to the v2.0 in supporting USB Audio Class 1.0 for full compatibility with Windows, macOS, and Linux—yet tuned for out-of-the-box voice interface performance without requiring additional hardware.
 
 Feature-wise, both support far-field voice capture and speech-enhancing algorithms like AEC (Acoustic Echo Cancellation), VAD (Voice Activity Detection), DOA (Direction of Arrival), Beamforming, and Noise Suppression, but the v3.0’s algorithm optimizations deliver cleaner audio in real-world noisy environments.
 
@@ -43,9 +43,9 @@ The LED system remains at 12 programmable RGB LEDs in both versions, but the v3.
 
 | Product Version          | Changes                                                                  | Released Date |
 |--------------------------|--------------------------------------------------------------------------|---------------|
-| ReSpeaker Mic Array v1.0 | Initial                                                                  | Aug 15, 2016  |
-| ReSpeaker Mic Array v2.0 | XVSM-2000 is EOL,change MCU to XVF-3000 and reduce the Mics from 7 to 4. | Jan 25, 2018  |
-| ReSpeaker Mic Array v3.0 | Codec Changed to  TLV320AIC3104  | Jan 19, 2021  |
+| reSpeaker Mic Array v1.0 | Initial                                                                  | Aug 15, 2016  |
+| reSpeaker Mic Array v2.0 | XVSM-2000 is EOL,change MCU to XVF-3000 and reduce the Mics from 7 to 4. | Jan 25, 2018  |
+| reSpeaker Mic Array v3.0 | Codec Changed to  TLV320AIC3104  | Jan 19, 2021  |
 
 ## Features
 
@@ -128,14 +128,14 @@ The  TLV320AIC3104  is a low power stereo codec featuring Class D speaker driver
 ## Getting Started
 
 :::note
-ReSpeaker Mic Array v3.0 is compatiable with Windows, Mac, Linux systems andriod. The below scripts are tested on Python2.7.
+reSpeaker Mic Array v3.0 is compatiable with Windows, Mac, Linux systems andriod. The below scripts are tested on Python2.7.
 :::
 
-For andriod, we tested it with [emteria.OS](https://help.emteria.com/kb/emteria-os-installation)(andriod 7.1) on Raspberry. We plug the mic array v3.0 to raspberry pi USB port and select the ReSpeaker mic array v3.0 as audio device. Here is the audio recording screen.
+For andriod, we tested it with [emteria.OS](https://help.emteria.com/kb/emteria-os-installation)(andriod 7.1) on Raspberry. We plug the mic array v3.0 to raspberry pi USB port and select the reSpeaker mic array v3.0 as audio device. Here is the audio recording screen.
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/andriod7.1_record.png)
 
-Here is the audio playing screen. We plug speaker to ReSpeaker mic array v3.0 3.5mm audio jack and hear what we record.
+Here is the audio playing screen. We plug speaker to reSpeaker mic array v3.0 3.5mm audio jack and hear what we record.
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/andriod7.1_play.png)
 
@@ -210,7 +210,7 @@ Here is the video about the DOA and AEC.
 
 ### Install DFU and LED Control Driver  
 
-- **Windows:** Audio recording and playback works well by default. Libusb-win32 driver is only required to control LEDs an DSP parameters on Windows. We use [a handy tool - Zadig](http://zadig.akeo.ie/) to install the libusb-win32 driver for both `SEEED DFU` and `SEEED Control` (ReSpeaker Mic Array has 2 devices on Windows Device Manager).
+- **Windows:** Audio recording and playback works well by default. Libusb-win32 driver is only required to control LEDs an DSP parameters on Windows. We use [a handy tool - Zadig](http://zadig.akeo.ie/) to install the libusb-win32 driver for both `SEEED DFU` and `SEEED Control` (reSpeaker Mic Array has 2 devices on Windows Device Manager).
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/usb_4mic_array_driver.png)
 
@@ -248,7 +248,7 @@ DOAANGLE: 180
 
 ### Control the LEDs
 
-We can control the ReSpeaker Mic Array V2's LEDs through USB. The USB device has a Vendor Specific Class Interface which can be used to send data through USB Control Transfer. We refer [pyusb python library](https://github.com/pyusb/pyusb) and come out the [usb_pixel_ring python library](https://github.com/respeaker/pixel_ring/blob/master/pixel_ring/usb_pixel_ring_v2.py).
+We can control the reSpeaker Mic Array V2's LEDs through USB. The USB device has a Vendor Specific Class Interface which can be used to send data through USB Control Transfer. We refer [pyusb python library](https://github.com/pyusb/pyusb) and come out the [usb_pixel_ring python library](https://github.com/respeaker/pixel_ring/blob/master/pixel_ring/usb_pixel_ring_v2.py).
 
 The LED control command is sent by pyusb's usb.core.Device.ctrl_transfer(), its parameters as below：
 
@@ -786,7 +786,7 @@ A3: Yes, we can connect the mic array v3.0 to raspberry usb port and follow [Ras
 
 **Q4: Do you have the example for Mic array v3.0 with ROS system?**
 
-A4: Yes, thanks for Yuki sharing the package for integrating [ReSpeaker Mic Array v2 with ROS (Robot Operating System) Middleware](https://github.com/furushchev/respeaker_ros).
+A4: Yes, thanks for Yuki sharing the package for integrating [reSpeaker Mic Array v2 with ROS (Robot Operating System) Middleware](https://github.com/furushchev/respeaker_ros).
 
 **Q5: How to enable 3.5mm audio port to receive the signal as well as usb port?**
 
@@ -794,14 +794,14 @@ A5: Please download the [new firmware](https://files.seeedstudio.com/wiki/ReSpea
 
 ## Resource
 
-- **[PDF]** [ReSpeaker MicArray v3.0 Schematic](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/v3/202004229_ReSpeakerMicArray_V3.0_SCH%26PCB_250427.zip)
-- **[PDF]** [ReSpeaker MicArray v3.0 Product Brief](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/ReSpeaker%20MicArray%20v2.0%20Product%20Brief.pdf)
-- **[PDF]** [ReSpeaker MicArray v3.0 3D Model](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/RESPEAKER%20MIC%20v2.0.pdf)
-- **[SKP]** [ReSpeaker MicArray v3.0 3D Model](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/Respeaker%20Microphone%20Array%20v2.0_20180316.skp.zip)
-- **[STP]** [ReSpeaker MicArray v3.0 3D Model](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/RESPEAKER%20MIC-3D%20v2.0.stp.zip)
+- **[PDF]** [reSpeaker MicArray v3.0 Schematic](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/v3/202004229_ReSpeakerMicArray_V3.0_SCH%26PCB_250427.zip)
+- **[PDF]** [reSpeaker MicArray v3.0 Product Brief](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/ReSpeaker%20MicArray%20v2.0%20Product%20Brief.pdf)
+- **[PDF]** [reSpeaker MicArray v3.0 3D Model](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/RESPEAKER%20MIC%20v2.0.pdf)
+- **[SKP]** [reSpeaker MicArray v3.0 3D Model](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/Respeaker%20Microphone%20Array%20v2.0_20180316.skp.zip)
+- **[STP]** [reSpeaker MicArray v3.0 3D Model](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/RESPEAKER%20MIC-3D%20v2.0.stp.zip)
 - **[PDF]** [XVF3000 Product Brief](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/XVF3000-3100-product-brief_1.4.pdf)
 - **[PDF]** [XVF3000 Datasheet](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/XVF3000-3100-TQ128-Datasheet_1.0.pdf)
-- **[Github]** [ReSpeaker Mic Array v2 with ROS (Robot Operating System) Middleware](https://github.com/furushchev/respeaker_ros)
+- **[Github]** [reSpeaker Mic Array v2 with ROS (Robot Operating System) Middleware](https://github.com/furushchev/respeaker_ros)
 
 ## Tech Support & Product Discussion
 

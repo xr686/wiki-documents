@@ -15,14 +15,14 @@ url: https://wiki.seeedstudio.com/es/ReSpeaker_2_Mics_Pi_HAT_Raspberry/
 ---
 
 :::caution
-Esta wiki está escrita para ReSpeaker 2-Mics Pi HAT **v1**, para distinguir los dispositivos v1 y v2, consulte [Cómo Distinguir las Revisiones de Hardware de ReSpeaker 2-Mics Pi HAT](/es/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions).
+Esta wiki está escrita para reSpeaker 2-Mics Pi HAT **v1**, para distinguir los dispositivos v1 y v2, consulte [Cómo Distinguir las Revisiones de Hardware de reSpeaker 2-Mics Pi HAT](/es/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions).
 :::
 
 ### Instalación y configuración del controlador
 
-**1. Conectar ReSpeaker 2-Mics Pi HAT a Raspberry Pi**
+**1. Conectar reSpeaker 2-Mics Pi HAT a Raspberry Pi**
 
-Monte ReSpeaker 2-Mics Pi HAT en su Raspberry Pi, asegúrese de que los pines estén correctamente alineados al apilar el ReSpeaker 2-Mics Pi HAT.
+Monte reSpeaker 2-Mics Pi HAT en su Raspberry Pi, asegúrese de que los pines estén correctamente alineados al apilar el reSpeaker 2-Mics Pi HAT.
 
 Conexión Raspberry Pi
 
@@ -36,7 +36,7 @@ Conexión Raspberry Pi Zero
 
 Asegúrese de que esté ejecutando [la última versión de Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspbian/) en su Pi. *(actualizado el 2021.05.01)*
 
-- Paso 1: Obtenga el Device Tree Source (DTS) para el ReSpeaker 2-Mics Pi HAT (V1.0), compílelo e instale la superposición del árbol de dispositivos.
+- Paso 1: Obtenga el Device Tree Source (DTS) para el reSpeaker 2-Mics Pi HAT (V1.0), compílelo e instale la superposición del árbol de dispositivos.
 
 ```bash
 git clone https://github.com/Seeed-Studio/seeed-linux-dtoverlays.git  
@@ -200,7 +200,7 @@ Verá el ID del dispositivo como se muestra a continuación.
 Input Device id  2  -  seeed-2mic-voicecard: - (hw:1,0)
 ```
 
-Para grabar el sonido, abra el archivo ```recording_examples/record.py``` con nano u otro editor de texto y cambie `RESPEAKER_INDEX = 2` al número de índice de ReSpeaker en su sistema. Luego ejecute el script de python record.py para hacer una grabación:
+Para grabar el sonido, abra el archivo ```recording_examples/record.py``` con nano u otro editor de texto y cambie `RESPEAKER_INDEX = 2` al número de índice de reSpeaker en su sistema. Luego ejecute el script de python record.py para hacer una grabación:
 
 ```bash
 python3 recording_examples/record.py
@@ -227,13 +227,13 @@ python3 recording_examples/play.py path-to-wav-file
 
 ¡Asegúrese de especificar el índice correcto del dispositivo de salida en play.py - de lo contrario PyAudio se congelará!
 
-### Picovoice con ReSpeaker 2-Mic Pi HAT y Raspberry Pi
+### Picovoice con reSpeaker 2-Mic Pi HAT y Raspberry Pi
 
-**Paso 1.** Siga el **tutorial paso a paso anterior de ReSpeaker 2-Mic Pi HAT con Raspberry Pi** antes de lo siguiente.
+**Paso 1.** Siga el **tutorial paso a paso anterior de reSpeaker 2-Mic Pi HAT con Raspberry Pi** antes de lo siguiente.
 
-**Nota:** Asegúrese de que los LEDs `APA102` funcionen correctamente en el ReSpeaker 2-Mic Pi HAT con Raspberry Pi.
+**Nota:** Asegúrese de que los LEDs `APA102` funcionen correctamente en el reSpeaker 2-Mic Pi HAT con Raspberry Pi.
 
-**Paso 2.** Escriba el siguiente comando en la terminal para **instalar la demostración de Picovoice para ReSpeaker 2-Mic Pi HAT**.
+**Paso 2.** Escriba el siguiente comando en la terminal para **instalar la demostración de Picovoice para reSpeaker 2-Mic Pi HAT**.
 
 ```bash
 pip3 install pvrespeakerdemo
@@ -250,7 +250,7 @@ echo 'export PATH="$HOME/bin:$HOME/.local/bin:$PATH"' >> ~/.bashrc
 
 #### Uso de la Demostración
 
-La demostración utiliza el ReSpeaker 2-Mic Pi HAT en una Raspberry Pi con tecnología Picovoice para controlar los LEDs. **Esta demostración se activa con la palabra de activación "`Picovoice`" y estará lista para tomar acciones de seguimiento, como encender y apagar LEDs, y cambiar colores de LED.**
+La demostración utiliza el reSpeaker 2-Mic Pi HAT en una Raspberry Pi con tecnología Picovoice para controlar los LEDs. **Esta demostración se activa con la palabra de activación "`Picovoice`" y estará lista para tomar acciones de seguimiento, como encender y apagar LEDs, y cambiar colores de LED.**
 
 Después de que termine la instalación, escriba este comando para ejecutar la demostración en la terminal:
 
@@ -351,9 +351,9 @@ aplicaciones. Es
 - escalable. Puede detectar múltiples comandos de voz que siempre están escuchando sin huella de tiempo de ejecución adicional.
 - autoservicio. Los desarrolladores pueden entrenar modelos de palabras de activación personalizados usando [Picovoice Console](https://picovoice.ai/console/).
 
-Para demostrar la capacidad de Picovoice también hemos preparado ejemplos de múltiples palabras de activación usando ReSpeaker 2-Mic Pi HAT con Raspberry Pi! Diferentes palabras de activación pueden configurarse para ejecutar ciertas tareas.
+Para demostrar la capacidad de Picovoice también hemos preparado ejemplos de múltiples palabras de activación usando reSpeaker 2-Mic Pi HAT con Raspberry Pi! Diferentes palabras de activación pueden configurarse para ejecutar ciertas tareas.
 
-*Este paquete contiene una demostración de línea de comandos para controlar los LEDs del ReSpeaker 2-Mic Pi HAT usando Porcupine.*
+*Este paquete contiene una demostración de línea de comandos para controlar los LEDs del reSpeaker 2-Mic Pi HAT usando Porcupine.*
 
 #### Introducción a Múltiples Palabras de Activación
 
@@ -409,7 +409,7 @@ A continuación se muestran los colores asociados con las palabras de activació
 
 Por favor consulta el código fuente completo de este ejemplo aquí: [https://github.com/Picovoice/porcupine/tree/master/demo/respeaker](https://github.com/Picovoice/porcupine/tree/master/demo/respeaker).
 
-## Detección de palabras clave con ReSpeaker 2-Mic Pi HAT y Mycroft Precise
+## Detección de palabras clave con reSpeaker 2-Mic Pi HAT y Mycroft Precise
 
 Mycroft Precise es un motor de detección de palabras clave completamente de código abierto. Aunque tiene funcionalidad más limitada comparado con Picovoice, también tiene una licencia más permisiva (Apache 2.0), que permite modificación y redistribución, incluyendo código cerrado y comercial, siempre que se preserve la licencia.
 
@@ -437,13 +437,13 @@ mycroft-precise --model hey-mycroft
 
 Si te gustaría integrar Mycroft Precise en tu propio proyecto, consulta el archivo README del repositorio de Github para más información sobre la API.
 
-## Asistente Inteligente con ReSpeaker 2-Mic Pi HAT y Mycroft Core
+## Asistente Inteligente con reSpeaker 2-Mic Pi HAT y Mycroft Core
 
 Mycroft es un asistente de voz de código abierto hackeable. Es similar en funcionalidad a Amazon Alexa o Google Assistant, pero tiene una licencia más permisiva (Apache 2.0), que permite modificación y redistribución, incluyendo código cerrado y comercial, siempre que se preserve la licencia.
 
 **Esta sección está actualmente en desarrollo, agregaremos más detalles sobre el uso de Mycroft Core con Respeaker**
 
-## Introducción a Picovoice con ReSpeaker 2-Mic Pi HAT y Raspberry Pi Zero
+## Introducción a Picovoice con reSpeaker 2-Mic Pi HAT y Raspberry Pi Zero
 
 **Paso 1.** Instala los controladores y configura el dispositivo como se describe en **Instalación y configuración del controlador**.
 
@@ -454,7 +454,7 @@ git clone --recurse-submodules https://github.com/Picovoice/picovoice.git
 cd picovoice
 ```
 
-**Nota:** Por favor asegúrate de que los LEDs `APA102` estén funcionando correctamente en el ReSpeaker 2-Mic Pi HAT con Raspberry Pi Zero.
+**Nota:** Por favor asegúrate de que los LEDs `APA102` estén funcionando correctamente en el reSpeaker 2-Mic Pi HAT con Raspberry Pi Zero.
 
 **Paso 2.** Instala la librería `wiringpi` escribiendo lo siguiente en la terminal.
 
@@ -462,7 +462,7 @@ cd picovoice
 sudo apt-get install wiringpi
 ```
 
-**Paso 3.** Desde la raíz del repositorio, escribe el siguiente comando en la terminal para **instalar la demostración de Picovoice para ReSpeaker 2-Mic Pi HAT**.
+**Paso 3.** Desde la raíz del repositorio, escribe el siguiente comando en la terminal para **instalar la demostración de Picovoice para reSpeaker 2-Mic Pi HAT**.
 
 ```sh
 gcc -std=c99 -O3 -o demo/respeaker-rpi0/picovoice_demo_mic \
@@ -472,7 +472,7 @@ gcc -std=c99 -O3 -o demo/respeaker-rpi0/picovoice_demo_mic \
 
 ### Uso de la Demostración
 
-La demostración utiliza el ReSpeaker 2-Mic Pi HAT en un Raspberry Pi Zero con tecnología Picovoice para controlar los LEDs. **Esta demostración se activa con la palabra de activación "`Picovoice`" y estará lista para tomar acciones de seguimiento, como encender y apagar LEDs, y cambiar colores de LED.**
+La demostración utiliza el reSpeaker 2-Mic Pi HAT en un Raspberry Pi Zero con tecnología Picovoice para controlar los LEDs. **Esta demostración se activa con la palabra de activación "`Picovoice`" y estará lista para tomar acciones de seguimiento, como encender y apagar LEDs, y cambiar colores de LED.**
 
 Después de que termine la instalación, escribe este comando desde la raíz del repositorio, para ejecutar la demostración en la terminal:
 
@@ -569,9 +569,9 @@ Los comandos de iluminación están definidos por un *contexto Speech-to-Intent*
 
 <p style={{textAlign: 'center'}}><iframe width={720} height={480} src="https://www.youtube.com/embed/Fi_IJEcNr3I" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></p>
 
-Para demostrar la capacidad de Picovoice también hemos preparado ejemplos de múltiples palabras de activación usando ReSpeaker 2-Mic Pi HAT con Raspberry Pi Zero! Diferentes palabras de activación pueden configurarse para ejecutar ciertas tareas.
+Para demostrar la capacidad de Picovoice también hemos preparado ejemplos de múltiples palabras de activación usando reSpeaker 2-Mic Pi HAT con Raspberry Pi Zero! Diferentes palabras de activación pueden configurarse para ejecutar ciertas tareas.
 
-*Este paquete contiene una demostración de línea de comandos para controlar los LEDs del ReSpeaker 2-Mic Pi HAT usando Porcupine.*
+*Este paquete contiene una demostración de línea de comandos para controlar los LEDs del reSpeaker 2-Mic Pi HAT usando Porcupine.*
 
 ### Porcupine
 
@@ -600,7 +600,7 @@ git clone --recurse-submodules https://github.com/Picovoice/porcupine.git
 cd picovoice
 ```
 
-**Paso 2.** Desde la raíz del repositorio, escribe el siguiente comando en la terminal para **instalar la demostración de Porcupine para ReSpeaker 2-Mic Pi HAT**.
+**Paso 2.** Desde la raíz del repositorio, escribe el siguiente comando en la terminal para **instalar la demostración de Porcupine para reSpeaker 2-Mic Pi HAT**.
 
 ```sh
 gcc -std=c99 -O3 -o demo/respeaker-rpi0/porcupine_demo_mic \

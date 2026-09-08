@@ -19,7 +19,7 @@ This project demonstrates how to use the reSpeaker board to control a NeoPixel L
 
 ### Hardware Requirements
 
-* ReSpeaker Lite board (with integrated XIAO ESP32S3 microcontroller)
+* reSpeaker Lite board (with integrated XIAO ESP32S3 microcontroller)
 
 * [Grove - RGB LED Stick](https://www.seeedstudio.com/Grove-RGB-LED-Stick-10-WS2813-Mini.html)
 

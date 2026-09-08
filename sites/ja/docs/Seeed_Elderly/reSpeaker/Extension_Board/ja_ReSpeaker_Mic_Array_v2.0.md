@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker Mic Array v2.0
+description: reSpeaker Mic Array v2.0
 title: reSpeaker USB 4-Mic Array XVF3000 v2.0
 keywords:
   - reSpeaker
@@ -23,16 +23,16 @@ url: https://wiki.seeedstudio.com/ja/ReSpeaker_Mic_Array_v2.0/
 - **AI 駆動オーディオアルゴリズム**：AEC（Acoustic Echo Cancellation）、AGC（Automatic Gain Control）、DoA（Direction of Arrival）検出、ビームフォーミング、VAD（Voice Activity Detection）、ノイズ抑制、残響除去を備えた統合スイートにより、高度な音声アプリケーションのための堅牢な基盤を提供します。  
 - **360° 遠距離音声キャプチャ**：半径 5 メートル以内の音声を高精度にピックアップし、会議システム、インテリジェントインタラクション、音声制御シナリオに容易に対応します。  
 - **デュアル動作モード**：多様な開発および展開要件を満たすため、柔軟な USB/I2S ファームウェア切り替えに対応します。
-- **製品詳細と仕様**： [ReSpeaker XVF3800 4-Mic Array Store Page](https://www.seeedstudio.com/ReSpeaker-XVF3800-4-Mic-Array-With-XIAO-ESP32S3-p-6489.html)
+- **製品詳細と仕様**： [reSpeaker XVF3800 4-Mic Array Store Page](https://www.seeedstudio.com/ReSpeaker-XVF3800-4-Mic-Array-With-XIAO-ESP32S3-p-6489.html)
 - **クイックスタート & Wiki ガイド**： [reSpeaker XVF3800 Getting Started Guide | Seeed Studio Wiki](https://wiki.seeedstudio.com/ja/respeaker_xvf3800_introduction/)
 
-ReSpeaker Mic Array v2.0 は、オリジナルの [ReSpeaker Mic Array v1.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-Far-field-w%2F-7-PDM-Microphones--p-2719.html) のアップグレード版です。このアップグレード版は XMOS の XVF-3000 をベースとしており、以前使用されていた XVSM-2000 よりも大幅に高性能なチップセットです。この新しいチップセットには、多くの音声認識アルゴリズムが組み込まれており、性能向上に寄与します。このアレイは、オリジナルの ReSpeaker Core の上にそのまま積み重ねて（接続して）使用でき、音声インタラクション性能を大幅に向上させます。また、このバージョンではマイクも改良されており、わずか 4 つのマイクでありながら、初代マイクアレイを大きく上回る性能を実現しています。
+reSpeaker Mic Array v2.0 は、オリジナルの [reSpeaker Mic Array v1.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-Far-field-w%2F-7-PDM-Microphones--p-2719.html) のアップグレード版です。このアップグレード版は XMOS の XVF-3000 をベースとしており、以前使用されていた XVSM-2000 よりも大幅に高性能なチップセットです。この新しいチップセットには、多くの音声認識アルゴリズムが組み込まれており、性能向上に寄与します。このアレイは、オリジナルの reSpeaker Core の上にそのまま積み重ねて（接続して）使用でき、音声インタラクション性能を大幅に向上させます。また、このバージョンではマイクも改良されており、わずか 4 つのマイクでありながら、初代マイクアレイを大きく上回る性能を実現しています。
 
-ReSpeaker Mic Array v2.0 は USB Audio Class 1.0（UAC 1.0）を直接サポートします。Windows、macOS、Linux を含む主要なオペレーティングシステムはすべて UAC 1.0 に対応しており、ReSpeaker Core を使用せずともサウンドカードとして動作させることができます。その一方で、これらのシステム上でも DoA、BF、AEC などの音声アルゴリズムを利用できます。
+reSpeaker Mic Array v2.0 は USB Audio Class 1.0（UAC 1.0）を直接サポートします。Windows、macOS、Linux を含む主要なオペレーティングシステムはすべて UAC 1.0 に対応しており、reSpeaker Core を使用せずともサウンドカードとして動作させることができます。その一方で、これらのシステム上でも DoA、BF、AEC などの音声アルゴリズムを利用できます。
 
-ReSpeaker Mic Array v2.0 は、既存製品や今後の製品に音声インターフェースを追加したいと考えている方にとって、優れたソリューションです。また、より高度な音声インターフェース評価への入り口としても有用です。このボードは、要望に応じてある程度のカスタマイズにも対応可能です。
+reSpeaker Mic Array v2.0 は、既存製品や今後の製品に音声インターフェースを追加したいと考えている方にとって、優れたソリューションです。また、より高度な音声インターフェース評価への入り口としても有用です。このボードは、要望に応じてある程度のカスタマイズにも対応可能です。
 
-ReSpeaker Mic Array v2.0 には 2 種類のファームウェアが用意されており、1 つは音声アルゴリズムを含むもの、もう 1 つは生の音声データ用のものです。
+reSpeaker Mic Array v2.0 には 2 種類のファームウェアが用意されており、1 つは音声アルゴリズムを含むもの、もう 1 つは生の音声データ用のものです。
 
 <p style={{textAlign: 'center'}}><a href="https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2.0-p-3053.html" target="_blank"><img src="https://files.seeedstudio.com/wiki/Seeed-WiKi/docs/images/300px-Get_One_Now_Banner-ragular.png" /></a></p>
 
@@ -42,8 +42,8 @@ ReSpeaker Mic Array v2.0 には 2 種類のファームウェアが用意され�
 
 | 製品バージョン               | 変更点                                                                  | リリース日      |
 |--------------------------|--------------------------------------------------------------------------|---------------|
-| ReSpeaker Mic Array v1.0 | 初回リリース                                                             | 2016 年 8 月 15 日 |
-| ReSpeaker Mic Array v2.0 | XVSM-2000 が EOL のため、MCU を XVF-3000 に変更し、マイク数を 7 から 4 に削減。 | 2018 年 1 月 25 日 |
+| reSpeaker Mic Array v1.0 | 初回リリース                                                             | 2016 年 8 月 15 日 |
+| reSpeaker Mic Array v2.0 | XVSM-2000 が EOL のため、MCU を XVF-3000 に変更し、マイク数を 7 から 4 に削減。 | 2018 年 1 月 25 日 |
 
 ## 特長
 
@@ -126,14 +126,14 @@ WM8960 は低消費電力のステレオコーデックで、Class D スピー�
 ## はじめに
 
 :::note
-ReSpeaker Mic Array v2.0 は Windows、Mac、Linux システムおよび andriod に対応しています。以下のスクリプトは Python2.7 でテストされています。
+reSpeaker Mic Array v2.0 は Windows、Mac、Linux システムおよび andriod に対応しています。以下のスクリプトは Python2.7 でテストされています。
 :::
 
-andriod については、Raspberry 上で [emteria.OS](https://help.emteria.com/kb/emteria-os-installation)（andriod 7.1）を用いてテストしました。Raspberry Pi の USB ポートに mic array v2.0 を接続し、オーディオデバイスとして ReSpeaker mic array v2.0 を選択します。以下は音声録音画面です。
+andriod については、Raspberry 上で [emteria.OS](https://help.emteria.com/kb/emteria-os-installation)（andriod 7.1）を用いてテストしました。Raspberry Pi の USB ポートに mic array v2.0 を接続し、オーディオデバイスとして reSpeaker mic array v2.0 を選択します。以下は音声録音画面です。
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/andriod7.1_record.png)
 
-以下は音声再生画面です。ReSpeaker mic array v2.0 の 3.5mm オーディオジャックにスピーカーを接続し、録音した音声を再生して聞きます。
+以下は音声再生画面です。reSpeaker mic array v2.0 の 3.5mm オーディオジャックにスピーカーを接続し、録音した音声を再生して聞きます。
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/andriod7.1_play.png)
 
@@ -210,7 +210,7 @@ Channel5 Audio(Playback data):
 
 ### DFU と LED 制御ドライバのインストール  
 
-- **Windows:** オーディオの録音と再生はデフォルトで問題なく動作します。Windows 上で LED と DSP パラメータを制御するには、libusb-win32 ドライバのみが必要です。[便利なツール - Zadig](http://zadig.akeo.ie/) を使用して、`SEEED DFU` と `SEEED Control` の両方に対して libusb-win32 ドライバをインストールします（ReSpeaker Mic Array は Windows デバイスマネージャ上で 2 つのデバイスとして認識されます）。
+- **Windows:** オーディオの録音と再生はデフォルトで問題なく動作します。Windows 上で LED と DSP パラメータを制御するには、libusb-win32 ドライバのみが必要です。[便利なツール - Zadig](http://zadig.akeo.ie/) を使用して、`SEEED DFU` と `SEEED Control` の両方に対して libusb-win32 ドライバをインストールします（reSpeaker Mic Array は Windows デバイスマネージャ上で 2 つのデバイスとして認識されます）。
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/usb_4mic_array_driver.png)
 
@@ -248,7 +248,7 @@ DOAANGLE: 180
 
 ### LED を制御する
 
-USB を介して ReSpeaker Mic Array V2 の LED を制御できます。USB デバイスには Vendor Specific Class Interface があり、USB Control Transfer を通じてデータを送信するために使用できます。[pyusb python library](https://github.com/pyusb/pyusb) を参考にして、[usb_pixel_ring python library](https://github.com/respeaker/pixel_ring/blob/master/pixel_ring/usb_pixel_ring_v2.py) を作成しました。
+USB を介して reSpeaker Mic Array V2 の LED を制御できます。USB デバイスには Vendor Specific Class Interface があり、USB Control Transfer を通じてデータを送信するために使用できます。[pyusb python library](https://github.com/pyusb/pyusb) を参考にして、[usb_pixel_ring python library](https://github.com/respeaker/pixel_ring/blob/master/pixel_ring/usb_pixel_ring_v2.py) を作成しました。
 
 LED 制御コマンドは pyusb の usb.core.Device.ctrl_transfer() によって送信され、そのパラメータは以下のとおりです：
 
@@ -774,7 +774,7 @@ A3: はい、mic array v2.0 を Raspberry の USB ポートに接続し、[Raspb
 
 **Q4: ROS システムでの Mic array v2.0 のサンプルはありますか？**
 
-A4: はい、[ReSpeaker Mic Array v2 with ROS (Robot Operating System) Middleware](https://github.com/furushchev/respeaker_ros) を統合するためのパッケージを共有してくれた Yuki に感謝します。
+A4: はい、[reSpeaker Mic Array v2 with ROS (Robot Operating System) Middleware](https://github.com/furushchev/respeaker_ros) を統合するためのパッケージを共有してくれた Yuki に感謝します。
 
 **Q5: 3.5mm オーディオポートを、USB ポートと同様に信号を受信できるように有効化するにはどうすればよいですか？**
 
@@ -782,14 +782,14 @@ A5: [new firmware](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res
 
 ## リソース
 
-- **[PDF]** [ReSpeaker MicArray v2.0 回路図](https://files.seeedstudio.com/products/107990053/ReSpeakerMicArrayv2.0.1Schematic.zip)
-- **[PDF]** [ReSpeaker MicArray v2.0 製品概要](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/ReSpeaker%20MicArray%20v2.0%20Product%20Brief.pdf)
-- **[PDF]** [ReSpeaker MicArray v2.0 3D モデル](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/RESPEAKER%20MIC%20v2.0.pdf)
-- **[SKP]** [ReSpeaker MicArray v2.0 3D モデル](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/Respeaker%20Microphone%20Array%20v2.0_20180316.skp.zip)
-- **[STP]** [ReSpeaker MicArray v2.0 3D モデル](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/RESPEAKER%20MIC-3D%20v2.0.stp.zip)
+- **[PDF]** [reSpeaker MicArray v2.0 回路図](https://files.seeedstudio.com/products/107990053/ReSpeakerMicArrayv2.0.1Schematic.zip)
+- **[PDF]** [reSpeaker MicArray v2.0 製品概要](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/ReSpeaker%20MicArray%20v2.0%20Product%20Brief.pdf)
+- **[PDF]** [reSpeaker MicArray v2.0 3D モデル](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/RESPEAKER%20MIC%20v2.0.pdf)
+- **[SKP]** [reSpeaker MicArray v2.0 3D モデル](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/Respeaker%20Microphone%20Array%20v2.0_20180316.skp.zip)
+- **[STP]** [reSpeaker MicArray v2.0 3D モデル](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/RESPEAKER%20MIC-3D%20v2.0.stp.zip)
 - **[PDF]** [XVF3000 製品概要](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/XVF3000-3100-product-brief_1.4.pdf)
 - **[PDF]** [XVF3000 データシート](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/XVF3000-3100-TQ128-Datasheet_1.0.pdf)
-- **[Github]** [ReSpeaker Mic Array v2 を ROS (Robot Operating System) ミドルウェアと統合](https://github.com/furushchev/respeaker_ros)
+- **[Github]** [reSpeaker Mic Array v2 を ROS (Robot Operating System) ミドルウェアと統合](https://github.com/furushchev/respeaker_ros)
 
 ## 技術サポート & 製品ディスカッション
 

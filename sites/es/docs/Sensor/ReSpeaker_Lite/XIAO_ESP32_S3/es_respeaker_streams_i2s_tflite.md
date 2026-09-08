@@ -1,5 +1,5 @@
 ---
-description: Detección de palabras clave con ReSpeaker Lite y TensorFlow Lite
+description: Detección de palabras clave con reSpeaker Lite y TensorFlow Lite
 title: Detección de palabras clave en reSpeaker Lite
 keywords:
   - ESP32S3
@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/es/respeaker_streams_i2s_tflite/
 ---
 
 
-Este proyecto demuestra cómo realizar detección de palabras clave utilizando la placa reSpeaker Lite y TensorFlow Lite. La ReSpeaker Lite es una placa de audio con un microcontrolador XIAO ESP32S3 integrado, que incluye un micrófono de doble canal y un altavoz. El proyecto utiliza la biblioteca reSpeaker Lite, que está construida sobre el framework AudioTools, e integra TensorFlow Lite para la clasificación de audio.
+Este proyecto demuestra cómo realizar detección de palabras clave utilizando la placa reSpeaker Lite y TensorFlow Lite. La reSpeaker Lite es una placa de audio con un microcontrolador XIAO ESP32S3 integrado, que incluye un micrófono de doble canal y un altavoz. El proyecto utiliza la biblioteca reSpeaker Lite, que está construida sobre el framework AudioTools, e integra TensorFlow Lite para la clasificación de audio.
 
 
 ### Biblioteca requerida

@@ -27,9 +27,9 @@ keywords:
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## アルゴリズムのチューニング {#algorithm-tuning}
 
-### ReSpeaker Mic Array v2.0 に搭載されている DSP のチューニングコントロールを確認するにはどうすればよいですか？ {#dsp-tuning-controls}
+### reSpeaker Mic Array v2.0 に搭載されている DSP のチューニングコントロールを確認するにはどうすればよいですか？ {#dsp-tuning-controls}
 
-**対象:** XVF3000 を搭載し、対応する公式ファームウェアを使用している ReSpeaker Mic Array v2.0
+**対象:** XVF3000 を搭載し、対応する公式ファームウェアを使用している reSpeaker Mic Array v2.0
 
 **最終検証日:** 2026-09-01
 
@@ -37,7 +37,7 @@ keywords:
 
 **前提条件:**
 
-- ハードウェアが別の ReSpeaker リビジョンではなく ReSpeaker Mic Array v2.0 であることを確認する
+- ハードウェアが別の reSpeaker リビジョンではなく reSpeaker Mic Array v2.0 であることを確認する
 - 公式ガイドで要求されている USB 制御用の依存パッケージとホストドライバをインストールする
 - 開始時点のパラメータ値を記録し、再現性のあるオーディオテストを用意する
 
@@ -58,7 +58,7 @@ keywords:
 
 **参考情報:**
 
-- [ReSpeaker Mic Array v2.0 のチューニングガイドとパラメータテーブル](https://wiki.seeedstudio.com/ja/ReSpeaker_Mic_Array_v2.0/)
+- [reSpeaker Mic Array v2.0 のチューニングガイドとパラメータテーブル](https://wiki.seeedstudio.com/ja/ReSpeaker_Mic_Array_v2.0/)
 - [公式 XVF3000 USB 4-Mic Array ツールリポジトリ](https://github.com/respeaker/usb_4_mic_array)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->

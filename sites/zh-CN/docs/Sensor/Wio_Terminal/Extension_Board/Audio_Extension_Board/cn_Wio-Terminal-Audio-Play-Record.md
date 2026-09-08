@@ -15,7 +15,7 @@ url: https://wiki.seeedstudio.com/cn/Wio-Terminal-Audio-Play-Record/
 
 # 音频功能
 
-本教程介绍如何使用 ReSpeaker 2-Mic Hat 为 Wio Terminal 设置音频功能。
+本教程介绍如何使用 reSpeaker 2-Mic Hat 为 Wio Terminal 设置音频功能。
 
 :::note
 请访问 [**音频概述**](https://wiki.seeedstudio.com/cn/Wio-Terminal-Audio-Overview/) 了解 **硬件连接** 方法。
@@ -23,7 +23,7 @@ url: https://wiki.seeedstudio.com/cn/Wio-Terminal-Audio-Play-Record/
 
 ## 从 SD 卡播放音频
 
-此示例使用 ReSpeaker 2-Mic Hat 播放 MicroSD 卡中的音乐文件。
+此示例使用 reSpeaker 2-Mic Hat 播放 MicroSD 卡中的音乐文件。
 
 - 您需要为 Wio Terminal 准备一张 MicroSD 卡。
 
@@ -31,7 +31,7 @@ url: https://wiki.seeedstudio.com/cn/Wio-Terminal-Audio-Play-Record/
 
 - 将 MicroSD 卡插入 Wio Terminal，然后将以下代码上传到 Wio Terminal。
 
-- 确保 ReSpeaker 2-Mic 与 Wio Terminal 正确连接，并且 **扬声器已插入 ReSpeaker 2-Mic 上的 JST2.0 扬声器接口**。
+- 确保 reSpeaker 2-Mic 与 Wio Terminal 正确连接，并且 **扬声器已插入 reSpeaker 2-Mic 上的 JST2.0 扬声器接口**。
 
 您也可以在 [github](https://github.com/Seeed-Studio/Seeed_Arduino_Audio/blob/master/examples/Tutorial/Part_1_03_Playing_Music/Part_1_03_Playing_Music.ino) 页面找到此示例。
 
@@ -77,13 +77,13 @@ void loop() {
 
 ## 录音和播放
 
-此示例使用 ReSpeaker 2-Mic Hat 上的麦克风录制声音，将原始数据存储到 MicroSD 卡中，并通过扬声器播放。
+此示例使用 reSpeaker 2-Mic Hat 上的麦克风录制声音，将原始数据存储到 MicroSD 卡中，并通过扬声器播放。
 
 - 您需要为 Wio Terminal 准备一张 MicroSD 卡。
 
 - 将代码上传到 Wio Terminal。
 
-- 按下 Wio Terminal 顶部的**右按钮**（`WIO_KEY_A`），它将开始录音。对着 ReSpeaker 2-Mic Hat 的麦克风说话。它会将录音保存到 MicroSD 卡中，文件名为 `RECORD.WAV`。
+- 按下 Wio Terminal 顶部的**右按钮**（`WIO_KEY_A`），它将开始录音。对着 reSpeaker 2-Mic Hat 的麦克风说话。它会将录音保存到 MicroSD 卡中，文件名为 `RECORD.WAV`。
 
 :::note
     录音时，按下其他任意两个按钮中的一个即可停止录音。
@@ -642,7 +642,7 @@ void computeVerticalLevels() {
     <source src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/mic-spec.mp4" type="video/mp4" />
   </video></div>
 
-这是一个使用 ReSpeaker 2-Mic Hats 的麦克风和 FFT 计算的示例。
+这是一个使用 reSpeaker 2-Mic Hats 的麦克风和 FFT 计算的示例。
 
 #### 功能特性
 

@@ -1,5 +1,5 @@
 ---
-description: This wiki provides a comprehensive implementation framework for equipping the Lekiwi Robot Kit with sound-following capabilities using ReSpeaker Mic Array v2.0 and reComputer Jetson Mini, covering hardware integration, environment configuration, and software adaptation while demonstrating real-time audio source tracking functionality.
+description: This wiki provides a comprehensive implementation framework for equipping the Lekiwi Robot Kit with sound-following capabilities using reSpeaker Mic Array v2.0 and reComputer Jetson Mini, covering hardware integration, environment configuration, and software adaptation while demonstrating real-time audio source tracking functionality.
 title: Lekiwi with Sound Follow
 keywords:
   - Lerobot
@@ -21,13 +21,13 @@ url: https://wiki.seeedstudio.com/sound_follow_robot/
 
 ## Introduction
 
-The Lewiki Robot Kit, integrated with the ReSpeaker Mic Array v2.0, gains voice interaction and sound navigation capabilities. This guide details the step-by-step process for configuring both hardware and software environments to achieve sound-following functionality on the robot.
+The Lewiki Robot Kit, integrated with the reSpeaker Mic Array v2.0, gains voice interaction and sound navigation capabilities. This guide details the step-by-step process for configuring both hardware and software environments to achieve sound-following functionality on the robot.
 
 <div class="table-center">
   <table align="center">
     <tr>
         <th>Lekiwi Robot Kit</th>
-        <th>ReSpeaker Mic Array v2.0</th>
+        <th>reSpeaker Mic Array v2.0</th>
         <th>reComputer Mini J4012</th>
     </tr>
     <tr>
@@ -76,7 +76,7 @@ The Lewiki Robot Kit, integrated with the ReSpeaker Mic Array v2.0, gains voice 
 ## Prerequisites
 
 - Lewiki Robot Kit
-- ReSpeaker Mic Array v2.0
+- reSpeaker Mic Array v2.0
 
 :::note
 Considering future functional expansions, this wiki uses the `reComputer Jetson Mini J4012` as the robot's main control device. You can also achieve all the functionalities described in this wiki using a `Raspberry Pi 5`.

@@ -20,7 +20,7 @@ url: https://wiki.seeedstudio.com/respeaker_flex_soarm/
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/reSpeaker_flex/lerobot_flex.png" alt="pir" width={800} height="auto" /></p>
 
 
-The LeRobot SO-ARM Voice Controller lets you control a SO-ARM100 robotic arm using natural voice commands powered by AI. The system combines wake word detection, Groq Whisper speech-to-text, LLaMA 3 language understanding, and Orpheus text-to-speech to create a fully interactive hands-free robotics experience. Built on top of the [LeRobot framework](https://github.com/huggingface/lerobot?utm_source=chatgpt.com), it runs on Ubuntu x86 systems and NVIDIA Jetson devices using a ReSpeaker USB microphone array for voice input. Users can create custom arm poses, gestures, and conversational triggers to build intelligent robotic interactions for research, education, and robotics development.
+The LeRobot SO-ARM Voice Controller lets you control a SO-ARM100 robotic arm using natural voice commands powered by AI. The system combines wake word detection, Groq Whisper speech-to-text, LLaMA 3 language understanding, and Orpheus text-to-speech to create a fully interactive hands-free robotics experience. Built on top of the [LeRobot framework](https://github.com/huggingface/lerobot?utm_source=chatgpt.com), it runs on Ubuntu x86 systems and NVIDIA Jetson devices using a reSpeaker USB microphone array for voice input. Users can create custom arm poses, gestures, and conversational triggers to build intelligent robotic interactions for research, education, and robotics development.
 
 
 ## Hardware Required
@@ -262,7 +262,7 @@ Available audio INPUT devices:
   [2] USB PnP Sound Device    (rate=16000Hz)
 ```
 
-Note the index number next to your ReSpeaker — that's your `MIC_INDEX`.
+Note the index number next to your reSpeaker — that's your `MIC_INDEX`.
 
 ### Configure the Project
 
@@ -424,7 +424,7 @@ sudo apt-get install -y portaudio19-dev
 ```
 
 **Wake word never triggers**
-Run `list_mics.py` again and confirm `MIC_INDEX` matches your ReSpeaker. Try lowering `WAKEWORD_THRESHOLD` to `0.3`. Speak clearly within ~1 metre of the mic.
+Run `list_mics.py` again and confirm `MIC_INDEX` matches your reSpeaker. Try lowering `WAKEWORD_THRESHOLD` to `0.3`. Speak clearly within ~1 metre of the mic.
 
 **Arm not moving after a command**
 Check that `ARM_PORT` is correct (`lerobot-find-port`). Verify the calibration file exists at `~/.cache/huggingface/lerobot/calibration/robots/so_follower/<ARM_ID>.json`.
@@ -447,4 +447,4 @@ Built with:
 - [SO-ARM100](https://wiki.seeedstudio.com/lerobot_so100m_new/) — low-cost open-source robotic arm by Seeed Studio
 - [openwakeword](https://github.com/dscripka/openWakeWord) — local wake word detection
 - [Groq](https://groq.com/) — ultra-fast Whisper STT, LLaMA LLM, and Orpheus TTS
-- [ReSpeaker Flex](https://wiki.seeedstudio.com/respeaker_flex/) — USB microphone array
+- [reSpeaker Flex](https://wiki.seeedstudio.com/respeaker_flex/) — USB microphone array

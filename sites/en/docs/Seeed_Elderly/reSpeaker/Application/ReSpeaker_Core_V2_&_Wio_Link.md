@@ -1,6 +1,6 @@
 ---
-description: ReSpeaker Core V2 & Wio Link
-title: ReSpeaker Core V2 & Wio Link
+description: reSpeaker Core V2 & Wio Link
+title: reSpeaker Core V2 & Wio Link
 keywords:
   - reSpeaker
 image: https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png
@@ -13,11 +13,11 @@ updatedAt: '2023-05-25'
 url: https://wiki.seeedstudio.com/ReSpeaker_Core_V2_&_Wio_Link/
 ---
 
-Here is the tutorial about how to use the ReSpeaker Core V2 to control [Wio Link](https://wiki.seeedstudio.com/Wio_Link/) through [IFTTT](https://ifttt.com/).
+Here is the tutorial about how to use the reSpeaker Core V2 to control [Wio Link](https://wiki.seeedstudio.com/Wio_Link/) through [IFTTT](https://ifttt.com/).
 
-## 1. Setup ReSpeaker Core v2.0
+## 1. Setup reSpeaker Core v2.0
 
-Follow ReSpeaker Core v2.0 [Out of Box Demo](https://wiki.seeedstudio.com/ReSpeaker_Core_v2.0/#out-of-box-demo) to setup the respeaker core and login into alexa with username password. 
+Follow reSpeaker Core v2.0 [Out of Box Demo](https://wiki.seeedstudio.com/ReSpeaker_Core_v2.0/#out-of-box-demo) to setup the respeaker core and login into alexa with username password. 
 
 ## 2. Setup Wio Link through Wio APP
 
@@ -32,7 +32,7 @@ Follow [Wio Link Get Starting](https://wiki.seeedstudio.com/Wio_Link/#get-starte
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Core_V2_-_Wio_Link/this.png)
 
-- Step 5. Select **amazon alexa** and login in the same amazon account as ReSpeaker Core v2.0. 
+- Step 5. Select **amazon alexa** and login in the same amazon account as reSpeaker Core v2.0. 
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Core_V2_-_Wio_Link/alexa.png)
 

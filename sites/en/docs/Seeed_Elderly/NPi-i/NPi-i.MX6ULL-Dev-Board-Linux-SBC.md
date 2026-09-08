@@ -555,16 +555,16 @@ The more information about the 2-Channel CAN-BUS(FD) Shield you can visit [wiki]
 
 #### IIS
 
-In this section, we will explain the control principle of the Linux IIS program.Now we will use IIS and ReSpeaker 2-Mics Pi HAT to tell you how to use it.
+In this section, we will explain the control principle of the Linux IIS program.Now we will use IIS and reSpeaker 2-Mics Pi HAT to tell you how to use it.
 
 **Materials Required**
 
 - NPi i.MX6ULL Dev Board - Linux SBC NAND Version(or eMMC Version)
-- [ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
+- [reSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
 
 **Software**
 
-- **Step 1.** According to the [installation guide](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/#getting-started) insert ReSpeaker 2-Mics Pi HAT onto NPi i.MX6ULL Dev Board.
+- **Step 1.** According to the [installation guide](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/#getting-started) insert reSpeaker 2-Mics Pi HAT onto NPi i.MX6ULL Dev Board.
 
 - **Step 2.** Install alsa-utils by using `apt`
 
@@ -606,7 +606,7 @@ debian@npi:~/seeed-linux-dtverlays$ sudo cp extras/wm8960_asound.state /var/lib/
 debian@npi:~/seeed-linux-dtverlays$ sudo alsactl restore
 ```
 
-- **Step 6.** Now you can start playing with ReSpeaker 2-Mics Pi Hat! For simple record and play testing, run the following command:
+- **Step 6.** Now you can start playing with reSpeaker 2-Mics Pi Hat! For simple record and play testing, run the following command:
 
 1. To record an audio to `test.wav`:
 
@@ -620,7 +620,7 @@ arecord -f cd -r 48000 -Dhw:0 test.wav
 aplay -Dhw:0 -r 48000 test.wav
 ```
 
-For more information about the ReSpeaker 2-Mics Pi HAT you can visit [wiki](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/)
+For more information about the reSpeaker 2-Mics Pi HAT you can visit [wiki](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/)
 
 ## Resourses
 

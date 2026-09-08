@@ -124,11 +124,11 @@ Workflow:
 | 硬件 | 说明 |
 |------|------|
 | **Seeed Studio XIAO ESP32-S3** | 主控板 |
-| **ReSpeaker XVF3800** | 音频扩展板（麦克风阵列 + 扬声器接口） |
+| **reSpeaker XVF3800** | 音频扩展板（麦克风阵列 + 扬声器接口） |
 | **扬声器** | 至少一个扬声器，用于播放 AI 回复 |
 | **USB-C 数据线** | 用于烧录固件和为设备供电 |
 
-<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/respeaker-xvf3800-4-mic-array-with-xiao-esp32s3.webp" alt="ReSpeaker XVF3800" width={500} height="auto" /></p>
+<p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeaker_xvf3800_usb/respeaker-xvf3800-4-mic-array-with-xiao-esp32s3.webp" alt="reSpeaker XVF3800" width={500} height="auto" /></p>
 
 ### 账号与 API Key
 
@@ -190,7 +190,7 @@ Workflow:
 
 ### 更新步骤
 
-在电脑上插入 **ReSpeaker XMOS XVF3800 with XIAO ESP32S3**，运行固件升级工具，然后选择固件文件。
+在电脑上插入 **reSpeaker XMOS XVF3800 with XIAO ESP32S3**，运行固件升级工具，然后选择固件文件。
 
 详细步骤请参考[此页面](https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/#update-firmware)。
 
@@ -514,7 +514,7 @@ git apply $ADF_PATH/idf_patches/idf_v5.2_freertos.patch
 
 #### 修改 ESP-ADF 板级引脚配置（关键！）
 
-由于 ReSpeaker XVF3800 的引脚分配与默认的 Korvo-2 V3 不同，你必须修改框架中的板级配置：
+由于 reSpeaker XVF3800 的引脚分配与默认的 Korvo-2 V3 不同，你必须修改框架中的板级配置：
 
 **文件位置：**
 - Windows: `C:\Espressif\frameworks\esp-adf\components\audio_board\esp32_s3_korvo2_v3\board_pins_config.c`
@@ -818,7 +818,7 @@ W (xxxx) AIC3104_NG: Found device at address 0x??
 | ESP-ADF 编程指南 | https://docs.espressif.com/projects/esp-adf/zh_CN/latest/ |
 | Agora RTC 文档 | https://docs.agora.io/en/rtc/overview/product-overview |
 | TEN Framework 文档 | https://doc.theten.ai |
-| ReSpeaker XVF3800 固件指南 | https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/ |
+| reSpeaker XVF3800 固件指南 | https://wiki.seeedstudio.com/cn/respeaker_xvf3800_introduction/ |
 
 ### API 服务
 

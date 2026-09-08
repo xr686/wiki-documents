@@ -26,9 +26,9 @@ keywords:
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## ドキュメントと使用方法 {#documentation-and-usage}
 
-### ReSpeaker Flex 2D および 3D のメカニカルファイルはどこからダウンロードできますか？ {#mechanical-cad-files}
+### reSpeaker Flex 2D および 3D のメカニカルファイルはどこからダウンロードできますか？ {#mechanical-cad-files}
 
-**適用対象:** Linear-4 または Circular-4 マイクアレイを備えた ReSpeaker Flex XVF3800 コアボードのメカニカル統合
+**適用対象:** Linear-4 または Circular-4 マイクアレイを備えた reSpeaker Flex XVF3800 コアボードのメカニカル統合
 
 **最終検証日:** 2026-09-01
 
@@ -56,11 +56,11 @@ keywords:
 
 **参考情報:**
 
-- [公式 ReSpeaker Flex メカニカルリソース](https://wiki.seeedstudio.com/ja/respeaker_flex_introduction/#resources)
+- [公式 reSpeaker Flex メカニカルリソース](https://wiki.seeedstudio.com/ja/respeaker_flex_introduction/#resources)
 
-### ReSpeaker Flex と XIAO ESP32S3 間のフルデュプレックス I2S をどのように検証しますか？ {#i2s-full-duplex-test}
+### reSpeaker Flex と XIAO ESP32S3 間のフルデュプレックス I2S をどのように検証しますか？ {#i2s-full-duplex-test}
 
-**適用対象:** 組み込み I2S パスを使用する XIAO ESP32S3 と接続された ReSpeaker Flex XVF3800 Linear-4 または Circular-4
+**適用対象:** 組み込み I2S パスを使用する XIAO ESP32S3 と接続された reSpeaker Flex XVF3800 Linear-4 または Circular-4
 
 **最終検証日:** 2026-09-01
 
@@ -73,7 +73,7 @@ keywords:
 - 現行の公式 Flex I2S テストで必要とされる依存パッケージ
 
 1. 接続されているマイクジオメトリに対して、Flex の XMOS が公式の 16 kHz I2S イメージを実行していることを確認します。
-2. 現行の「ReSpeaker Flex with XIAO ESP32S3 I2S Test」ページを開き、そのスケッチを XIAO の USB ポート経由で書き込みます。
+2. 現行の「reSpeaker Flex with XIAO ESP32S3 I2S Test」ページを開き、そのスケッチを XIAO の USB ポート経由で書き込みます。
 3. シリアルモニタを 115200 ボーで開き、最初の受信チェックと、必要に応じて 2 回目の受信チェックが完了するまで待ちます。
 4. テストが 16,000 サンプルを超える有効サンプルを報告し、`I2S RX PASS!` を出力することを確認します。
 5. 聴感による録音・再生チェックを行う場合は、リンクテストが合格した後に、別途提供されている公式の 16 kHz 録音・再生サンプルを実行します。
@@ -91,15 +91,15 @@ keywords:
 
 **参考情報:**
 
-- [公式 ReSpeaker Flex フルデュプレックス I2S テスト](https://wiki.seeedstudio.com/ja/respeaker_flex_xiao_i2s/)
-- [ReSpeaker Flex 録音・再生サンプル](https://wiki.seeedstudio.com/ja/respeaker_flex_xiao_record_playback/)
-- [公式 ReSpeaker Flex ファームウェアリポジトリ](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares)
+- [公式 reSpeaker Flex フルデュプレックス I2S テスト](https://wiki.seeedstudio.com/ja/respeaker_flex_xiao_i2s/)
+- [reSpeaker Flex 録音・再生サンプル](https://wiki.seeedstudio.com/ja/respeaker_flex_xiao_record_playback/)
+- [公式 reSpeaker Flex ファームウェアリポジトリ](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares)
 
 ## 接続性と検出 {#connectivity-and-detection}
 
-### なぜ ReSpeaker Flex 制御スクリプトが `No device found` と表示するのですか？ {#xvf-host-no-device-found}
+### なぜ reSpeaker Flex 制御スクリプトが `No device found` と表示するのですか？ {#xvf-host-no-device-found}
 
-**適用対象:** USB 制御のために Windows、Linux、または macOS ホストに接続された ReSpeaker Flex XVF3800 Linear-4 および Circular-4
+**適用対象:** USB 制御のために Windows、Linux、または macOS ホストに接続された reSpeaker Flex XVF3800 Linear-4 および Circular-4
 
 **最終検証日:** 2026-08-31
 
@@ -107,7 +107,7 @@ keywords:
 
 **前提条件:**
 
-- 公式 ReSpeaker Flex リポジトリから取得した最新の `python_control/xvf_host.py`
+- 公式 reSpeaker Flex リポジトリから取得した最新の `python_control/xvf_host.py`
 - Python 3.6 以降、`pyusb`、およびプラットフォームの `libusb` サポート（現行スクリプトは Windows では `libusb-package` も必要）
 - RST ボタン付近の XMOS USB-C ポートに接続された、正常動作が確認された USB データケーブル
 
@@ -120,7 +120,7 @@ keywords:
 
 **成功条件:**
 
-- スクリプトが ReSpeaker の VID/PID とともに `Connected device` を出力すること
+- スクリプトが reSpeaker の VID/PID とともに `Connected device` を出力すること
 - `VERSION` コマンドが Flex のファームウェアバージョンを返すこと
 
 **補足:**
@@ -131,15 +131,15 @@ keywords:
 
 **参考情報:**
 
-- [ReSpeaker Flex 入門ガイド](https://wiki.seeedstudio.com/ja/respeaker_flex_introduction/)
-- [現行公式 ReSpeaker Flex Python 制御スクリプト](https://github.com/respeaker/reSpeaker_Flex/blob/main/python_control/xvf_host.py)
-- [現行公式 ReSpeaker Flex USB ファームウェアディレクトリ](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares/usb)
+- [reSpeaker Flex 入門ガイド](https://wiki.seeedstudio.com/ja/respeaker_flex_introduction/)
+- [現行公式 reSpeaker Flex Python 制御スクリプト](https://github.com/respeaker/reSpeaker_Flex/blob/main/python_control/xvf_host.py)
+- [現行公式 reSpeaker Flex USB ファームウェアディレクトリ](https://github.com/respeaker/reSpeaker_Flex/tree/main/xmos_firmwares/usb)
 
 ## ハードウェアの問題 {#hardware-issues}
 
-### ReSpeaker Flex マイクアレイ用にドキュメント化されている FPC ケーブルは何ですか？ {#fpc-cable-spec}
+### reSpeaker Flex マイクアレイ用にドキュメント化されている FPC ケーブルは何ですか？ {#fpc-cable-spec}
 
-**適用対象:** ReSpeaker Flex コアボードと Linear-4 または Circular-4 アレイのいずれかとの間のマイクアレイ接続
+**適用対象:** reSpeaker Flex コアボードと Linear-4 または Circular-4 アレイのいずれかとの間のマイクアレイ接続
 
 **最終検証日:** 2026-09-01
 
@@ -167,8 +167,8 @@ keywords:
 
 **参考情報:**
 
-- [ReSpeaker Flex FPC 仕様と取り付け](https://wiki.seeedstudio.com/ja/respeaker_flex_introduction/#24-fpc-cable)
-- [ReSpeaker Flex I2S リンクテスト](https://wiki.seeedstudio.com/ja/respeaker_flex_xiao_i2s/)
+- [reSpeaker Flex FPC 仕様と取り付け](https://wiki.seeedstudio.com/ja/respeaker_flex_introduction/#24-fpc-cable)
+- [reSpeaker Flex I2S リンクテスト](https://wiki.seeedstudio.com/ja/respeaker_flex_xiao_i2s/)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->
 

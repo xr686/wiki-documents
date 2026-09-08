@@ -19,7 +19,7 @@ Este proyecto demuestra cómo usar la placa reSpeaker para controlar una tira de
 
 ### Requisitos de Hardware
 
-* Placa ReSpeaker Lite (con microcontrolador XIAO ESP32S3 integrado)
+* Placa reSpeaker Lite (con microcontrolador XIAO ESP32S3 integrado)
 
 * [Grove - RGB LED Stick](https://www.seeedstudio.com/Grove-RGB-LED-Stick-10-WS2813-Mini.html)
 

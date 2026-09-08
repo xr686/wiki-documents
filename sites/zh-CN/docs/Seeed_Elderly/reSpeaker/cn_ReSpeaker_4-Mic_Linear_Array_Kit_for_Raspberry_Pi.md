@@ -1,5 +1,5 @@
 ---
-description: ReSpeaker 4-Mic 线性阵列套件
+description: reSpeaker 4-Mic 线性阵列套件
 title: reSpeaker 4-Mic 线性阵列套件
 keywords:
   - reSpeaker
@@ -16,15 +16,15 @@ url: https://wiki.seeedstudio.com/cn/ReSpeaker_4-Mic_Linear_Array_Kit_for_Raspbe
 
 ![enter image description here](https://files.seeedstudio.com/wiki/ReSpeaker_4-Mics_Linear_Array_Kit/img/main_wiki.jpg)
 
-Seeed 的 ReSpeaker 4-Mic 线性阵列套件是一块为 Raspberry Pi 设计的扩展板（也称为 HAT）。它是一个线性麦克风阵列套件，带有四个麦克风，专为 AI 和语音应用而设计。这意味着你可以使用 Raspberry Pi 构建更强大、更灵活的语音产品，并集成 Amazon Alexa Voice Service、Google Assistant 等。
+Seeed 的 reSpeaker 4-Mic 线性阵列套件是一块为 Raspberry Pi 设计的扩展板（也称为 HAT）。它是一个线性麦克风阵列套件，带有四个麦克风，专为 AI 和语音应用而设计。这意味着你可以使用 Raspberry Pi 构建更强大、更灵活的语音产品，并集成 Amazon Alexa Voice Service、Google Assistant 等。
 
-ReSpeaker 4-Mic 线性阵列套件 for Raspberry Pi 由两块板组成，一块是语音扩展 HAT，另一块是四麦克风线性阵列。
+reSpeaker 4-Mic 线性阵列套件 for Raspberry Pi 由两块板组成，一块是语音扩展 HAT，另一块是四麦克风线性阵列。
 
 <div class="video-container">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/NxZx9nz67Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-ReSpeaker 4-Mic 线性阵列套件 for Raspberry Pi 在 Raspberry Pi OS 中支持 8 路输入和 8 路输出通道。前 6 路输入通道用于麦克风录音（只有前 4 路输入通道为有效采集数据），其余 2 路输入通道为回放的回声通道。前 2 路输出通道用于声音输出，其余 6 路输出通道为空通道。
+reSpeaker 4-Mic 线性阵列套件 for Raspberry Pi 在 Raspberry Pi OS 中支持 8 路输入和 8 路输出通道。前 6 路输入通道用于麦克风录音（只有前 4 路输入通道为有效采集数据），其余 2 路输入通道为回放的回声通道。前 2 路输出通道用于声音输出，其余 6 路输出通道为空通道。
 
 <p style={{textAlign: 'center'}}><a href="https://www.seeedstudio.com/ReSpeaker-4-Mic-Linear-Array-Kit-p-3066.html" target="_blank"><img src="https://files.seeedstudio.com/wiki/Seeed-WiKi/docs/images/300px-Get_One_Now_Banner-ragular.png" /></a></p>
 
@@ -82,11 +82,11 @@ ReSpeaker 4-Mic 线性阵列套件 for Raspberry Pi 在 Raspberry Pi OS 中支�
 
 ## 入门指南
 
-**将 ReSpeaker 4-Mic 阵列连接到 Raspberry Pi**
+**将 reSpeaker 4-Mic 阵列连接到 Raspberry Pi**
 
-**步骤 1.** 通过排线将 *ReSpeaker Voice Accessory HAT* 与 *ReSpeaker 4-Mic linear Array* 连接
+**步骤 1.** 通过排线将 *reSpeaker Voice Accessory HAT* 与 *reSpeaker 4-Mic linear Array* 连接
 
-**步骤 2.** 通过 40 针 GPIO 将 *ReSpeaker Voice Accessory HAT* 插入 *Raspberry Pi*
+**步骤 2.** 通过 40 针 GPIO 将 *reSpeaker Voice Accessory HAT* 插入 *Raspberry Pi*
 
 **步骤 3.** 将 *耳机* 插入 *3.5mm 耳机音频插孔* 或将 *扬声器* 插入 *JST 2.0 扬声器插孔*
 
@@ -278,7 +278,7 @@ python3 recording_examples/get_device_index.py
 Input Device id  2  -  seeed-8mic-voicecard: - (hw:1,0)
 ```
 
-要录制声音，请使用 nano 或其他文本编辑器打开 ```recording_examples/record.py``` 文件，并将 `RESPEAKER_INDEX = 2` 修改为你系统中 ReSpeaker 的索引号。然后运行 Python 脚本 record.py 进行录音：
+要录制声音，请使用 nano 或其他文本编辑器打开 ```recording_examples/record.py``` 文件，并将 `RESPEAKER_INDEX = 2` 修改为你系统中 reSpeaker 的索引号。然后运行 Python 脚本 record.py 进行录音：
 
 ```
 python3 recording_examples/record.py
@@ -303,7 +303,7 @@ aplay -D plughw:0,0 output_one_channel.wav #for Mono sound from one channel
 
 A1: 该阵列中有 2 颗 AC108，每颗 AC108 芯片有 4 路输出。因此总共有 8 路通道，其中 4 路用于麦克风，2 路用于回放，其余 2 路未使用。
 
-**Q2: 如果 Raspberry 可以检测到 ReSpeaker 2-mics hat，但无法检测到 ReSpeaker 4-mics linear array？**
+**Q2: 如果 Raspberry 可以检测到 reSpeaker 2-mics hat，但无法检测到 reSpeaker 4-mics linear array？**
 
 A2: 请点击 raspberry -> Preferences -> Raspberry Pi Configuration，然后选择 Interfaces 选项卡，确保 1-Wire 为 Disabled。
 
@@ -319,7 +319,7 @@ A2: 请点击 raspberry -> Preferences -> Raspberry Pi Configuration，然后选
 
 ## 项目
 
-[Mojing Mojing - A Smart Mirror with ReSpeaker!](https://www.hackster.io/SeeedStudio/mojing-mojing-a-smart-mirror-with-respeaker-e1ae20)：一个通过 ReSpeaker 进行语音界面控制的智能镜子。我们还连接了 Wio Link 来控制其他物体！基于 Raspberry Pi。
+[Mojing Mojing - A Smart Mirror with reSpeaker!](https://www.hackster.io/SeeedStudio/mojing-mojing-a-smart-mirror-with-respeaker-e1ae20)：一个通过 reSpeaker 进行语音界面控制的智能镜子。我们还连接了 Wio Link 来控制其他物体！基于 Raspberry Pi。
 
 ## 技术支持与产品讨论
 

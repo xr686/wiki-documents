@@ -1,5 +1,5 @@
 ---
-description: Keyword Spotting with ReSpeaker Lite and TensorFlow Lite
+description: Keyword Spotting with reSpeaker Lite and TensorFlow Lite
 title: Keyword Spotting on reSpeaker Lite
 keywords:
   - ESP32S3
@@ -16,7 +16,7 @@ url: https://wiki.seeedstudio.com/respeaker_streams_i2s_tflite/
 ---
 
 
-This project demonstrates how to perform keyword spotting using the reSpeaker Lite board and TensorFlow Lite. The ReSpeaker Lite is an audio board with an integrated XIAO ESP32S3 microcontroller, featuring a dual-channel microphone and speaker. The project utilizes the reSpeaker Lite library, which is built on top of the AudioTools framework, and integrates with TensorFlow Lite for audio classification.
+This project demonstrates how to perform keyword spotting using the reSpeaker Lite board and TensorFlow Lite. The reSpeaker Lite is an audio board with an integrated XIAO ESP32S3 microcontroller, featuring a dual-channel microphone and speaker. The project utilizes the reSpeaker Lite library, which is built on top of the AudioTools framework, and integrates with TensorFlow Lite for audio classification.
 
 
 ### Library Required

@@ -1,5 +1,5 @@
 ---
-description: Este wiki demonstrará como você pode usar TensorFlow Lite para detecção de palavras‑chave com o ReSpeaker 2-Mics Pi HAT v2 e realizar reconhecimento de fala.
+description: Este wiki demonstrará como você pode usar TensorFlow Lite para detecção de palavras‑chave com o reSpeaker 2-Mics Pi HAT v2 e realizar reconhecimento de fala.
 title: Detecção de Palavras‑Chave com TensorFlow Lite no Raspberry Pi Mic HAT
 keywords:
   - ReSpeaker_2-Mics_Pi_HAT
@@ -17,11 +17,11 @@ url: https://wiki.seeedstudio.com/pt-br/respeaker_2_mics_pi_hat_v2_speech_recogn
 
 ## Introdução
 
-Este projeto demonstra como usar TensorFlow Lite para detecção de palavras‑chave no ReSpeaker 2-Mics Pi HAT v2. A detecção de palavras‑chave permite a identificação em tempo real de palavras predefinidas a partir de entrada de áudio, possibilitando aplicações como dispositivos controlados por voz e sistemas interativos. Vamos guiá-lo pelas etapas para treinar um modelo TensorFlow Lite, implantá-lo no ReSpeaker HAT e executar o reconhecimento de fala localmente.
+Este projeto demonstra como usar TensorFlow Lite para detecção de palavras‑chave no reSpeaker 2-Mics Pi HAT v2. A detecção de palavras‑chave permite a identificação em tempo real de palavras predefinidas a partir de entrada de áudio, possibilitando aplicações como dispositivos controlados por voz e sistemas interativos. Vamos guiá-lo pelas etapas para treinar um modelo TensorFlow Lite, implantá-lo no reSpeaker HAT e executar o reconhecimento de fala localmente.
 
 ### Requisitos de Hardware e Software
 
-- Hardware: Raspberry Pi com ReSpeaker 2-Mics Pi HAT v2
+- Hardware: Raspberry Pi com reSpeaker 2-Mics Pi HAT v2
 - Software: TensorFlow Lite, Google Colab, Python e bibliotecas de suporte
 
 ### Aplicações

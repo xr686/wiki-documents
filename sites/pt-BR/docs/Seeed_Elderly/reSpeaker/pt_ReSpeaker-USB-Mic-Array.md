@@ -1,5 +1,5 @@
 ---
-description: Matriz de Microfones USB ReSpeaker
+description: Matriz de Microfones USB reSpeaker
 title: reSpeaker USB Mic Array
 keywords:
   - reSpeaker
@@ -26,12 +26,12 @@ Um dispositivo de captação de voz pronto para uso é a voz do cliente.
 
 No último ano, o [Respeaker Mic Array V2.0](https://www.seeedstudio.com/ReSpeaker-Mic-Array-v2-0.html) foi vendido em mais de 10 mil unidades no formato de placa de desenvolvimento. Os clientes continuam solicitando um dispositivo completo com gabinete, o que é desafiador para eles projetarem, considerando os princípios acústicos.
 
-E aqui a Seeed fornece a resposta com o ReSpeaker USB Mic Array:
+E aqui a Seeed fornece a resposta com o reSpeaker USB Mic Array:
 
 - Um dispositivo pronto para uso com uma estrutura acústica bem projetada traz flexibilidade para o cliente integrá-lo em sua solução.
 - Gabinete injetado em molde disponível, economizando tempo para ir ao mercado e o custo do molde.
 
-A diferença entre a PCBA dentro do ReSpeaker USB Mic Array e o Respeaker Mic Array V2.0:
+A diferença entre a PCBA dentro do reSpeaker USB Mic Array e o Respeaker Mic Array V2.0:
 
 - Circuito de alimentação otimizado
 - Mover o conector de áudio e a porta micro USB para a parte traseira.
@@ -109,7 +109,7 @@ O WM8960 é um codec estéreo de baixo consumo com drivers de alto-falante class
 ## Primeiros Passos
 
 :::note
-O ReSpeaker USB Mic Array é compatível com sistemas Windows, Mac, Linux e Android. Os scripts abaixo foram testados no Python2.7.
+O reSpeaker USB Mic Array é compatível com sistemas Windows, Mac, Linux e Android. Os scripts abaixo foram testados no Python2.7.
 :::
 
 ### Atualizar Firmware
@@ -185,7 +185,7 @@ Aqui está o vídeo sobre DOA e AEC.
 
 ### Instalar Driver de Controle de DFU e LED  
 
-- **Windows:** A gravação e reprodução de áudio funcionam bem por padrão. O driver Libusb-win32 só é necessário para controlar os LEDs e parâmetros do DSP no Windows. Utilizamos [uma ferramenta prática - Zadig](http://zadig.akeo.ie/) para instalar o driver libusb-win32 tanto para `SEEED DFU` quanto para `SEEED Control` (o ReSpeaker Mic Array possui 2 dispositivos no Gerenciador de Dispositivos do Windows).
+- **Windows:** A gravação e reprodução de áudio funcionam bem por padrão. O driver Libusb-win32 só é necessário para controlar os LEDs e parâmetros do DSP no Windows. Utilizamos [uma ferramenta prática - Zadig](http://zadig.akeo.ie/) para instalar o driver libusb-win32 tanto para `SEEED DFU` quanto para `SEEED Control` (o reSpeaker Mic Array possui 2 dispositivos no Gerenciador de Dispositivos do Windows).
 
 ![](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/img/usb_4mic_array_driver.png)
 
@@ -223,7 +223,7 @@ DOAANGLE: 180
 
 ### Controlar os LEDs
 
-Podemos controlar os LEDs do ReSpeaker USB Mic Array através de USB. O dispositivo USB possui uma Interface de Classe Específica do Fornecedor que pode ser usada para enviar dados através de Transferência de Controle USB. Fazemos referência à [biblioteca python pyusb](https://github.com/pyusb/pyusb) e criamos a [biblioteca python usb_pixel_ring](https://github.com/respeaker/pixel_ring/blob/master/pixel_ring/usb_pixel_ring_v2.py).
+Podemos controlar os LEDs do reSpeaker USB Mic Array através de USB. O dispositivo USB possui uma Interface de Classe Específica do Fornecedor que pode ser usada para enviar dados através de Transferência de Controle USB. Fazemos referência à [biblioteca python pyusb](https://github.com/pyusb/pyusb) e criamos a [biblioteca python usb_pixel_ring](https://github.com/respeaker/pixel_ring/blob/master/pixel_ring/usb_pixel_ring_v2.py).
 
 O comando de controle do LED é enviado pela função ctrl_transfer() de pyusb em usb.core.Device; seus parâmetros são os seguintes：
 
@@ -775,7 +775,7 @@ R3: Sim, podemos conectar o mic array v2.0 à porta usb do Raspberry e seguir o 
 
 **P4: Vocês têm o exemplo para Mic array v2.1 com sistema ROS?**
 
-R4: Sim, graças ao Yuki por compartilhar o pacote para integrar o [ReSpeaker USB Mic Array com o middleware ROS (Robot Operating System)](https://github.com/furushchev/respeaker_ros).
+R4: Sim, graças ao Yuki por compartilhar o pacote para integrar o [reSpeaker USB Mic Array com o middleware ROS (Robot Operating System)](https://github.com/furushchev/respeaker_ros).
 
 **P5: Como habilitar a porta de áudio de 3,5 mm para receber o sinal assim como a porta usb?**
 
@@ -791,8 +791,8 @@ sudo apt-get install portaudio19-dev
 
 ## Recursos
 
-- **[PDF]** [Dimensões do ReSpeaker USB Mic Array](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/dimension.pdf)
-- **[DWG]** [Modelo 3D do Case do ReSpeaker USB Mic Array](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/case.dwg)
+- **[PDF]** [Dimensões do reSpeaker USB Mic Array](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/dimension.pdf)
+- **[DWG]** [Modelo 3D do Case do reSpeaker USB Mic Array](https://files.seeedstudio.com/wiki/ReSpeaker-USB-Mics/res/case.dwg)
 - **[PDF]** [Resumo do Produto XVF3000](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/XVF3000-3100-product-brief_1.4.pdf)
 - **[PDF]** [Folha de Dados XVF3000](https://files.seeedstudio.com/wiki/ReSpeaker_Mic_Array_V2/res/XVF3000-3100-TQ128-Datasheet_1.0.pdf)
 

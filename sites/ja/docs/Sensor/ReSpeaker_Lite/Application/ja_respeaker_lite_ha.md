@@ -17,12 +17,12 @@ updatedAt: '2026-06-15'
 url: https://wiki.seeedstudio.com/ja/respeaker_lite_ha/
 ---
 
-このチュートリアルでは、ReSpeaker Lite を Home Assistant で動作するように設定する方法を学びます。必要なファームウェアの書き込み方法と、YAML ファイルのコンパイルおよびアップロード方法を学びます。その後は、音声を使って家庭内の家電を制御および自動化できるようになります。「Okay Nabu」と話しかけて、家と会話を始めましょう。
+このチュートリアルでは、reSpeaker Lite を Home Assistant で動作するように設定する方法を学びます。必要なファームウェアの書き込み方法と、YAML ファイルのコンパイルおよびアップロード方法を学びます。その後は、音声を使って家庭内の家電を制御および自動化できるようになります。「Okay Nabu」と話しかけて、家と会話を始めましょう。
 
 <div class="video-container">
   <iframe width="800" height="400"
           src="https://www.youtube.com/embed/RBt2VAVpsBw"
-          title="ReSpeaker Lite with XIAO ESP32S3 Home Assistant"
+          title="reSpeaker Lite with XIAO ESP32S3 Home Assistant"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
@@ -48,7 +48,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_lite_ha/
 
 <p style={{textAlign: 'center'}}><img src="https://files.seeedstudio.com/wiki/respeakerv3/HA_2026/firmware_1.png" alt="pir" width={800} height="auto" /></p>
 
-PC で、ReSpeaker Lite を USB インターフェース（3.5mm ジャックの近く）に接続し、次のコマンドを実行します。
+PC で、reSpeaker Lite を USB インターフェース（3.5mm ジャックの近く）に接続し、次のコマンドを実行します。
 
 
 

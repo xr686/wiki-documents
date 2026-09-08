@@ -19,13 +19,13 @@ url: https://wiki.seeedstudio.com/ja/Wio-Terminal-Audio-Overview/
 
 <div align="center"><img src="https://files.seeedstudio.com/wiki/Wio-Terminal-Audio/peak.gif"/></div>
 
-この Wiki では、[**ReSpeaker 2-Mic Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) を使用して Wio Terminal でオーディオライブラリを使用する方法を紹介します。このライブラリを利用することで、Wio Terminal を使用して音声の録音、再生、分析が可能になります！さらに、このオーディオライブラリは音声認識などのさまざまな分野に実装することができます。
+この Wiki では、[**reSpeaker 2-Mic Hat**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html) を使用して Wio Terminal でオーディオライブラリを使用する方法を紹介します。このライブラリを利用することで、Wio Terminal を使用して音声の録音、再生、分析が可能になります！さらに、このオーディオライブラリは音声認識などのさまざまな分野に実装することができます。
 
 ## 必要なハードウェア
 
 - [**Wio Terminal**](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
 
-- [**ReSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
+- [**reSpeaker 2-Mics Pi HAT**](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT.html)
 
 - *Wio Terminal 用 40 ピン Pi HAT アダプタボード（未発売）*
 

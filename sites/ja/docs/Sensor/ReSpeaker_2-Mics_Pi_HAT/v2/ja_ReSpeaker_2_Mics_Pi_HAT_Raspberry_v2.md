@@ -14,21 +14,21 @@ url: https://wiki.seeedstudio.com/ja/respeaker_2_mics_pi_hat_raspberry_v2/
 ---
 
 :::caution
-このwikiはReSpeaker 2-Mics Pi HAT **v2**用に書かれています。v1とv2デバイスを区別するには、[ReSpeaker 2-Mics Pi HATハードウェアリビジョンの区別方法](/ja/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions)を参照してください。
+このwikiはreSpeaker 2-Mics Pi HAT **v2**用に書かれています。v1とv2デバイスを区別するには、[reSpeaker 2-Mics Pi HATハードウェアリビジョンの区別方法](/ja/how-to-distinguish-respeaker_2-mics_pi_hat-hardware-revisions)を参照してください。
 :::
 
 最新のRaspberry Pi OSでは、従来のドライバーインストール方法（v1デバイス用）は利用できなくなり、以下の既知の問題が発生する可能性があります：
 
 - インストール後にデスクトップ環境が破損する可能性があります。
-- ReSpeakerデバイスが`aplay` / `arecord`で検出されない可能性があります。
+- reSpeakerデバイスが`aplay` / `arecord`で検出されない可能性があります。
 
-そのため、この問題に関する新しいwikiを再リリースしました。以前のリリースではなく、より現代的なRaspberry Pi OSを使用している場合は、これらの手順に従ってReSpeakerを動作させてください。
+そのため、この問題に関する新しいwikiを再リリースしました。以前のリリースではなく、より現代的なRaspberry Pi OSを使用している場合は、これらの手順に従ってreSpeakerを動作させてください。
 
 ## ドライバーのインストールと設定
 
-### 1. ReSpeaker 2-Mics Pi HATをRaspberry Piに接続
+### 1. reSpeaker 2-Mics Pi HATをRaspberry Piに接続
 
-ReSpeaker 2-Mics Pi HATをRaspberry Piに取り付けます。ReSpeaker 2-Mics Pi HATを重ねる際は、ピンが適切に配置されていることを確認してください。
+reSpeaker 2-Mics Pi HATをRaspberry Piに取り付けます。reSpeaker 2-Mics Pi HATを重ねる際は、ピンが適切に配置されていることを確認してください。
 
 Raspberry Pi接続
 
@@ -90,7 +90,7 @@ dmesg | grep tlv320
 
 </details>
 
-- ステップ1：ReSpeaker 2-Mics Pi HAT（V2.0）用のDevice Tree Source（DTS）を取得し、コンパイルしてデバイスツリーオーバーレイをインストールします。
+- ステップ1：reSpeaker 2-Mics Pi HAT（V2.0）用のDevice Tree Source（DTS）を取得し、コンパイルしてデバイスツリーオーバーレイをインストールします。
 
 ```bash
 git clone https://github.com/Seeed-Studio/seeed-linux-dtoverlays.git  
@@ -139,7 +139,7 @@ card 2: seeed2micvoicec [seeed2micvoicec], device 0: 1f000a4000.i2s-tlv320aic3x-
   Subdevice #0: subdevice #0
 ```
 
-**ここで`card 2`はReSpeaker 2-Mics Pi HATのインデックスです。システムによってこの番号は異なる場合があります。この例でReSpeakerにアクセスするには、`arecord -D plughw:2,0`または`aplay -D plughw:2,0`を使用できます。**
+**ここで`card 2`はreSpeaker 2-Mics Pi HATのインデックスです。システムによってこの番号は異なる場合があります。この例でreSpeakerにアクセスするには、`arecord -D plughw:2,0`または`aplay -D plughw:2,0`を使用できます。**
 
 ### 3. alsamixerでサウンド設定を構成し音量を調整
 
@@ -267,7 +267,7 @@ python3 ~/button.py
 
 Pythonで音声を録音するために[PyAudio pythonライブラリ](https://people.csail.mit.edu/hubert/pyaudio/)を使用します。
 
-まず、以下のスクリプトを実行してReSpeakerのデバイスインデックス番号を取得します：
+まず、以下のスクリプトを実行してreSpeakerのデバイスインデックス番号を取得します：
 
 ```bash
 cd mic_hit
@@ -280,7 +280,7 @@ python3 recording_examples/get_device_index.py
 Input Device id  1  -  seeed2micvoicec: 1f000a4000.i2s-tlv320aic3x-hifi tlv320aic3x-hifi-0 (hw:2,0)
 ```
 
-音声を録音するには、```recording_examples/record.py```ファイルを`nano`、`vim`または他のテキストエディタで開き、`RESPEAKER_INDEX = 2`をシステム上のReSpeakerのインデックス番号に変更します。その後、pythonスクリプト`record.py`を実行して録音を行います：
+音声を録音するには、```recording_examples/record.py```ファイルを`nano`、`vim`または他のテキストエディタで開き、`RESPEAKER_INDEX = 2`をシステム上のreSpeakerのインデックス番号に変更します。その後、pythonスクリプト`record.py`を実行して録音を行います：
 
 ```bash
 python3 recording_examples/record.py

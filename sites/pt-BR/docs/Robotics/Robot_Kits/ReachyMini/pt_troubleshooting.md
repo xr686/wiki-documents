@@ -840,7 +840,7 @@ Você pode reproduzir um som enquanto grava simultaneamente para testar o desemp
 - Verifique se o microfone é detectado: `arecord -l`
 - Verifique se o alto-falante é detectado: `aplay -l`
 - Se a configuração da placa de áudio falhar com `No Reachy Mini Audio USB device found!`,
-  execute o código do SDK na máquina que tem a placa de áudio ReSpeaker conectada.
+  execute o código do SDK na máquina que tem a placa de áudio reSpeaker conectada.
   Para a versão Lite, esta é o seu computador; para a Wireless, é o próprio robô.
 
 </details>

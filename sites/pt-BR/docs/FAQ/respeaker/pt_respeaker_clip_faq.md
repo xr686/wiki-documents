@@ -27,13 +27,13 @@ Esta página contém respostas verificadas para o reSpeaker Clip. Cada resposta 
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## Documentação e uso {#documentation-and-usage}
 
-### Onde posso encontrar a documentação oficial atual do ReSpeaker Clip? {#official-documentation}
+### Onde posso encontrar a documentação oficial atual do reSpeaker Clip? {#official-documentation}
 
-**Aplica-se a:** usuários e desenvolvedores do ReSpeaker Clip
+**Aplica-se a:** usuários e desenvolvedores do reSpeaker Clip
 
 **Última verificação:** 2026-09-01
 
-Comece pela página atual de Introdução ao ReSpeaker Clip (Getting Started). Use o guia Basic SDK para controle no host e transferência de gravações, e use o guia Firmware Development apenas ao alterar o firmware no lado do dispositivo. A URL antiga `/respeaker_clip_getting_started/` está obsoleta e não deve ser adicionada aos favoritos.
+Comece pela página atual de Introdução ao reSpeaker Clip (Getting Started). Use o guia Basic SDK para controle no host e transferência de gravações, e use o guia Firmware Development apenas ao alterar o firmware no lado do dispositivo. A URL antiga `/respeaker_clip_getting_started/` está obsoleta e não deve ser adicionada aos favoritos.
 
 **Pré-requisitos:**
 
@@ -54,13 +54,13 @@ Comece pela página atual de Introdução ao ReSpeaker Clip (Getting Started). U
 
 **Referências:**
 
-- [ReSpeaker Clip Getting Started](https://wiki.seeedstudio.com/pt-br/respeaker_clip/)
-- [ReSpeaker Clip Basic SDK guide](https://wiki.seeedstudio.com/pt-br/respeaker_clip_basic_sdk_guide/)
-- [ReSpeaker Clip Firmware Development guide](https://wiki.seeedstudio.com/pt-br/respeaker_clip_firmware_development_guide/)
+- [reSpeaker Clip Getting Started](https://wiki.seeedstudio.com/pt-br/respeaker_clip/)
+- [reSpeaker Clip Basic SDK guide](https://wiki.seeedstudio.com/pt-br/respeaker_clip_basic_sdk_guide/)
+- [reSpeaker Clip Firmware Development guide](https://wiki.seeedstudio.com/pt-br/respeaker_clip_firmware_development_guide/)
 
-### O ReSpeaker Clip pode ser usado para prototipar transcrição de conversas em tempo real? {#live-conversation-transcription}
+### O reSpeaker Clip pode ser usado para prototipar transcrição de conversas em tempo real? {#live-conversation-transcription}
 
-**Aplica-se a:** protótipos com ReSpeaker Clip que exibem fala-para-texto em tempo real em um computador ou navegador separado
+**Aplica-se a:** protótipos com reSpeaker Clip que exibem fala-para-texto em tempo real em um computador ou navegador separado
 
 **Última verificação:** 2026-09-01
 
@@ -68,12 +68,12 @@ Sim, como parte de um protótipo com host e nuvem. O exemplo oficial de Live STT
 
 **Pré-requisitos:**
 
-- Firmware do ReSpeaker Clip com suporte a transmissão em tempo real (RTC)
+- Firmware do reSpeaker Clip com suporte a transmissão em tempo real (RTC)
 - Python 3.10 ou posterior e um adaptador BLE funcional
 - Acesso à rede e uma chave de API para o provedor de STT usado pelo exemplo oficial
 
 1. Siga o guia oficial do aplicativo Live STT e instale seus requisitos de Python.
-2. Conecte-se ao ReSpeaker Clip via BLE e insira a chave do provedor de STT nas configurações do aplicativo.
+2. Conecte-se ao reSpeaker Clip via BLE e insira a chave do provedor de STT nas configurações do aplicativo.
 3. Selecione `Start Streaming`, fale e aguarde cada enunciado concluído aparecer na transcrição do navegador.
 4. Meça a latência e a precisão da transcrição no ambiente acústico pretendido antes de tratar o protótipo como um recurso de acessibilidade.
 
@@ -89,13 +89,13 @@ Sim, como parte de um protótipo com host e nuvem. O exemplo oficial de Live STT
 
 **Referências:**
 
-- [ReSpeaker Clip Live STT application guide](https://wiki.seeedstudio.com/pt-br/respeaker_clip_python_build_app/)
-- [ReSpeaker Clip RTC streaming guide](https://wiki.seeedstudio.com/pt-br/respeaker_clip_rtc_streaming/)
-- [ReSpeaker Clip Getting Started](https://wiki.seeedstudio.com/pt-br/respeaker_clip/)
+- [reSpeaker Clip Live STT application guide](https://wiki.seeedstudio.com/pt-br/respeaker_clip_python_build_app/)
+- [reSpeaker Clip RTC streaming guide](https://wiki.seeedstudio.com/pt-br/respeaker_clip_rtc_streaming/)
+- [reSpeaker Clip Getting Started](https://wiki.seeedstudio.com/pt-br/respeaker_clip/)
 
-### Onde posso obter dimensões oficiais do ReSpeaker Clip ou um desenho mecânico? {#mechanical-drawing-status}
+### Onde posso obter dimensões oficiais do reSpeaker Clip ou um desenho mecânico? {#mechanical-drawing-status}
 
-**Aplica-se a:** projeto de gabinete, fixação ou acessório vestível para o ReSpeaker Clip
+**Aplica-se a:** projeto de gabinete, fixação ou acessório vestível para o reSpeaker Clip
 
 **Última verificação:** 2026-09-01
 
@@ -120,7 +120,7 @@ Um desenho mecânico com identificação de revisão não está publicado no mom
 
 **Referências:**
 
-- [ReSpeaker Clip specifications and resources](https://wiki.seeedstudio.com/pt-br/respeaker_clip/)
+- [reSpeaker Clip specifications and resources](https://wiki.seeedstudio.com/pt-br/respeaker_clip/)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->
 

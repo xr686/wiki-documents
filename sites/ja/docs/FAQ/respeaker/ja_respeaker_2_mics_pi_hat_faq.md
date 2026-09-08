@@ -27,13 +27,13 @@ keywords:
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## ハードウェアの問題 {#hardware-issues}
 
-### ReSpeaker 2-Mics Pi HAT V2.0 のコーデック I2C アドレスは何ですか？ {#v2-codec-i2c-address}
+### reSpeaker 2-Mics Pi HAT V2.0 のコーデック I2C アドレスは何ですか？ {#v2-codec-i2c-address}
 
-**適用対象:** ReSpeaker 2-Mics Pi HAT V2.0 のみ。V1.x は異なるコーデックハードウェアを使用します
+**適用対象:** reSpeaker 2-Mics Pi HAT V2.0 のみ。V1.x は異なるコーデックハードウェアを使用します
 
 **最終検証日:** 2026-09-01
 
-ReSpeaker 2-Mics Pi HAT V2.0 は、7 ビット I2C アドレス `0x18` の TLV320AIC3104 コーデックを使用します。公式の V2.0 デバイスツリーオーバーレイでは、`reg = <0x18>` を持つ `tlv320aic3104@18` が宣言されており、公開されている V2.0 回路図でも同じコーデックが示されています。
+reSpeaker 2-Mics Pi HAT V2.0 は、7 ビット I2C アドレス `0x18` の TLV320AIC3104 コーデックを使用します。公式の V2.0 デバイスツリーオーバーレイでは、`reg = <0x18>` を持つ `tlv320aic3104@18` が宣言されており、公開されている V2.0 回路図でも同じコーデックが示されています。
 
 **前提条件:**
 
@@ -50,14 +50,14 @@ ReSpeaker 2-Mics Pi HAT V2.0 は、7 ビット I2C アドレス `0x18` の TLV32
 
 **注意事項:**
 
-- このアドレスを、異なるコーデックハードウェアを使用する ReSpeaker 2-Mics Pi HAT V1.x に流用しないでください。
+- このアドレスを、異なるコーデックハードウェアを使用する reSpeaker 2-Mics Pi HAT V1.x に流用しないでください。
 - アドレス情報だけでは、ESP32-S3 の配線およびコーデック初期化の完全な、またはサポート対象のガイドにはなりません。
 
 **参考情報:**
 
-- [ReSpeaker 2-Mics Pi HAT V2.0 Raspberry Pi ガイド](https://wiki.seeedstudio.com/ja/respeaker_2_mics_pi_hat_raspberry_v2/)
+- [reSpeaker 2-Mics Pi HAT V2.0 Raspberry Pi ガイド](https://wiki.seeedstudio.com/ja/respeaker_2_mics_pi_hat_raspberry_v2/)
 - [公式 V2.0 Raspberry Pi デバイスツリーオーバーレイ](https://github.com/Seeed-Studio/seeed-linux-dtoverlays/blob/master/overlays/rpi/respeaker-2mic-v2_0-overlay.dts)
-- [公式 ReSpeaker 2-Mics Pi HAT V2.0 回路図](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/202004059_ReSpeaker-2-Mics-Pi-HAT-V2.0_SCH_PDF_241121.pdf)
+- [公式 reSpeaker 2-Mics Pi HAT V2.0 回路図](https://files.seeedstudio.com/wiki/ReSpeaker_2_Mics_Pi_HAT/202004059_ReSpeaker-2-Mics-Pi-HAT-V2.0_SCH_PDF_241121.pdf)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->
 

@@ -18,7 +18,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_flex_xiao_udp_streaming/
 
 ## 概要
 
-このプロジェクトでは、**ReSpeaker Flex XVF3800** マイクアレイと **XIAO ESP32S3** ボードを使用したリアルタイムオーディオストリーミングを実演します。オーディオは I2S 経由で取得され、UDP を介してローカルマシン上で動作するサーバーに送信され、そこで .wav ファイルとして保存および処理することができます。
+このプロジェクトでは、**reSpeaker Flex XVF3800** マイクアレイと **XIAO ESP32S3** ボードを使用したリアルタイムオーディオストリーミングを実演します。オーディオは I2S 経由で取得され、UDP を介してローカルマシン上で動作するサーバーに送信され、そこで .wav ファイルとして保存および処理することができます。
 
 <table align="center">
   <tr>
@@ -54,7 +54,7 @@ url: https://wiki.seeedstudio.com/ja/respeaker_flex_xiao_udp_streaming/
 
 - 指定した Wi-Fi ネットワークに接続します。
 - UDP サーバー（例：ホスト PC 上で動作する Python スクリプト）に接続します。
-- XIAO ESP32S3 を使用して ReSpeaker XVF3800 から I2S 経由でリアルタイムオーディオを取得します。
+- XIAO ESP32S3 を使用して reSpeaker XVF3800 から I2S 経由でリアルタイムオーディオを取得します。
 - 取得したオーディオを生データとして送信します。
 
 :::note

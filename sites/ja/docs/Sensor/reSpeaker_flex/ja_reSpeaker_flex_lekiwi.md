@@ -1,5 +1,5 @@
 ---
-description: Raspberry Pi、XIAO ESP32、ReSpeaker Lite、および音声埋め込みを使用して、音声で操作できるKiwiドライブロボットを実現し、インテリジェントなハンズフリー制御を行います。
+description: Raspberry Pi、XIAO ESP32、reSpeaker Lite、および音声埋め込みを使用して、音声で操作できるKiwiドライブロボットを実現し、インテリジェントなハンズフリー制御を行います。
 title: reSpeaker で LeKiwi ロボットに音声インタラクションを追加する
 keywords:
   - reSpeaker flex
@@ -595,7 +595,7 @@ Available audio INPUT devices:
   [2] USB PnP Sound Device  (rate=16000Hz)
 ```
 
-ReSpeaker の横の角括弧内の数字をメモします — それが `MIC_INDEX` です。
+reSpeaker の横の角括弧内の数字をメモします — それが `MIC_INDEX` です。
 
 ### ステップ 6 — ESP32 のシリアルポートを確認する
 

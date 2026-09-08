@@ -27,13 +27,13 @@ keywords:
 <!-- RESPEAKER_FAQ_AUTO_START -->
 ## ドキュメントと使用方法 {#documentation-and-usage}
 
-### 現在の公式 ReSpeaker Clip ドキュメントはどこで見つかりますか？ {#official-documentation}
+### 現在の公式 reSpeaker Clip ドキュメントはどこで見つかりますか？ {#official-documentation}
 
-**対象:** ReSpeaker Clip のユーザーおよび開発者
+**対象:** reSpeaker Clip のユーザーおよび開発者
 
 **最終検証日:** 2026-09-01
 
-まずは最新の ReSpeaker Clip Getting Started ページから始めてください。ホスト側での制御や録音転送には Basic SDK ガイドを使用し、デバイス側ファームウェアを変更する場合にのみ Firmware Development ガイドを使用します。古い `/respeaker_clip_getting_started/` URL は廃止されており、ブックマークしないでください。
+まずは最新の reSpeaker Clip Getting Started ページから始めてください。ホスト側での制御や録音転送には Basic SDK ガイドを使用し、デバイス側ファームウェアを変更する場合にのみ Firmware Development ガイドを使用します。古い `/respeaker_clip_getting_started/` URL は廃止されており、ブックマークしないでください。
 
 **前提条件:**
 
@@ -54,13 +54,13 @@ keywords:
 
 **参考情報:**
 
-- [ReSpeaker Clip Getting Started](https://wiki.seeedstudio.com/ja/respeaker_clip/)
-- [ReSpeaker Clip Basic SDK guide](https://wiki.seeedstudio.com/ja/respeaker_clip_basic_sdk_guide/)
-- [ReSpeaker Clip Firmware Development guide](https://wiki.seeedstudio.com/ja/respeaker_clip_firmware_development_guide/)
+- [reSpeaker Clip Getting Started](https://wiki.seeedstudio.com/ja/respeaker_clip/)
+- [reSpeaker Clip Basic SDK guide](https://wiki.seeedstudio.com/ja/respeaker_clip_basic_sdk_guide/)
+- [reSpeaker Clip Firmware Development guide](https://wiki.seeedstudio.com/ja/respeaker_clip_firmware_development_guide/)
 
-### ReSpeaker Clip を使って、会話のライブ文字起こしプロトタイプを作成できますか？ {#live-conversation-transcription}
+### reSpeaker Clip を使って、会話のライブ文字起こしプロトタイプを作成できますか？ {#live-conversation-transcription}
 
-**対象:** 別のコンピュータまたはブラウザ上に音声認識結果をライブ表示する ReSpeaker Clip プロトタイプ
+**対象:** 別のコンピュータまたはブラウザ上に音声認識結果をライブ表示する reSpeaker Clip プロトタイプ
 
 **最終検証日:** 2026-09-01
 
@@ -68,12 +68,12 @@ keywords:
 
 **前提条件:**
 
-- RTC ライブストリーミングをサポートする ReSpeaker Clip ファームウェア
+- RTC ライブストリーミングをサポートする reSpeaker Clip ファームウェア
 - Python 3.10 以降と動作する BLE アダプタ
 - 公式サンプルで使用されている STT プロバイダ用のネットワークアクセスと API キー
 
 1. 公式の Live STT アプリケーションガイドに従い、その Python 依存パッケージをインストールします。
-2. BLE 経由で ReSpeaker Clip に接続し、アプリケーション設定に STT プロバイダキーを入力します。
+2. BLE 経由で reSpeaker Clip に接続し、アプリケーション設定に STT プロバイダキーを入力します。
 3. `Start Streaming` を選択し、話しかけて、完了した各発話がブラウザの文字起こしに表示されるのを待ちます。
 4. このプロトタイプを支援技術として扱う前に、想定する音響環境でレイテンシと文字起こし精度を測定します。
 
@@ -89,13 +89,13 @@ keywords:
 
 **参考情報:**
 
-- [ReSpeaker Clip Live STT application guide](https://wiki.seeedstudio.com/ja/respeaker_clip_python_build_app/)
-- [ReSpeaker Clip RTC streaming guide](https://wiki.seeedstudio.com/ja/respeaker_clip_rtc_streaming/)
-- [ReSpeaker Clip Getting Started](https://wiki.seeedstudio.com/ja/respeaker_clip/)
+- [reSpeaker Clip Live STT application guide](https://wiki.seeedstudio.com/ja/respeaker_clip_python_build_app/)
+- [reSpeaker Clip RTC streaming guide](https://wiki.seeedstudio.com/ja/respeaker_clip_rtc_streaming/)
+- [reSpeaker Clip Getting Started](https://wiki.seeedstudio.com/ja/respeaker_clip/)
 
-### 公式の ReSpeaker Clip 寸法や機構図面はどこで入手できますか？ {#mechanical-drawing-status}
+### 公式の reSpeaker Clip 寸法や機構図面はどこで入手できますか？ {#mechanical-drawing-status}
 
-**対象:** ReSpeaker Clip のエンクロージャ、治具、またはウェアラブルアクセサリ設計
+**対象:** reSpeaker Clip のエンクロージャ、治具、またはウェアラブルアクセサリ設計
 
 **最終検証日:** 2026-09-01
 
@@ -120,7 +120,7 @@ keywords:
 
 **参考情報:**
 
-- [ReSpeaker Clip specifications and resources](https://wiki.seeedstudio.com/ja/respeaker_clip/)
+- [reSpeaker Clip specifications and resources](https://wiki.seeedstudio.com/ja/respeaker_clip/)
 
 <!-- RESPEAKER_FAQ_AUTO_END -->
 
